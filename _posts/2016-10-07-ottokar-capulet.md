@@ -2,7 +2,13 @@
 layout: post
 title: "Ottokar Capulet und Julia Schroffenstein"
 subtitle: Liebeskonflikte und Gattungskontexte bei Kleist und Shakespeare
+lang: de
+ref: 2016-10-07-ottokar-capulet
 ---
+
+Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder).
+<!--more-->
+
 ## Inhaltsverzeichnis
 {:.no_toc}
 
@@ -10,8 +16,7 @@ subtitle: Liebeskonflikte und Gattungskontexte bei Kleist und Shakespeare
 {:toc}
 
 ---
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-<!--more-->
+
 
 
 ## Figurenrede
@@ -21,9 +26,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 <p class="caption">Statistik zur Figurenrede</p>
 </div>
 
-<script src="{{ site.baseurl }}/public/js/jquery-3.1.1.min.js"></script>
-<script src="{{ site.baseurl }}/public/js/hc/highcharts.js"></script>
-<script src="{{ site.baseurl }}/public/js/hc/highcharts-more.js"></script>
 <script type="text/javascript">
 var d = [[{"drama":"vndf.0","figure":"Graf Paris","tokens":641},{"drama":"r0px.0","figure":"Santing,","tokens":586},{"drama":"rksp.0","figure":"PIRRO","tokens":366}],
 [{"drama":"vndf.0","figure":"Escalus","tokens":654},{"drama":"r0px.0","figure":"Barnabe, ihre Tochter.","tokens":947},{"drama":"rksp.0","figure":"Angelo, und einige Bediente.","tokens":678}],
@@ -36,53 +38,7 @@ var d = [[{"drama":"vndf.0","figure":"Graf Paris","tokens":641},{"drama":"r0px.0
 [{"drama":"vndf.0","figure":"Julia","tokens":5112},{"drama":"r0px.0","figure":"Sylvester, sein Sohn, regierender Graf.","tokens":3534},{"drama":"rksp.0","figure":"Hettore Gonzaga, Prinz von Guastalla.","tokens":5553}],
 [{"drama":"vndf.0","figure":"Romeo","tokens":5585},{"drama":"r0px.0","figure":"Ottokar, ihr Sohn.","tokens":5064},{"drama":"rksp.0","figure":"Marinelli, Kammerherr des Prinzen.","tokens":5660}]];
 
-$(function () {
-    $('#container').highcharts({
-        chart: {
-            type: 'column'
-        },
-        title: {
-            text: ''
-        },
-        xAxis: {
-            categories: ["Romeo und Julia (Ü: Schlegel)","Die Familie Schroffenstein","Emilia Galotti"]
-        },
-        yAxis: {
-            min: 0,
-            title: {
-                text: 'Spoken tokens'
-            },
-            stackLabels: {
-                enabled: false,
-                style: {
-                    fontWeight: 'bold',
-                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
-                }
-            }
-        },
-				colors: ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"],
-        legend: {enabled:false},
-        tooltip: {
-						followPointer: true,
-            headerFormat: '<b>{point.x}</b><br/>',
-            pointFormat: '{point.name}: {point.y}'
-        },
-        plotOptions: {
-            column: {
-                stacking: 'normal',
-                dataLabels: {
-									format:"{point.name}",
-                    enabled: false,
-                    color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
-                }
-            }
-        },
-        series: d.map(function(cur, _, _) {
-					return {data:cur.map(function(cur2, ind2, _) {return {y:cur2.tokens, name:cur2.figure}})}
-				})
-    });
-});
-
+render_stacked_figure_statistics("#container", d, ["Romeo und Julia (Ü: Schlegel)","Die Familie Schroffenstein","Emilia Galotti"])
 </script>
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -92,131 +48,29 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<div class="figure">
-<div id="utterance-length-variation-vndf0">bla</div>
+<div class="figure" id="utterance-length-variation-vndf0">
+<div>bla</div>
 <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Romeo und Julia</span> (Übersetzung: Schlegel)</p>
 </div>
+
 <script>
 var d2 = {"Benvolio":{"stats":[0.0001,0.0002,0.0004,0.0008,0.0016],"n":[62],"conf":[0.0003,0.0005],"out":[0.0032,0.004,0.002,0.0023,0.0025,0.0074]},"Bruder Lorenzo":{"stats":[0.0001,0.0004,0.0008,0.0023,0.004],"n":[56],"conf":[0.0004,0.0012],"out":[0.0109,0.0059,0.0169,0.0098,0.0062,0.0131]},"Capulet":{"stats":[0.0001,0.0006,0.0013,0.0026,0.0042],"n":[50],"conf":[0.0009,0.0018],"out":[0.0092,0.0065,0.0082]},"Escalus":{"stats":[0.0002,0.0004,0.0006,0.0018,0.0035],"n":[16],"conf":[0,0.0012],"out":[0.0069]},"Graf Paris":{"stats":[0.0002,0.0004,0.0005,0.001,0.0015],"n":[23],"conf":[0.0003,0.0007],"out":[0.003,0.0034,0.0034,0.0026]},"Gräfin Capulet":{"stats":[0.0001,0.0003,0.0005,0.0011,0.002],"n":[42],"conf":[0.0003,0.0007],"out":[0.0049]},"Julia":{"stats":[0.0001,0.0004,0.0009,0.0017,0.0035],"n":[116],"conf":[0.0007,0.0011],"out":[0.0038,0.0076,0.0036,0.0039,0.0064,0.0119,0.0037,0.0101,0.0036,0.0057,0.0036,0.0152]},"Juliens Amme":{"stats":[0.0001,0.0003,0.0006,0.0012,0.002],"n":[88],"conf":[0.0004,0.0007],"out":[0.0129,0.0033,0.0031,0.0047,0.0039,0.0041,0.0036,0.0054,0.0068]},"Mercutio":{"stats":[0.0001,0.0004,0.0008,0.0018,0.0036],"n":[51],"conf":[0.0005,0.0011],"out":[0.0122,0.0055,0.004,0.0054,0.0039]},"Romeo":{"stats":[0.0001,0.0003,0.0007,0.0016,0.0032],"n":[153],"conf":[0.0005,0.0008],"out":[0.0042,0.0037,0.0035,0.0086,0.0069,0.0053,0.0076,0.0051,0.0037,0.0168]}};
 
-var cat = Object.keys(d2);
-$(function () { $('#utterance-length-variation-vndf0').highcharts({
-  chart: {
-    type: 'boxplot'
-  },
-  colors: ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"],
-  title: {
-    text: null
-  },
-  labels: {
-    style: {
-      color: "#404040"
-    }
-  },
-  yAxis: {
-    lineColor: "#404040"
-  },
-  xAxis: {
-    categories: cat,
-    title: {
-      enabled: false,
-      text: "Figure"
-    },
-    labels: {
-      style: {
-        color: "#404040"
-      }
-    },
-    lineColor: "#404040",
-    tickColor: "#404040"
-  },
-  legend: {
-    enabled: false
-  },
-  series: [
-    {
-      color: "#404040",
-      name: "Monologe",
-      data: cat.map(function(cur, _, _) {
-        return d2[cur].stats
-      })
-    }
-  ].concat(cat.map(function(cur, index, _) {
-    return {
-      name: cur,
-      type: 'scatter',
-      data: d2[cur].out.map(function(c, _, _) {
-        return [index,c]
-        })
-    }
-  }))
-})
-});
+render_boxplots("#utterance-length-variation-vndf0 > div", d2);
+
 </script>
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<div class="figure">
-<div id="utterance-length-variation-r0px0">bla</div>
+<div class="figure" id="utterance-length-variation-r0px0">
+<div>bla</div>
 <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Die Familie Schroffenstein</span></p>
 </div>
 <script>
 var d3 =  {"Agnes":{"stats":[0,0.0002,0.0004,0.0006,0.0012],"n":[177],"conf":[0.0003,0.0004],"out":[0.0018,0.0044,0.0102,0.0031,0.0018,0.0029,0.0019,0.0019,0.0017,0.0017,0.0016,0.0016,0.0014,0.0017,0.0018,0.0015,0.002]},"Barnabe":{"stats":[0.0001,0.0002,0.0004,0.0007,0.0015],"n":[50],"conf":[0.0003,0.0005],"out":[0.0023,0.0042,0.0041,0.0032]},"Eustache":{"stats":[0.0001,0.0003,0.0005,0.0011,0.0022],"n":[86],"conf":[0.0003,0.0006],"out":[0.0036,0.008,0.0051,0.0025,0.003,0.0037,0.0048]},"Gertrude":{"stats":[0.0001,0.0003,0.0005,0.0008,0.0015],"n":[72],"conf":[0.0004,0.0006],"out":[0.0055,0.0025,0.0019,0.0018,0.002,0.0018]},"Jeronimus von Schroffenstein":{"stats":[0.0001,0.0002,0.0004,0.001,0.002],"n":[125],"conf":[0.0003,0.0005],"out":[0.0027,0.0034,0.0037,0.0037,0.0051,0.0037,0.0027,0.0045]},"Johann":{"stats":[0.0001,0.0005,0.0008,0.0013,0.0021],"n":[65],"conf":[0.0006,0.0009],"out":[0.0063,0.0036]},"Ottokar":{"stats":[0,0.0002,0.0004,0.0009,0.0018],"n":[227],"conf":[0.0003,0.0005],"out":[0.0028,0.003,0.0054,0.0059,0.0021,0.002,0.0069,0.0019,0.0092,0.0019,0.002,0.0043,0.0048,0.004,0.0039,0.0029,0.0023,0.0023,0.0089,0.0025,0.0057,0.0093,0.003,0.0031,0.0021]},"Rupert":{"stats":[0,0.0002,0.0004,0.0007,0.0013],"n":[134],"conf":[0.0003,0.0005],"out":[0.0016,0.0111,0.0042,0.0014,0.0017,0.0028,0.0029,0.0042,0.0018,0.0018,0.0036,0.002,0.002,0.0021,0.0017]},"Santing":{"stats":[0.0001,0.0003,0.0004,0.0008,0.0016],"n":[39],"conf":[0.0003,0.0006],"out":[0.0019]},"Sylvester":{"stats":[0.0001,0.0003,0.0007,0.0013,0.0028],"n":[126],"conf":[0.0005,0.0008],"out":[0.0045,0.0032,0.0065,0.0048,0.0071,0.0106]}};
 
-var cat2 = Object.keys(d3);
-$(function () { $('#utterance-length-variation-r0px0').highcharts({
-  chart: {
-    type: 'boxplot'
-  },
-  colors: ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"],
-  title: {
-    text: null
-  },
-  labels: {
-    style: {
-      color: "#404040"
-    }
-  },
-  yAxis: {
-    lineColor: "#404040"
-  },
-  xAxis: {
-    categories: cat2,
-    title: {
-      enabled: false,
-      text: "Figure"
-    },
-    labels: {
-      style: {
-        color: "#404040"
-      }
-    },
-    lineColor: "#404040",
-    tickColor: "#404040"
-  },
-  legend: {
-    enabled: false
-  },
-  series: [
-    {
-      color: "#404040",
-      name: "Monologe",
-      data: cat2.map(function(cur, _, _) {
-        return d3[cur].stats
-      })
-    }
-  ].concat(cat2.map(function(cur, index, _) {
-    return {
-      name: cur,
-      type: 'scatter',
-      data: d3[cur].out.map(function(c, _, _) {
-        return [index,c]
-        })
-    }
-  }))
-})
-});
 
+render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 </script>
 
 
