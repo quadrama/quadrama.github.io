@@ -67,3 +67,11 @@ $(function () {
     });
 });
 		</script>
+
+## Appendix
+
+### Figure Speech Statistics
+
+```R
+{% include /assets/2016-10-07-ottokar-capulet/figure-statistics.R %}
+```
