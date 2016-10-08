@@ -66,7 +66,7 @@ $(function () {
 				})
     });
 });
-		</script>
+</script>
 
 ## Appendix
 
