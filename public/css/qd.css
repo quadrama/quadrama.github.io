@@ -1,0 +1,17 @@
+.content {
+  counter-reset: figure;
+}
+
+.figure .caption {
+  font-size:small;
+}
+
+.figure .caption::before {
+  counter-increment: figure;
+  content: "Abbildung " counter(figure) ": ";
+}
+
+
+.qd_title {
+  font-style: italic;
+}
