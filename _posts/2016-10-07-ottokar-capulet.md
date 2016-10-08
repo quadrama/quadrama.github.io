@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Ottokar Capulet und Julia Schroffenstein"
-subtitle: Liebeskonflikte und Gattungskontexte bei Kleist und Shakespeare
+title: Ottokar Capulet und Julia Schroffenstein - Liebeskonflikte und Gattungskontexte bei Kleist und Shakespeare
 lang: de
 ref: 2016-10-07-ottokar-capulet
+logo: /assets/2016-10-07-ottokar-capulet/logo_kleist_museum.gif
 ---
+
+
 
 Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder).
 <!--more-->
@@ -72,6 +74,20 @@ var d3 =  {"Agnes":{"stats":[0,0.0002,0.0004,0.0006,0.0012],"n":[177],"conf":[0.
 
 render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 </script>
+
+## Thematische Analyse der Figurenrede
+
+<div class="figure">
+<div id="fields-vndf0">bla</div>
+<p class="caption">Semantische Felder bei <span class="qd_title">Romeo und Julia</span></p>
+</div>
+<script>
+d4 = [{"drama":"vndf.0","figure":"Peter","Familie":0,"Krieg":2.92740046838407e-05,"Liebe":0.000174398325776073,"Ratio":0.000151791135397693,"Religion":0.000115041702617199},{"drama":"vndf.0","figure":"Escalus","Familie":4.18918352813037e-05,"Krieg":5.4608999563128e-05,"Liebe":1.62665105081658e-05,"Ratio":0,"Religion":0},{"drama":"vndf.0","figure":"Julia","Familie":0.000117906832164984,"Krieg":2.79454504806617e-05,"Liebe":0.000126943695268538,"Ratio":3.44143047585927e-05,"Religion":6.17741536940944e-05},{"drama":"vndf.0","figure":"Balthasar","Familie":4.92756479747709e-05,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"vndf.0","figure":"Benvolio","Familie":3.93356213553088e-05,"Krieg":6.40959901548559e-05,"Liebe":2.29109071191825e-05,"Ratio":4.65289410013028e-05,"Religion":0},{"drama":"vndf.0","figure":"Bruder Lorenzo","Familie":0.000107213842131741,"Krieg":2.68770964135203e-05,"Liebe":9.60713233504554e-05,"Ratio":3.62343077574866e-05,"Religion":6.86544778562903e-05},{"drama":"vndf.0","figure":"Bruder Marcus","Familie":0.000476474091721263,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"vndf.0","figure":"Capulet","Familie":0.000149493962935463,"Krieg":1.94876058826586e-05,"Liebe":5.0308429370835e-05,"Ratio":3.03140535952468e-05,"Religion":5.10552481604156e-05},{"drama":"vndf.0","figure":"DER BEDIENTE","Familie":5.54600410404304e-05,"Krieg":0,"Liebe":8.61400637436472e-05,"Ratio":0,"Religion":7.10277718587968e-05},{"drama":"vndf.0","figure":"ERSTER WÄCHTER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"vndf.0","figure":"Graf Paris","Familie":0.000149595024896886,"Krieg":4.17873857811455e-05,"Liebe":9.95784512231553e-05,"Ratio":0,"Religion":2.73695158332649e-05},{"drama":"vndf.0","figure":"Gräfin Capulet","Familie":0.000272823870652767,"Krieg":3.74363581910752e-05,"Liebe":0.000100361300682457,"Ratio":4.85286124699123e-05,"Religion":1.83897899885983e-05},{"drama":"vndf.0","figure":"Gräfin Montague","Familie":0.000220945647370747,"Krieg":0,"Liebe":0,"Ratio":7.46714456391876e-05,"Religion":0},{"drama":"vndf.0","figure":"Gregorio","Familie":0.000167056465085199,"Krieg":0.000108885017421603,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"vndf.0","figure":"Juliens Amme","Familie":8.97806045542393e-05,"Krieg":2.15591583304588e-05,"Liebe":8.07321673651222e-05,"Ratio":4.15213419697725e-05,"Religion":0.000108930484196002},{"drama":"vndf.0","figure":"Mercutio","Familie":3.15491251427598e-05,"Krieg":3.29012305060209e-05,"Liebe":5.3902015935396e-05,"Ratio":4.26497432485456e-05,"Religion":1.61620079678699e-05},{"drama":"vndf.0","figure":"Montague","Familie":0.000121585474588636,"Krieg":0,"Liebe":3.14742540601788e-05,"Ratio":0,"Religion":0},{"drama":"vndf.0","figure":"Romeo","Familie":6.37715995634098e-05,"Krieg":4.15654175725796e-05,"Liebe":0.000142859863997409,"Ratio":1.49209191286183e-05,"Religion":3.1412461323407e-05},{"drama":"vndf.0","figure":"Simson","Familie":0,"Krieg":9.99466950959488e-05,"Liebe":3.96951413147031e-05,"Ratio":6.90989496959646e-05,"Religion":0},{"drama":"vndf.0","figure":"Tybalt","Familie":4.16371736686514e-05,"Krieg":8.14155449413808e-05,"Liebe":3.23352518916122e-05,"Ratio":2.81436451649218e-05,"Religion":0}];
+render_spiderweb("#fields-vndf0", d4, ["Julia", "Romeo"]);
+</script>
+
+Die verwendeten Wortlisten sind [hier](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields) einsehbar.
+
 
 
 ## Technical Appendix

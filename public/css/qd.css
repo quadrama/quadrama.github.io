@@ -3,14 +3,32 @@
 }
 
 .figure .caption {
-  font-size:small;
+  font-size:12px;
 }
 
 .figure .caption::before {
   counter-increment: figure;
   content: "Abbildung " counter(figure) ": ";
+  font-weight:bold;
 }
 
+.posts li {
+  clear:left;
+}
+
+.posts li img {
+  position:relative;
+  left:-40px;
+  border:thin solid #454545;
+  float:left;
+  height: 100%;
+  width:auto;
+}
+
+.postlogo {
+  float:right;
+  border:thin solid #454545;
+}
 
 .qd_title {
   font-style: italic;

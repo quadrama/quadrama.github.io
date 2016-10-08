@@ -7,5 +7,11 @@ layout: default
 
   <div style="text-align:right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
   <h1 class="post-title">{{ page.title }}</h1>
+  <h1>{{ page.subtitle }}</h1>
+
+  {% if page.logo %}
+    <img class="postlogo" src="{{ page.logo }}" />
+  {% endif %}
+
   {{ content }}
 </div>

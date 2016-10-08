@@ -1,5 +1,45 @@
 var qd_colors = ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"];
 
+function render_spiderweb(container, data, initially_visible) {
+
+  var cat = Object.keys(data[0]).filter(function(a) { return a!="figure" && a != "drama";});
+  cat = cat.sort();
+  var s = data.sort(function(a,b) {return a.figure.localeCompare(b.figure);}).map(function(cur, a,b) {
+    return {
+      name: cur.figure,
+      visible: initially_visible.indexOf(cur.figure)>=0,
+      data: cat.map(function(cat, a, b) {
+        return cur[cat];
+      })
+    };
+  });
+  console.log(s);
+
+
+  $(container).highcharts({
+    chart: {
+      polar: true,
+      type: 'line',
+    },
+    plotOptions: {
+      line: {
+        pointPlacement: 'on'
+      }
+    },
+    title: {
+      text:null
+    },
+    colors: qd_colors,
+    yAxis: {
+      gridLineInterpolation: 'polygon',
+    },
+    xAxis: {
+      lineWidth: 0,
+      categories: cat,
+    },
+    series: s
+  });
+}
 
 function render_boxplots(container, data) {
   var cat = Object.keys(data);
