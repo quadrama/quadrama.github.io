@@ -73,5 +73,5 @@ $(function () {
 ### Figure Speech Statistics
 
 ```R
-{% include /assets/2016-10-07-ottokar-capulet/figure-statistics.R %}
+{% include {{ site.baseurl }}/assets/2016-10-07-ottokar-capulet/figure-statistics.R %}
 ```
