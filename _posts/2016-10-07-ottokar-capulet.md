@@ -50,12 +50,28 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<div class="figure" id="utterance-length-variation-vndf0">
-<div>bla</div>
-<p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Romeo und Julia</span> (Übersetzung: Schlegel)</p>
+<div id="utterance-length-variation">
+  <ul>
+    <li>
+      <div class="figure" id="utterance-length-variation-vndf0">
+        <div>bla</div>
+        <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Romeo und Julia</span> (Übersetzung: Schlegel)</p>
+      </div>
+    </li>
+    <li>
+      <div class="figure" id="utterance-length-variation-r0px0">
+        <div>bla</div>
+        <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Die Familie Schroffenstein</span></p>
+      </div>
+    </li>
+  </ul>
 </div>
 
 <script>
+jQuery(document).ready(function($) {
+	$('#utterance-length-variation').unslider({arrows:false});
+});
+
 var d2 = {"Benvolio":{"stats":[0.0001,0.0002,0.0004,0.0008,0.0016],"n":[62],"conf":[0.0003,0.0005],"out":[0.0032,0.004,0.002,0.0023,0.0025,0.0074]},"Bruder Lorenzo":{"stats":[0.0001,0.0004,0.0008,0.0023,0.004],"n":[56],"conf":[0.0004,0.0012],"out":[0.0109,0.0059,0.0169,0.0098,0.0062,0.0131]},"Capulet":{"stats":[0.0001,0.0006,0.0013,0.0026,0.0042],"n":[50],"conf":[0.0009,0.0018],"out":[0.0092,0.0065,0.0082]},"Escalus":{"stats":[0.0002,0.0004,0.0006,0.0018,0.0035],"n":[16],"conf":[0,0.0012],"out":[0.0069]},"Graf Paris":{"stats":[0.0002,0.0004,0.0005,0.001,0.0015],"n":[23],"conf":[0.0003,0.0007],"out":[0.003,0.0034,0.0034,0.0026]},"Gräfin Capulet":{"stats":[0.0001,0.0003,0.0005,0.0011,0.002],"n":[42],"conf":[0.0003,0.0007],"out":[0.0049]},"Julia":{"stats":[0.0001,0.0004,0.0009,0.0017,0.0035],"n":[116],"conf":[0.0007,0.0011],"out":[0.0038,0.0076,0.0036,0.0039,0.0064,0.0119,0.0037,0.0101,0.0036,0.0057,0.0036,0.0152]},"Juliens Amme":{"stats":[0.0001,0.0003,0.0006,0.0012,0.002],"n":[88],"conf":[0.0004,0.0007],"out":[0.0129,0.0033,0.0031,0.0047,0.0039,0.0041,0.0036,0.0054,0.0068]},"Mercutio":{"stats":[0.0001,0.0004,0.0008,0.0018,0.0036],"n":[51],"conf":[0.0005,0.0011],"out":[0.0122,0.0055,0.004,0.0054,0.0039]},"Romeo":{"stats":[0.0001,0.0003,0.0007,0.0016,0.0032],"n":[153],"conf":[0.0005,0.0008],"out":[0.0042,0.0037,0.0035,0.0086,0.0069,0.0053,0.0076,0.0051,0.0037,0.0168]}};
 
 render_boxplots("#utterance-length-variation-vndf0 > div", d2);
@@ -64,10 +80,7 @@ render_boxplots("#utterance-length-variation-vndf0 > div", d2);
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-<div class="figure" id="utterance-length-variation-r0px0">
-<div>bla</div>
-<p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Die Familie Schroffenstein</span></p>
-</div>
+
 <script>
 var d3 =  {"Agnes":{"stats":[0,0.0002,0.0004,0.0006,0.0012],"n":[177],"conf":[0.0003,0.0004],"out":[0.0018,0.0044,0.0102,0.0031,0.0018,0.0029,0.0019,0.0019,0.0017,0.0017,0.0016,0.0016,0.0014,0.0017,0.0018,0.0015,0.002]},"Barnabe":{"stats":[0.0001,0.0002,0.0004,0.0007,0.0015],"n":[50],"conf":[0.0003,0.0005],"out":[0.0023,0.0042,0.0041,0.0032]},"Eustache":{"stats":[0.0001,0.0003,0.0005,0.0011,0.0022],"n":[86],"conf":[0.0003,0.0006],"out":[0.0036,0.008,0.0051,0.0025,0.003,0.0037,0.0048]},"Gertrude":{"stats":[0.0001,0.0003,0.0005,0.0008,0.0015],"n":[72],"conf":[0.0004,0.0006],"out":[0.0055,0.0025,0.0019,0.0018,0.002,0.0018]},"Jeronimus von Schroffenstein":{"stats":[0.0001,0.0002,0.0004,0.001,0.002],"n":[125],"conf":[0.0003,0.0005],"out":[0.0027,0.0034,0.0037,0.0037,0.0051,0.0037,0.0027,0.0045]},"Johann":{"stats":[0.0001,0.0005,0.0008,0.0013,0.0021],"n":[65],"conf":[0.0006,0.0009],"out":[0.0063,0.0036]},"Ottokar":{"stats":[0,0.0002,0.0004,0.0009,0.0018],"n":[227],"conf":[0.0003,0.0005],"out":[0.0028,0.003,0.0054,0.0059,0.0021,0.002,0.0069,0.0019,0.0092,0.0019,0.002,0.0043,0.0048,0.004,0.0039,0.0029,0.0023,0.0023,0.0089,0.0025,0.0057,0.0093,0.003,0.0031,0.0021]},"Rupert":{"stats":[0,0.0002,0.0004,0.0007,0.0013],"n":[134],"conf":[0.0003,0.0005],"out":[0.0016,0.0111,0.0042,0.0014,0.0017,0.0028,0.0029,0.0042,0.0018,0.0018,0.0036,0.002,0.002,0.0021,0.0017]},"Santing":{"stats":[0.0001,0.0003,0.0004,0.0008,0.0016],"n":[39],"conf":[0.0003,0.0006],"out":[0.0019]},"Sylvester":{"stats":[0.0001,0.0003,0.0007,0.0013,0.0028],"n":[126],"conf":[0.0005,0.0008],"out":[0.0045,0.0032,0.0065,0.0048,0.0071,0.0106]}};
 
