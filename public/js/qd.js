@@ -4,6 +4,38 @@ $(document).ready(function($) {
 	$('.hslider').unslider({arrows:false});
 });
 
+function render_table(container, data, columns) {
+  $(container).DataTable({
+    columns: columns,
+    data: data,
+    pageLength: 5,
+    lengthMenu: [ 5, 10, 20, 50, 100 ],
+    language: {
+    "sEmptyTable":      "Keine Daten in der Tabelle vorhanden",
+    "sInfo":            "_START_ bis _END_ von _TOTAL_ Einträgen",
+    "sInfoEmpty":       "0 bis 0 von 0 Einträgen",
+    "sInfoFiltered":    "(gefiltert von _MAX_ Einträgen)",
+    "sInfoPostFix":     "",
+    "sInfoThousands":   ".",
+    "sLengthMenu":      "_MENU_ Einträge anzeigen",
+    "sLoadingRecords":  "Wird geladen...",
+    "sProcessing":      "Bitte warten...",
+    "sSearch":          "Suchen",
+    "sZeroRecords":     "Keine Einträge vorhanden.",
+    "oPaginate": {
+        "sFirst":       "Erste",
+        "sPrevious":    "Zurück",
+        "sNext":        "Nächste",
+        "sLast":        "Letzte"
+    },
+    "oAria": {
+        "sSortAscending":  ": aktivieren, um Spalte aufsteigend zu sortieren",
+        "sSortDescending": ": aktivieren, um Spalte absteigend zu sortieren"
+    }
+}
+  });
+}
+
 function render_spiderweb_table(container, data) {
 
   var cat = Object.keys(data[0]).filter(function(a) { return a != "drama";});
