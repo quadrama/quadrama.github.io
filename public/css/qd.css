@@ -21,7 +21,7 @@ span.ref-table:before {
 }
 
 .caption {
-  font-size:12px;
+  font-size:0.7em;
 }
 
 .figure .caption:before {
@@ -119,10 +119,8 @@ p.right {
 /*
  * tables
  */
-table {
-  font-size: 12px;
-}
-div.table {
+table,
+div.table > div {
   font-size: 14px;
 }
 .paginate_button {

@@ -2,6 +2,10 @@ var qd_colors = ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#5
 
 $(document).ready(function($) {
 	$('.hslider').unslider({arrows:false});
+
+  if ($(window).width() > 500) {
+    // $('.sidebar-toggle').click();
+  }
 });
 
 function render_table(container, data, columns) {
