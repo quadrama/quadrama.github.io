@@ -34,6 +34,14 @@ span.ref-table:before {
   font-weight: bold;
 }
 
+pre.highlight {
+  background-color: #EEE;
+}
+
+.post h2 {
+  margin-top:100px;
+}
+
 p.right {
   text-align:right;
 }

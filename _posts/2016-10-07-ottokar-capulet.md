@@ -197,6 +197,12 @@ Diese Wortvektoren können im n-dimensionalen Raum räumlich interpretiert werde
     <p class="caption">Die Dramen des verwendeten Korpus</p>
   </div>
   </li>
+  <li>
+    <div class="figure">
+      <img src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ausriss-ca.png" />
+      <p class="caption">Clusteranalyse von 176 Dramen auf Basis der Nomen, Verben und Adjektive aus den Figurenreden. Grün: Tragödie, Blau: Komödie. Das vollständige Bild kann <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/cluster-analysis.pdf">hier als PDF</a> heruntergeladen werden.</p>
+    </div>
+  </li>
   </ul>
 </div>
 <script>
@@ -211,7 +217,108 @@ render_table("#corpus-overview", corpus, [
 
 
 
-Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com/site/computationalstylistics/stylo)) haben wir auf 95 Tragödien und 86 Komödien angewendet.
+Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com/site/computationalstylistics/stylo)) haben wir auf 95 Tragödien und 86 Komödien angewendet (<span class="ref-table"/>). <span class="ref-figure" /> zeigt einen Ausriss, das vollständige Dendrogram kann [hier]({{ site.url }}/assets/2016-10-07-ottokar-capulet/cluster-analysis.pdf) als PDF heruntergeladen werden. In beiden Fällen sind Tragödien grün gekennzeichnet und Komödien blau.
+
+Die Einteilung entlang von Wortfrequenzen funktioniert zwar nicht perfekt, aber doch erstaunlich gut. Tragödien werden überwiegend in der oberen Hälfte gruppiert, Komödien in der unteren. Das Autorsignal ist in einzelnen Fällen zwar noch sehr stark (sprich: Stücke der gleichen Autoren werden zusammen gruppiert), aber auch nicht immer. Die Dramen von Goethe z.B. erscheinen zwar innerhalb der Gattung als Blöcke. Solche Blöcke finden sich allerdings mehrere.
+
+Wir nehmen diesen Befund zum Anlass, uns an einer Gattungseinteilung von Kleist-Dramen zu versuchen. Zu diesem Zweck lassen wir die Figurenrede der Dramen automatisch [lemmatisieren](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)) und [PoS-Taggen](https://de.wikipedia.org/wiki/Part-of-speech_Tagging). Für die Lemmatisierung wurden die [mate-tools](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/matetools.en.html) verwendet, das PoS-Tagging basiert auf dem [Stanford PoS-Tagger](http://nlp.stanford.edu/software/tagger.shtml). Technisch integriert sind beide Komponenten in [DKPro Core](https://dkpro.github.io/dkpro-core/). Um sie auf Dramen anzuwenden bedarf es einiger Vorarbeiten (um z.B. nur die Figurenrede zu analysieren), die in [unserer Bibliothek DramaNLP](https://github.com/quadrama/DramaNLP) implementiert wurden. Nach dieser Vorverarbeitung extrahieren wir die Lemmata der Nomen, Verben und Adjektive, die in mindestens 20 Texten vorkommen und berechnen die Korrelation mit Tragödie bzw. Komödie mit dem Spearman-Korrelationsmaß (Spearman, 1904).
+
+<div class="table">
+  <table class="stripe row-border dataTable">
+    <thead><tr><th>Komödie</th><th>Tragödie</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>
+          gut, frauenzimmer, machen, sagen, herr, verstehen, wissen, sache, leute, lieber, hübsch, dumm, fein, bekommen, nehmen, richtig, zufrieden, gehen, gewiß, setzen, merken, ankommen, einfall, wahrhaftig, vernünftig, frau, anfangen, glauben, liebenswürdig, übel, person, artig, ganz, ursache, tisch, vortrefflich, gelegenheit, angenehm, woche, anderer, weiß, denken, vornehm, gehören, geschwind, kriegen, empfehlen, holen, wahr, vergnügen
+        </td>
+        <td>
+          abgrund, haupt, aug, mörder, brust, tod, blut, lebend, fluch, mord, heil, antlitz, beugen, schmach, empor, erde, stürzen, schrecken, staub, fels, grab, flamme, macht, leiche, dunkel, retten, sturm, glut, glied, beben, schwert, sterbend, sonne, geschehn, waffe, senden, heer, brechen, angesicht, strom, schatten, knabe, opfer, lager, frevel, mächtig, kraft, tief, fern, dumpf
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="caption">Die 50 am stärksten mit Komödie bzw. Tragödie korrelierenden Inhaltswörter</p>
+</div>
+
+<span class="ref-table" /> zeigt die 50 am stärksten korreliderenden Lemmata für die beiden Klassen (Komödie, Tragödie).
+
+
+### Gattungsklassifikation
+
+Im nächsten Schritt haben wir gezählt, wie oft diese Wörter in den Dramen von Kleist auftauchen und können uns damit auf Basis der Worthäufigkeiten an einer Gattungseinordnung versuchen.
+
+<div class="figure">
+  <div id="kleist-tendencies">bla</div>
+  <p class="caption">Gattungen von Kleist-Dramen nach Wortfrequenzen korrelierender Wörter</p>
+</div>
+
+<script>
+var kleist_tendencies_data = [{"drama":"r10b.0","Comedy":188,"Tragedy":-144,"title":["Prinz Friedrich von Homburg"]},{"drama":"r0gb.0","Comedy":321,"Tragedy":-177,"title":["Das Käthchen von Heilbronn oder die Feuerprobe"]},{"drama":"r0px.0","Comedy":321,"Tragedy":-177,"title":["Die Familie Schroffenstein"]},{"drama":"r0n2.0","Comedy":121,"Tragedy":-292,"title":["Penthesilea"]},{"drama":"r0sb.0","Comedy":406,"Tragedy":-49,"title":["Der zerbrochene Krug"]},{"drama":"r0jz.0","Comedy":230,"Tragedy":-118,"title":["Amphitryon"]},{"drama":"r0hz.0","Comedy":212,"Tragedy":-202,"title":["Die Hermannsschlacht"]}];
+
+var categories = kleist_tendencies_data.map(function(cur, ind, arr) {
+  return cur.title[0];
+});
+
+
+$('#kleist-tendencies').highcharts({
+  chart: {
+    type: 'bar'
+  },
+  title: {
+    text: ''
+  },
+  legend: {
+    enabled:false
+  },
+  colors: qd_colors.reverse(),
+  xAxis: [{
+    categories: categories,
+    reversed: false,
+    labels: {
+      step: 1
+    }
+  },{
+    opposite: true,
+    reversed: false,
+    categories: categories,
+    linkedTo: 0,
+    labels: {
+      step: 1
+    }
+  }],
+  yAxis: {
+    min: -500,
+    max: 500,
+    title: {
+      text: "← Tragödie   Komödie →"
+    }
+  },
+  plotOptions: {
+    series: {
+      stacking: 'normal'
+    }
+  },
+  series: [{
+    name: "Tragödie",
+    data: kleist_tendencies_data.map(function(cur, ind, arg) {
+      return cur.Tragedy;
+    })
+  },{
+    name: "Komödie",
+    data: kleist_tendencies_data.map(function(cur, ind, arg) {
+      return cur.Comedy;
+    })
+  }]
+});
+</script>
+
+Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlich einer Gattung zuzuordnen. Im *zerbrochenen Krug* werden überwiegend Wörter verwendet die stark mit Komödien korrelieren, bei  *Penthesilea* scheint es sich um eine Tragödie zu handeln. Am wenigsten eindeutig lassen sich insbesondere *Die Hermannsschlacht* sowie *Prinz Friedrich von Homburg* zuordnen -- dabei handelt es sich just um die Dramen, denen auch Kleist eine klare Zuordnung verwehrt, in dem er sie als Drama oder Schauspiel untertitelt.
+
+
+
+## Bibliographie
+
+1. Spearman Charles (1904). "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
 
 ## Technical Appendix
 
