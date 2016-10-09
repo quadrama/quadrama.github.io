@@ -12,6 +12,8 @@ function render_spiderweb_table(container, data) {
     columns: cat.map(function(cur, ind, arr) {
       return {title: cur, data: cur};
     }),
+    pageLength: 5,
+    lengthMenu: [ 5, 10, 20, 50, 100 ],
     language: {
     "sEmptyTable":      "Keine Daten in der Tabelle vorhanden",
     "sInfo":            "_START_ bis _END_ von _TOTAL_ Einträgen",
@@ -34,7 +36,7 @@ function render_spiderweb_table(container, data) {
         "sSortAscending":  ": aktivieren, um Spalte aufsteigend zu sortieren",
         "sSortDescending": ": aktivieren, um Spalte absteigend zu sortieren"
     }
-} 
+}
   });
 
   dt.rows.add(data).draw();

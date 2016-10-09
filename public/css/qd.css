@@ -1,22 +1,41 @@
-.content {
-  counter-reset: figure;
-  counter-reset: table;
+body {
+  counter-reset: cnt_figure;
+  counter-reset: cnt_table;
+}
+
+.figure {
+  counter-increment: cnt_figure;
+}
+
+span.ref-figure:before {
+  content: "Abbildung " counter(cnt_figure);
+}
+
+span.ref-table:before {
+  content: "Tabelle " counter(cnt_table);
+}
+
+
+.table {
+  counter-increment: cnt_table;
 }
 
 .caption {
   font-size:12px;
 }
 
-.figure .caption::before {
-  counter-increment: figure;
-  content: "Abbildung " counter(figure) ": ";
+.figure .caption:before {
+  content: "Abbildung " counter(cnt_figure) ": ";
   font-weight:bold;
 }
 
-.table .caption::before {
-  counter-increment: table;
-  content: "Tabelle " counter(table) ": ";
+.table .caption:before {
+  content: "Tabelle " counter(cnt_table) ": ";
   font-weight: bold;
+}
+
+p.right {
+  text-align:right;
 }
 
 .posts li {

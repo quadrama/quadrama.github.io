@@ -19,9 +19,8 @@ Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder).
 
 ---
 
+## Mikroanalyse: Figurenrede
 
-
-## Figurenrede
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 <div class="figure">
 <div id="container">bla</div>
@@ -46,7 +45,7 @@ render_stacked_figure_statistics("#container", d, ["Romeo und Julia (Ü: Schlege
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 
-## Variation der Äußerungslänge
+### Variation der Äußerungslänge
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
@@ -81,7 +80,22 @@ render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 
-## Thematische Analyse der Figurenrede
+### Thematische Analyse der Figurenrede
+
+Natürlich sind wir eigentlich nicht, oder jedenfalls nicht nur, daran interessiert, wer wie viel spricht. Das erlaubt zwar gewisse Einblicke, aber wir interessieren uns ja insbesondere für die Inhalt der Rede, d.h. *worüber wird eigentlich gesprochen*?
+
+Grundsätzlich gehen wir von der Annahme aus, dass Worte und Themen sich gegenseitig bedingen. Man kann nicht über bestimmte Themen sprechen ohne bestimmte, semantisch verwandte Wörter zu verwenden. Umgedreht heißt das, dass die Verwendung bestimmter Wörter Rückschlüsse auf die verhandelten Themen erlaubt. Natürlich gibt es keine 1-zu-1-Beziehung zwischen Themen und Wörtern: Wörter sind ambig, also mehrdeutig. Das offensichtliche Beispiel heute ist *Frankfurt*, das [für](https://de.wikipedia.org/wiki/Frankfurt_am_Main) [verschiedene](https://de.wikipedia.org/wiki/Frankfurt_(Oder)) [Städte](https://de.wikipedia.org/wiki/Stadt_Frankfurt) [und](https://de.wikipedia.org/wiki/Frankfort_(Kentucky)) [Orte](https://de.wikipedia.org/wiki/(204852)_Frankfurt) stehen kann.
+
+> You shall know a word by the company it keeps.
+
+{:.right}
+-- [J. R. Firth](https://de.wikipedia.org/wiki/John_Rupert_Firth)
+
+Wir machen uns mit o.g. Zitat zunutze, dass der Kontext von Wörtern uns sehr viel über sie verrät. In einem Text über Frankfurt (Oder) tauchen andere Wörter mit anderen Häufigkeiten auf als in einem Text über Frankfurt am Main, unabhängig vom konkreten Thema. Es stimmt zwar, dass Wörter ambig sind -- das gilt aber vor allem für Einzelwörter. Betrachtet man größere Gruppen von Wörtern, disambiguieren sie sich gewissermaßen gegenseitig.
+
+Dies nutzen wir uns bei der sog. Wortfeldanalyse aus. Dazu haben wir Wörterbücher zu fünf relevanten Themen erstellt: [Familie](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Familie.txt), [Krieg](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Krieg.txt), [Liebe](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Liebe.txt), [Ratio](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Ratio.txt) und [Religion](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Religion.txt). Sie sind hier im Volltext verlinkt, in jedem Wortfeld sind zwischen 70 und 90 Wörter enthalten.
+
+Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figur ermitteln.
 
 <div class="hslider">
   <ul>
@@ -107,9 +121,71 @@ render_spiderweb("#fields-vndf0", d4, ["Julia", "Romeo"]);
 render_spiderweb_table("#fields-vndf0-table", d4);
 </script>
 
-Die verwendeten Wortlisten sind [hier](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields) einsehbar.
+Wie in <span class="ref-figure" /> klar zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julia Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie.
+
+<div class="hslider">
+  <ul>
+    <li>
+      <div class="figure">
+        <div id="fields-r0px0">bla</div>
+        <p class="caption">Semantische Felder bei <span class="qd_title">Die Familie Schroffenstein</span></p>
+      </div>
+    </li>
+    <li>
+      <div class="table">
+        <table id="fields-r0px0-table" class="stripe hover row-border compact"></table>
+        <p class="caption">Zahlenwerte der semantischen Felder bei <span class="qd_title">Die Familie Schroffenstein</span></p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<script>
+var d5 = [{"drama":"r0px.0","figure":"Agnes, ihre Tochter.","Familie":8.21199258867669e-05,"Krieg":6.69057431889953e-05,"Liebe":4.78304887478775e-05,"Ratio":3.46918668387383e-05,"Religion":5.25855665766139e-05},{"drama":"r0px.0","figure":"Aldöbern,","Familie":8.58848284450552e-05,"Krieg":0.000167935512763099,"Liebe":3.33488961515374e-05,"Ratio":2.90258910948566e-05,"Religion":5.49964252323599e-05},{"drama":"r0px.0","figure":"Barnabe, ihre Tochter.","Familie":0.000188048776959685,"Krieg":6.59978880675818e-05,"Liebe":5.61684153766654e-05,"Ratio":0,"Religion":0.00014820578373071},{"drama":"r0px.0","figure":"CHOR DER MÄDCHEN","Familie":0,"Krieg":0.000120656370656371,"Liebe":0.000287521564117309,"Ratio":0.000125125125125125,"Religion":0},{"drama":"r0px.0","figure":"DER WANDERER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r0px.0","figure":"Ein Kirchenvogt.","Familie":8.89521437466643e-05,"Krieg":7.73036487322202e-05,"Liebe":0,"Ratio":2.00416867083534e-05,"Religion":7.5947444368497e-05},{"drama":"r0px.0","figure":"Eine Kammerjungfer der Eustache.","Familie":0.000277674935209182,"Krieg":6.03281853281853e-05,"Liebe":7.18803910293272e-05,"Ratio":0,"Religion":0.000118539592223803},{"drama":"r0px.0","figure":"Eustache, seine Gemahlin.","Familie":0.000174710918138229,"Krieg":5.06107024765504e-05,"Liebe":9.54783465160454e-05,"Ratio":3.49901152924299e-05,"Religion":0.000140881253677415},{"drama":"r0px.0","figure":"Fintenring, Vasallen Ruperts.","Familie":0.000156854543553278,"Krieg":6.81570338058888e-05,"Liebe":0,"Ratio":7.06813683912921e-05,"Religion":0},{"drama":"r0px.0","figure":"GÄRTNER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r0px.0","figure":"Gertrude, Sylvesters Gemahlin, Stiefschwester der Eustache.","Familie":0.000173013902175904,"Krieg":5.30672893228614e-05,"Liebe":3.95181941765989e-05,"Ratio":6.87909306037092e-06,"Religion":0.000130340710617554},{"drama":"r0px.0","figure":"Jeronimus von Schroffenstein, aus dem Hause Wyk.","Familie":5.98906723000196e-05,"Krieg":7.45230524642289e-05,"Liebe":6.34238744376416e-05,"Ratio":4.0481658128717e-05,"Religion":4.88104203274482e-05},{"drama":"r0px.0","figure":"Johann, Ruperts natürlicher Sohn.","Familie":1.65542358150892e-05,"Krieg":3.77643504531722e-05,"Liebe":0.000134987465449637,"Ratio":3.35683115139308e-05,"Religion":4.24020777018074e-05},{"drama":"r0px.0","figure":"Ottokar, ihr Sohn.","Familie":0.000116319331731914,"Krieg":4.4078650417513e-05,"Liebe":0.000100836946657255,"Ratio":2.37698203732959e-05,"Religion":8.66106815221308e-05},{"drama":"r0px.0","figure":"Rupert, Graf von Schroffenstein, aus dem Hause Rossitz.","Familie":0.000120263893343107,"Krieg":8.58516483516483e-05,"Liebe":4.89219383761474e-05,"Ratio":4.25802056236839e-05,"Religion":5.86751158833539e-05},{"drama":"r0px.0","figure":"Santing,","Familie":0.000140259011641498,"Krieg":4.5709410043881e-05,"Liebe":1.81540919323215e-05,"Ratio":0,"Religion":0},{"drama":"r0px.0","figure":"Sylvester, sein Sohn, regierender Graf.","Familie":0.000104658464544038,"Krieg":7.57943245209799e-05,"Liebe":3.31129814928536e-05,"Ratio":3.40606594143663e-05,"Religion":7.9428906164676e-05},{"drama":"r0px.0","figure":"Sylvius, Graf von Schroffenstein, aus dem Hause Warwand.","Familie":2.71798217003696e-05,"Krieg":7.08616780045351e-05,"Liebe":6.3323201621074e-05,"Ratio":3.67430922986479e-05,"Religion":0},{"drama":"r0px.0","figure":"Theistiner, Vasall Sylvesters.","Familie":0,"Krieg":6.78119349005425e-05,"Liebe":0,"Ratio":7.0323488045007e-05,"Religion":0},{"drama":"r0px.0","figure":"Ursula, eine Totengräberswitwe.","Familie":0.000247939007004277,"Krieg":4.04007756948933e-05,"Liebe":0,"Ratio":0,"Religion":7.93839803127729e-05}];
+
+render_spiderweb("#fields-r0px0", d5, ["Rupert, Graf von Schroffenstein, aus dem Hause Rossitz.", "Eustache, seine Gemahlin."]);
+render_spiderweb_table("#fields-r0px0-table", d5);
+
+</script>
+
+- Diskussion Schroffenstein
+
+## Makroanalyse: Gattungskontexte
 
 
+- Einordnung Kleist durch LitWiss
+
+### Stilometrische Analysen
+Eines der Standardverfahren zur quantitativen Analyse von Gattungen kommt aus dem Bereich des Clusterings und wird im Moment vor allem zu stilometrischen Analysen verwendet. Dabei schauen wir auf die Häufigkeit von Wörtern oder Wortformen und erstellen sog. *Wortvektoren*.
+
+<div class="hslider">
+<ul>
+<li>
+<div class="table">
+  <table class="stripe row-border dataTable">
+    <thead>
+      <tr><th>Text</th><th>Hund</th><th>Haus</th><th>Hof</th><th>...</th></tr>
+    </thead>
+    <tbody>
+    <tr><td>1</td><td>15</td><td>1</td><td>2</td><td></td></tr>
+    <tr><td>2</td><td>17</td><td>13</td><td>2</td><td></td></tr>
+    <tr><td>3</td><td>0</td><td>25</td><td>11</td><td></td></tr>
+    <tr><td>...</td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+  <p class="caption">Fiktive Wortvektoren für drei Texte</p>
+</div>
+</li>
+<li>
+<div class="figure">
+  <img height="250" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/scatter-plot-hof-und.png" />
+  <p class="caption">Räumliche Interpretation der Wortvektoren (in 2 Dimensionen)</p>
+</div>
+</li>
+</ul>
+</div>
+
+Diese Wortvektoren können im n-dimensionalen Raum räumlich interpretiert werden und entsprechende geometrische Distanzmaße angewendet werden.
 
 ## Technical Appendix
 
