@@ -1,3 +1,16 @@
+/* Blue */
+.theme-base-0d .sidebar,
+.theme-base-0d .sidebar-toggle:active {
+  background-color: #416FB8;
+}
+.theme-base-0d .container a,
+.theme-base-0d .sidebar-toggle,
+.theme-base-0d .related-posts li a:hover {
+  color: #416FB8;
+}
+
+
+
 body {
   counter-reset: cnt_figure;
   counter-reset: cnt_table;

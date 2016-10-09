@@ -597,16 +597,6 @@ a.sidebar-nav-item:focus {
   color: #75b5aa;
 }
 
-/* Blue */
-.theme-base-0d .sidebar,
-.theme-base-0d .sidebar-toggle:active {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .container a,
-.theme-base-0d .sidebar-toggle,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
 
 /* Magenta */
 .theme-base-0e .sidebar,
