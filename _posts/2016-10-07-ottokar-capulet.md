@@ -277,14 +277,6 @@ $('#kleist-tendencies').highcharts({
     labels: {
       step: 1
     }
-  },{
-    opposite: true,
-    reversed: false,
-    categories: categories,
-    linkedTo: 0,
-    labels: {
-      step: 1
-    }
   }],
   yAxis: {
     min: -500,
