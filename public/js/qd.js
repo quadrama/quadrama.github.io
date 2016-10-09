@@ -1,5 +1,45 @@
 var qd_colors = ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"];
 
+$(document).ready(function($) {
+	$('.hslider').unslider({arrows:false});
+});
+
+function render_spiderweb_table(container, data) {
+
+  var cat = Object.keys(data[0]).filter(function(a) { return a != "drama";});
+
+  var dt = $(container).DataTable({
+    columns: cat.map(function(cur, ind, arr) {
+      return {title: cur, data: cur};
+    }),
+    language: {
+    "sEmptyTable":      "Keine Daten in der Tabelle vorhanden",
+    "sInfo":            "_START_ bis _END_ von _TOTAL_ Einträgen",
+    "sInfoEmpty":       "0 bis 0 von 0 Einträgen",
+    "sInfoFiltered":    "(gefiltert von _MAX_ Einträgen)",
+    "sInfoPostFix":     "",
+    "sInfoThousands":   ".",
+    "sLengthMenu":      "_MENU_ Einträge anzeigen",
+    "sLoadingRecords":  "Wird geladen...",
+    "sProcessing":      "Bitte warten...",
+    "sSearch":          "Suchen",
+    "sZeroRecords":     "Keine Einträge vorhanden.",
+    "oPaginate": {
+        "sFirst":       "Erste",
+        "sPrevious":    "Zurück",
+        "sNext":        "Nächste",
+        "sLast":        "Letzte"
+    },
+    "oAria": {
+        "sSortAscending":  ": aktivieren, um Spalte aufsteigend zu sortieren",
+        "sSortDescending": ": aktivieren, um Spalte absteigend zu sortieren"
+    }
+} 
+  });
+
+  dt.rows.add(data).draw();
+}
+
 function render_spiderweb(container, data, initially_visible) {
 
   var cat = Object.keys(data[0]).filter(function(a) { return a!="figure" && a != "drama";});

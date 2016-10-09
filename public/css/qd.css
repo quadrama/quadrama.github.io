@@ -1,8 +1,9 @@
 .content {
   counter-reset: figure;
+  counter-reset: table;
 }
 
-.figure .caption {
+.caption {
   font-size:12px;
 }
 
@@ -10,6 +11,12 @@
   counter-increment: figure;
   content: "Abbildung " counter(figure) ": ";
   font-weight:bold;
+}
+
+.table .caption::before {
+  counter-increment: table;
+  content: "Tabelle " counter(table) ": ";
+  font-weight: bold;
 }
 
 .posts li {
@@ -80,4 +87,17 @@
 }
 .qd_tab ul li a span {
   display:block;
+}
+
+/*
+ * tables
+ */
+table {
+  font-size: 12px;
+}
+div.table {
+  font-size: 14px;
+}
+.paginate_button {
+  padding:0
 }
