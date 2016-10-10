@@ -9,8 +9,6 @@
   color: #416FB8;
 }
 
-
-
 body {
   counter-reset: cnt_figure;
   counter-reset: cnt_table;
@@ -138,4 +136,84 @@ div.table > div {
 }
 .paginate_button {
   padding:0
+}
+
+/**
+ *  charts
+ */
+
+svg.highcharts-root text {
+  fill: #454545;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+svg .highcharts-plot-border {
+  opacity:0;
+}
+svg .highcharts-plot-background,
+svg .highcharts-background {
+  fill: #FFF;
+}
+
+svg .highcharts-color-0 { fill: #781C81; stroke: #781C81; }
+svg .highcharts-color-1 { fill: #43328D; stroke: #43328D; }
+svg .highcharts-color-2 { fill: #416FB8; stroke: #416FB8; }
+svg .highcharts-color-3 { fill: #519CB8; stroke: #519CB8; }
+svg .highcharts-color-4 { fill: #70B484; stroke: #70B484; }
+svg .highcharts-color-5 { fill: #99BD5C; stroke: #99BD5C; }
+svg .highcharts-color-6 { fill: #C3BA45; stroke: #C3BA45; }
+svg .highcharts-color-7 { fill: #E0A239; stroke: #E0A239; }
+svg .highcharts-color-8 { fill: #E66B2D; stroke: #E66B2D; }
+svg .highcharts-color-9 { fill: #D92120; stroke: #D92120; }
+
+g.highcharts-axis path.highcharts-axis-line {
+  fill: #FFF;
+  stroke: #454545;
+  opacity: 0;
+}
+
+.highcharts-axis-line {
+  fill:blue;
+  opacity:1;
+}
+
+g.highcharts-yaxis-grid path.highcharts-grid-line {
+  stroke: #AAA;
+  stroke-width:1px;
+}
+
+g.highcharts-xaxis-grid path.highcharts-grid-line {
+  stroke: #AAA;
+  stroke-width:1px;
+}
+
+
+g.highcharts-grid path.highcharts-grid-line {
+  fill:#FFF;
+  fill-opacity:0;
+}
+.highcharts-tooltip-box {
+	fill: #CCC;
+	fill-opacity: 0.8;
+	stroke-width: 0;
+}
+.highcharts-tooltip text {
+  stroke-width: 0;
+  font-size:0.7em;
+}
+
+g.highcharts-axis-labels text { font-size:12px; }
+
+.highcharts-series {
+  fill-opacity:0;
+}
+
+.highcharts-legend-box { fill: white; fill-opacity:0; }
+.highcharts-legend-item:hover { cursor: pointer; } 
+.highcharts-legend-item text { stroke-width:0; font-size:12px; }
+.highcharts-legend-item-hidden text { fill-opacity:0.5; }
+
+svg text.highcharts-credits {
+  font-size:8px;
+  fill: #CCCCCC;
 }

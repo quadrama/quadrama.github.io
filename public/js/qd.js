@@ -120,7 +120,7 @@ function render_spiderweb(container, data, initially_visible) {
 }
 
 function render_boxplots(container, data) {
-  var cat = Object.keys(data);
+  var cat = Object.keys(data).sort();
 
   $(function () { $(container).highcharts({
     chart: {
@@ -129,13 +129,7 @@ function render_boxplots(container, data) {
     title: {
       text: null
     },
-    labels: {
-      style: {
-        color: "#404040"
-      }
-    },
     yAxis: {
-      lineColor: "#404040",
       min:0
     },
     xAxis: {
@@ -143,21 +137,13 @@ function render_boxplots(container, data) {
       title: {
         enabled: false,
         text: "Figure"
-      },
-      labels: {
-        style: {
-          color: "#404040"
-        }
-      },
-      lineColor: "#404040",
-      tickColor: "#404040"
+      }
     },
     legend: {
       enabled: false
     },
     series: [
       {
-        color: "#404040",
         name: "Monologe",
         data: cat.map(function(cur, a, b) {
           return {
@@ -166,18 +152,15 @@ function render_boxplots(container, data) {
             median:data[cur].stats[2],
             q3:data[cur].stats[3],
             high:data[cur].stats[4],
-            color:qd_colors[9-a] };
+            color:qd_colors[a] };
         })
       }
     ].concat(cat.map(function(cur, index, c) {
       return {
-        color: qd_colors[9-index],
         name: cur,
         type: 'scatter',
         marker: {
           symbol:"circle",
-          lineColor: qd_colors[9-index],
-          fillColor: "#FFF",
           lineWidth:1
         },
         tooltip:{
@@ -186,7 +169,7 @@ function render_boxplots(container, data) {
         },
         data: data[cur].out.map(function(c, d, e) {
           return [index,c];
-          })
+        })
       };
     }))
   });
@@ -197,7 +180,8 @@ function render_stacked_figure_statistics(container, data, dramanames) {
   $(function () {
       $(container).highcharts({
           chart: {
-              type: 'column'
+              type: 'column',
+              className: 'spiderweb'
           },
           title: {
               text: ''
@@ -218,7 +202,6 @@ function render_stacked_figure_statistics(container, data, dramanames) {
                   }
               }
           },
-  				colors: ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"],
           legend: {enabled:false},
           tooltip: {
   						followPointer: true,
@@ -235,7 +218,7 @@ function render_stacked_figure_statistics(container, data, dramanames) {
                   }
               }
           },
-          series: d.map(function(cur, a, b) {
+          series: data.map(function(cur, a, b) {
   					return {data:cur.map(function(cur2, ind2, _) {return {y:cur2.tokens, name:cur2.figure};})};
   				})
       });
