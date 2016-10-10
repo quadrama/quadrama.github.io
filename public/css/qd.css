@@ -79,54 +79,6 @@ p.right {
   font-style: italic;
 }
 
-
-.qd_tab {
-  clear:left;
-  float:left;
-  width:100%;
-  overflow:hidden;
-  background-color:#6a9fb5;
-}
-
-.qd_tab ul {
-  clear:left;
-  float:left;
-  list-style:none;
-  margin:0;
-  padding:0;
-  padding-top:5px;
-  padding-bottom:5px;
-  position:relative;
-  left:50%;
-  text-align:center;
-}
-.qd_tab ul li {
-  display:block;
-  float:left;
-  list-style:none;
-  margin:0;
-  padding:0;
-  position:relative;
-  right:50%;
-}
-.qd_tab ul li a {
-  display:block;
-  margin:0;
-  padding:.4em .8em;
-  color:#FFF !important;
-  text-decoration:none;
-  line-height:1.3em;
-}
-.qd_tab ul li.active a {
-  background-color:rgba(255,255,255,.1);
-}
-.qd_tab ul li a:hover {
-  background-color:rgba(255,255,255,.1);
-}
-.qd_tab ul li a span {
-  display:block;
-}
-
 /*
  * tables
  */
@@ -134,12 +86,27 @@ table,
 div.table > div {
   font-size: 14px;
 }
-.paginate_button {
-  padding:0
+
+.dataTables_wrapper .dataTables_paginate a.paginate_button:hover {
+  background: #416FB866;
 }
 
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding:0;
+  border-width:0;
+  background: rgba(0,0,0,0);
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #416FB8 !important;
+  color: white !important;
+}
+
+
 /**
- *  charts
+ *  highcharts styling
  */
 
 svg.highcharts-root text {
@@ -178,14 +145,15 @@ g.highcharts-axis path.highcharts-axis-line {
 }
 
 g.highcharts-yaxis-grid path.highcharts-grid-line {
-  stroke: #AAA;
+  stroke: #CCC;
   stroke-width:1px;
 }
 
 g.highcharts-xaxis-grid path.highcharts-grid-line {
-  stroke: #AAA;
-  stroke-width:1px;
+  stroke: #CCC;
+  stroke-width:0px;
 }
+
 
 
 g.highcharts-grid path.highcharts-grid-line {
@@ -204,16 +172,27 @@ g.highcharts-grid path.highcharts-grid-line {
 
 g.highcharts-axis-labels text { font-size:12px; }
 
-.highcharts-series {
+.highcharts-line-series.highcharts-series {
   fill-opacity:0;
 }
 
 .highcharts-legend-box { fill: white; fill-opacity:0; }
-.highcharts-legend-item:hover { cursor: pointer; } 
+.highcharts-legend-item:hover { cursor: pointer; }
 .highcharts-legend-item text { stroke-width:0; font-size:12px; }
 .highcharts-legend-item-hidden text { fill-opacity:0.5; }
+.highcharts-legend-item-hidden path { fill: #CCC; stroke: #CCC; }
+.highcharts-legend-item-hidden text { stroke: #CCC; }
 
 svg text.highcharts-credits {
   font-size:8px;
   fill: #CCCCCC;
+}
+
+/**
+ * qd-spiderweb
+ */
+
+div.qd-spiderweb g.highcharts-xaxis-grid path.highcharts-grid-line {
+  stroke: #CCC;
+  stroke-width:1px;
 }

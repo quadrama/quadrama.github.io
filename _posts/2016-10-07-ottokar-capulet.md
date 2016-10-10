@@ -19,6 +19,11 @@ Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder).
 
 ---
 
+## Technische Vorarbeiten
+
+Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository](https://textgridrep.org). Diese wurden zunächst in ein Stand-Off-Format überführt (mit unserer Bibliothek [DramaNLP](https://github.com/quadrama/DramaNLP)). Auf dieser Basis konnten dann die in [DKPro Core](https://dkpro.github.io/dkpro-core/) integrierten Werkzeuge zur [Lemmatisierung](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)) und zum [PoS-Taggen](https://de.wikipedia.org/wiki/Part-of-speech_Tagging) verwendet werden: [mate-tools](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/matetools.en.html) und [Stanford PoS-Tagger](http://nlp.stanford.edu/software/tagger.shtml). Grundlage der Analysen mit R wiederum (siehe Anhang) sind  daraus exportierte CSV-Dateien, die die Wörter einzelnen Figuren zuordnen ([Romeo und Julia]({{ site.url }}/assets/2016-10-07-ottokar-capulet/vndf.0.csv), [Die Familie Schroffenstein]({{ site.url }}/assets/2016-10-07-ottokar-capulet/r0px.0.csv)).
+
+
 ## Mikroanalyse: Figurenrede
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -221,7 +226,7 @@ Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com
 
 Die Einteilung entlang von Wortfrequenzen funktioniert zwar nicht perfekt, aber doch erstaunlich gut. Tragödien werden überwiegend in der oberen Hälfte gruppiert, Komödien in der unteren. Das Autorsignal ist in einzelnen Fällen zwar noch sehr stark (sprich: Stücke der gleichen Autoren werden zusammen gruppiert), aber auch nicht immer. Die Dramen von Goethe z.B. erscheinen zwar innerhalb der Gattung als Blöcke. Solche Blöcke finden sich allerdings mehrere.
 
-Wir nehmen diesen Befund zum Anlass, uns an einer Gattungseinteilung von Kleist-Dramen zu versuchen. Zu diesem Zweck lassen wir die Figurenrede der Dramen automatisch [lemmatisieren](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)) und [PoS-Taggen](https://de.wikipedia.org/wiki/Part-of-speech_Tagging). Für die Lemmatisierung wurden die [mate-tools](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/matetools.en.html) verwendet, das PoS-Tagging basiert auf dem [Stanford PoS-Tagger](http://nlp.stanford.edu/software/tagger.shtml). Technisch integriert sind beide Komponenten in [DKPro Core](https://dkpro.github.io/dkpro-core/). Um sie auf Dramen anzuwenden bedarf es einiger Vorarbeiten (um z.B. nur die Figurenrede zu analysieren), die in [unserer Bibliothek DramaNLP](https://github.com/quadrama/DramaNLP) implementiert wurden. Nach dieser Vorverarbeitung extrahieren wir die Lemmata der Nomen, Verben und Adjektive, die in mindestens 20 Texten vorkommen und berechnen die Korrelation mit Tragödie bzw. Komödie mit dem Spearman-Korrelationsmaß (Spearman, 1904).
+Wir nehmen diesen Befund zum Anlass, uns an einer Gattungseinteilung von Kleist-Dramen zu versuchen. Dazu extrahieren wir die Lemmata der Nomen, Verben und Adjektive, die in mindestens 20 Texten vorkommen und berechnen die Korrelation mit Tragödie bzw. Komödie mit dem Spearman-Korrelationsmaß (Spearman, 1904).
 
 <div class="table">
   <table class="stripe row-border dataTable">

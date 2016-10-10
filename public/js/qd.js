@@ -98,6 +98,7 @@ function render_spiderweb(container, data, initially_visible) {
     chart: {
       polar: true,
       type: 'line',
+      className: 'qd-spiderweb'
     },
     plotOptions: {
       line: {
@@ -181,7 +182,7 @@ function render_stacked_figure_statistics(container, data, dramanames) {
       $(container).highcharts({
           chart: {
               type: 'column',
-              className: 'spiderweb'
+              className: 'qd-stacked-figure-statistics'
           },
           title: {
               text: ''
