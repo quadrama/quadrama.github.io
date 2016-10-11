@@ -176,6 +176,17 @@ g.highcharts-axis-labels text { font-size:12px; }
   fill-opacity:0;
 }
 
+.highcharts-boxplot-series path {
+  stroke: #454545;
+  fill-opacity:0;
+}
+
+.highcharts-boxplot-series path.highcharts-boxplot-median {
+  stroke: #454545;
+  stroke-width: 2px;
+  fill-opacity:0;
+}
+
 .highcharts-legend-box { fill: white; fill-opacity:0; }
 .highcharts-legend-item:hover { cursor: pointer; }
 .highcharts-legend-item text { stroke-width:0; font-size:12px; }
@@ -196,3 +207,8 @@ div.qd-spiderweb g.highcharts-xaxis-grid path.highcharts-grid-line {
   stroke: #CCC;
   stroke-width:1px;
 }
+
+
+/**
+ * qd-boxplot
+ */

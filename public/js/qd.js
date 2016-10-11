@@ -143,20 +143,7 @@ function render_boxplots(container, data) {
     legend: {
       enabled: false
     },
-    series: [
-      {
-        name: "Monologe",
-        data: cat.map(function(cur, a, b) {
-          return {
-            low:data[cur].stats[0],
-            q1:data[cur].stats[1],
-            median:data[cur].stats[2],
-            q3:data[cur].stats[3],
-            high:data[cur].stats[4],
-            color:qd_colors[a] };
-        })
-      }
-    ].concat(cat.map(function(cur, index, c) {
+    series: cat.map(function(cur, index, c) {
       return {
         name: cur,
         type: 'scatter',
@@ -172,9 +159,15 @@ function render_boxplots(container, data) {
           return [index,c];
         })
       };
-    }))
+    }).concat([
+      {
+        name: "Monologe",
+        data: cat.map(function(cur, a, b) {
+          return data[cur].stats;
+        })
+      }])
   });
-  });
+});
 }
 
 function render_stacked_figure_statistics(container, data, dramanames) {
