@@ -5,9 +5,14 @@ title: Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li>
+      {% include date.html date=post.date lang=post.lang%}
+	    <li lang="{{ post.lang }}">
+        <p class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</p>
         {% if post.logo %}
-          <img src="{{ post.logo }}" />
-        {% endif %}<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br/><p> {{ post.excerpt }} </p></li>
+          <div style="float:left;height:100%"><a href="{{ post.url }}"><img src="{{ post.logo }}" /></a></div>
+        {% endif %}
+        <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+        <p> {{ post.excerpt }} </p>
+      </li>
 	  {% endfor %}
 	</ul>

@@ -4,7 +4,7 @@
 
       {% assign day = include.date | date: "%-d" %}
 
-  {% if page.lang == 'fr' %}
+  {% if include.lang == 'fr' %}
 
     {% if day == "1" %}
       {% capture sup %}<sup>er</sup>{% endcapture %}
@@ -12,7 +12,7 @@
       {% capture sup %}{% endcapture %}
     {% endif %}
 
-  {% elsif page.lang == 'de' %}
+  {% elsif include.lang == 'de' %}
     {% capture sup %}.{% endcapture %}
 
   {% else %}
@@ -32,7 +32,7 @@
 
 {% endif %}
 
-{% if page.lang == 'fr' %}
+{% if include.lang == 'fr' %}
 
   {% assign m = include.date | date: "%-m" %}
   {% case m %}
@@ -62,7 +62,7 @@
     {% capture month %}décembre{% endcapture %}
 {% endcase %}
 
-{% elsif page.lang == 'de' %}
+{% elsif include.lang == 'de' %}
 {% assign m = include.date | date: "%-m" %}
 {% case m %}
   {% when '1' %}

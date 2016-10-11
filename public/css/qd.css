@@ -27,6 +27,8 @@ span.ref-table:before {
 }
 
 
+
+
 .table {
   counter-increment: cnt_table;
 }
@@ -57,17 +59,33 @@ p.right {
   text-align:right;
 }
 
-.posts li {
-  clear:left;
+ul.posts {
+  list-style: none;
 }
 
-.posts li img {
+.posts li {
+  clear:left;
+  height:100%;
+  margin-bottom:35px;
+}
+
+.posts li div {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.posts li p {
+  margin-bottom:3px;
+}
+
+.posts li div img {
   position:relative;
   left:-40px;
   border:thin solid #454545;
   float:left;
-  height: 100%;
   width:auto;
+  max-width:150px;
+  max-height:120px;
 }
 
 .postlogo {

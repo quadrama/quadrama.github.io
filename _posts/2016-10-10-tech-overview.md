@@ -1,11 +1,14 @@
 ---
-layout: page
-title: Technology
+layout: post
+title: Technology Overview
 lang: en
 ref: technology
+logo: /assets/generic/code.r.png
+
 ---
 
-All of QuaDramAs code is publicly available under open source licenses on [our github page](http://github.com/quadrama).
+This post gives an overview of the current state of the technology we are using and how we plan to proceed in the future. All programs, scripts and components are available on [our github page](http://github.com/quadrama).
+<!--more-->
 
 ## NLP Processing
 

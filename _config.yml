@@ -3,3 +3,4 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 title: QuaDramA
 tagline: Quantitative Drama Analytics
+description: Project Homepage
