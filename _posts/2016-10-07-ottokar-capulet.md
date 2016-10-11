@@ -10,7 +10,7 @@ publication-date: 2016-10-07
 
 
 
-Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder).
+Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder), im Rahmen des wissenschaftlichen Kolloquiums während der [Kleist-Festtage 2016](http://www.kleist-museum.de/fileadmin/kleist/dokumente/kleist-museum/Kleist-Festtage_Programmheft_2016.pdf). 
 <!--more-->
 
 ## Inhaltsverzeichnis
