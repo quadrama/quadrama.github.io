@@ -161,8 +161,8 @@ g.highcharts-grid path.highcharts-grid-line {
   fill-opacity:0;
 }
 .highcharts-tooltip-box {
-	fill: #CCC;
-	fill-opacity: 0.8;
+	fill: #FFF;
+	fill-opacity: 0.9;
 	stroke-width: 0;
 }
 .highcharts-tooltip text {
