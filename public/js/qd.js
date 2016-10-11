@@ -1,7 +1,10 @@
 var qd_colors = ["#D92120","#E66B2D","#E0A239","#C3BA45","#99BD5C","#70B484","#519CB8","#416FB8","#43328D","#781C81"];
 
 $(document).ready(function($) {
-	$('.hslider').unslider({arrows:false});
+	$('.hslider').unslider({
+    arrows: false,
+    animateHeight: true
+  });
 
   if ($(window).width() > 500) {
     // $('.sidebar-toggle').click();
