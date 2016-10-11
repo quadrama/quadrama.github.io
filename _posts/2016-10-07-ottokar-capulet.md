@@ -4,6 +4,8 @@ title: Ottokar Capulet und Julia Schroffenstein - Liebeskonflikte und Gattungsko
 lang: de
 ref: 2016-10-07-ottokar-capulet
 logo: /assets/2016-10-07-ottokar-capulet/logo_kleist_museum.gif
+author: Nils Reiter, Marcus Willand
+publication-date: 2016-10-07
 ---
 
 
