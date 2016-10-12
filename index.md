@@ -12,8 +12,9 @@ Intro-Absatz
 
 ## Neue Posts
 
-{% assign post = site.posts.first %}
-{% include date.html date=post.date lang=post.lang %}
 <ul class="posts">
-  {% include teaser.html post=post %}
+  {% for post in site.posts offset: 0 limit: 2 %}
+    {% include date.html date=post.date lang=post.lang %}
+    {% include teaser.html post=post %}
+  {% endfor %}
 </ul>

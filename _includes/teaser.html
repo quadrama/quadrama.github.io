@@ -1,8 +1,18 @@
 <li lang="{{ post.lang }}">
-  <p class="right date">{{ day }}{{ sup }} {{ month }} {{ year }}</p>
-  {% if post.logo %}
-    <div style="float:left;height:100%"><a href="{{ post.url }}"><img src="{{ post.logo }}" /></a></div>
-  {% endif %}
+  <div class="headline">
+    <div class="left">
+      {% if post.categories[0] %}
+        {{ post.categories | join: " • " }} •
+      {% endif %}
+      {% include language.html lang=post.lang %}
+    </div>
+    <div class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
+    <div style="clear:both;"></div>
+  </div>
+
   <p class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+  {% if post.logo %}
+  <div style="float:left;height:100%"><a href="{{ post.url }}"><img src="{{ post.logo }}" /></a></div>
+  {% endif %}
   <p> {{ post.excerpt }} </p>
 </li>

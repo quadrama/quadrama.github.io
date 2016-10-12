@@ -3,9 +3,13 @@ layout: default
 ---
 
 <div class="post">
-  {% include date.html date=page.date %}
+  {% include date.html date=page.date lang=page.lang %}
 
-  <div style="text-align:right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
+  <div class="headline">
+    <div class="left">{{ page.categories | join: " • " }}</div>
+    <div class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
+    <div style="clear:both;"></div>
+  </div>
   <h1 class="post-title">{{ page.title }}</h1>
   <h1>{{ page.subtitle }}</h1>
 

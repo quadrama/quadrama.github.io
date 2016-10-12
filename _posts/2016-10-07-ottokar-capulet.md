@@ -6,11 +6,12 @@ ref: 2016-10-07-ottokar-capulet
 logo: /assets/2016-10-07-ottokar-capulet/logo_kleist_museum.gif
 author: Nils Reiter, Marcus Willand
 publication-date: 2016-10-07
+categories: Vortrag
 ---
 
 
 
-Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder), im Rahmen des wissenschaftlichen Kolloquiums während der [Kleist-Festtage 2016](http://www.kleist-museum.de/fileadmin/kleist/dokumente/kleist-museum/Kleist-Festtage_Programmheft_2016.pdf). 
+Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder), im Rahmen des wissenschaftlichen Kolloquiums während der [Kleist-Festtage 2016](http://www.kleist-museum.de/fileadmin/kleist/dokumente/kleist-museum/Kleist-Festtage_Programmheft_2016.pdf). Wir untersuchen Figuren auf der Mikroebene und Gattungszuschreibungen auf der Makroebene.
 <!--more-->
 
 ## Inhaltsverzeichnis

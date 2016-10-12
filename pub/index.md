@@ -1,4 +1,6 @@
 ---
 layout: page
-title: Publikationen
+title: Publications
+ref: pub
+lang: en
 ---

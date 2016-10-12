@@ -51,12 +51,21 @@ pre.highlight {
   background-color: #EEE;
 }
 
-.post h2 {
-  margin-top:100px;
+.headline {
+  font-size: 0.9rem;
+  color:#909090;
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+}
+.headline .left {
+  float:left;
+}
+.headline .right {
+  float:right;
 }
 
-p.right {
-  text-align:right;
+.post h2 {
+  margin-top:100px;
 }
 
 ul.posts {
@@ -80,6 +89,7 @@ ul.posts {
 
 .posts li p.date {
   font-size:0.8rem;
+  color:#999;
 }
 
 
@@ -91,10 +101,11 @@ ul.posts {
 
 .posts li div img {
   position:relative;
-  left:-40px;
+  top:-10px;
   border:thin solid #454545;
   float:left;
   width:auto;
+  margin-right:20px;
   max-width:150px;
   max-height:120px;
 }
