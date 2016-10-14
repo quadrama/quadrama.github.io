@@ -10,6 +10,13 @@ layout: default
     <div class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
     <div style="clear:both;"></div>
   </div>
+  {% if page.speakers %}
+    {% if page.lang == "de" %}
+    <p><strong>{{ page.speakers | join: " • "}}</strong></p>
+    {% else %}
+    <p><strong>{{ page.speakers | join: " • "}}</strong></p>
+    {% endif %}
+  {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
   <h1>{{ page.subtitle }}</h1>
 
