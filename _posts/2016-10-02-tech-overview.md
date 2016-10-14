@@ -5,6 +5,7 @@ lang: en
 ref: technology
 logo: /assets/generic/code.r.png
 categories: Technology
+authors: Nils Reiter
 ---
 
 This post gives an overview of the current state of the technology we are using and how we plan to proceed in the future. All programs, scripts and components are available on [our github page](http://github.com/quadrama).
