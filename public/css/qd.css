@@ -123,8 +123,20 @@ ul.posts {
  * languages
  */
 
-.sidebar ul li {
+.sidebar div ul.languages {
+  margin:0 auto;
+  padding:0;
+  width:100%;
+}
+
+.sidebar div ul.languages li {
+  margin:0 auto;
   display:inline-block;
+  padding:5px;
+}
+
+.sidebar ul.languages .en:lang(en), .fr:lang(fr), .de:lang(de){
+  background-color: rgba(255, 255, 255, .1);
 }
 
 /*

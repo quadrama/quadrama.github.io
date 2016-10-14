@@ -6,18 +6,11 @@
 <div class="sidebar" id="sidebar">
 
   <div class="sidebar-item">
-  <ul>
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %}
-    <li>
-      <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-    </li>
-  {% endfor %}
-
+  <ul class="languages">
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %}
-    <li>
-      <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+    <li class="{{ page.lang }}">
+      <a href="{{ page.url }}">{% include language.html lang=page.lang %}</a>
     </li>
   {% endfor %}
   </ul>
@@ -50,9 +43,9 @@
       {% assign translation = site.pages | where:"ref", node.ref | where:"lang", page.lang %}
       {% if node.layout == "page" %}
         {% if translation[0] %}
-          <a class="sidebar-nav-item{% if page.url == translation[0] %} active{% endif %}" href="{{ site.baseurl }}{{ translation[0].url }}">{{ translation[0].title }}</a>
+          <a class="sidebar-nav-item{% if page.url == translation[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation[0].url }}">{{ translation[0].title }}</a>
         {% else %}
-          <a class="sidebar-nav-item{% if page.url == default.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ default.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ default.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
