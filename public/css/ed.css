@@ -365,6 +365,7 @@ h3.masthead-title {
     font-size: .75rem; /* 14px */
   }
 }
+
 /* Sidebar content */
 
 .sidebar {
@@ -468,6 +469,16 @@ a.sidebar-nav-item:focus {
 @media print {
   .sidebar-toggle {
     display: none;
+  }
+}
+
+@media (min-width:20000px) {
+  .sidebar {
+    visibility:visible;
+    left:0;
+  }
+  .sidebar-toggle {
+    left: 15rem;
   }
 }
 
