@@ -119,6 +119,14 @@ ul.posts {
   font-style: italic;
 }
 
+/**
+ * languages
+ */
+
+.sidebar ul li {
+  display:inline-block;
+}
+
 /*
  * tables
  */

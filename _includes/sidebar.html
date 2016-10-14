@@ -4,13 +4,30 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+  <ul>
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <li>
+      <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+    </li>
+  {% endfor %}
+
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <li>
+      <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+    </li>
+  {% endfor %}
+  </ul>
   </div>
+
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
+<!--
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
@@ -24,6 +41,22 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+
+    <hr/>
+  -->
+
+    {% assign pages_list=site.pages | where:"lang", "en" %}
+    {% for node in pages_list %}
+      {% assign translation = site.pages | where:"ref", node.ref | where:"lang", page.lang %}
+      {% if node.layout == "page" %}
+        {% if translation[0] %}
+          <a class="sidebar-nav-item{% if page.url == translation[0] %} active{% endif %}" href="{{ site.baseurl }}{{ translation[0].url }}">{{ translation[0].title }}</a>
+        {% else %}
+          <a class="sidebar-nav-item{% if page.url == default.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ default.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
 
     <!-- The code below is used for manually entered links  -->
 

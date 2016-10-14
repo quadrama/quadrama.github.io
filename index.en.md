@@ -1,7 +1,7 @@
 ---
 layout: default
 title: QuaDramA - Quantitative Drama Analytics
-lang: de
+lang: en
 ref: index
 ---
 
@@ -11,7 +11,7 @@ Intro-Absatz
 
 ---
 
-## Neue Posts
+## New Posts
 
 <ul class="posts">
   {% for post in site.posts offset: 0 limit: 2 %}

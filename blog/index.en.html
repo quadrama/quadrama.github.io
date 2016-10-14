@@ -1,0 +1,14 @@
+---
+layout: page
+title: Blog
+lang: en
+ref: blog
+---
+
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+      {% include date.html date=post.date lang=post.lang%}
+      {% include teaser.html post=post %}
+	  {% endfor %}
+	</ul>

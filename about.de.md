@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Über QuaDrmaA
+title: Über QuaDramA
 lang: de
 ref: about
 editor: reiter
