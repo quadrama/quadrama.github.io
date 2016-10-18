@@ -33,15 +33,17 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
-    if (window.innerWidth > 800)
-      document.getElementById("sidebar-checkbox").checked = true;
-
-    window.onresize = function(event) {
+    if (false) {
       if (window.innerWidth > 800)
         document.getElementById("sidebar-checkbox").checked = true;
-      else
-        document.getElementById("sidebar-checkbox").checked = false;
-    };
+
+      window.onresize = function(event) {
+        if (window.innerWidth > 800)
+          document.getElementById("sidebar-checkbox").checked = true;
+        else
+          document.getElementById("sidebar-checkbox").checked = false;
+      };
+  }
 
     // Highlight search Query
     var url = window.location.href;
