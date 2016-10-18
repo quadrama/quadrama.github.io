@@ -68,7 +68,9 @@ Betrachtet man die obige Visualsiernung der Redeanteile von Figuren, so zeigt si
 
 ### Variation der Äußerungslänge
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Nicht nur die Redeanteile eine Figur in Bezug auf den Gesamttext, sondern auch die Verteilung der *Redelängen einzelner Äußerungen* dieser Figur kann Hinweise auf die Funktion dieser dramatischen Figur geben.
+Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge" sogenannte [Boxplots](https://de.wikipedia.org/wiki/Boxplot)
+
 
 <div class="hslider" id="utterance-length-variation">
   <ul>
