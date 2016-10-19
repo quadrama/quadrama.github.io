@@ -8,7 +8,7 @@ editor: reiter
 
 
 ## Dr. Marcus Willand
-
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
 
 ## Dr. Nils Reiter
 
