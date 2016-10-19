@@ -53,7 +53,7 @@ Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dram
 
   <p class="caption">Wörterbuch zu Heinrich von Kleist (Schanze 1989, 242f.)</p>
 </div>
-Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. <red> Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten</red>:  
+Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. **Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten**:  
 
 <div class="figure">
 <div id="container">bla</div>
@@ -75,7 +75,7 @@ var d = [[{"drama":"vndf.0","figure":"Graf Paris","tokens":641},{"drama":"r0px.0
 render_stacked_figure_statistics("#container", d, ["Romeo und Julia (Ü: Schlegel)","Die Familie Schroffenstein","Emilia Galotti"])
 </script>
 
-Betrachtet man die obige Visualsiernung der Redeanteile von Figuren, so zeigt sich auf den ersten Blick, dass das titelgebendene Liebespaar in *Romeo und Julia* mit 10.697 Wörtern fast die Hälfte der gesamten dramatischen Rede von ca. 25.000 Wörtern spricht. Ähnlich zentral präsentiert Kleist das Liebespaar in *Die Familie Schroffenstein*, Agnes und Ottokar, die mit 7730 Wörtern zusammen etwa ein Drittel des Gesamttextes von ca 23.000 Wörtern sprechen. Unabhängig davon, dass Agnes' Vater Sylvester mehr als seine Tochter spricht und damit das Liebespaar nicht wie bei Shakespeare die mit Abstand größten Redeanteile trägt, lässt sich im Vergleich mit anderen Stücken sehr deutlich zeigen, dass Liebeskonflikte nicht zwangsläufig anhand der Liebenden selbst gezeigt werden. Emilia Galotti etwa, wie Romeo und Julia auch eine titelgebende Figur, steht nur an fünfter Stelle hinsichtlich der Länge ihrer Redeanteile. Sie spricht nicht einmal halb so viel wie Marinelli und der Prinz. Bei der Analyse der dramatischen Darstellung von Liebeskonflikten scheinen offensichtlich die Kategorien *Aktivität* und *Passivität* von Figuren relevant zu sein. Sie lassen sich sehr einfach analysieren und visualisieren, geben aber dennoch ausgesprochen deutliche Hinweise darauf, wie aktiv oder passiv eine Figur bei der dramatischen Aushandlung von Konflikten ist: *Löst sie* oder löst sie *aus*?
+Betrachtet man die obige Visualisierung der Redeanteile von Figuren, so zeigt sich auf den ersten Blick, dass das titelgebendene Liebespaar in *Romeo und Julia* mit 10.697 Wörtern fast die Hälfte des Gesamttextes (ca. 25.000 Wörtern) spricht. Ähnlich zentral präsentiert Kleist das Liebespaar in *Die Familie Schroffenstein* - Agnes und Ottokar - die mit 7730 Wörtern zusammen etwa ein Drittel des Gesamttextes (ca 23.000 Wörtern) sprechen. Unabhängig davon, dass Agnes' Vater Sylvester etwas mehr als seine Tochter spricht und damit das Liebespaar nicht wie bei Shakespeare die mit Abstand größten Redeanteile trägt, lässt sich im Vergleich mit anderen Stücken sehr deutlich zeigen, dass Liebeskonflikte nicht *zwangsläufig* anhand der Liebenden selbst in dramatische Handlung überführt werden müssen. Emilia Galotti etwa, wie Romeo und Julia auch eine titelgebende Figur, steht nur an fünfter Stelle hinsichtlich der Länge ihrer Redeanteile. Sie spricht nicht einmal halb so viel wie Marinelli und der Prinz. Bei der Analyse der dramatischen Darstellung von Liebeskonflikten scheinen offensichtlich die Kategorien *Aktivität* und *Passivität* von Figuren relevant zu sein. Sie lassen sich sehr einfach analysieren und visualisieren, geben aber dennoch ausgesprochen deutliche Hinweise auf den Grad der Beteiligung einer Figur bei der dramatischen Aushandlung von Konflikten: *Löst sie* oder löst sie *aus*?
 
 
 ### Variation der Äußerungslänge
@@ -133,7 +133,7 @@ Wir machen uns mit o.g. Zitat zunutze, dass der Kontext von Wörtern uns sehr vi
 
 Dies nutzen wir uns bei der sog. Wortfeldanalyse aus. Dazu haben wir Wörterbücher zu fünf relevanten Themen erstellt: [Familie](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Familie.txt), [Krieg](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Krieg.txt), [Liebe](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Liebe.txt), [Ratio](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Ratio.txt) und [Religion](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Religion.txt). Sie sind hier im Volltext verlinkt, in jedem Wortfeld sind zwischen 70 und 90 Wörter enthalten.
 
-Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figur ermitteln.
+Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figurenrede ermitteln.
 
 <div class="hslider">
   <ul>
@@ -159,7 +159,9 @@ render_spiderweb("#fields-vndf0", d4, ["Julia", "Romeo"]);
 render_spiderweb_table("#fields-vndf0-table", d4);
 </script>
 
-Wie in <span class="ref-figure" /> klar zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julia Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie.
+Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie. (Zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die leidige Angelegenheit in Sachen Graf Paris zu besprechen hat:
+
+> Wie steht's mit deiner Lust, dich zu vermählen?
 
 <div class="hslider">
   <ul>
