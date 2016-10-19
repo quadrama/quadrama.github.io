@@ -73,8 +73,8 @@ Betrachtet man die obige Visualsiernung der Redeanteile von Figuren, so zeigt si
 
 ### Variation der Äußerungslänge
 
-Nicht nur die Redeanteile eine Figur in Bezug auf den Gesamttext, sondern auch die Verteilung der *Redelängen einzelner Äußerungen* dieser Figur kann Hinweise auf die Funktion dieser dramatischen Figur geben.
-Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge" sogenannte [Boxplots](https://de.wikipedia.org/wiki/Boxplot)
+Nicht nur die Anteile der Rede einer Figur in Bezug auf den Gesamttext, sondern auch die Variation der *Länge ihrer Äußerungen* kann Hinweise auf die Funktion einer dramatischen Figur geben.
+Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge" sogenannte [Boxplots](https://de.wikipedia.org/wiki/Boxplot). Der Analyse der Grafiken liegt die Annahme zugrunde, dass Figuren mit relativ vielen langen Äußerungen wichtige Figuren in Bezug auf den dramatischen Konflikt und die dramatische Handlung sind. Dies wurde in Ansätzen bereits von der literaturwissenschaftlichen Forschung versucht zu berücksichtigen, etwa in Arbeiten zu der Frage, welche Bedeutung der längste Monolog eines Stückes hat (Leo 1908; Lott 1909; Grussendorf 1914; Huersch 1947; Clemen 1964)
 
 
 <div class="hslider" id="utterance-length-variation">
@@ -105,7 +105,10 @@ render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 
 </script>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Die angezeigten Boxen beinhalten die mittleren 50% der Daten, was in diesem Fall bedeutet, dass unter den Boxen das Viertel der kürzeren Äußerungen und über den Boxen das Viertel der längeren Äußerungen liegt. Die Punkte (Ausreißer) repräsentieren besonders lange Äußerungen. Dass die angezeigten Boxen jeweils kurz über Null beginnen, lässt sich damit erklären, dass es kaum eine Figur im dramatischen Texten gibt, die nicht irgendwann einmal in Einsatz-Antworten auf andere Figuren reagiert. Benvolio (ganz links) und Graf Paris etwa machen dies jedoch fast ausschließlich (flache Box, niedriger [Median](https://de.wikipedia.org/wiki/Median), kaum Ausreißer). Figuren dieser Art sind in der Regel nicht in solchen Szenen präsent, in denen zentale Elemente des dramatischen Konfliktes augehandelt werden. Bruder Lorenz hingegen (zweiter von link) ist offensichtlich sehr wenig in Gesprächssituationen involviert, in denen kurze Antworten genügen: Der Median liegt tief (d.h. 50-75% der Äußerungen sind relativ lang) und seine Äußerungen beinhalten viele Ausbrecher. Auffällig ist, dass Romeos und Julias Verteilung der Redelängen sehr ähnlich ist; Der etwas höhere Median bei Julia zeigt an, dass sie etwas häufiger als Romeo in kürzeren Äußerungen spricht; das macht sie überwiegend dann, wenn sie mit ihren Eltern co-präsent ist. 
+Es deutet vieles darauf hin, dass die Äußerungslänge ein u.a. Marker für die Reflexionskraft von Figuren ist; sie kann allerdings auch auf andere Figureneigenschaften hinweisen, etwa die rauschhafte Verliebtheit von Romeo und Julia. 
+Insgesamt zeigt sich, dass die Längenvarianz der Figurenrede in *Romeo und Julia* sehr groß ist (mal viele, mal wenige Ausreißer, unterschiedlich hohe Boxen und Mediane). Dieser Befund bestätigt das Bild von einer diversen, variantenreichen Dramenkonzeption Shakespears.
+Vergleicht man hierzu die Äußerungslängen in der *Familie Schroffenstein* (Grafik oben nach links wischen), so zeigt sich das konträre Bild einer sehr geringen Varianz. Kleist reguliert die Redelänge seiner Figuren offensichtlich viel stärker; dies kann - so unsere These - zurückgeführt werden auf eine Veränderung der Dramenkonventionen durch Lessing hin zu einer Annäherung an die Alltagssprache. Obgleich die Kleist'schen Syntaxen dieser Beobachtung nicht so sehr entsprechen, die quantitativen Analysen deuten darauf hin. .
 
 
 ### Thematische Analyse der Figurenrede
