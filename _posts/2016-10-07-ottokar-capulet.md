@@ -31,7 +31,12 @@ Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository]
 ## Ausgangslage
 
 ### Forschungsproblem
-Die literaturwissenschaftliche Forschung hat bereits zahlreiche Textmerkmale identifiziert, die den Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versuchen. Angeführt werden dabei etwa von Shakespeare häufig eingesetzte und bei Kleist ebenfalls nachweisbare Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch Handlungselemente (Kindsmord), Stilelemente (Grausamkeit des Kindsmords) und Motive wie das der verbotenen Liebe (Schmidt 2003, 62). Auch vermeintliche Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der wenig eindeutigen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck). 
+Die literaturwissenschaftliche Forschung hat bereits zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften, die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind. Hierzu zählen
+- Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch 
+- Handlungselemente (Kindsmord), 
+- Stilelemente (Grausamkeit des Kindsmords) und 
+- Motive wie das der verbotenen Liebe (Schmidt 2003, 62). 
+Auch vermeintliche Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
 
 ### Forschungsfrage
 
@@ -41,7 +46,7 @@ Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur 
 
 ## Mikroanalyse: Figurenrede
 
-Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer inhaltlichen Interpretation von Texten sekundieren können, indem diejenigen Informationen holistisch sichtbar gemacht werden, die durch die Linearität der Texte für menschliche Leser sonst kaum zugänglich sind. 
+Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. 
 
 <div class="figure">
 <div id="container">bla</div>
@@ -333,10 +338,12 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 
 ## Bibliographie
 
-1. Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
-2. Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
-3. Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
-4. Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
+1. Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
+2. Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
+3. Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
+4. Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
+4. Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
+5. 
 
 
 ## Technical Appendix
