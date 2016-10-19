@@ -50,7 +50,6 @@ Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur 
 Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. Dass Zählen und Aufzählen jedoch bei Weitem nicht reicht, um Erkenntnisprozeese zu befördern, mag ein kurzer Blick in den 8./9. Band der Reihe "Indices zur deutschen Literatur" (Schanze 1989, 242f.) zeigen:
 <div class="figure">
   <img width="400" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" />
-
   <p class="caption">Wörterbuch zu Heinrich von Kleist (Schanze 1989, 242f.)</p>
 </div>
 Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. **Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten**:  
@@ -159,9 +158,37 @@ render_spiderweb("#fields-vndf0", d4, ["Julia", "Romeo"]);
 render_spiderweb_table("#fields-vndf0-table", d4);
 </script>
 
-Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie. (Zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die leidige Angelegenheit in Sachen Graf Paris zu besprechen hat:
+Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie. (Zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die (ihr später leidigen) Angelegenheiten in Sachen Graf Paris zu besprechen hat:
 
 > Wie steht's mit deiner Lust, dich zu vermählen?
+(Gräfin Capulet)
+
+Auch die anderen Figuren des Stücks verhalten sich erwartbar bezüglich des thematischen Musters ihrer Rede. Der Raufbold Tybalt etwa spricht überwiegend in Kriegssemantiken. Interessant ist die Beobachtung, dass die Amme als *einfache* Figur stärker als der Klosterbruder in religiösen Semantiken spricht. Dies lässt sich einerseits mit ihre Exklamationen erklären: “Gott behüte”; “bei meiner Seele!”, “Nu, weiß Gott”. Andererseits stellt auch hier die bei Julia schon angesprochene Co-Präsenz anderer Figuren einen großen Einflussfaktor auf die Semantiken der Figurenrede dar. Bruder Lorenzo tritt fast ausschließlich dann auf, wenn Romeo und Julia präsent sind. Entsprechend viel spricht er über deren Thema: Liebe. <br>
+Aktiviert man in der obigen Abbildung einmal diejenigen Figuren, die für bestimmte Konflikte des Dramas stehen (etwa Romeo=Liebe, Capulet=Famile, Amme=Vermittlung, Tybalt=Streit), so zeigt sich, dass die einzelnen Muster der Figurenrede stark divergieren. Dies klingt wenig überraschend, ein so klares Repräsentationsverhältnis von Figurentypus zu Redesemantik findet sich allerdings nicht in allen dramatischen Texten. Insbesondere für die Zeit ab 1770 lässt sich hier eine bemerkenswerte Ausdifferenzierung beobachten.
+
+#### Zeitgenössische Einflüsse auf Kleist
+
+Es ist davon auszugehen, dass Kleist die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. Wir haben uns entschieden, dafür Stücke des Genres *Bürgerliches Trauerspiel* denen der Strömung *Sturm und Drang* gegenüberzustellen. Die folgenden Abbildungen zeigen jeweils drei Stücke aus den Vergleichgruppen:
+<div class="figure">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png" />
+  <p class="caption">Lessing (1772), Schiller (1784), Iffland (1785)</p>
+</div>
+<br>
+<br>
+<div class="figure">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" />
+  <p class="caption">Klinger (1775), Schiller (1787)</p>
+</div>
+
+Vergleicht man nun die Stücke des Bürgerlichen Trauerspiels (*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller) mit denen des Sturm und Drang (*Das leidende Weib* von Klinger, *Don Carlos* von Schiller), so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) bestimmte Ideen oder Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.: <br><br>
+- 1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*<br>
+- 1771: Goethe: *Rede zum Schäkespears Tag*<br>
+- 1773: Herder: *Von deutscher Art und Kunst*<br>
+- 1774: Lenz: *Anmerkungen übers Theater*<br>
+- 1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*<br>
+
+Neu ist allerdings der Fund, dass sich dieser Einfluss auch auf die Semantiken der Figurenrede bezieht. Wir möchten nicht darüber spekulieren, ob dies Ergebnis einer bewussten oder unbewussten Imitation ist. Beide Annahmen würden zu der These führen, dass Autoren die semantische Gestaltung der Rede ihrer Figuren auf die ein oder andere Weise regulieren. Vorerst scheint uns eine moderatere Erklärung dieses Befundes treffender. Sie erklärt die Ähnlichkeit der semantischen Muster als Ergebnis spezifischer Konzeptionen der dramatischen Konfliktlösung. 
+
 
 <div class="hslider">
   <ul>
