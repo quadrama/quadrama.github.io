@@ -18,14 +18,21 @@ body {
   counter-increment: cnt_figure;
 }
 
-span.ref-figure:before {
+html:lang(de) span.ref-figure:before {
   content: "Abbildung " counter(cnt_figure);
 }
 
-span.ref-table:before {
+html:lang(en) span.ref-figure:before {
+  content: "Figure " counter(cnt_figure);
+}
+
+html:lang(de) span.ref-table:before {
   content: "Tabelle " counter(cnt_table);
 }
 
+html:lang(en) span.ref-table:before {
+  content: "Table " counter(cnt_table);
+}
 
 
 
@@ -37,12 +44,22 @@ span.ref-table:before {
   font-size:0.7em;
 }
 
-.figure .caption:before {
+html:lang(en) .figure .caption:before {
+  content: "Figure " counter(cnt_figure) ": ";
+  font-weight:bold;
+}
+
+html:lang(en) .table .caption:before {
+  content: "Table " counter(cnt_table) ": ";
+  font-weight: bold;
+}
+
+html:lang(de) .figure .caption:before {
   content: "Abbildung " counter(cnt_figure) ": ";
   font-weight:bold;
 }
 
-.table .caption:before {
+html:lang(de) .table .caption:before {
   content: "Tabelle " counter(cnt_table) ": ";
   font-weight: bold;
 }
