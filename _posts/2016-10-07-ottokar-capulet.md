@@ -50,7 +50,7 @@ Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur 
 
 Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. Dass Zählen und Aufzählen jedoch bei Weitem nicht reicht, um Erkenntnisprozeese zu befördern, mag ein kurzer Blick in den 8./9. Band der Reihe "Indices zur deutschen Literatur" (Schanze 1989, 242f.) zeigen:
 <div class="figure">
-  <img width="400" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" />
+  <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png"><img width="576" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" /></a>
   <p class="caption">Wörterbuch zu Heinrich von Kleist (Schanze 1989, 242f.)</p>
 </div>
 Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. **Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten**:  
@@ -229,11 +229,13 @@ Nimmt man auch noch Barnabe hinzu - die Tochter der Totengräberwitwe, die als S
 
 Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld mögliche Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'sche Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels. 
 
-<div class="figure">
+<<div class="figure">
   <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png" />
-  <p class="caption">Lessing (1772), Schiller (1784), Iffland (1785)</p>
+  <p class="caption">Ergebnis der Mikroanalysen</p>
 </div>
 <br>
+
+
 
 
 ## Makroanalyse: Gattungskontexte
