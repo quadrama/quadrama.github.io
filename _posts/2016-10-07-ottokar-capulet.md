@@ -398,10 +398,7 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 
 ## Bibliographie
 
-1. Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
-
-
-Berghahn, Klaus L. (1970). Formen der Dialogführung in Schillers klassischen Dramen. Ein Beitrag zur Poetik des Dramas. Münstersche Beiträge zur deutschen Literaturwissenschaft. Band 5. Münster.
+1. Berghahn, Klaus L. (1970). Formen der Dialogführung in Schillers klassischen Dramen. Ein Beitrag zur Poetik des Dramas. Münstersche Beiträge zur deutschen Literaturwissenschaft. Band 5. Münster. 
 Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
 Corssen, Meta (1930). Kleist und Shakespeare. Weimar.
 Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
@@ -417,6 +414,7 @@ Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihre
 Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
 Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
 Zimmer, Reinhold (1982). Dramatischer Dialog und außersprachlicher Kontext Dialogformen in deutschen Dramen des 17. bis 20. Jahrhunderts. Palaestra. Göttingen.
+
 
 
 
