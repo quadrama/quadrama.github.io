@@ -49,7 +49,7 @@ Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur 
 
 Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. Dass Zählen und Aufzählen jedoch bei Weitem nicht reicht, um Erkenntnisprozeese zu befördern, mag ein kurzer Blick in das "Wörterbuch zu Heinrich von Kleist" (Schanze 1989, 242f.) zeigen:
 <div class="figure">
-  <img height="250" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" />
+  <img height="400" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" />
   <p class="caption">Räumliche Interpretation der Wortvektoren (in 2 Dimensionen)</p>
 </div>
 Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Praktiken der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten:  
