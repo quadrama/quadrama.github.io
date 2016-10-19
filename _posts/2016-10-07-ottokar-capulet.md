@@ -31,12 +31,13 @@ Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository]
 ## Ausgangslage
 
 ### Forschungsproblem
-Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften , die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen <br><br>
--- Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch <br>
--- Handlungselemente (Kindsmord), <br>
--- Stilelemente (Grausamkeit des Kindsmords) und <br>
--- Motive wie das der verbotenen Liebe (Schmidt 2003, 62). <br>
-
+Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften , die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen
+<ul>
+  <li>Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch</li>
+  <li>Handlungselemente (Kindsmord)</li>
+  <li>Stilelemente (Grausamkeit des Kindsmords) und</li>
+  <li>Motive wie das der verbotenen Liebe (Schmidt 2003, 62).</li>
+</ul>
 Auch *vermeintliche* direkte Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
 
 ### Forschungsfrage
@@ -169,7 +170,7 @@ Aktiviert man in der obigen Abbildung einmal diejenigen Figuren, die für bestim
 
 #### Zeitgenössische Einflüsse auf Kleist
 
-Es ist davon auszugehen, dass Kleist die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. Wir haben uns entschieden, dafür Stücke des Genres *Bürgerliches Trauerspiel* denen der Strömung *Sturm und Drang* gegenüberzustellen. Die folgenden Abbildungen zeigen jeweils drei Stücke aus den Vergleichgruppen:
+Eine auch nur kursorische Lektüre der Kleist'schen Briefe lassen die Annahme zu, dass Kleist die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. So wurde Kleist immer wieder im Einflussbereich Schillers gelesen - bishin zur "Zwangsfixierung" bei der Konzeptinon der Familie *Schroffenstein* (Reinhardt 1988/89,204). Wir haben uns entschieden, Vergleichsanalysen anhand der Stücke des Genres *Bürgerliches Trauerspiel* und denen der Strömung *Sturm und Drang* durchzuführen. Die folgenden Abbildungen zeigen jeweils drei Stücke aus den Vergleichgruppen, jeweils durch ein Drama Schillers und anderer Autoren vertreten:
 <div class="figure">
   <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png" />
   <p class="caption">Lessing (1772), Schiller (1784), Iffland (1785)</p>
@@ -181,14 +182,19 @@ Es ist davon auszugehen, dass Kleist die zeitgenössische Dramenproduktion durch
   <p class="caption">Klinger (1775), Schiller (1787)</p>
 </div>
 
-Vergleicht man nun die Stücke des Bürgerlichen Trauerspiels (*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller) mit denen des Sturm und Drang (*Das leidende Weib* von Klinger, *Don Carlos* von Schiller), so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) bestimmte Ideen oder Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.: <br><br>
--- 1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*<br>
--- 1771: Goethe: *Rede zum Schäkespears Tag*<br>
--- 1773: Herder: *Von deutscher Art und Kunst*<br>
--- 1774: Lenz: *Anmerkungen übers Theater*<br>
--- 1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*<br>
+Vergleicht man nun die Stücke des Bürgerlichen Trauerspiels (*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller) mit denen des Sturm und Drang (*Das leidende Weib* von Klinger, *Don Carlos* von Schiller), so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) bestimmte Ideen oder Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.: 
+  <ul>
+  <li>1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*</li>
+  <li>1771: Goethe: *Rede zum Schäkespears Tag*</li>
+  <li>1773: Herder: *Von deutscher Art und Kunst*</li>
+  <li>1774: Lenz: *Anmerkungen übers Theater*</li>
+  <li>1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*</li>
+</ul>
+Neu ist allerdings der Fund, dass sich dieser Einfluss auch auf die Semantiken der Figurenrede bezieht. Wir möchten nicht darüber spekulieren, ob dies Ergebnis einer bewussten oder unbewussten Imitation ist. Beide Annahmen würden zu der These führen, dass Autoren die semantische Gestaltung der Rede ihrer Figuren auf die ein oder andere Weise regulieren. Vorerst scheint uns eine moderatere Erklärung unseres Fundes treffender. Sie erklärt die Ähnlichkeit der semantischen Muster als Ergebnis spezifischer Konzeptionen der dramatischen Konfliktlösung. 
 
-Neu ist allerdings der Fund, dass sich dieser Einfluss auch auf die Semantiken der Figurenrede bezieht. Wir möchten nicht darüber spekulieren, ob dies Ergebnis einer bewussten oder unbewussten Imitation ist. Beide Annahmen würden zu der These führen, dass Autoren die semantische Gestaltung der Rede ihrer Figuren auf die ein oder andere Weise regulieren. Vorerst scheint uns eine moderatere Erklärung dieses Befundes treffender. Sie erklärt die Ähnlichkeit der semantischen Muster als Ergebnis spezifischer Konzeptionen der dramatischen Konfliktlösung. 
+#### Kleists Figuren
+
+Von den verfeindeten Schroffensteins aus dem Hause Rossitz und Warwand sollen im Folgenden erst einmal die Eltern Ottokars - also dem Pendat Romeos - analysiert werden. Die folgende Abbildung lässt erkennen, dass die Gemahlin Euchstache deutlich stärker als ihr Mann Rupert in den Semantiken von Religion, Familie und Liebe spricht, dieser dafür eher Kriegs- oder Kampfsemantiken aufruft. Nimmt man nun die Eltern von Agnes - der analogen Figur Julias - hinzu, so zeigt sich, dass die Rede dieser Figuren (Silvester und Gertrude), dem Muster der Figurenrede von Rupert und Eustache nahezu abbildgetreu entsprechen; wobei Gertrud wie ihre Geschlechtsgenossen und Stiefschwester Eustache überwiegend in den Semantiken von Religion und Familie spricht; nicht jedoch in denen der Liebe und Vernunft. Das lässt sich mit ihrer Einstellung zu der Familienfehde erklären: Während ihr Gemahl Silvester besonnen und rational auf die Anfeindungen durch Rupert reagiert, ist sie hingegen recht schnell von ihren eigenen Kurzschlüssen über die vermeintlichen Vergehen der Rossitzer überzeugt.
 
 
 <div class="hslider">
@@ -216,7 +222,19 @@ render_spiderweb_table("#fields-r0px0-table", d5);
 
 </script>
 
-- Diskussion Schroffenstein
+Nimmt man auch noch Barnabe hinzu - die Tochter der Totengräberwitwe, die als Shakespear'sche Hexe gelesen wird - so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. **HINWEIS IN BRIEF ÜBER HERDER**. Angesichts dieser Sensibilität Kleists für das Geschlecht seiner Figuren sind die spezifischen Muster der Figurenreden von Agnes und Ottokar von hohem Interpretationspotential. Agnes spricht in den Semantiken der Männer, und Ottokar scheint eine Art Mischform zwischen weiblichem und männlichem Reden darzustellen. <br> Vor dem Hintergrund der chiastischen Struktur, nach dem Kleist seinen Text konzipiert hat, bekommt dieser Fund eine besondere Reichweite für die Textinterpretation: Agnes wird am Ende des Textes von Rupert dessen Mantel gekleidet, um sie vor seinem herannahenden Vater zu schützen. Dieser soll denken, Agnes sei sein eigener Sohn. Im Gegenzug zieht Ottokar Agnes' Kleidung an und wird von seinem eigenen Vater in dem Glauben getötet, die Tochter der verfeindeten Warwands zu sein. Agnes wiederum wird von dem später auftretenden Silvester für Rupert gehalten und ebenfalls erstochen. Der Fund einer geschlechtskonträren Semantisierung der Rede von Agnes und Ottokar entspricht der finalen und letztlich tragischen äußeren Identifikation des Liebespaares mit dem jeweils anderen. 
+
+
+#### Ergebnisse der Mikroanalyse
+
+Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld mögliche Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'sche Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels. 
+
+<div class="figure">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png" />
+  <p class="caption">Lessing (1772), Schiller (1784), Iffland (1785)</p>
+</div>
+<br>
+
 
 ## Makroanalyse: Gattungskontexte
 
@@ -380,16 +398,24 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 
 1. Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
 
+
+Berghahn, Klaus L. (1970). Formen der Dialogführung in Schillers klassischen Dramen. Ein Beitrag zur Poetik des Dramas. Münstersche Beiträge zur deutschen Literaturwissenschaft. Band 5. Münster.
 Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
+Corssen, Meta (1930). Kleist und Shakespeare. Weimar.
 Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
 Grussendorf, Hermann (1914). Der Monolog in Drama des Sturms und Drangs [Diss.]. München.
+Gundolf, Friedrich (1911). Shakespeare und der deutsche Geist. Berlin.
 Huersch, Irmgard (1947). Der Monolog im deutschen Drama von Lessing bis Hebbel. Winterthur.
 Leo, Friedrich (1908). Der Monolog im Drama. Ein Beitrag zur griechisch-römischen Poetik. Berlin.
 Lott, Bernhard (1909). Der Monolog im englischen Drama vor Shakespeare [Diss.]. Greifswald.
+Reinhardt, Hartmut (1988/89): Rechtsverwirrung und Verdachtspsychologie. Spuren der Schiller-Rezeption bei Heinrich Kleist. Kleist-Jahrbuch: 198-218
 Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
+Schanze, Helmut (2., völlig neu bearb. Aufl.1989). Wörterbuch zu Heinrich von Kleist. Sämtliche Erzählungen, Anekdoten und kleine Schriften. Indices zur deutschen Literatur. Bd. 20. Tübingen.
 Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
 Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
 Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
+Zimmer, Reinhold (1982). Dramatischer Dialog und außersprachlicher Kontext Dialogformen in deutschen Dramen des 17. bis 20. Jahrhunderts. Palaestra. Göttingen.
+
 
 
 ## Technical Appendix
