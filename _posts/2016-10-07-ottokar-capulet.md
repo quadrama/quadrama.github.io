@@ -31,12 +31,13 @@ Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository]
 ## Ausgangslage
 
 ### Forschungsproblem
-Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften , die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen <br><br>
--- Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch <br>
--- Handlungselemente (Kindsmord), <br>
--- Stilelemente (Grausamkeit des Kindsmords) und <br>
--- Motive wie das der verbotenen Liebe (Schmidt 2003, 62). <br>
-
+Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften , die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen
+<ul>
+  <li>Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch</li>
+  <li>Handlungselemente (Kindsmord)</li>
+  <li>Stilelemente (Grausamkeit des Kindsmords) und</li>
+  <li>Motive wie das der verbotenen Liebe (Schmidt 2003, 62).</li>
+</ul>
 Auch *vermeintliche* direkte Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
 
 ### Forschungsfrage
@@ -181,13 +182,14 @@ Eine auch nur kursorische Lektüre der Kleist'schen Briefe lassen die Annahme zu
   <p class="caption">Klinger (1775), Schiller (1787)</p>
 </div>
 
-Vergleicht man nun die Stücke des Bürgerlichen Trauerspiels (*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller) mit denen des Sturm und Drang (*Das leidende Weib* von Klinger, *Don Carlos* von Schiller), so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) bestimmte Ideen oder Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.: <br><br>
--- 1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*<br>
--- 1771: Goethe: *Rede zum Schäkespears Tag*<br>
--- 1773: Herder: *Von deutscher Art und Kunst*<br>
--- 1774: Lenz: *Anmerkungen übers Theater*<br>
--- 1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*<br>
-
+Vergleicht man nun die Stücke des Bürgerlichen Trauerspiels (*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller) mit denen des Sturm und Drang (*Das leidende Weib* von Klinger, *Don Carlos* von Schiller), so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) bestimmte Ideen oder Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.: 
+  <ul>
+  <li>1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*</li>
+  <li>1771: Goethe: *Rede zum Schäkespears Tag*</li>
+  <li>1773: Herder: *Von deutscher Art und Kunst*</li>
+  <li>1774: Lenz: *Anmerkungen übers Theater*</li>
+  <li>1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*</li>
+</ul>
 Neu ist allerdings der Fund, dass sich dieser Einfluss auch auf die Semantiken der Figurenrede bezieht. Wir möchten nicht darüber spekulieren, ob dies Ergebnis einer bewussten oder unbewussten Imitation ist. Beide Annahmen würden zu der These führen, dass Autoren die semantische Gestaltung der Rede ihrer Figuren auf die ein oder andere Weise regulieren. Vorerst scheint uns eine moderatere Erklärung unseres Fundes treffender. Sie erklärt die Ähnlichkeit der semantischen Muster als Ergebnis spezifischer Konzeptionen der dramatischen Konfliktlösung. 
 
 #### Kleists Figuren
