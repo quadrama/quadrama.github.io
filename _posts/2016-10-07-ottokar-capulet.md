@@ -342,16 +342,17 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 ## Bibliographie
 
 1. Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
-2. Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
-3. Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
-4. Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
-4. Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
-5. 
+
 Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
+Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
 Grussendorf, Hermann (1914). Der Monolog in Drama des Sturms und Drangs [Diss.]. München.
 Huersch, Irmgard (1947). Der Monolog im deutschen Drama von Lessing bis Hebbel. Winterthur.
 Leo, Friedrich (1908). Der Monolog im Drama. Ein Beitrag zur griechisch-römischen Poetik. Berlin.
 Lott, Bernhard (1909). Der Monolog im englischen Drama vor Shakespeare [Diss.]. Greifswald.
+Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
+Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
+Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
+Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
 
 
 ## Technical Appendix
