@@ -229,12 +229,12 @@ Nimmt man auch noch Barnabe hinzu - die Tochter der Totengräberwitwe, die als S
 
 Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld mögliche Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'sche Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels. 
 
-<p>
-<a href="https://github.com/quadrama/quadrama.github.io/blob/master/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png">
- <img width="600" alt= "Ergebnis Mikroanalyse "src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png" />
-  <p class="caption">Lessing (1772), Schiller (1784), Iffland (1785)</p>
-  </a>
-</p>
+<<div class="figure">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png" />
+  <p class="caption">Ergebnis der Mikroanalysen</p>
+</div>
+<br>
+
 
 
 
