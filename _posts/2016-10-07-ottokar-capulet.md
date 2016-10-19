@@ -31,13 +31,13 @@ Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository]
 ## Ausgangslage
 
 ### Forschungsproblem
-Die literaturwissenschaftliche Forschung hat bereits zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften, die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind. Hierzu zählen <br>
+Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften , die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen <br>
 - Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch <br>
 - Handlungselemente (Kindsmord), <br>
 - Stilelemente (Grausamkeit des Kindsmords) und <br>
 - Motive wie das der verbotenen Liebe (Schmidt 2003, 62). <br>
 
-Auch vermeintliche Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
+Auch *vermeintliche* direkte Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
 
 ### Forschungsfrage
 
@@ -47,7 +47,12 @@ Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur 
 
 ## Mikroanalyse: Figurenrede
 
-Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. 
+Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. Dass Zählen und Aufzählen jedoch bei Weitem nicht reicht, um Erkenntnisprozeese zu befördern, mag ein kurzer Blick in das "Wörterbuch zu Heinrich von Kleist" (Schanze 1989, 242f.) zeigen:
+<div class="figure">
+  <img height="250" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" />
+  <p class="caption">Räumliche Interpretation der Wortvektoren (in 2 Dimensionen)</p>
+</div>
+Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Praktiken der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten:  
 
 <div class="figure">
 <div id="container">bla</div>
