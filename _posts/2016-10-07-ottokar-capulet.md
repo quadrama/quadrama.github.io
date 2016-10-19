@@ -31,12 +31,13 @@ Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository]
 ## Ausgangslage
 
 ### Forschungsproblem
-Die literaturwissenschaftliche Forschung hat bereits zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften, die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind. Hierzu zählen
-- Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch 
-- Handlungselemente (Kindsmord), 
-- Stilelemente (Grausamkeit des Kindsmords) und 
-- Motive wie das der verbotenen Liebe (Schmidt 2003, 62). 
-Auch vermeintliche Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
+Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften , die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen <br><br>
+- Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch <br>
+- Handlungselemente (Kindsmord), <br>
+- Stilelemente (Grausamkeit des Kindsmords) und <br>
+- Motive wie das der verbotenen Liebe (Schmidt 2003, 62). <br>
+
+Auch *vermeintliche* direkte Zitate und Metaphern wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; Schabert 2009, 821-842)
 
 ### Forschungsfrage
 
@@ -46,7 +47,13 @@ Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur 
 
 ## Mikroanalyse: Figurenrede
 
-Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. 
+Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dramatischen Texten zu Einsichten führt, die einer Erstlektüre ebenso wie einer professionellen Interpretation von Texten sekundieren können, indem Informationen solcher Art sichtbar gemacht werden, die durch Linearität und Umfang der Texte für menschliche Leser sonst kaum zugänglich sind. Dass Zählen und Aufzählen jedoch bei Weitem nicht reicht, um Erkenntnisprozeese zu befördern, mag ein kurzer Blick in den 8./9. Band der Reihe "Indices zur deutschen Literatur" (Schanze 1989, 242f.) zeigen:
+<div class="figure">
+  <img width="400" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" />
+
+  <p class="caption">Wörterbuch zu Heinrich von Kleist (Schanze 1989, 242f.)</p>
+</div>
+Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. **Für die Darstellung wenig-dimensionaler Daten scheinen uns klassische Balkendiagramme am geeignetsten**:  
 
 <div class="figure">
 <div id="container">bla</div>
@@ -68,13 +75,13 @@ var d = [[{"drama":"vndf.0","figure":"Graf Paris","tokens":641},{"drama":"r0px.0
 render_stacked_figure_statistics("#container", d, ["Romeo und Julia (Ü: Schlegel)","Die Familie Schroffenstein","Emilia Galotti"])
 </script>
 
-Betrachtet man die obige Visualsiernung der Redeanteile von Figuren, so zeigt sich auf den ersten Blick, dass das titelgebendene Liebespaar in *Romeo und Julia* mit 10.697 Wörtern fast die Hälfte der gesamten dramatischen Rede von ca. 25.000 Wörtern spricht. Ähnlich zentral präsentiert Kleist das Liebespaar in *Die Familie Schroffenstein*, Agnes und Ottokar, die mit 7730 Wörtern zusammen etwa ein Drittel des Gesamttextes von ca 23.000 Wörtern sprechen. Unabhängig davon, dass Agnes' Vater Sylvester mehr als seine Tochter spricht und damit das Liebespaar nicht wie bei Shakespeare die mit Abstand größten Redeanteile trägt, lässt sich im Vergleich mit anderen Stücken sehr deutlich zeigen, dass Liebeskonflikte nicht zwangsläufig anhand der Liebenden selbst gezeigt werden. Emilia Galotti etwa, wie Romeo und Julia auch eine titelgebende Figur, steht nur an fünfter Stelle hinsichtlich der Länge ihrer Redeanteile. Sie spricht nicht einmal halb so viel wie Marinelli und der Prinz. Bei der Analyse der dramatischen Darstellung von Liebeskonflikten scheinen offensichtlich die Kategorien *Aktivität* und *Passivität* von Figuren relevant zu sein. Sie lassen sich sehr einfach analysieren und visualisieren, geben aber dennoch ausgesprochen deutliche Hinweise darauf, wie aktiv oder passiv eine Figur bei der dramatischen Aushandlung von Konflikten ist: *Löst sie* oder löst sie *aus*?
+Betrachtet man die obige Visualisierung der Redeanteile von Figuren, so zeigt sich auf den ersten Blick, dass das titelgebendene Liebespaar in *Romeo und Julia* mit 10.697 Wörtern fast die Hälfte des Gesamttextes (ca. 25.000 Wörtern) spricht. Ähnlich zentral präsentiert Kleist das Liebespaar in *Die Familie Schroffenstein* - Agnes und Ottokar - die mit 7730 Wörtern zusammen etwa ein Drittel des Gesamttextes (ca 23.000 Wörtern) sprechen. Unabhängig davon, dass Agnes' Vater Sylvester etwas mehr als seine Tochter spricht und damit das Liebespaar nicht wie bei Shakespeare die mit Abstand größten Redeanteile trägt, lässt sich im Vergleich mit anderen Stücken sehr deutlich zeigen, dass Liebeskonflikte nicht *zwangsläufig* anhand der Liebenden selbst in dramatische Handlung überführt werden müssen. Emilia Galotti etwa, wie Romeo und Julia auch eine titelgebende Figur, steht nur an fünfter Stelle hinsichtlich der Länge ihrer Redeanteile. Sie spricht nicht einmal halb so viel wie Marinelli und der Prinz. Bei der Analyse der dramatischen Darstellung von Liebeskonflikten scheinen offensichtlich die Kategorien *Aktivität* und *Passivität* von Figuren relevant zu sein. Sie lassen sich sehr einfach analysieren und visualisieren, geben aber dennoch ausgesprochen deutliche Hinweise auf den Grad der Beteiligung einer Figur bei der dramatischen Aushandlung von Konflikten: *Löst sie* oder löst sie *aus*?
 
 
 ### Variation der Äußerungslänge
 
-Nicht nur die Redeanteile eine Figur in Bezug auf den Gesamttext, sondern auch die Verteilung der *Redelängen einzelner Äußerungen* dieser Figur kann Hinweise auf die Funktion dieser dramatischen Figur geben.
-Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge" sogenannte [Boxplots](https://de.wikipedia.org/wiki/Boxplot)
+Nicht nur die Anteile der Rede einer Figur in Bezug auf den Gesamttext, sondern auch die Variation der *Länge ihrer Äußerungen* kann Hinweise auf die Funktion einer dramatischen Figur geben.
+Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge" sogenannte [Boxplots](https://de.wikipedia.org/wiki/Boxplot). Der Analyse der Grafiken liegt die Annahme zugrunde, dass Figuren mit relativ vielen *langen* Äußerungen wichtige Figuren in Bezug auf den dramatischen Konflikt und die dramatische Handlung sind. Dies wurde in Ansätzen bereits von der literaturwissenschaftlichen Forschung versucht zu berücksichtigen, etwa in Arbeiten zu der Frage, welche Bedeutung der längste Monolog eines Stückes hat (Leo 1908; Lott 1909; Grussendorf 1914; Huersch 1947; Clemen 1964)
 
 
 <div class="hslider" id="utterance-length-variation">
@@ -105,12 +112,15 @@ render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 
 </script>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Die angezeigten Boxen beinhalten die mittleren 50% der Daten, was in diesem Fall bedeutet, dass unter den Boxen das Viertel der kürzeren Äußerungen und über den Boxen das Viertel der längeren Äußerungen liegt. Die Punkte (Ausreißer) repräsentieren besonders lange Äußerungen. Dass die angezeigten Boxen jeweils kurz über Null beginnen, lässt sich damit erklären, dass es kaum eine Figur im dramatischen Texten gibt, die nicht irgendwann einmal in Einsatz-Antworten auf andere Figuren reagiert. Benvolio (ganz links) und Graf Paris etwa machen dies jedoch fast ausschließlich (flache Box, niedriger [Median](https://de.wikipedia.org/wiki/Median), kaum Ausreißer). Figuren dieser Art sind in der Regel nicht in solchen Szenen präsent, in denen zentale Elemente des dramatischen Konfliktes augehandelt werden. Bruder Lorenz hingegen (zweiter von link) ist offensichtlich sehr wenig in Gesprächssituationen involviert, in denen kurze Antworten genügen: Der Median liegt tief (d.h. 50-75% der Äußerungen sind relativ lang) und seine Äußerungen beinhalten viele Ausbrecher. Auffällig ist, dass Romeos und Julias Verteilung der Redelängen sehr ähnlich ist; Der etwas höhere Median bei Julia zeigt an, dass sie etwas häufiger als Romeo in kürzeren Äußerungen spricht; das macht sie überwiegend dann, wenn sie mit ihren Eltern co-präsent ist. 
+Es deutet vieles darauf hin, dass die Äußerungslänge ein u.a. Marker für die Reflexionskraft von Figuren ist; sie kann allerdings auch auf andere Figureneigenschaften hinweisen, etwa die rauschhafte Verliebtheit von Romeo und Julia. 
+Insgesamt zeigt sich, dass die Längenvarianz der Figurenrede in *Romeo und Julia* sehr groß ist (mal viele, mal wenige Ausreißer, unterschiedlich hohe Boxen und Mediane). Dieser Befund bestätigt das Bild von einer diversen, variantenreichen Dramenkonzeption Shakespears.
+Vergleicht man hierzu die Äußerungslängen in der *Familie Schroffenstein* (Grafik oben nach links wischen), so zeigt sich das konträre Bild einer sehr geringen Varianz. Kleist reguliert die Redelänge seiner Figuren offensichtlich viel stärker; dies kann - so unsere These - zurückgeführt werden auf eine Veränderung der Dramenkonventionen durch Lessing hin zu einer Annäherung an die Alltagssprache (zur bewussten Künstlichkeit natürlicher Dialoge im Drama siehe u.a. Berghahn 1970 u. Zimmer 1982). Obgleich die Kleist'schen Syntaxen dieser Beobachtung nicht so sehr entsprechen, die quantitativen Analysen deuten darauf hin.
 
 
 ### Thematische Analyse der Figurenrede
 
-Natürlich sind wir eigentlich nicht, oder jedenfalls nicht nur, daran interessiert, wer wie viel spricht. Das erlaubt zwar gewisse Einblicke, aber wir interessieren uns ja insbesondere für die Inhalt der Rede, d.h. *worüber wird eigentlich gesprochen*?
+Natürlich sind wir eigentlich nicht - bzw. nicht nur - daran interessiert, wer wie viel spricht. Bis zu einem gewissen Grad lassen sich zwar Zusammenhänge von Figurentyp und Quantität der Figurenrede annahmen, aber das Besondere und Innovative des QuaDramA-Projektes ist, dass es uns erlaubt, die Inhalte und Semantiken dieser Rede strukturiert darzustellen. Wir zielen also ab auf eine Beantwortung der Frage, *worüber wird eigentlich gesprochen*?
 
 Grundsätzlich gehen wir von der Annahme aus, dass Worte und Themen sich gegenseitig bedingen. Man kann nicht über bestimmte Themen sprechen ohne bestimmte, semantisch verwandte Wörter zu verwenden. Umgedreht heißt das, dass die Verwendung bestimmter Wörter Rückschlüsse auf die verhandelten Themen erlaubt. Natürlich gibt es keine 1-zu-1-Beziehung zwischen Themen und Wörtern: Wörter sind ambig, also mehrdeutig. Das offensichtliche Beispiel heute ist *Frankfurt*, das [für](https://de.wikipedia.org/wiki/Frankfurt_am_Main) [verschiedene](https://de.wikipedia.org/wiki/Frankfurt_(Oder)) [Städte](https://de.wikipedia.org/wiki/Stadt_Frankfurt) [und](https://de.wikipedia.org/wiki/Frankfort_(Kentucky)) [Orte](https://de.wikipedia.org/wiki/(204852)_Frankfurt) stehen kann.
 
@@ -123,7 +133,7 @@ Wir machen uns mit o.g. Zitat zunutze, dass der Kontext von Wörtern uns sehr vi
 
 Dies nutzen wir uns bei der sog. Wortfeldanalyse aus. Dazu haben wir Wörterbücher zu fünf relevanten Themen erstellt: [Familie](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Familie.txt), [Krieg](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Krieg.txt), [Liebe](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Liebe.txt), [Ratio](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Ratio.txt) und [Religion](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Religion.txt). Sie sind hier im Volltext verlinkt, in jedem Wortfeld sind zwischen 70 und 90 Wörter enthalten.
 
-Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figur ermitteln.
+Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figurenrede ermitteln.
 
 <div class="hslider">
   <ul>
@@ -149,7 +159,9 @@ render_spiderweb("#fields-vndf0", d4, ["Julia", "Romeo"]);
 render_spiderweb_table("#fields-vndf0-table", d4);
 </script>
 
-Wie in <span class="ref-figure" /> klar zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julia Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie.
+Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie. (Zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die leidige Angelegenheit in Sachen Graf Paris zu besprechen hat:
+
+> Wie steht's mit deiner Lust, dich zu vermählen?
 
 <div class="hslider">
   <ul>
@@ -339,11 +351,17 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 ## Bibliographie
 
 1. Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
-2. Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
-3. Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
-4. Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
-4. Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
-5. 
+
+Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
+Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
+Grussendorf, Hermann (1914). Der Monolog in Drama des Sturms und Drangs [Diss.]. München.
+Huersch, Irmgard (1947). Der Monolog im deutschen Drama von Lessing bis Hebbel. Winterthur.
+Leo, Friedrich (1908). Der Monolog im Drama. Ein Beitrag zur griechisch-römischen Poetik. Berlin.
+Lott, Bernhard (1909). Der Monolog im englischen Drama vor Shakespeare [Diss.]. Greifswald.
+Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
+Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
+Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
+Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
 
 
 ## Technical Appendix
