@@ -180,15 +180,19 @@ Aktiviert man in der obigen Abbildung einmal diejenigen Figuren, die für bestim
 
 Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. So wurde Kleist immer wieder im Einflussbereich Schillers gelesen -- bishin zur "Zwangsfixierung" bei der Konzeption der Familie *Schroffenstein* (Reinhardt 1988/89,204). Wir haben uns entschieden, Vergleichsanalysen anhand der Stücke des Genres *Bürgerliches Trauerspiel* und denen der Strömung *Sturm und Drang* durchzuführen. Die folgenden Abbildungen zeigen jeweils drei Stücke aus den Vergleichsgruppen, jeweils durch ein Drama Schillers und anderer Autoren vertreten:
 <div class="figure">
-  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png" />
+  <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png" /></a>
   <p class="caption">*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller</p>
 </div>
 <br>
 <br>
 <div class="figure">
-  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" />
+  <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" /></a>
   <p class="caption">*Das leidende Weib* von Klinger, *Don Carlos* von Schiller</p>
 </div>
+
+
 
 Vergleicht man nun die abgebildeten Stücke des Bürgerlichen Trauerspiels mit denen des Sturm und Drang, so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) individuelle Ideen oder spezifische Positionen in Bezug auf dramatische Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. 
 
