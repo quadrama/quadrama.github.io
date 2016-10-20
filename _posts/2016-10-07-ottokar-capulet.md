@@ -283,7 +283,7 @@ Eines der Standardverfahren zur quantitativen Analyse von Gattungen kommt aus de
 
 Diese Wortvektoren können im n-dimensionalen Raum räumlich interpretiert werden und entsprechende geometrische Distanzmaße angewendet werden. Diese numerische Distanz erlaubt eine (hierarchische) Gruppierung der Texte nach Ähnlichkeiten in der Worthäufigkeit. Zunächst werden dabei die ähnlichsten Texte gruppiert, dann etwas weniger ähnliche Texte dazugenommen (s.a. [Hierarchische Clusteranalyse](https://de.wikipedia.org/wiki/Hierarchische_Clusteranalyse).
 
-Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com/site/computationalstylistics/stylo)) haben wir auf 95 Tragödien und 86 Komödien angewendet (<span class="ref-table"/>). <span class="ref-figure" /> -- Tabelle nach links wischen -- zeigt einen Ausriss, das vollständige Dendrogram kann [hier]({{ site.url }}/assets/2016-10-07-ottokar-capulet/cluster-analysis.pdf) als PDF heruntergeladen werden. In beiden Fällen sind Tragödien grün gekennzeichnet und Komödien blau.
+Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com/site/computationalstylistics/stylo)) haben wir auf 95 Tragödien und 86 Komödien angewendet (Tabelle 4). Abbildung 11 -- hierzu Tabelle nach links wischen -- zeigt einen Ausriss, das vollständige Dendrogram kann [hier]({{ site.url }}/assets/2016-10-07-ottokar-capulet/cluster-analysis.pdf) als PDF heruntergeladen werden. In beiden Fällen sind Tragödien grün gekennzeichnet und Komödien blau.
 
 <div class="hslider">
   <ul>
