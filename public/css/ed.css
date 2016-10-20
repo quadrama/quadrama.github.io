@@ -349,7 +349,7 @@ h3.masthead-title {
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: .875rem; /* 15px */
+  font-size: 1rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
@@ -357,7 +357,7 @@ h3.masthead-title {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .9rem; /* 14px */
   }
 }
 
