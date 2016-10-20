@@ -41,27 +41,32 @@ html:lang(en) span.ref-table:before {
 }
 
 .caption {
-  font-size:0.7em;
+  font-size:0.9em;
+}
+
+.caption:before {
+  font-weight:bold;
+}
+
+div.footnotes {
+  border-top: solid   #454545 1px;
+  padding-top:20px;
 }
 
 html:lang(en) .figure .caption:before {
   content: "Figure " counter(cnt_figure) ": ";
-  font-weight:bold;
 }
 
 html:lang(en) .table .caption:before {
   content: "Table " counter(cnt_table) ": ";
-  font-weight: bold;
 }
 
 html:lang(de) .figure .caption:before {
   content: "Abbildung " counter(cnt_figure) ": ";
-  font-weight:bold;
 }
 
 html:lang(de) .table .caption:before {
   content: "Tabelle " counter(cnt_table) ": ";
-  font-weight: bold;
 }
 
 pre.highlight {
@@ -79,6 +84,10 @@ pre.highlight {
 }
 .headline .right {
   float:right;
+}
+
+.right_aligned {
+  text-align:right;
 }
 
 .post h2 {
@@ -135,6 +144,38 @@ ul.posts {
 .qd_title {
   font-style: italic;
 }
+
+/**
+ * inline tab
+ */
+
+.itab {
+  list-style: none;
+  width:100%;
+  color:white;
+  background-color: #416FB8;
+  margin:0 auto;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.itab > * {
+  display: inline-flex;
+  padding:8px;
+  margin:0 auto;
+  text-align: center;
+}
+
+ul.itab > * > a {
+  color:white !important;
+  text-decoration: none;
+}
+
+ul.itab li:hover,
+ul.itab li.active {
+  background-color: rgba(255,255,255,.1);
+}
+
 
 /**
  * languages

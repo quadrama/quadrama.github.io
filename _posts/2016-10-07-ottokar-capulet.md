@@ -26,26 +26,28 @@ Eingeladener Vortrag am 07.10.2016 im Kleist-Museum, Frankfurt (Oder), im Rahmen
 
 ## Technische Vorarbeiten
 
-Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository](https://textgridrep.org). Diese wurden zunächst in ein Stand-Off-Format überführt (mit unserer Bibliothek [DramaNLP](https://github.com/quadrama/DramaNLP)). Auf dieser Basis konnten dann die in [DKPro Core](https://dkpro.github.io/dkpro-core/) integrierten Werkzeuge zur [Lemmatisierung](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)) und zum [PoS-Taggen](https://de.wikipedia.org/wiki/Part-of-speech_Tagging) verwendet werden: [mate-tools](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/matetools.en.html) und [Stanford PoS-Tagger](http://nlp.stanford.edu/software/tagger.shtml). Grundlage der Analysen mit R wiederum (siehe Anhang) sind  daraus exportierte CSV-Dateien, die die Wörter einzelnen Figuren zuordnen ([Romeo und Julia]({{ site.url }}/assets/2016-10-07-ottokar-capulet/vndf.0.csv), [Die Familie Schroffenstein]({{ site.url }}/assets/2016-10-07-ottokar-capulet/r0px.0.csv)).
+Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository](https://textgridrep.org). Diese wurden zunächst in ein Stand-Off-Format überführt (mit unserer Bibliothek [DramaNLP](https://github.com/quadrama/DramaNLP)). Auf dieser Basis konnten dann die in [DKPro Core](https://dkpro.github.io/dkpro-core/) integrierten Werkzeuge zur [Lemmatisierung](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)) und zum [PoS-Taggen](https://de.wikipedia.org/wiki/Part-of-speech_Tagging) verwendet werden: [mate-tools](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/matetools.en.html) und [Stanford PoS-Tagger](http://nlp.stanford.edu/software/tagger.shtml). Grundlage der Analysen mit R wiederum sind  daraus exportierte CSV-Dateien, die die Wörter einzelnen Figuren zuordnen ([Romeo und Julia]({{ site.url }}/assets/2016-10-07-ottokar-capulet/vndf.0.csv), [Die Familie Schroffenstein]({{ site.url }}/assets/2016-10-07-ottokar-capulet/r0px.0.csv)). Eine schrittweise Anleitung um das Verfahren mit anderen Texten nachzuvollziehen wird demnächst hier veröffentlicht.
 
 ## Ausgangslage
 
 ### Forschungsproblem
 Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften, die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet, ohne auf Kleist einzugehen, "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen
-<ul>
-  <li>Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch</li>
-  <li>Handlungselemente (Kindsmord)</li>
-  <li>Stilelemente (Grausamkeit des Kindsmords) und</li>
-  <li>Motive wie das der verbotenen Liebe (Schmidt 2003, 62).</li>
-</ul>
-Auch *vermeintliche* direkte Zitate und Metaphern -- wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens -- werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat (am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; siehe hierzu u.a. Schabert 2009, 821-842)
+
+- Figuren und Figurentypen wie der Narr (Rupert), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch
+- Handlungselemente (Kindsmord)
+- Stilelemente (Grausamkeit des Kindsmords) und
+- Motive wie das der verbotenen Liebe (Schmidt 2003, 62).
+
+Auch *vermeintliche* direkte Zitate und Metaphern -- wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens -- werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat[^fn1].
+
+[^fn1]: Am prominentesten waren die von Wieland aus den 1760ern, die von Eschenburg aus den 1770ern und die in den 1790ern begonnenen von Schlegel/Tieck; siehe hierzu u.a. Schabert (2009), S. 821-842.
 
 ### Forschungsfrage
 
-Im Folgenden möchten wir untersuchen, ob mit den von uns entwickelten *tools* zur quantitativen Dramenanalysen der These von dem Einfluss Shakespeares auf Kleist ein weiteres Argument zur Seite gestellt werden kann; dieses Argument bezieht sich auf die Konzeption dramatischer Figurenrede. Unsere Untersuchung möchten wir jedoch nicht als Kritik oder Herausforderung weder der bisherigen Forschungsmeinungen noch der etablierten Praktiken des literaturwissenschaftlichen Lesens und Interpretierens verstanden wissen. Vielmehr soll die durch Digitalisierung ermöglichte Verarbeitung sehr großer Dramen-Korpora eine Neuperspektivierung einzelner dramatischer Texte ermöglichen und dergestalt bisher kaum feststellbare dramenhistorische Einflussbeziehungen offenlegen.
+Im Folgenden möchten wir untersuchen, ob mit den von uns entwickelten Tools zur quantitativen Dramenanalyse der These von dem Einfluss Shakespeares auf Kleist ein weiteres Argument zur Seite gestellt werden kann; dieses Argument bezieht sich auf die Konzeption dramatischer Figurenrede. Unsere Untersuchung möchten wir jedoch nicht als Kritik oder Herausforderung weder der bisherigen Forschungsmeinungen noch der etablierten Praktiken des literaturwissenschaftlichen Lesens und Interpretierens verstanden wissen. Vielmehr soll die durch Digitalisierung ermöglichte Verarbeitung sehr großer Dramen-Korpora eine Neuperspektivierung einzelner dramatischer Texte ermöglichen und dergestalt bisher kaum feststellbare dramenhistorische Einflussbeziehungen offenlegen.
 
-Dieser Form der Makroanalyse stellen wir -- ganz im Sinne des *scalable readings* -- Mikroanalysen der dramatischen Texte gegenüber. In diesen werden die Redesemantiken der relevanten und analogen Figuren aus beiden Stücken verglichen. 
-Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur eingeschränkt nachweisen lässt: vielmehr scheint seine Figurenkonzeption -- bzw. genauer: seine Konzeption der Figurenrede -- überhaupt nur als Überlagerung verschiedener dramatischer Strömungen seiner Zeit verstehbar zu sein; hierfür spricht auch die Skepsis Kleists gegenüber einer generisch eindeutigen Festlegung seiner Stücke nach dem *Krug*, also ab etwa 1806 (hierzu u.a. 1990, 18). Der regen Diskussion darüber, ob die als "Schauspiel" oder "Drama" publizierten Stücke (*Hermannsschlacht*, *Prinz von Homburg*) eher der Komödie oder der Tragödie zuzuordnen sind, werden wir ebenfalls ein quantitatives Argument beisteuern. Wir werden zu zeigen versuchen, dass Kleists Entscheidung gegen eine klare Zuordnung offenbar Resultat eines propfunden Gattungsbewusstseins ist, das bereits die Komposition seiner Texte beeinflusst. 
+Dieser Form der Makroanalyse stellen wir -- ganz im Sinne des *scalable readings* -- Mikroanalysen der dramatischen Texte gegenüber. In diesen werden die Redesemantiken der relevanten und analogen Figuren aus beiden Stücken verglichen.
+Dabei wird sich zwar zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur eingeschränkt nachweisen lässt: vielmehr scheint seine Figurenkonzeption -- bzw. genauer: seine Konzeption der Figurenrede -- überhaupt nur als Überlagerung verschiedener dramatischer Strömungen seiner Zeit verstehbar zu sein; hierfür spricht auch die Skepsis Kleists gegenüber einer generisch eindeutigen Festlegung seiner Stücke nach dem *Krug*, also ab etwa 1806 (hierzu u.a. 1990, 18). Der regen Diskussion darüber, ob die als "Schauspiel" oder "Drama" publizierten Stücke (*Hermannsschlacht*, *Prinz von Homburg*) eher der Komödie oder der Tragödie zuzuordnen sind, werden wir ebenfalls ein quantitatives Argument beisteuern. Wir werden zu zeigen versuchen, dass Kleists Entscheidung gegen eine klare Zuordnung offenbar Resultat eines profunden Gattungsbewusstseins ist, das bereits die Komposition seiner Texte beeinflusst.
 
 ## Mikroanalyse: Figurenrede
 
@@ -54,7 +56,7 @@ Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dram
   <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png"><img width="576" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" /></a>
   <p class="caption">Wörterbuch zu Heinrich von Kleist (Schanze 1989, 242f.)</p>
 </div>
-Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. Für die Darstellung zweidimensionaler Daten scheint uns einie Art von Balkendiagrammen am geeignetsten:  
+Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. Für die Darstellung zweidimensionaler Daten (Figuren vs. aufsummierte Redeanteile) scheint uns Balkendiagramme am geeignetsten:  
 
 <div class="figure">
 <div id="container">bla</div>
@@ -76,30 +78,33 @@ var d = [[{"drama":"vndf.0","figure":"Graf Paris","tokens":641},{"drama":"r0px.0
 render_stacked_figure_statistics("#container", d, ["Romeo und Julia (Ü: Schlegel)","Die Familie Schroffenstein","Emilia Galotti"])
 </script>
 
-Betrachtet man die obige Visualisierung der Redeanteile von Figuren -- die Grafik ist interaktiv und gibt weiterführende Informationen per Click --, so zeigt sich, dass das titelgebende Liebespaar in *Romeo und Julia* mit 10.697 Wörtern fast die Hälfte des Gesamttextes (ca. 25.000 Wörtern) spricht. Ähnlich zentral präsentiert Kleist das Liebespaar in *Die Familie Schroffenstein* -- Agnes und Ottokar -- die mit 7730 Wörtern zusammen etwa ein Drittel des Gesamttextes (ca. 23.000 Wörtern) sprechen. Unabhängig davon, dass Agnes' Vater Sylvester etwas mehr als seine Tochter spricht und damit das Liebespaar nicht wie bei Shakespeare die mit Abstand größten Redeanteile trägt, lässt sich im Vergleich mit anderen Stücken sehr deutlich zeigen, dass Liebeskonflikte nicht *zwangsläufig* anhand der Liebenden selbst in dramatische Handlung überführt werden müssen. Emilia Galotti etwa, wie Romeo und Julia auch eine titelgebende Figur, steht nur an fünfter Stelle hinsichtlich der Länge ihrer Redeanteile. Sie spricht nicht einmal halb so viel wie Marinelli und der Prinz. Bei der Analyse der dramatischen Darstellung von Liebeskonflikten scheinen offensichtlich die Kategorien *Aktivität* und *Passivität* von Figuren relevant zu sein. Sie lassen sich sehr einfach analysieren und visualisieren, geben aber dennoch ausgesprochen deutliche Hinweise auf den Grad der Beteiligung einer Figur bei der dramatischen Aushandlung von Konflikten: *Löst sie* oder löst sie *aus*?
+Betrachtet man die in <span class="ref-figure" /> gezeigte interaktive Visualisierung der Redeanteile von Figuren, so zeigt sich, dass das titelgebende Liebespaar in *Romeo und Julia* mit 10.697 Wörtern fast die Hälfte des Gesamttextes (ca. 25.000 Wörtern) spricht. Ähnlich zentral präsentiert Kleist das Liebespaar in *Die Familie Schroffenstein* -- Agnes und Ottokar -- die mit 7730 Wörtern zusammen etwa ein Drittel des Gesamttextes (ca. 23.000 Wörtern) sprechen. Unabhängig davon, dass Agnes' Vater Sylvester etwas mehr als seine Tochter spricht und damit das Liebespaar nicht wie bei Shakespeare die mit Abstand größten Redeanteile trägt, lässt sich im Vergleich mit anderen Stücken sehr deutlich zeigen, dass Liebeskonflikte nicht *zwangsläufig* anhand der Liebenden selbst in dramatische Handlung überführt werden müssen. Emilia Galotti etwa, wie Romeo und Julia auch eine titelgebende Figur, steht nur an fünfter Stelle hinsichtlich der Länge ihrer Redeanteile. Sie spricht nicht einmal halb so viel wie Marinelli und der Prinz. Bei der Analyse der dramatischen Darstellung von Liebeskonflikten scheinen offensichtlich die Kategorien *Aktivität* und *Passivität* von Figuren relevant zu sein. Sie lassen sich sehr einfach analysieren und visualisieren, geben aber dennoch ausgesprochen deutliche Hinweise auf den Grad der Beteiligung einer Figur bei der dramatischen Aushandlung von Konflikten: *Löst sie* oder löst sie *aus*?
 
 
 ### Variation der Äußerungslänge
 
 Nicht nur die Anteile der Rede einer Figur in Bezug auf den Gesamttext, sondern auch die Variation der *Länge ihrer Einzeläußerungen* kann Hinweise auf die Funktion einer dramatischen Figur geben.
-Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge" sogenannte [Boxplots](https://de.wikipedia.org/wiki/Boxplot). Der Analyse der Grafiken liegt die Annahme zugrunde, dass Figuren mit relativ vielen *langen* Äußerungen wichtige Figuren in Bezug auf den dramatischen Konflikt und die dramatische Handlung sind. Dies wurde in Ansätzen bereits von der literaturwissenschaftlichen Forschung versucht zu berücksichtigen, etwa in Arbeiten zu der Frage, welche Bedeutung (die längsten) Monologe in Dramentexten haben (Leo 1908; Lott 1909; Grussendorf 1914; Huersch 1947; Clemen 1964)
+Im Folgenden verwenden wir für die Visualisierung der Verteilung des Merkmals "Äußerungslänge"  [Boxplots](https://de.wikipedia.org/wiki/Boxplot). Der Analyse der Grafiken liegt die Annahme zugrunde, dass Figuren mit  vielen *langen* Äußerungen wichtige Figuren in Bezug auf den dramatischen Konflikt und die dramatische Handlung sind. Dies wurde in Ansätzen bereits von der literaturwissenschaftlichen Forschung versucht zu berücksichtigen, etwa in Arbeiten zu der Frage, welche Bedeutung (die längsten) Monologe in Dramentexten haben (Leo 1908; Lott 1909; Grussendorf 1914; Huersch 1947; Clemen 1964).
 
 
-<div class="hslider" id="utterance-length-variation">
-  <ul>
-    <li>
-      <div class="figure" id="utterance-length-variation-vndf0">
-        <div>bla</div>
-        <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Romeo und Julia</span> (Übersetzung: Schlegel)</p>
-      </div>
-    </li>
-    <li>
-      <div class="figure" id="utterance-length-variation-r0px0">
-        <div>bla</div>
-        <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Die Familie Schroffenstein</span></p>
-      </div>
-    </li>
-  </ul>
+<div class="figure" id="utterance-length-variation-vndf0">
+  <div>bla</div>
+  <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Romeo und Julia</span> (Übersetzung: Schlegel)</p>
+</div>
+
+
+
+Die angezeigten Boxen beinhalten die mittleren 50% der Daten, was in diesem Fall bedeutet, dass unter den Boxen das Viertel der kürzeren Äußerungen und über den Boxen das Viertel der längeren Äußerungen liegt. Die farbigen Punkte repräsentieren besonders lange Äußerungen (Ausreißer). Dass die angezeigten Boxen jeweils kurz über Null beginnen, lässt sich damit erklären, dass es kaum eine Figur im dramatischen Texten gibt, die nicht irgendwann einmal in Ein-Satz-Antworten auf andere Figuren reagiert. Benvolio (ganz links) und Graf Paris etwa replizieren jedoch fast ausschließlich in sehr kurzen Äußerungen (flache Box, niedriger [Median](https://de.wikipedia.org/wiki/Median), kaum Ausreißer). Figuren dieser Art sind in der Regel nicht in solchen Szenen präsent, in denen zentrale Elemente des dramatischen Konfliktes ausgehandelt werden.
+
+Bruder Lorenzo hingegen (zweiter von links) ist offensichtlich sehr wenig in Gesprächssituationen involviert, in denen kurze Antworten genügen: Der Median liegt höher und seine Äußerungen beinhalten viele Ausreißer. Auffällig ist, dass Romeos und Julias Verteilung der Redelängen sehr ähnlich ist; der etwas höhere Median bei Julia zeigt an, dass sie etwas seltener als Romeo in kürzeren Äußerungen spricht; das macht sie überwiegend dann, wenn sie mit ihren Eltern co-präsent ist.
+
+Es deutet vieles darauf hin, dass die Äußerungslänge u.a. ein Marker für die Reflexionskraft von Figuren ist; sie kann allerdings auch auf andere Figureneigenschaften hinweisen, etwa die rauschhafte Verliebtheit von Romeo und Julia.
+
+Insgesamt zeigt sich, dass die Längenvarianz der Figurenrede in *Romeo und Julia* sehr groß ist (mal viele, mal wenige Ausreißer, unterschiedlich hohe Boxen und Mediane). Dieser Befund bestätigt das Bild von einer diversen, variantenreichen Dramenkonzeption Shakespeares.
+
+<div class="figure" id="utterance-length-variation-r0px0">
+  <div>bla</div>
+  <p class="caption">Variation der Äußerungslänge bei <span class="qd_title">Die Familie Schroffenstein</span></p>
 </div>
 
 <script>
@@ -113,33 +118,26 @@ render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 
 </script>
 
-Die angezeigten Boxen beinhalten die mittleren 50% der Daten, was in diesem Fall bedeutet, dass unter den Boxen das Viertel der kürzeren Äußerungen und über den Boxen das Viertel der längeren Äußerungen liegt. Die Punkte (Ausreißer) repräsentieren besonders lange Äußerungen. Dass die angezeigten Boxen jeweils kurz über Null beginnen, lässt sich damit erklären, dass es kaum eine Figur im dramatischen Texten gibt, die nicht irgendwann einmal in Einsatz-Antworten auf andere Figuren reagiert. Benvolio (ganz links) und Graf Paris etwa replizieren jedoch fast ausschließlich in sehr kurzen Äußerungen (flache Box, niedriger [Median](https://de.wikipedia.org/wiki/Median), kaum Ausreißer). Figuren dieser Art sind in der Regel nicht in solchen Szenen präsent, in denen zentrale Elemente des dramatischen Konfliktes ausgehandelt werden. 
-
-Bruder Lorenzo hingegen (zweiter von link) ist offensichtlich sehr wenig in Gesprächssituationen involviert, in denen kurze Antworten genügen: Der Median liegt tief (d.h. 50-75% der Äußerungen sind relativ lang) und seine Äußerungen beinhalten viele Ausbrecher. Auffällig ist, dass Romeos und Julias Verteilung der Redelängen sehr ähnlich ist; Der etwas höhere Median bei Julia zeigt an, dass sie etwas häufiger als Romeo in kürzeren Äußerungen spricht; das macht sie überwiegend dann, wenn sie mit ihren Eltern co-präsent ist. 
-
-Es deutet vieles darauf hin, dass die Äußerungslänge ein u.a. Marker für die Reflexionskraft von Figuren ist; sie kann allerdings auch auf andere Figureneigenschaften hinweisen, etwa die rauschhafte Verliebtheit von Romeo und Julia. 
-Insgesamt zeigt sich, dass die Längenvarianz der Figurenrede in *Romeo und Julia* sehr groß ist (mal viele, mal wenige Ausreißer, unterschiedlich hohe Boxen und Mediane). Dieser Befund bestätigt das Bild von einer diversen, variantenreichen Dramenkonzeption Shakespeares.
-
-Vergleicht man hierzu die Äußerungslängen in der *Familie Schroffenstein* (Grafik oben nach links wischen), so zeigt sich das konträre Bild einer sehr geringen Varianz. Kleist reguliert die Redelänge seiner Figuren offensichtlich viel stärker; dies kann
+Vergleicht man hierzu die Äußerungslängen in der *Familie Schroffenstein* (<span class="ref-figure"/>), so zeigt sich das konträre Bild einer sehr geringen Varianz. Kleist reguliert die Redelänge seiner Figuren offensichtlich viel stärker; dies kann --
 so unsere These -- zurückgeführt werden auf eine Veränderung der Dramenkonventionen durch Lessing hin zu einer Annäherung an die Alltagssprache, in der weniger monologisiert wird als noch im Barock- und Aufklärungsdrama (zur bewussten Künstlichkeit 'natürlicher' Dialoge im Drama siehe u.a. Berghahn 1970 u. Zimmer 1982). Obgleich die Kleist'schen Syntaxen dieser Beobachtung nicht so sehr entsprechen, die quantitativen Analysen deuten darauf hin.
 
 
 ### Thematische Analyse der Figurenrede
 
-Natürlich sind wir eigentlich nicht -- bzw. nicht nur -- daran interessiert, wer *wie viel* spricht. Bis zu einem gewissen Grad lassen sich zwar Zusammenhänge von Figurentyp und Quantität der Figurenrede annahmen, aber das Besondere und Innovative des QuaDramA-Projektes ist, dass es uns erlaubt, die Inhalte und Semantiken dieser Rede strukturiert darzustellen. Wir zielen also ab auf eine Beantwortung der Frage, *worüber wird eigentlich gesprochen*?
+Natürlich sind wir eigentlich nicht -- bzw. nicht nur -- daran interessiert, wer *wie viel* spricht. Bis zu einem gewissen Grad lassen sich zwar Zusammenhänge von Figurentyp und Quantität der Figurenrede annehmen, aber der Einsatz [computerlinguistischer](http://de.wikipedia.org/wiki/Computerlinguistik) Verfahren erlaubt es uns auch die Inhalte und Semantiken dieser Rede strukturiert darzustellen. Wir zielen also ab auf eine Beantwortung der Frage, *worüber wird eigentlich gesprochen*?
 
 Grundsätzlich gehen wir von der Annahme aus, dass Worte und Themen sich gegenseitig bedingen. Man kann nicht über bestimmte Themen sprechen ohne bestimmte, semantisch verwandte Wörter zu verwenden. Umgedreht heißt das, dass die Verwendung bestimmter Wörter Rückschlüsse auf die verhandelten Themen erlaubt. Natürlich gibt es eindeutiges Entsprechungsverhältnis zwischen Themen und Wörtern, da Wörter ambig sind. Ein Beispiel, das sich hier im Kontext dieses Kolloquiums im Kleist-Museum aufdrängt, ist *Frankfurt*, das [für](https://de.wikipedia.org/wiki/Frankfurt_am_Main) [verschiedene](https://de.wikipedia.org/wiki/Frankfurt_(Oder)) [Städte](https://de.wikipedia.org/wiki/Stadt_Frankfurt) [und](https://de.wikipedia.org/wiki/Frankfort_(Kentucky)) [Orte](https://de.wikipedia.org/wiki/(204852)_Frankfurt) stehen kann.
 
 > You shall know a word by the company it keeps.
 
-{:.right}
+{:.right_aligned}
 -- [J. R. Firth](https://de.wikipedia.org/wiki/John_Rupert_Firth)
 
 Firth folgend machen wir es uns zunutze, dass der Kontext von Wörtern uns sehr viel über sie verrät. In einem Text über Frankfurt (Oder) tauchen andere Wörter mit anderen Häufigkeiten auf als in einem Text über Frankfurt am Main, unabhängig vom konkreten Thema dieses Textes. Es stimmt zwar, dass Wörter ambig sind -- das gilt aber vor allem für Einzelwörter. Betrachtet man größere Gruppen von Wörtern, *disambiguieren* sie sich gewissermaßen gegenseitig.
 
 Diese Eigenschaft von Texten bildet die linguistische Grundlage unserer Wortfeldanalysen. Um Wortfelder zu generieren, haben wir (für diesen Anlass erst einmal manuell; automatisierte Verfahren sind geplant) Wörterbücher zu fünf Themen erstellt, die uns für eine Analyse der *Familie Schroffenstein* relevant erscheinen: [Familie](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Familie.txt), [Krieg](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Krieg.txt), [Liebe](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Liebe.txt), [Ratio](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Ratio.txt) und [Religion](https://github.com/quadrama/metadata/tree/b5ab13da5b9b7c2aae550f4cc4a8fcc836d7411f/fields/Religion.txt). Sie sind hier im Volltext verlinkt, in jedem Wortfeld finden sich zwischen 70 und 90 Wörter.
 
-Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figurenrede ermitteln.
+Die Wörter aus diesen Wortfeldern wurden dann in der Figurenrede von *Romeo und Julia* und *Die Familie Schroffenstein* gezählt, separat für jede Figur (normalisiert und eingeschränkt auf Nomen, Verben und Adjektive). Daraus lässt sich eine thematische Tendenz jeder Figurenrede ermitteln.
 
 <div class="hslider">
   <ul>
@@ -165,12 +163,10 @@ render_spiderweb("#fields-vndf0", d4, ["Julia", "Romeo"]);
 render_spiderweb_table("#fields-vndf0-table", d4);
 </script>
 
-Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie. (Zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die (ihr später leidigen) Angelegenheiten in Sachen Graf Paris zu besprechen hat:
+Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie (zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die (ihr später leidigen) Angelegenheiten in Sachen Graf Paris zu besprechen hat:
 
-> Wie steht's mit deiner Lust, dich zu vermählen?
 
-{:.right}
-(Gräfin Capulet)
+> <span style="font-variant-caps:small-caps">Gräfin Capulet</span>. Wie steht's mit deiner Lust, dich zu vermählen?
 
 Auch die anderen Figuren des Stücks verhalten sich erwartbar bezüglich des thematischen Musters ihrer Rede. Der Raufbold Tybalt etwa spricht überwiegend in Kriegssemantiken. Interessant ist die Beobachtung, dass die Amme als *einfache* Figur stärker als der Klosterbruder in religiösen Semantiken spricht. Dies lässt sich einerseits mit ihre Exklamationen erklären: “Gott behüte”; “bei meiner Seele!”, “Nu, weiß Gott”. Andererseits stellt auch hier die bei Julia schon angesprochene Co-Präsenz anderer Figuren einen großen Einflussfaktor auf die Semantiken der Figurenrede dar. Bruder Lorenzo tritt fast ausschließlich dann auf, wenn Romeo und Julia präsent sind. Entsprechend viel spricht er über deren Thema: Liebe.
 
@@ -182,29 +178,29 @@ Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die 
 <div class="figure">
   <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png">
   <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BürgerlTrauerspiel.png" /></a>
-  <p class="caption">*Die Jäger* von Iffland, *Emilia Galotti* von Lessing und *Kabale und Liebe* von Schiller</p>
+  <p class="caption"><i>Die Jäger</i> von Iffland, <i>Emilia Galotti</i> von Lessing und <i>Kabale und Liebe</i> von Schiller</p>
 </div>
 <br>
 <br>
 <div class="figure">
   <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png">
   <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" /></a>
-  <p class="caption">*Das leidende Weib* von Klinger, *Don Carlos* von Schiller</p>
+  <p class="caption"><i>Das leidende Weib</i> von Klinger, <i>Don Carlos</i> von Schiller</p>
 </div>
 
 
 
-Vergleicht man nun die abgebildeten Stücke des Bürgerlichen Trauerspiels mit denen des Sturm und Drang, so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) individuelle Ideen oder spezifische Positionen in Bezug auf dramatische Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist. 
+Vergleicht man die abgebildeten Stücke des Bürgerlichen Trauerspiels mit denen des Sturm und Drang, so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) individuelle Ideen oder spezifische Positionen in Bezug auf dramatische Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist.
 
-Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.: 
-  <ul>
-  <li>1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*</li>
-  <li>1771: Goethe: *Rede zum Schäkespears Tag*</li>
-  <li>1773: Herder: *Von deutscher Art und Kunst*</li>
-  <li>1774: Lenz: *Anmerkungen übers Theater*</li>
-  <li>1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*</li>
-</ul>
-Neu ist allerdings der Fund, dass sich dieser Einfluss auch auf die Semantiken der Figurenrede bezieht. Wir möchten nicht darüber spekulieren, ob dies Ergebnis einer bewussten oder unbewussten Imitation ist. Beide Annahmen würden zu der These führen, dass Autoren die semantische Gestaltung der Rede ihrer Figuren auf die ein oder andere Weise regulieren. Vorerst scheint uns eine moderatere Erklärung unseres Fundes treffender. Sie erklärt die Ähnlichkeit der semantischen Muster als Ergebnis spezifischer Konzeptionen der dramatischen Konfliktlösung. 
+Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.:
+
+- 1766/67: Gerstenberg: *Briefe über Merckwürdigkeiten der Litteratur*
+- 1771: Goethe: *Rede zum Schäkespears Tag*
+- 1773: Herder: *Von deutscher Art und Kunst*
+- 1774: Lenz: *Anmerkungen übers Theater*
+- 1809–1811: A. W. Schlegel: *Wiener Vorlesungen über dramatische Kunst und Literatur*
+
+Neu ist allerdings der Fund, dass sich dieser Einfluss auch auf die Semantiken der Figurenrede bezieht. Wir möchten nicht darüber spekulieren, ob dies Ergebnis einer bewussten oder unbewussten Imitation ist. Beide Annahmen würden zu der These führen, dass Autoren die semantische Gestaltung der Rede ihrer Figuren auf die ein oder andere Weise regulieren. Vorerst scheint uns eine moderatere Erklärung unseres Fundes treffender. Sie erklärt die Ähnlichkeit der semantischen Muster als Ergebnis spezifischer Konzeptionen der dramatischen Konfliktlösung.
 
 #### Kleists Figuren
 
@@ -238,12 +234,12 @@ render_spiderweb_table("#fields-r0px0-table", d5);
 
 Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als Shakespeare'sche Hexe gelesen wird -- so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen (insb. mit Getrudes) konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. **HINWEIS IN BRIEF PRÜFEN**. Angesichts dieser Sensibilität Kleists für das Geschlecht seiner Figuren haben die spezifischen Muster der Figurenreden von Agnes und Ottokar potentiell hohen interpretativen Wert. Agnes spricht in den Semantiken der Männer, und Ottokar scheint eine Art Mischform zwischen weiblichem und männlichem Reden darzustellen.
 
-Vor dem Hintergrund der chiastischen Struktur, nach dem Kleist seinen Text konzipiert hat, bekommt dieser Fund eine besondere Reichweite für die Textinterpretation: Agnes wird am Ende des Textes von Ottokar in dessen Mantel gekleidet, um sie vor seinem herannahenden Vater zu schützen. Dieser soll denken, Agnes sei sein eigener Sohn. Im Gegenzug zieht Ottokar Agnes' Kleidung an, wird dann aber von seinem eigenen Vater in dem Glauben getötet, tatsächlich die Tochter der verfeindeten Warwands zu sein. Agnes wiederum wird von dem später auftretenden Silvester für Ottokar gehalten und ebenfalls erstochen. Der Fund einer geschlechtskonträren Semantisierung der Rede von Agnes und Ottokar entspricht der finalen und letztlich tragischen äußeren Identifikation des Liebespaares mit dem jeweils anderen. 
+Vor dem Hintergrund der chiastischen Struktur, nach dem Kleist seinen Text konzipiert hat, bekommt dieser Fund eine besondere Reichweite für die Textinterpretation: Agnes wird am Ende des Textes von Ottokar in dessen Mantel gekleidet, um sie vor seinem herannahenden Vater zu schützen. Dieser soll denken, Agnes sei sein eigener Sohn. Im Gegenzug zieht Ottokar Agnes' Kleidung an, wird dann aber von seinem eigenen Vater in dem Glauben getötet, tatsächlich die Tochter der verfeindeten Warwands zu sein. Agnes wiederum wird von dem später auftretenden Silvester für Ottokar gehalten und ebenfalls erstochen. Der Fund einer geschlechtskonträren Semantisierung der Rede von Agnes und Ottokar entspricht der finalen und letztlich tragischen äußeren Identifikation des Liebespaares mit dem jeweils anderen.
 
 
 #### Ergebnisse der Mikroanalyse
 
-Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld möglicher Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'sche Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels. 
+Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld möglicher Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'sche Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels.
 
 <div class="figure">
 <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png">
@@ -255,7 +251,7 @@ Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist s
 
 ## Makroanalyse: Gattungskontexte
 
-Wie bereits oben angedeutet scheint Kleist ab 1806 das dualistische Gattungskonzept endgültig überwunden zu haben und sich gegen eine eindeutige generische Festlegung seiner Stücke zu weigern -- dies verraten bereits die Titelseiten seiner Stücke: *Ein großes historisches Ritterschauspiel*, *Ein Drama*, *Ein Schauspiel*. Im Lichte dieser Beobachtung hat die Forschung immer wieder die *Familie Schroffenstein* hinsichtlich ihrer Gattungszugehörigkeit zu beleuchten versucht und ihr u.a. 'Zwiespältigkeit' attestiert (Harms 1990, 18). Im Folgenden wollen wir zeigen, dass quantitative Analysen auch hinsichtlich der Beantwortung von Gattungsfragen *uneindeutiger* Texte neue und durchaus gewichtige Argumente in die literaturwissenschaftliche Diskussion einführen können. 
+Wie bereits oben angedeutet scheint Kleist ab 1806 das dualistische Gattungskonzept endgültig überwunden zu haben und sich gegen eine eindeutige generische Festlegung seiner Stücke zu weigern -- dies verraten bereits die Titelseiten seiner Stücke: *Ein großes historisches Ritterschauspiel*, *Ein Drama*, *Ein Schauspiel*. Im Lichte dieser Beobachtung hat die Forschung immer wieder die *Familie Schroffenstein* hinsichtlich ihrer Gattungszugehörigkeit zu beleuchten versucht und ihr u.a. 'Zwiespältigkeit' attestiert (Harms 1990, 18). Im Folgenden wollen wir zeigen, dass quantitative Analysen auch hinsichtlich der Beantwortung von Gattungsfragen *uneindeutiger* Texte neue und durchaus gewichtige Argumente in die literaturwissenschaftliche Diskussion einführen können.
 
 ### Stilometrische Analysen
 Eines der Standardverfahren zur quantitativen Analyse von Gattungen kommt aus dem Bereich des Clusterings und wird im Moment vor allem zu stilometrischen Analysen verwendet. Dabei schauen wir auf die Häufigkeit von Wörtern oder Wortformen und erstellen sog. *Wortvektoren*.
@@ -287,9 +283,9 @@ Eines der Standardverfahren zur quantitativen Analyse von Gattungen kommt aus de
 </ul>
 </div>
 
-Diese Wortvektoren können im n-dimensionalen Raum räumlich interpretiert werden und entsprechende geometrische Distanzmaße angewendet werden. Diese numerische Distanz erlaubt eine (hierarchische) Gruppierung der Texte nach Ähnlichkeiten in der Worthäufigkeit. Zunächst werden dabei die ähnlichsten Texte gruppiert, dann etwas weniger ähnliche Texte dazugenommen (s.a. [Hierarchische Clusteranalyse](https://de.wikipedia.org/wiki/Hierarchische_Clusteranalyse).
+Diese Wortvektoren können im n-dimensionalen Raum räumlich interpretiert werden und entsprechende geometrische Distanzmaße angewendet werden. Diese numerische Distanz erlaubt eine (hierarchische) Gruppierung der Texte nach Ähnlichkeiten in der Worthäufigkeit. Zunächst werden dabei die ähnlichsten Texte gruppiert, dann etwas weniger ähnliche Texte dazugenommen (s.a. [Hierarchische Clusteranalyse](https://de.wikipedia.org/wiki/Hierarchische_Clusteranalyse)).
 
-Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com/site/computationalstylistics/stylo)) haben wir auf 95 Tragödien und 86 Komödien angewendet (Tabelle 4). Abbildung 11 -- hierzu Tabelle nach links wischen -- zeigt einen Ausriss, das vollständige Dendrogram kann [hier]({{ site.url }}/assets/2016-10-07-ottokar-capulet/cluster-analysis.pdf) als PDF heruntergeladen werden. In beiden Fällen sind Tragödien grün gekennzeichnet und Komödien blau.
+Dieses Verfahren (auch implementiert im R-Paket [stylo](https://sites.google.com/site/computationalstylistics/stylo)) haben wir auf 95 Tragödien und 86 Komödien angewendet (Tabelle 4). Abbildung 11 -- hierzu die   Tabelle  nach links wischen -- zeigt einen Ausriss, das vollständige Dendrogram kann [hier]({{ site.url }}/assets/2016-10-07-ottokar-capulet/cluster-analysis.pdf) als PDF heruntergeladen werden. In beiden Fällen sind Tragödien grün gekennzeichnet und Komödien blau.
 
 <div class="hslider">
   <ul>
@@ -406,13 +402,13 @@ $('#kleist-tendencies').highcharts({
 });
 </script>
 
-Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlich einer Gattung zuzuordnen. Im *zerbrochenen Krug* werden überwiegend Wörter verwendet die stark mit Komödien korrelieren, was mit der Gattungsauszeichnung auf dem Titel übereinstimmt. Bei  *Penthesilea* hingegen scheint es sich -- nimmt man Worthäufigkeiten als Maß -- eine Tragödie zu handeln; in diesem Fall konfligiert dieser Befund mit der sehr wahrscheinlich bereits ironisch zu verstehenden Auszeichung auf dem Titelblatt als "Lustspiel nach Molière". Am wenigsten eindeutig lassen sich *Die Hermannsschlacht* sowie *Prinz Friedrich von Homburg* einer der Großgattungen zuordnen -- dabei handelt es sich just um die Dramen, denen auch Kleist eine klare Zuordnung verwehrt, in dem er sie als "Drama" oder "Schauspiel" untertitelt. Diese Befunde der Makroanalysen sprechen für ein ausgesprochen hohes Gattungsbewusstsein bei Kleist, die der Mikroanalysen für ein entsprechendes Bewusstsein fr das Geschlecht seiner Figuren.
+Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlich einer Gattung zuzuordnen. Im *zerbrochenen Krug* werden überwiegend Wörter verwendet die stark mit Komödien korrelieren, was mit der Gattungsauszeichnung auf dem Titel übereinstimmt. Bei  *Penthesilea* hingegen scheint es sich -- nimmt man Worthäufigkeiten als Maß -- eine Tragödie zu handeln; in diesem Fall konfligiert dieser Befund mit der sehr wahrscheinlich bereits ironisch zu verstehenden Auszeichung auf dem Titelblatt als "Lustspiel nach Molière". Am wenigsten eindeutig lassen sich *Die Hermannsschlacht* sowie *Prinz Friedrich von Homburg* einer der Großgattungen zuordnen -- dabei handelt es sich just um die Dramen, denen auch Kleist eine klare Zuordnung verwehrt, in dem er sie als "Drama" oder "Schauspiel" untertitelt. Diese Befunde der Makroanalysen sprechen für ein ausgesprochen hohes Gattungsbewusstsein bei Kleist, die der Mikroanalysen für ein entsprechendes Bewusstsein für das Geschlecht seiner Figuren.
 
 
 
 ## Bibliographie
 
-1.	Berghahn, Klaus L. (1970). Formen der Dialogführung in Schillers klassischen Dramen. Ein Beitrag zur Poetik des Dramas. Münstersche Beiträge zur deutschen Literaturwissenschaft. Band 5. Münster. 
+1.	Berghahn, Klaus L. (1970). Formen der Dialogführung in Schillers klassischen Dramen. Ein Beitrag zur Poetik des Dramas. Münstersche Beiträge zur deutschen Literaturwissenschaft. Band 5. Münster.
 2.	Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
 3.	Corssen, Meta (1930). Kleist und Shakespeare. Weimar.
 4.	Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
@@ -430,70 +426,3 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 16.	Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
 17.	Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
 18.	Zimmer, Reinhold (1982). Dramatischer Dialog und außersprachlicher Kontext Dialogformen in deutschen Dramen des 17. bis 20. Jahrhunderts. Palaestra. Göttingen.
-
-
-
-
-## Technical Appendix
-
-
-### Figure Speech Statistics
-
-```R
-library(DramaAnalysis)
-library(jsonlite)
-
-t <- load.text(c("vndf.0", "r0px.0", "rksp.0"),
-               tokens = TRUE)
-t <- limit.figures.by.rank(t)
-
-fstat <- figure.statistics(t, names=TRUE)
-
-mat <- matrix(data=c(fstat[,3]),ncol=3)
-colnames(mat) <- c(
-      "Romeo und Julia (Ü: Schlegel)",
-      "Die Familie Schroffenstein",
-      "Emilia Galotti")
-mat <- apply(mat, 2,
-    function(x) {sort(x, decreasing=TRUE)})
-
-# Plotting in R
-# create the plot
-barplot(mat, beside=FALSE, col=qd.colors, border=NA, ylab = "Tokens")
-# add labels to some figures
-text(x=c(0.7,0.7,1.9,1.9,3.1),
-    y=c(mat[1,1]/2, sum(mat[1,1]+mat[2,1]/2),
-        mat[1,2]/2, sum(mat[1:2,2])+mat[3,2]/2,
-        sum(mat[1:4,3])+mat[5,3]/2),
-    labels=c("Romeo", "Julia", "Ottokar", "Agnes", "Emilia"),
-    col=c("white"))
-
-
-# Export into json (for visualisation above)
-ranks <- tapply(fstat$tokens, INDEX=fstat$drama, FUN = rank)
-for (i in seq(1:10)) {print(toJSON(fstat[fstat$rank==i,1:3]))}
-# copy-paste and do some manual editing (adding commas etc.)
-```
-
-### Utterance Length Variation
-
-```R
-library(DramaAnalysis)
-library(jsonlite)
-
-id <- "vndf.0"
-
-text <- load.text(c(id), tokens=TRUE)
-text <- limit.figures.by.rank(text)
-ustat <- utterance_statistics(text, num.figures = F)
-
-# Plotting in R
-boxplot(ustat$utterance_length ~ ustat$figure,
-          col=qd.colors, las=2,frame=F,
-          main=paste("Figure Utterances"))
-
-# Export to json
-bp <- tapply(ustat$utterance_length, INDEX = ustat$figure, FUN = function(x) {boxplot.stats(x)})
-toJSON(bp)
-
-```
