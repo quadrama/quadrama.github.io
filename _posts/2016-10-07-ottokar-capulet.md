@@ -246,9 +246,11 @@ Vor dem Hintergrund der chiastischen Struktur, nach dem Kleist seinen Text konzi
 Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld möglicher Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'sche Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels. 
 
 <div class="figure">
-  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png" />
+<a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png">
+  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/ErgebnisMikro.png" /> </a>
   <p class="caption">Ergebnis der Mikroanalysen</p>
 </div>
+
 
 
 ## Makroanalyse: Gattungskontexte
