@@ -189,9 +189,7 @@ Token/lemma
 
 
 ## Figure Speech Analysis with R
-Launch R or RStudio and set the working directory to `QD_DIR`.
-
-Run the following commands in the R console:
+Launch R or RStudio and set the working directory to `QD_DIR`. Run the following commands in the R console:
 
 ```R
 # This allows us to install directly from github
@@ -276,4 +274,50 @@ We will restrict this analysis to the top-10 figures within one drama, `vndf.0`.
 <div class="figure">
 <img src="{{site.url}}/assets/2016-10-21-analysing-speech/plot2.png" />
 <p class="caption">Box plot generated with R</p>
+</div>
+
+### Semantics
+
+Now we are counting the number of words from different word fields. We are directly accessing the word lists in (github.com/quadrama/metadata)[https://github.com/quadrama/metadata/tree/master/fields]. The spider web plots shown in (this post)[{{site.url}}/blog/2016/10/07/ottokar-capulet] are displayed using Javascript in the browser, but we'll display some other plotting options below.
+
+```R
+# Again, we take only the top 10 figures. This makes sense for almost all analyses.
+t <- limit.figures.by.rank(t, maxRank = 10)
+
+# Count words from dictionairies by figure, normalize by figure speech
+dstat <- dictionary.statistics(t, fieldnames=c("Familie", "Krieg", "Liebe", "Ratio", "Religion"), normalize = TRUE, names = TRUE)
+
+# Order by drama, so that entries for one drama will be adjacent
+dstat <- dstat[order(dstat$drama),]
+
+# Comparing figures for a constant word field
+# Make a bar graph for the word field "Familie"
+# The left half of this plot are the figures in rksp.0, the right
+# half are figures from vndf.0.
+barplot(dstat$Familie,
+  col=qd.colors, las=2,
+  names.arg = dstat$figure, main="Familie")
+
+# Comparing fields for a constant figure
+# Make a bar plot showing the different fields for Romeo
+barplot((unlist(dstat[dstat$figure=="Romeo",3:7])), col=qd.colors)
+```
+
+The resulting plots:
+
+<div class="hslider">
+<ul>
+<li>
+<div class="figure">
+<img src="{{site.url}}/assets/2016-10-21-analysing-speech/plot3.png" />
+<p class="caption">Bar plot showing amount of family words for figures in <i>Romeo und Julia</i> and <i>Emilia Galotti</i></p>
+</div>
+</li>
+<li>
+<div class="figure">
+<img src="{{site.url}}/assets/2016-10-21-analysing-speech/plot4.png" />
+<p class="caption">Bar plot showing different fields for Romeo</p>
+</div>
+</li>
+</ul>
 </div>
