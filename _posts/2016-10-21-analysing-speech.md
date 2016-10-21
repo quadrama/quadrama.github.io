@@ -279,7 +279,8 @@ We will restrict this analysis to the top-10 figures within one drama, `vndf.0`.
 
 ### Semantics
 
-Now we are counting the number of words from different word fields. We are directly accessing the word lists in (github.com/quadrama/metadata)[https://github.com/quadrama/metadata/tree/master/fields]. The spider web plots shown in (this post)[{{site.url}}/blog/2016/10/07/ottokar-capulet] are displayed using Javascript in the browser, but we'll display some other plotting options below.
+Now we are counting the number of words from different word fields. We are directly accessing the word lists in [github.com/quadrama/metadata](https://github.com/quadrama/metadata/tree/master/fields). The spider web plots shown in [this post]({{site.url}}{% post_url 2016-10-07-ottokar-capulet %}) are displayed using Javascript in the browser, but we'll display some other plotting options below.
+
 
 ```R
 # Again, we take only the top 10 figures. This makes sense for almost all analyses.
