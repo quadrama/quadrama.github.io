@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Analysing Dramatic Figure Speech with R
+title: Analysing Dramatic Figure Speech with R, Part 1
 lang: en
 ref: guide
+logo: /assets/2016-10-21-analysing-speech/logo.png
 categories: Technology
 authors: Nils Reiter
 ---
