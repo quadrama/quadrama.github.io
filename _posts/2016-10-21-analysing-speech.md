@@ -10,6 +10,7 @@ authors: Nils Reiter
 This guide describes how to analyse dramatic figure speech with R, using our linguistic preprocessing tools. It is written as a step-by-step guide and uses the (German) dramatic texts [*Romeo und Julia*](https://textgridrep.org/browse/-/browse/vndf_0) and [*Emilia Galotti*](https://textgridrep.org/browse/-/browse/rksp_0) as examples.
 
 <!--more-->
+
 ## Inhaltsverzeichnis
 {:.no_toc}
 
@@ -191,6 +192,7 @@ Token/lemma
 Launch R or RStudio and set the working directory to `QD_DIR`.
 
 Run the following commands in the R console:
+
 ```R
 # This allows us to install directly from github
 > install.packages("devtools")
