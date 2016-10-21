@@ -5,17 +5,15 @@ lang: de
 ref: index
 ---
 
-# Hi there
-
-Intro-Absatz
-
----
-
-## Neue Posts
+# Neue Posts
 
 <ul class="posts">
-  {% for post in site.posts offset: 0 limit: 2 %}
+  {% for post in site.categories.Vortrag offset: 0 limit: 1 %}
     {% include date.html date=post.date lang=post.lang %}
     {% include teaser.html post=post %}
   {% endfor %}
+  {% for post in site.categories.Technology offset: 0 limit: 2 %}
+  {% include date.html date=post.date lang=post.lang %}
+  {% include teaser.html post=post %}
+{% endfor %}
 </ul>
