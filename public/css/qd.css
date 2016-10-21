@@ -139,6 +139,8 @@ ul.posts {
 .postlogo {
   float:right;
   border:thin solid #454545;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .qd_title {
