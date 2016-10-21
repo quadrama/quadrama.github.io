@@ -166,7 +166,7 @@ render_spiderweb_table("#fields-vndf0-table", d4);
 Wie in <span class="ref-figure" /> zu sehen ist, sprechen Romeo und Julia beide vor allem über Liebe. Julias Eltern hingegen, Graf und Gräfin Capulet, verwenden vor allem Wörter aus dem Bereich der Familie (zur Ansicht bitte auf die Namen unter der Grafik klicken). Julia spricht etwas mehr als Romeo in Familiensemantiken, da sie mit ihren Eltern co-präsent ist und insbesondere mit ihrer Mutter die (ihr später leidigen) Angelegenheiten in Sachen Graf Paris zu besprechen hat:
 
 
-> <span style="font-variant-caps:small-caps">Gräfin Capulet</span>. Wie steht's mit deiner Lust, dich zu vermählen?
+> <span style="font-variant-caps:small-caps">Gräfin Capulet</span>: Wie steht's mit deiner Lust, dich zu vermählen?
 
 Auch die anderen Figuren des Stücks verhalten sich erwartbar bezüglich des thematischen Musters ihrer Rede. Der Raufbold Tybalt etwa spricht überwiegend in Kriegssemantiken. Interessant ist die Beobachtung, dass die Amme als *einfache* Figur stärker als der Klosterbruder in religiösen Semantiken spricht. Dies lässt sich einerseits mit ihre Exklamationen erklären: “Gott behüte”; “bei meiner Seele!”, “Nu, weiß Gott”. Andererseits stellt auch hier die bei Julia schon angesprochene Co-Präsenz anderer Figuren einen großen Einflussfaktor auf die Semantiken der Figurenrede dar. Bruder Lorenzo tritt fast ausschließlich dann auf, wenn Romeo und Julia präsent sind. Entsprechend viel spricht er über deren Thema: Liebe.
 
