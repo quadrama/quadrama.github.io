@@ -212,7 +212,7 @@ Run the following commands in the R console:
 > t <- read.csv("utterances.csv")
 ```
 
-### Figure Speech Statistics
+### Overall Distribution
 This part generates a (static) plot such as Figure 2 in [this post]({{site.url}}/blog/2016/10/07/ottokar-capulet) (the stacked columns).
 
 ```R
@@ -243,3 +243,35 @@ text(x=c(0.7,0.7,1.9),
     labels=c("Romeo", "Julia", "Emilia"),
     col=c("white"))
 ```
+
+<div class="figure">
+<img src="{{site.url}}/assets/2016-10-21-analysing-speech/plot1.png" />
+<p class="caption">Figure Speech Distribution Plot</p>
+</div>
+
+
+### Variation
+In this part, we generate a box plot to show the variation of utterance length.
+We will restrict this analysis to the top-10 figures within one drama, `vndf.0`.
+
+
+```R
+# make a subset of tokens to only contain vndf.0
+> t_vndf.0 <- t[t$drama=="vndf.0",]
+
+# only the top 10 figures
+> t_vndf.0 <- limit.figures.by.rank(t_vndf.0, maxRank = 10)
+
+# Calculate utterance statistics for all figures
+> ustat <- utterance_statistics(t_vndf.0, num.figures = F)
+
+# Make a Boxplot
+> boxplot(ustat$utterance_length ~ ustat$figure,
+          col=qd.colors, las=2, frame=F,
+          main=paste("Figure Speech Variation"))
+```
+
+<div class="figure">
+<img src="{{site.url}}/assets/2016-10-21-analysing-speech/plot2.png" />
+<p class="caption">Box plot generated with R</p>
+</div>
