@@ -194,23 +194,27 @@ Launch R or RStudio and set the working directory to `QD_DIR`. Run the following
 
 ```R
 # This allows us to install directly from github
-> install.packages("devtools")
+install.packages("devtools")
 # Load the package devtools
-> library(devtools)
+library(devtools)
 
 # Install the QuaDramA R package in version 0.2.3.
 # This guide has been written for 0.2.3, but if
 # newer versions are available, you can try them by
 # replacing the version number.
-> install_github("quadrama/DramaAnalysis", ref="v0.2.3")
+install_github("quadrama/DramaAnalysis", ref="v0.2.3")
+
+# The steps up to here only need to be done once,
+# in order to set up your installation. 
+
 # Load the package DramaAnalysis
-> library(DramaAnalysis)
+library(DramaAnalysis)
 
 # Now we are ready to load the dramatic texts.
 # Note: this only works if you're in the right
 # directory and have run the previous steps
 # (successfully).
-> t <- read.csv("utterances.csv")
+t <- read.csv("utterances.csv")
 ```
 
 ### Overall Distribution
@@ -258,16 +262,16 @@ We will restrict this analysis to the top-10 figures within one drama, `vndf.0`.
 
 ```R
 # make a subset of tokens to only contain vndf.0
-> t_vndf.0 <- t[t$drama=="vndf.0",]
+t_vndf.0 <- t[t$drama=="vndf.0",]
 
 # only the top 10 figures
-> t_vndf.0 <- limit.figures.by.rank(t_vndf.0, maxRank = 10)
+t_vndf.0 <- limit.figures.by.rank(t_vndf.0, maxRank = 10)
 
 # Calculate utterance statistics for all figures
-> ustat <- utterance_statistics(t_vndf.0, num.figures = F)
+ustat <- utterance_statistics(t_vndf.0, num.figures = F)
 
 # Make a Boxplot
-> boxplot(ustat$utterance_length ~ ustat$figure,
+boxplot(ustat$utterance_length ~ ustat$figure,
           col=qd.colors, las=2, frame=F,
           main=paste("Figure Speech Variation"))
 ```
