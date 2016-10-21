@@ -31,11 +31,11 @@ Grundlage der hier beschriebenen Arbeit sind die Dramen im [TextGrid Repository]
 ## Ausgangslage
 
 ### Forschungsproblem
-Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften, die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet, ohne auf Kleist einzugehen, "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen
+Die literaturwissenschaftliche Forschung hat im Anschluss an die Bemühungen von Meta Corssen (1930) zahlreiche Textmerkmale identifiziert, mit denen der Einfluss von Shakespeares *Romeo und Julia* auf Kleists *Familie Schroffenstein* zu belegen versucht wird. Angeführt werden dabei Textelemente oder Texteigenschaften, die sowohl bei Shakespeare als auch bei Kleist nachweisbar sind (Gundolf 1911 unterscheidet, ohne auf Kleist einzugehen, "Shakespeare als Stoff", "Form" und "Gehalt"). Hierzu zählen unter anderem
 
 - Figuren und Figurentypen wie der Narr (Johann), der Bastard (Jeronimus) und die Hexe (Ursula, Barnabe), aber auch
 - Handlungselemente (Kindsmord)
-- Stilelemente (Grausamkeit des Kindsmords) und
+- Handlungsdarstellung (Grausamkeit des Kindsmords) und
 - Motive wie das der verbotenen Liebe (Schmidt 2003, 62).
 
 Auch *vermeintliche* direkte Zitate und Metaphern -- wie die Beschreibung des Geliebten als Vogel in der Hand eines Mädchens -- werden als Übernahmen Kleists verstanden (hierzu Theisen 1999: 93), aber letztlich muss auch aufgrund der Uneindeutigkeit der spärlichen Hinweise in den wenigen erhaltenen Briefen Kleists ([hier](http://kleist-digital.de/brief?id=letters/b_027.xml#shakespeare), Z. 192 und [hier](http://kleist-digital.de/brief?id=letters/b_092.xml#shakespeare), S. 141) unklar bleiben, welche Stücke Shakespeares Kleist tatsächlich kannte und ob er sie im Original oder einer der Übersetzungen seiner Zeit gelesen hat[^fn1].
