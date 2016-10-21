@@ -75,7 +75,7 @@ You will also need a directory to store both downloaded code and data. Please cr
 <td>The TEI file containing <i>Emilia Galotti</i></td>
 </tr>
 <tr>
-<td><a href="https://github.com/quadrama/Main/releases/download/v1.0.1/drama.Main-1.0.1-jar-with-dependencies.jar">drama.Main-1.0.1-jar-with-dependencies.jar</a></td>
+<td><a href="https://github.com/quadrama/Main/releases/download/v1.0.2/drama.Main-1.0.2.jar">drama.Main-1.0.2.jar</a></td>
 <td><code>code/drama.Main.jar</code></td>
 <td>Java code for doing NLP on dramatic texts</td>
 </tr>
