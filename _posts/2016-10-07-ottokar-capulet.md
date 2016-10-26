@@ -56,7 +56,7 @@ Unsere Analysen gehen von der Annahme aus, dass das Zählen von Wörtern in dram
   <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png"><img width="576" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/Schanze1989.png" /></a>
   <p class="caption">Wörterbuch zu Heinrich von Kleist (Schanze 1989, 242f.)</p>
 </div>
-Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. Für die Darstellung zweidimensionaler Daten (Figuren vs. aufsummierte Redeanteile) scheint uns Balkendiagramme am geeignetsten:  
+Wie generell in den *Digital Humanities* muss sich auch in der Literaturwissenschaft eine den spezifischen Arbeitsweisen der Disziplin angemessene Form der Visualisierung von (größeren) Datensätzen erst noch durchsetzen. Für die Darstellung zweidimensionaler Daten (Figuren vs. aufsummierte Redeanteile) scheinen uns Balkendiagramme am geeignetsten zu sein:  
 
 <div class="figure">
 <div id="container">bla</div>
