@@ -234,22 +234,22 @@ render_spiderweb_table("#fields-r0px0-table", d5);
 
 Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als Shakespeare'sche Hexe gelesen wird -- so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen (insb. mit Getrudes) konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. Mit den Äußerungen Kleists in seinem Brief an Marie von Kleist vom Spätherbst 1807 (Seiten [1](http://kleist-digital.de/brief?id=letters/b_118.xml), [2](http://kleist-digital.de/brief?id=letters/b_11.xml) und [3](http://kleist-digital.de/brief?id=letters/b_120.xml)) lässt sich diese Annahme dahingehend stützen, dass Kleist offensichtlich "Geschlecht" als relevante, wenn nicht sogar eine der zentralen poetologischen Kategorien seines Schaffens verstand. Über sein Stück *Penthesilea* schreibt er: 
 
-> 14    Für Frauen scheint es im Durchschnitt <br>
-> 15    weniger gemacht als für Männer, und auch unter den <br>
-> 16    Männern kann es nur ein[e]r Auswahl gefallen <br>
-> 17    Pfuëls krieg[e]risches Gemüth ist es eigentlich auf <br>
-> 18    das es durch und durch berechnet ist <br>
+> 14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Für Frauen scheint es im Durchschnitt <br>
+> 15  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  weniger gemacht als für Männer, und auch unter den <br>
+> 16  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Männern kann es nur ein[e]r Auswahl gefallen <br>
+> 17  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Pfuëls krieg[e]risches Gemüth ist es eigentlich auf <br>
+> 18  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  das es durch und durch berechnet ist <br>
 > [...]<br>
-> 31    Wenn man es recht unter sucht, so sind zuletzt d[i]e <br>
-> 32    Frauen an d[e]m ganzen Verfall unsrer Bühne schuld  <br>
-> 33    u[nd] sie sollten entw[e]d[er] gar nicht ins Schauspiel <br>
-> 34    gehen, oder es müßt[e]n eigne Bühnen für sie,  <br>
-> 35    abgesondert von den Männern errichtet w[er]den. Ihre <br>
-> 36    Anfo[r]derungen an Sittlichkeit u[nd] Moral vernicht[e]n  <br>
-> 37    das ganze Wesen d[e]s Drama, u[nd] niemals hätte <br>
-> 38    s[i]ch d[a]s Wesen d[e]s griechisch[e]n Theaters entwi[c]kelt, <br>
-> 39    wenn sie nicht ganz d[a]von ausgeschloßen gew[e]sen  <br>
-> 40    wär[e]n.
+> 31  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Wenn man es recht unter sucht, so sind zuletzt d[i]e <br>
+> 32  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Frauen an d[e]m ganzen Verfall unsrer Bühne schuld  <br>
+> 33  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  u[nd] sie sollten entw[e]d[er] gar nicht ins Schauspiel <br>
+> 34  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  gehen, oder es müßt[e]n eigne Bühnen für sie,  <br>
+> 35  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  abgesondert von den Männern errichtet w[er]den. Ihre <br>
+> 36  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Anfo[r]derungen an Sittlichkeit u[nd] Moral vernicht[e]n  <br>
+> 37  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  das ganze Wesen d[e]s Drama, u[nd] niemals hätte <br>
+> 38  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  s[i]ch d[a]s Wesen d[e]s griechisch[e]n Theaters entwi[c]kelt, <br>
+> 39  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  wenn sie nicht ganz d[a]von ausgeschloßen gew[e]sen  <br>
+> 40  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  wär[e]n.
 
 {:.right_aligned}
 -- [Brief an Marie von Kleist vom Spätherbst 1807](http://kleist-digital.de/brief?id=letters/b_118.xml),
