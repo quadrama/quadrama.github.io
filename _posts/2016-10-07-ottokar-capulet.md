@@ -232,7 +232,29 @@ render_spiderweb_table("#fields-r0px0-table", d5);
 
 </script>
 
-Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als Shakespeare'sche Hexe gelesen wird -- so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen (insb. mit Getrudes) konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. **HINWEIS IN BRIEF PRÜFEN**. Angesichts dieser Sensibilität Kleists für das Geschlecht seiner Figuren haben die spezifischen Muster der Figurenreden von Agnes und Ottokar potentiell hohen interpretativen Wert. Agnes spricht in den Semantiken der Männer und Ottokar scheint eine Art Mischform zwischen weiblichem und männlichem Reden darzustellen.
+Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als Shakespeare'sche Hexe gelesen wird -- so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen (insb. mit Getrudes) konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. Mit den Äußerungen Kleists in seinem Brief an Marie von Kleist vom Spätherbst 1807 (Seiten [1](http://kleist-digital.de/brief?id=letters/b_118.xml), [2](http://kleist-digital.de/brief?id=letters/b_11.xml) und [3](http://kleist-digital.de/brief?id=letters/b_120.xml)) lässt sich diese Annahme dahingehend stützen, dass Kleist offensichtlich "Geschlecht" als relevante, wenn nicht sogar eine der zentralen poetologischen Kategorien seines Schaffens verstand. Über sein Stück *Penthesilea* schreibt er: 
+
+> 14 Für Frauen scheint es im Durchschnitt 
+> 15 weniger gemacht als für Männer, und auch unter den 
+> 16 Männern kann es nur einr Auswahl gefallen 
+> 17 Pfuëls kriegrisches Gemüth ist es eigentlich auf 
+> 18 das es durch und durch berechnet ist
+> [...]
+Wenn man es recht unter sucht , so sind zuletzt de 31
+Frauen an dm ganzen Verfall unsrer Bühne schuld 32
+u sie sollten entwd gar nicht ins Schauspiel 33
+gehen, oder es müßtn eigne Bühnen für sie, 34
+abgesondert von den Männern errichtet wden . Ihre 35
+Anfoderungen an Sittlichkeit u Moral vernichtn 36
+das ganze Wesen ds Drama, u niemals hätte 37
+sch ds Wesen ds griechischn Theaters entwikelt , 38
+wenn sie nicht ganz dvon ausgeschloßen gewsen 39
+wärn . 40
+
+{:.right_aligned}
+-- [Brief an Marie von Kleist vom Spätherbst 1807](http://kleist-digital.de/brief?id=letters/b_118.xml),
+
+Angesichts dieser Sensibilität Kleists für das Geschlecht seiner Figuren haben die spezifischen Muster der Figurenreden von Agnes und Ottokar potentiell hohen interpretativen Wert. Agnes spricht in den Semantiken der Männer und Ottokar scheint eine Art Mischform zwischen weiblichem und männlichem Reden darzustellen.
 
 Vor dem Hintergrund der chiastischen Struktur, nach dem Kleist seinen Text konzipiert hat, bekommt dieser Fund eine besondere Reichweite für die Textinterpretation: Agnes wird am Ende des Textes von Ottokar in dessen Mantel gekleidet, um sie vor seinem herannahenden Vater zu schützen. Dieser soll denken, Agnes sei sein eigener Sohn. Im Gegenzug zieht Ottokar Agnes' Kleidung an, wird dann aber von seinem eigenen Vater in dem Glauben getötet, tatsächlich die Tochter der verfeindeten Warwands zu sein. Agnes wiederum wird von dem später auftretenden Silvester für Ottokar gehalten und ebenfalls erstochen. Der Fund einer geschlechtskonträren Semantisierung der Rede von Agnes und Ottokar entspricht der finalen und letztlich tragischen äußeren Identifikation des Liebespaares mit dem jeweils anderen.
 
