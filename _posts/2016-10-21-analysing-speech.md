@@ -114,9 +114,11 @@ java -cp code\drama.Main.jar de.unistuttgart.ims.drama.Main.TEI2XMI --input tei 
 ```
 {:.os_win}
 
-This should not take longer than 2 minutes, and you will see a lot of output during processing. If everything goes well, you will find the files `rksp.0.xmi` and `vndf.0.xmi` in the directory `xmi` (as well as a file called `typesystem.xml`).
+This should not take longer than 2 minutes, and you will see a lot of output during processing. If everything goes well, you will find the files `rksp.0.xmi` and `vndf.0.xmi` in the directory `xmi` (as well as a file called `typesystem.xml`)[^1].
 
 You have now converted the TEI files into XMI, and also added a lot of linguistic and non-linguistic annotation. The next step will be exporting some of the information in the XMI files into *comma-separated values*-format that can be read easily with R.
+
+[^1]: Added on 11.11.16: These XMI files *are* XML files, but they are not supposed be read by humans. Given their size (> 20MB), many XML GUI editors are not equipped to show these documents. If you want to inspect these files, you have a look at [this github repository](https://github.com/nilsreiter/SimpleXmiViewer). You can download a double-clickable jar files from the [releases list](https://github.com/nilsreiter/SimpleXmiViewer/releases).
 
 ## Export in CSV
 Again, go into the directory `QD_DIR` (if you have left in the meantime).
@@ -205,7 +207,7 @@ library(devtools)
 install_github("quadrama/DramaAnalysis", ref="v0.2.3")
 
 # The steps up to here only need to be done once,
-# in order to set up your installation. 
+# in order to set up your installation.
 
 # Load the package DramaAnalysis
 library(DramaAnalysis)
