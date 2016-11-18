@@ -252,7 +252,7 @@ Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als 
 > 40  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  wär[e]n.
 
 {:.right_aligned}
--- [Brief an Marie von Kleist vom Spätherbst 1807](http://kleist-digital.de/brief?id=letters/b_118.xml),
+-- [Brief an Marie von Kleist vom Spätherbst 1807](http://kleist-digital.de/brief?id=letters/b_118.xml)
 
 Die poetologische These, dass die ausschließlich Frauen zugeschriebenen Anforderungen an Sittlichkeit und Moral zumindest das für Kleist zeitgenössische Theater hinsichtlich seines Wesens verändern würden, muss an dieser Stelle nicht dramenhistorisch erläutert werden, um ihre Bedeutung für unsere Argumentation zu verdeutlichen: Einem Autor, der theaterhistorische Verfallsthesen mit vermeintlichen Sittlichkeitsanforderungen des weiblichen Geschlechts begründet, lässt sich ohne weiteres -- und mehr möchten wir an dieser Stelle gar nicht behaupten -- die Annahme von Geschlechterunterschieden und damit eine Figurenkonzeption unterstellen, für die "Geschlecht" eine relevante Kategorie der Textproduktion ist; und damit wird sie es für die Interpretation unserer Analyseergebnisse! Angesichts dieser Beobachtungen haben also die spezifischen Muster der Figurenreden von Agnes und Ottokar potentiell hohen interpretativen Wert. Agnes spricht in den Semantiken der Männer und Ottokar scheint eine Art Mischform zwischen weiblichem und männlichem Reden darzustellen (wenn man sowohl die Stärke des Ausschlags in einzelne Wortfelder als auch das Muster der Verteilung auf alle Wortfelder berücksichtigt).
 
