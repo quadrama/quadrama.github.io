@@ -119,7 +119,7 @@ render_boxplots("#utterance-length-variation-r0px0 > div", d3);
 </script>
 
 Vergleicht man hierzu die Äußerungslängen in der *Familie Schroffenstein* (<span class="ref-figure"/>), so zeigt sich das konträre Bild einer sehr geringen Varianz. Kleist reguliert die Redelänge seiner Figuren offensichtlich viel stärker; dies kann --
-so unsere These -- zurückgeführt werden auf eine Veränderung der Dramenkonventionen durch Lessing hin zu einer Annäherung an die Alltagssprache, in der weniger monologisiert wird als noch im Barock- und Aufklärungsdrama (zur bewussten Künstlichkeit 'natürlicher' Dialoge im Drama siehe u.a. Berghahn 1970 u. Zimmer 1982). Obgleich die Kleist'schen Syntaxen dieser Beobachtung nicht so sehr entsprechen, die quantitativen Analysen deuten darauf hin.
+so unsere These -- zurückgeführt werden auf eine Veränderung der Dramenkonventionen durch Lessing hin zu einer Annäherung an die Alltagssprache, in der weniger monologisiert wird als noch im Barock- und Aufklärungsdrama (zur bewussten Künstlichkeit ,natürlicher' Dialoge im Drama siehe u.a. Berghahn 1970 u. Zimmer 1982). Obgleich die Kleist'schen Syntaxen dieser Beobachtung nicht so sehr entsprechen, die quantitativen Analysen deuten darauf hin.
 
 
 ### Thematische Analyse der Figurenrede
@@ -273,7 +273,7 @@ Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist s
 
 ## Makroanalyse: Gattungskontexte
 
-Wie bereits oben angedeutet scheint Kleist ab 1806 das dualistische Gattungskonzept endgültig überwunden zu haben und sich gegen eine eindeutige generische Festlegung seiner Stücke zu weigern -- dies verraten bereits die Titelseiten seiner Stücke: *Ein großes historisches Ritterschauspiel*, *Ein Drama*, *Ein Schauspiel*. Im Lichte dieser Beobachtung hat die Forschung immer wieder die *Familie Schroffenstein* hinsichtlich ihrer Gattungszugehörigkeit zu beleuchten versucht und ihr u.a. 'Zwiespältigkeit' attestiert (Harms 1990, 18). Im Folgenden wollen wir zeigen, dass quantitative Analysen auch hinsichtlich der Beantwortung von Gattungsfragen *uneindeutiger* Texte neue und durchaus gewichtige Argumente in die literaturwissenschaftliche Diskussion einführen können.
+Wie bereits oben angedeutet scheint Kleist ab 1806 das dualistische Gattungskonzept endgültig überwunden zu haben und sich gegen eine eindeutige generische Festlegung seiner Stücke zu weigern -- dies verraten bereits die Titelseiten seiner Stücke: *Ein großes historisches Ritterschauspiel*, *Ein Drama*, *Ein Schauspiel*. Im Lichte dieser Beobachtung hat die Forschung immer wieder die *Familie Schroffenstein* hinsichtlich ihrer Gattungszugehörigkeit zu beleuchten versucht und ihr u.a. ,Zwiespältigkeit' attestiert (Harms 1990, 18). Im Folgenden wollen wir zeigen, dass quantitative Analysen auch hinsichtlich der Beantwortung von Gattungsfragen *uneindeutiger* Texte neue und durchaus gewichtige Argumente in die literaturwissenschaftliche Diskussion einführen können.
 
 ### Stilometrische Analysen
 Eines der Standardverfahren zur quantitativen Analyse von Gattungen kommt aus dem Bereich des Clusterings und wird im Moment vor allem zu stilometrischen Analysen verwendet. Dabei schauen wir auf die Häufigkeit von Wörtern oder Wortformen und erstellen sog. *Wortvektoren*.
