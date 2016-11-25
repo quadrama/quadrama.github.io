@@ -175,6 +175,10 @@ Aktiviert man in der obigen Abbildung einmal diejenigen Figuren, die für bestim
 #### Zeitgenössische Einflüsse auf Kleist
 
 Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. So wurde Kleist immer wieder im Einflussbereich Schillers gelesen -- bishin zur "Zwangsfixierung" bei der Konzeption der *Familie Schroffenstein* (Reinhardt 1988/89, 204). Wir haben uns entschieden, Vergleichsanalysen anhand der Stücke des Genres *Bürgerliches Trauerspiel* und denen der Strömung *Sturm und Drang* durchzuführen. Die folgenden Abbildungen zeigen jeweils drei Stücke aus den Vergleichsgruppen, jeweils durch ein Drama Schillers und anderer Autoren vertreten:
+
+
+
+
 <div class="figure">
   <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BuergerlTrauerspiel.png">
   <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BuergerlTrauerspiel.png" /></a>
@@ -182,13 +186,38 @@ Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die 
 </div>
 <br>
 <br>
-<div class="figure">
-  <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png">
-  <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" /></a>
-  <p class="caption"><i>Das leidende Weib</i> von Klinger, <i>Don Carlos</i> von Schiller</p>
+
+<div class="hslider">
+  <ul>
+    <li><div class="figure">
+      <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png">
+      <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" /></a>
+      <p class="caption"><i>Das leidende Weib</i> von Klinger, <i>Don Carlos</i> von Schiller</p>
+    </div>
+  </li>
+  <li>
+    <div class="figure">
+      <div id="fields-r1350">bla</div>
+    </div>
+  </li>
+  <li>
+    <div class="figure">
+      <div id="fields-tx4z0">bla</div>
+    </div>
+  </li>
+  </ul>
 </div>
 
+<script>
+fields_r135_0 =  [{"drama":"r135.0","figure":"Baron Blum.","Familie":0.0028,"Krieg":0,"Liebe":0.0032,"Ratio":0.0047,"Religion":0.0018},{"drama":"r135.0","figure":"BEDIENTER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Betchen.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Der Geheimderat.","Familie":0.01,"Krieg":0,"Liebe":0.0039,"Ratio":0.0051,"Religion":0.0048},{"drama":"r135.0","figure":"Doktor, Franzens Freund.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"EINS","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Franz, sein Sohn.","Familie":0.0171,"Krieg":0.0014,"Liebe":0.0135,"Ratio":0.0031,"Religion":0.0098},{"drama":"r135.0","figure":"FRÄNZCHEN","Familie":0,"Krieg":0,"Liebe":0.0118,"Ratio":0.0077,"Religion":0},{"drama":"r135.0","figure":"Gesandter, ihr Mann.","Familie":0.0114,"Krieg":0,"Liebe":0.0076,"Ratio":0.0022,"Religion":0.0063},{"drama":"r135.0","figure":"Gesandtin, seine Tochter.","Familie":0.0066,"Krieg":0.0029,"Liebe":0.0114,"Ratio":0.0055,"Religion":0.0151},{"drama":"r135.0","figure":"GORG","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0.016,"Religion":0},{"drama":"r135.0","figure":"Graf Louis.","Familie":0.0053,"Krieg":0,"Liebe":0.007,"Ratio":0.0041,"Religion":0.0029},{"drama":"r135.0","figure":"Julie, Franzens Geliebte.","Familie":0.0027,"Krieg":0.0009,"Liebe":0.0136,"Ratio":0.0009,"Religion":0.0034},{"drama":"r135.0","figure":"Kinder des Gesandten.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Läufer.","Familie":0.004,"Krieg":0.0053,"Liebe":0.0047,"Ratio":0.0041,"Religion":0.0026},{"drama":"r135.0","figure":"Lieschen.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Louise, Kammermädchen der Gesandtin.","Familie":0.0018,"Krieg":0,"Liebe":0.0069,"Ratio":0.0036,"Religion":0.009},{"drama":"r135.0","figure":"MAGD","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Magister.","Familie":0.0071,"Krieg":0,"Liebe":0.0037,"Ratio":0.0111,"Religion":0.0075},{"drama":"r135.0","figure":"MALCHEN","Familie":0,"Krieg":0,"Liebe":0.0359,"Ratio":0.0104,"Religion":0},{"drama":"r135.0","figure":"SCHÖNER GEIST","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Sein Hofmeister.","Familie":0.0114,"Krieg":0,"Liebe":0.0089,"Ratio":0.0116,"Religion":0},{"drama":"r135.0","figure":"Sophchen.","Familie":0,"Krieg":0.0124,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Suschen, seine Tochter.","Familie":0.0132,"Krieg":0,"Liebe":0.0068,"Ratio":0,"Religion":0.0056},{"drama":"r135.0","figure":"UNBEKANNTER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Von Brand.","Familie":0.0098,"Krieg":0.0024,"Liebe":0.0186,"Ratio":0.0061,"Religion":0.0077}];
 
+fields_tx4z_0 = [{"drama":"tx4z.0","figure":"ALLE","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"ALLE ANWESENDEN GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"ALLE GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"DER ERSTE","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Der Grossinquisitor des Königreichs.","Familie":0.0089,"Krieg":0.0046,"Liebe":0.0041,"Ratio":0.0084,"Religion":0.0159},{"drama":"tx4z.0","figure":"Der Prior eines Kartäuserklosters.","Familie":0.0078,"Krieg":0,"Liebe":0.0182,"Ratio":0.0106,"Religion":0},{"drama":"tx4z.0","figure":"DIE ÜBRIGEN GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Domingo, Beichtvater des Königs.","Familie":0.0022,"Krieg":0.0025,"Liebe":0.0059,"Ratio":0.0044,"Religion":0.0049},{"drama":"tx4z.0","figure":"Don Carlos, der Kronprinz.","Familie":0.0128,"Krieg":0.0033,"Liebe":0.0114,"Ratio":0.005,"Religion":0.0098},{"drama":"tx4z.0","figure":"EIN DRITTER","Familie":0,"Krieg":0.0812,"Liebe":0.0967,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Ein Page der Königin.","Familie":0,"Krieg":0,"Liebe":0.0102,"Ratio":0.0022,"Religion":0},{"drama":"tx4z.0","figure":"EIN ZWEITER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"EINER VON DEN GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Elisabeth von Valois, seine Gemahlin.","Familie":0.0113,"Krieg":0.0038,"Liebe":0.011,"Ratio":0.0062,"Religion":0.0051},{"drama":"tx4z.0","figure":"FERIA","Familie":0,"Krieg":0.0036,"Liebe":0.0043,"Ratio":0,"Religion":0.0072},{"drama":"tx4z.0","figure":"FUENTES","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Graf von Lerma, Oberster der Leibwache,","Familie":0.0071,"Krieg":0.0062,"Liebe":0.0009,"Ratio":0.0064,"Religion":0.0061},{"drama":"tx4z.0","figure":"Herzog von Alba,","Familie":0.0052,"Krieg":0.0053,"Liebe":0.0052,"Ratio":0.0026,"Religion":0.0055},{"drama":"tx4z.0","figure":"Herzogin von Olivarez, Oberhofmeisterin.","Familie":0.0058,"Krieg":0.0038,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Infantin Klara Eugenia, ein Kind von drei Jahren.","Familie":0.1468,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Marquis von Posa, ein Malteserritter,","Familie":0.0031,"Krieg":0.0027,"Liebe":0.0093,"Ratio":0.0047,"Religion":0.0051},{"drama":"tx4z.0","figure":"Marquisin von Mondekar,","Familie":0.0173,"Krieg":0,"Liebe":0.0135,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"MEDINA SIDONIA","Familie":0,"Krieg":0,"Liebe":0.0078,"Ratio":0.0068,"Religion":0.0129},{"drama":"tx4z.0","figure":"MERKADO","Familie":0,"Krieg":0.0035,"Liebe":0,"Ratio":0,"Religion":0.0069},{"drama":"tx4z.0","figure":"OFFIZIER","Familie":0,"Krieg":0.0083,"Liebe":0,"Ratio":0,"Religion":0.0164},{"drama":"tx4z.0","figure":"PARMA","Familie":0,"Krieg":0.0151,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"PARMA UND FERIA","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Philipp der Zweite, König von Spanien.","Familie":0.0073,"Krieg":0.0043,"Liebe":0.0065,"Ratio":0.0052,"Religion":0.0043},{"drama":"tx4z.0","figure":"Prinzessin von Eboli,","Familie":0.0026,"Krieg":0.0019,"Liebe":0.0101,"Ratio":0.0057,"Religion":0.0117},{"drama":"tx4z.0","figure":"TAXIS","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0.0164,"Religion":0}];
+
+
+render_spiderweb("#fields-r1350", fields_r135_0, ["Baron Blum.", "Franz, sein Sohn.", "Gesandtin, seine Tochter.", "Julie, Franzens Geliebte.", "Magister."]);
+render_spiderweb("#fields-tx4z0", fields_tx4z_0, ["Philipp der Zweite, König von Spanien.", "Prinzessin von Eboli,", "Don Carlos, der Kronprinz.", "Graf von Lerma, Oberster der Leibwache,", "Elisabeth von Valois, seine Gemahlin."]);
+
+</script>
 
 Vergleicht man die abgebildeten Stücke des Bürgerlichen Trauerspiels mit denen des Sturm und Drang, so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) individuelle Ideen oder spezifische Positionen in Bezug auf dramatische Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist.
 
@@ -232,7 +261,7 @@ render_spiderweb_table("#fields-r0px0-table", d5);
 
 </script>
 
-Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als Shakespeare'sche Hexe gelesen wird -- so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen (insb. mit Getrudes) konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. Mit den Äußerungen Kleists in seinem Brief an Marie von Kleist vom Spätherbst 1807 (Seiten [1](http://kleist-digital.de/brief?id=letters/b_118.xml), [2](http://kleist-digital.de/brief?id=letters/b_11.xml) und [3](http://kleist-digital.de/brief?id=letters/b_120.xml)) lässt sich diese Annahme dahingehend stützen, dass Kleist offensichtlich "Geschlecht" als relevante, wenn nicht sogar eine der zentralen poetologischen Kategorien seines Schaffens verstand. Über sein Stück *Penthesilea* schreibt er: 
+Nimmt man auch noch Barnabe hinzu -- die Tochter der Totengräberwitwe, die als Shakespeare'sche Hexe gelesen wird -- so zeigt sich, dass auch ihre Redesemantiken mit denen ihrer Geschlechtsgenossinnen (insb. mit Getrudes) konvergiert. Dies ist bemerkenswert, da so ausgeschlossen werden kann, dass der innerfiktional ausgezeichnete soziale Stand eine Rolle für die Semantisierung der Figurenrede durch Kleist spielt. Vielmehr scheint Kleist seine Figuren nicht (oder nicht nur) wie Shakespeare als Repräsentanten bestimmter Konflikte zu konzipieren, sondern vor allem auch als Vertreter ihres Geschlechts. Mit den Äußerungen Kleists in seinem Brief an Marie von Kleist vom Spätherbst 1807 (Seiten [1](http://kleist-digital.de/brief?id=letters/b_118.xml), [2](http://kleist-digital.de/brief?id=letters/b_11.xml) und [3](http://kleist-digital.de/brief?id=letters/b_120.xml)) lässt sich diese Annahme dahingehend stützen, dass Kleist offensichtlich "Geschlecht" als relevante, wenn nicht sogar eine der zentralen poetologischen Kategorien seines Schaffens verstand. Über sein Stück *Penthesilea* schreibt er:
 
 > 14  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Für Frauen scheint es im Durchschnitt <br>
 > 15  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  weniger gemacht als für Männer, und auch unter den <br>
