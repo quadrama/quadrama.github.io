@@ -174,52 +174,143 @@ Aktiviert man in der obigen Abbildung einmal diejenigen Figuren, die für bestim
 
 #### Zeitgenössische Einflüsse auf Kleist
 
-Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. So wurde Kleist immer wieder im Einflussbereich Schillers gelesen -- bishin zur "Zwangsfixierung" bei der Konzeption der *Familie Schroffenstein* (Reinhardt 1988/89, 204). Wir haben uns entschieden, Vergleichsanalysen anhand der Stücke des Genres *Bürgerliches Trauerspiel* und denen der Strömung *Sturm und Drang* durchzuführen. Die folgenden Abbildungen zeigen jeweils drei Stücke aus den Vergleichsgruppen, jeweils durch ein Drama Schillers und anderer Autoren vertreten:
+Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. So wurde Kleist immer wieder im Einflussbereich Schillers gelesen -- bishin zur "Zwangsfixierung" bei der Konzeption der *Familie Schroffenstein* (Reinhardt 1988/89, 204). Wir haben uns entschieden, Vergleichsanalysen anhand der Stücke des Genres *Bürgerliches Trauerspiel* und denen der Strömung *Sturm und Drang* durchzuführen. Die folgenden Abbildungen zeigen Stücke aus den Vergleichsgruppen, jeweils durch ein Drama Schillers und anderer Autoren vertreten:
 
 
 
-
+<div class="hslider">
+<ul>
+<li>
+<div class="figure">
+  <div id="fields_rksp_0">bla</div>
+  <p class="caption"><i>Emilia Galotti</i> (1772) von Lessing</p>
+</div>
+</li>
+<li>
+<div class="figure">
+  <div id="fields_tz39_0">bla</div>
+  <p class="caption"><i>Kabale und Liebe</i> (1784) von Schiller</p>
+</div>
+</li>
+<li>
+<div class="figure">
+  <div id="fields_qkmq_0">bla</div>
+  <p class="caption"><i>Die Jäger</i> (1785) von Iffland</p>
+</div>
+</li>
+<!--
+<li>
 <div class="figure">
   <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BuergerlTrauerspiel.png">
   <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/BuergerlTrauerspiel.png" /></a>
   <p class="caption"><i>Die Jäger</i> von Iffland, <i>Emilia Galotti</i> von Lessing und <i>Kabale und Liebe</i> von Schiller</p>
 </div>
-<br>
-<br>
+</li>
+-->
+</ul>
+</div>
 
 <div class="hslider">
   <ul>
-    <li><div class="figure">
-      <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png">
-      <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" /></a>
-      <p class="caption"><i>Das leidende Weib</i> von Klinger, <i>Don Carlos</i> von Schiller</p>
-    </div>
-  </li>
+
   <li>
     <div class="figure">
       <div id="fields-r1350">bla</div>
+      <p class="caption"><i>Das leidende Weib</i> (1775) von Klinger</p>
     </div>
   </li>
   <li>
     <div class="figure">
       <div id="fields-tx4z0">bla</div>
+      <p class="caption"><i>Don Carlos</i> (1787) von Schiller</p>
     </div>
   </li>
+  <!--
+  <li><div class="figure">
+    <a href="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png">
+    <img width="600" src="{{ site.url }}/assets/2016-10-07-ottokar-capulet/SturmUndDrang.png" /></a>
+    <p class="caption"><i>Das leidende Weib</i> von Klinger, <i>Don Carlos</i> von Schiller</p>
+  </div>
+</li>
+-->
   </ul>
 </div>
 
 <script>
-fields_r135_0 =  [{"drama":"r135.0","figure":"Baron Blum.","Familie":0.0028,"Krieg":0,"Liebe":0.0032,"Ratio":0.0047,"Religion":0.0018},{"drama":"r135.0","figure":"BEDIENTER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Betchen.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Der Geheimderat.","Familie":0.01,"Krieg":0,"Liebe":0.0039,"Ratio":0.0051,"Religion":0.0048},{"drama":"r135.0","figure":"Doktor, Franzens Freund.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"EINS","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Franz, sein Sohn.","Familie":0.0171,"Krieg":0.0014,"Liebe":0.0135,"Ratio":0.0031,"Religion":0.0098},{"drama":"r135.0","figure":"FRÄNZCHEN","Familie":0,"Krieg":0,"Liebe":0.0118,"Ratio":0.0077,"Religion":0},{"drama":"r135.0","figure":"Gesandter, ihr Mann.","Familie":0.0114,"Krieg":0,"Liebe":0.0076,"Ratio":0.0022,"Religion":0.0063},{"drama":"r135.0","figure":"Gesandtin, seine Tochter.","Familie":0.0066,"Krieg":0.0029,"Liebe":0.0114,"Ratio":0.0055,"Religion":0.0151},{"drama":"r135.0","figure":"GORG","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0.016,"Religion":0},{"drama":"r135.0","figure":"Graf Louis.","Familie":0.0053,"Krieg":0,"Liebe":0.007,"Ratio":0.0041,"Religion":0.0029},{"drama":"r135.0","figure":"Julie, Franzens Geliebte.","Familie":0.0027,"Krieg":0.0009,"Liebe":0.0136,"Ratio":0.0009,"Religion":0.0034},{"drama":"r135.0","figure":"Kinder des Gesandten.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Läufer.","Familie":0.004,"Krieg":0.0053,"Liebe":0.0047,"Ratio":0.0041,"Religion":0.0026},{"drama":"r135.0","figure":"Lieschen.","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Louise, Kammermädchen der Gesandtin.","Familie":0.0018,"Krieg":0,"Liebe":0.0069,"Ratio":0.0036,"Religion":0.009},{"drama":"r135.0","figure":"MAGD","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Magister.","Familie":0.0071,"Krieg":0,"Liebe":0.0037,"Ratio":0.0111,"Religion":0.0075},{"drama":"r135.0","figure":"MALCHEN","Familie":0,"Krieg":0,"Liebe":0.0359,"Ratio":0.0104,"Religion":0},{"drama":"r135.0","figure":"SCHÖNER GEIST","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Sein Hofmeister.","Familie":0.0114,"Krieg":0,"Liebe":0.0089,"Ratio":0.0116,"Religion":0},{"drama":"r135.0","figure":"Sophchen.","Familie":0,"Krieg":0.0124,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Suschen, seine Tochter.","Familie":0.0132,"Krieg":0,"Liebe":0.0068,"Ratio":0,"Religion":0.0056},{"drama":"r135.0","figure":"UNBEKANNTER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"r135.0","figure":"Von Brand.","Familie":0.0098,"Krieg":0.0024,"Liebe":0.0186,"Ratio":0.0061,"Religion":0.0077}];
+fields_r135_0 =  [
+{"drama":"r135.0","figure":"Baron Blum","Familie":0.0028,"Krieg":0,"Liebe":0.0032,"Ratio":0.0047,"Religion":0.0018},
+{"drama":"r135.0","figure":"Betchen","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},
+{"drama":"r135.0","figure":"Der Geheimderat","Familie":0.01,"Krieg":0,"Liebe":0.0039,"Ratio":0.0051,"Religion":0.0048},
+{"drama":"r135.0","figure":"Doktor","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},
+{"drama":"r135.0","figure":"Franz","Familie":0.0171,"Krieg":0.0014,"Liebe":0.0135,"Ratio":0.0031,"Religion":0.0098},
+{"drama":"r135.0","figure":"Gesandtin","Familie":0.0066,"Krieg":0.0029,"Liebe":0.0114,"Ratio":0.0055,"Religion":0.0151},
+{"drama":"r135.0","figure":"Graf Louis","Familie":0.0053,"Krieg":0,"Liebe":0.007,"Ratio":0.0041,"Religion":0.0029},
+{"drama":"r135.0","figure":"Julie","Familie":0.0027,"Krieg":0.0009,"Liebe":0.0136,"Ratio":0.0009,"Religion":0.0034},
+{"drama":"r135.0","figure":"Läufer","Familie":0.004,"Krieg":0.0053,"Liebe":0.0047,"Ratio":0.0041,"Religion":0.0026},
+{"drama":"r135.0","figure":"Lieschen","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},
+{"drama":"r135.0","figure":"Louise","Familie":0.0018,"Krieg":0,"Liebe":0.0069,"Ratio":0.0036,"Religion":0.009},
+{"drama":"r135.0","figure":"Magister","Familie":0.0071,"Krieg":0,"Liebe":0.0037,"Ratio":0.0111,"Religion":0.0075},
+{"drama":"r135.0","figure":"Sein Hofmeister","Familie":0.0114,"Krieg":0,"Liebe":0.0089,"Ratio":0.0116,"Religion":0},
+{"drama":"r135.0","figure":"Sophchen","Familie":0,"Krieg":0.0124,"Liebe":0,"Ratio":0,"Religion":0},
+{"drama":"r135.0","figure":"Suschen","Familie":0.0132,"Krieg":0,"Liebe":0.0068,"Ratio":0,"Religion":0.0056},
+{"drama":"r135.0","figure":"Von Brand","Familie":0.0098,"Krieg":0.0024,"Liebe":0.0186,"Ratio":0.0061,"Religion":0.0077}];
 
-fields_tx4z_0 = [{"drama":"tx4z.0","figure":"ALLE","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"ALLE ANWESENDEN GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"ALLE GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"DER ERSTE","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Der Grossinquisitor des Königreichs.","Familie":0.0089,"Krieg":0.0046,"Liebe":0.0041,"Ratio":0.0084,"Religion":0.0159},{"drama":"tx4z.0","figure":"Der Prior eines Kartäuserklosters.","Familie":0.0078,"Krieg":0,"Liebe":0.0182,"Ratio":0.0106,"Religion":0},{"drama":"tx4z.0","figure":"DIE ÜBRIGEN GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Domingo, Beichtvater des Königs.","Familie":0.0022,"Krieg":0.0025,"Liebe":0.0059,"Ratio":0.0044,"Religion":0.0049},{"drama":"tx4z.0","figure":"Don Carlos, der Kronprinz.","Familie":0.0128,"Krieg":0.0033,"Liebe":0.0114,"Ratio":0.005,"Religion":0.0098},{"drama":"tx4z.0","figure":"EIN DRITTER","Familie":0,"Krieg":0.0812,"Liebe":0.0967,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Ein Page der Königin.","Familie":0,"Krieg":0,"Liebe":0.0102,"Ratio":0.0022,"Religion":0},{"drama":"tx4z.0","figure":"EIN ZWEITER","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"EINER VON DEN GRANDEN","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Elisabeth von Valois, seine Gemahlin.","Familie":0.0113,"Krieg":0.0038,"Liebe":0.011,"Ratio":0.0062,"Religion":0.0051},{"drama":"tx4z.0","figure":"FERIA","Familie":0,"Krieg":0.0036,"Liebe":0.0043,"Ratio":0,"Religion":0.0072},{"drama":"tx4z.0","figure":"FUENTES","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Graf von Lerma, Oberster der Leibwache,","Familie":0.0071,"Krieg":0.0062,"Liebe":0.0009,"Ratio":0.0064,"Religion":0.0061},{"drama":"tx4z.0","figure":"Herzog von Alba,","Familie":0.0052,"Krieg":0.0053,"Liebe":0.0052,"Ratio":0.0026,"Religion":0.0055},{"drama":"tx4z.0","figure":"Herzogin von Olivarez, Oberhofmeisterin.","Familie":0.0058,"Krieg":0.0038,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Infantin Klara Eugenia, ein Kind von drei Jahren.","Familie":0.1468,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Marquis von Posa, ein Malteserritter,","Familie":0.0031,"Krieg":0.0027,"Liebe":0.0093,"Ratio":0.0047,"Religion":0.0051},{"drama":"tx4z.0","figure":"Marquisin von Mondekar,","Familie":0.0173,"Krieg":0,"Liebe":0.0135,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"MEDINA SIDONIA","Familie":0,"Krieg":0,"Liebe":0.0078,"Ratio":0.0068,"Religion":0.0129},{"drama":"tx4z.0","figure":"MERKADO","Familie":0,"Krieg":0.0035,"Liebe":0,"Ratio":0,"Religion":0.0069},{"drama":"tx4z.0","figure":"OFFIZIER","Familie":0,"Krieg":0.0083,"Liebe":0,"Ratio":0,"Religion":0.0164},{"drama":"tx4z.0","figure":"PARMA","Familie":0,"Krieg":0.0151,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"PARMA UND FERIA","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0,"Religion":0},{"drama":"tx4z.0","figure":"Philipp der Zweite, König von Spanien.","Familie":0.0073,"Krieg":0.0043,"Liebe":0.0065,"Ratio":0.0052,"Religion":0.0043},{"drama":"tx4z.0","figure":"Prinzessin von Eboli,","Familie":0.0026,"Krieg":0.0019,"Liebe":0.0101,"Ratio":0.0057,"Religion":0.0117},{"drama":"tx4z.0","figure":"TAXIS","Familie":0,"Krieg":0,"Liebe":0,"Ratio":0.0164,"Religion":0}];
+fields_tx4z_0 = [{"drama":"tx4z.0","figure":"Der Grossinquisitor des Königreichs","Familie":0.0089,"Krieg":0.0046,"Liebe":0.0041,"Ratio":0.0084,"Religion":0.0159},
+{"drama":"tx4z.0","figure":"Domingo","Familie":0.0022,"Krieg":0.0025,"Liebe":0.0059,"Ratio":0.0044,"Religion":0.0049},
+{"drama":"tx4z.0","figure":"Don Carlos","Familie":0.0128,"Krieg":0.0033,"Liebe":0.0114,"Ratio":0.005,"Religion":0.0098},
+{"drama":"tx4z.0","figure":"Ein Page der Königin","Familie":0,"Krieg":0,"Liebe":0.0102,"Ratio":0.0022,"Religion":0},
+{"drama":"tx4z.0","figure":"Elisabeth von Valois","Familie":0.0113,"Krieg":0.0038,"Liebe":0.011,"Ratio":0.0062,"Religion":0.0051},
+{"drama":"tx4z.0","figure":"Graf von Lerma","Familie":0.0071,"Krieg":0.0062,"Liebe":0.0009,"Ratio":0.0064,"Religion":0.0061},
+{"drama":"tx4z.0","figure":"Herzog von Alba","Familie":0.0052,"Krieg":0.0053,"Liebe":0.0052,"Ratio":0.0026,"Religion":0.0055},
+{"drama":"tx4z.0","figure":"Marquis von Posa","Familie":0.0031,"Krieg":0.0027,"Liebe":0.0093,"Ratio":0.0047,"Religion":0.0051},
+{"drama":"tx4z.0","figure":"Philipp der Zweite","Familie":0.0073,"Krieg":0.0043,"Liebe":0.0065,"Ratio":0.0052,"Religion":0.0043},
+{"drama":"tx4z.0","figure":"Prinzessin von Eboli","Familie":0.0026,"Krieg":0.0019,"Liebe":0.0101,"Ratio":0.0057,"Religion":0.0117}];
+
+fields_rksp_0 = [
+{"drama":"rksp.0","figure":"Angelo","Familie":0.004,"Krieg":0.0026,"Liebe":0.0016,"Ratio":0.0068,"Religion":0.0026},
+{"drama":"rksp.0","figure":"Claudia","Familie":0.0186,"Krieg":0.0042,"Liebe":0.0055,"Ratio":0.0039,"Religion":0.0049},
+{"drama":"rksp.0","figure":"Conti","Familie":0.0072,"Krieg":0,"Liebe":0.0139,"Ratio":0.0024,"Religion":0},
+{"drama":"rksp.0","figure":"Emilia Galotti","Familie":0.0325,"Krieg":0.003,"Liebe":0.0068,"Ratio":0.0043,"Religion":0.0067},
+{"drama":"rksp.0","figure":"Graf Appiani","Familie":0.0133,"Krieg":0.0039,"Liebe":0.0066,"Ratio":0.0057,"Religion":0},
+{"drama":"rksp.0","figure":"Gräfin Orsina","Familie":0.0079,"Krieg":0.0024,"Liebe":0.0054,"Ratio":0.0044,"Religion":0.0012},
+{"drama":"rksp.0","figure":"Hettore Gonzaga","Familie":0.0069,"Krieg":0.0026,"Liebe":0.0056,"Ratio":0.0035,"Religion":0.0035},
+{"drama":"rksp.0","figure":"Marinelli","Familie":0.0128,"Krieg":0.0028,"Liebe":0.007,"Ratio":0.0038,"Religion":0.0019},
+{"drama":"rksp.0","figure":"Odoardo","Familie":0.021,"Krieg":0.0039,"Liebe":0.0041,"Ratio":0.0057,"Religion":0.0052},
+{"drama":"rksp.0","figure":"PIRRO","Familie":0.0112,"Krieg":0,"Liebe":0,"Ratio":0.0025,"Religion":0.0048}]
+
+fields_qkmq_0 = [
+{"drama":"qkmq.0","figure":"Amtmann von Zeck zu Weißenberg","Familie":0.0051,"Krieg":0,"Liebe":0.0033,"Ratio":0.0058,"Religion":0.0109},
+{"drama":"qkmq.0","figure":"Anton","Familie":0.0195,"Krieg":0.0009,"Liebe":0.0076,"Ratio":0.0019,"Religion":0.0113},
+{"drama":"qkmq.0","figure":"Barth","Familie":0.0014,"Krieg":0.0009,"Liebe":0.0011,"Ratio":0.0037,"Religion":0.0035},
+{"drama":"qkmq.0","figure":"Der Schulz zu Weißenberg","Familie":0.0035,"Krieg":0,"Liebe":0,"Ratio":0.0032,"Religion":0.0225},
+{"drama":"qkmq.0","figure":"Die Wirtin zu Leuthal.","Familie":0.0099,"Krieg":0.0013,"Liebe":0.0023,"Ratio":0.0027,"Religion":0.0114},
+{"drama":"qkmq.0","figure":"Friedrike","Familie":0.0228,"Krieg":0.002,"Liebe":0.0059,"Ratio":0.0041,"Religion":0.0107},
+{"drama":"qkmq.0","figure":"Kordelchen von Zeck","Familie":0.008,"Krieg":0,"Liebe":0.001,"Ratio":0.0054,"Religion":0.0136},
+{"drama":"qkmq.0","figure":"Oberförster","Familie":0.0128,"Krieg":0.0007,"Liebe":0.0042,"Ratio":0.0043,"Religion":0.0121},
+{"drama":"qkmq.0","figure":"Oberförsterin","Familie":0.0112,"Krieg":0.0018,"Liebe":0.0042,"Ratio":0.0042,"Religion":0.0115},
+{"drama":"qkmq.0","figure":"Pastor Seebach zu Weißenberg","Familie":0.0152,"Krieg":0.0024,"Liebe":0.0115,"Ratio":0.0042,"Religion":0.01}]
+
+fields_tz39_0 = [
+{"drama":"tz39.0","figure":"Millers Frau","Familie":0.0408,"Krieg":0.0013,"Liebe":0.006,"Ratio":0.0026,"Religion":0.0149},
+{"drama":"tz39.0","figure":"Ein Kammerdiener des Fürsten","Familie":0.0226,"Krieg":0,"Liebe":0.0029,"Ratio":0.0026,"Religion":0.0145},
+{"drama":"tz39.0","figure":"Ferdinand","Familie":0.0175,"Krieg":0.0041,"Liebe":0.0136,"Ratio":0.0067,"Religion":0.0111},
+{"drama":"tz39.0","figure":"Hofmarschall von Kalb","Familie":0.0039,"Krieg":0.0025,"Liebe":0.003,"Ratio":0.0039,"Religion":0.0099},
+{"drama":"tz39.0","figure":"Lady Milford","Familie":0.0066,"Krieg":0.0026,"Liebe":0.0145,"Ratio":0.0055,"Religion":0.005},
+{"drama":"tz39.0","figure":"Luise","Familie":0.021,"Krieg":0.0022,"Liebe":0.0119,"Ratio":0.0044,"Religion":0.0138},
+{"drama":"tz39.0","figure":"Miller","Familie":0.0252,"Krieg":0.0016,"Liebe":0.0074,"Ratio":0.0026,"Religion":0.0175},
+{"drama":"tz39.0","figure":"Präsident von Walter","Familie":0.0189,"Krieg":0.0031,"Liebe":0.0037,"Ratio":0.0032,"Religion":0.0019},
+{"drama":"tz39.0","figure":"Sophie","Familie":0.0029,"Krieg":0,"Liebe":0.0089,"Ratio":0.0058,"Religion":0.0147},
+{"drama":"tz39.0","figure":"Wurm","Familie":0.0174,"Krieg":0.0043,"Liebe":0.0051,"Ratio":0.0048,"Religion":0.0014}]
 
 
-render_spiderweb("#fields-r1350", fields_r135_0, ["Baron Blum.", "Franz, sein Sohn.", "Gesandtin, seine Tochter.", "Julie, Franzens Geliebte.", "Magister."]);
-render_spiderweb("#fields-tx4z0", fields_tx4z_0, ["Philipp der Zweite, König von Spanien.", "Prinzessin von Eboli,", "Don Carlos, der Kronprinz.", "Graf von Lerma, Oberster der Leibwache,", "Elisabeth von Valois, seine Gemahlin."]);
-
+render_spiderweb("#fields-r1350", fields_r135_0, ["Baron Blum", "Franz", "Gesandtin", "Julie", "Magister"]);
+render_spiderweb("#fields-tx4z0", fields_tx4z_0, ["Philipp der Zweite", "Prinzessin von Eboli", "Don Carlos", "Graf von Lerma", "Elisabeth von Valois"]);
+render_spiderweb("#fields_rksp_0", fields_rksp_0, ["Emilia Galotti", "Odoardo", "Claudia", "Marinelli", "Hettore Gonzaga","Gräfin Orsina"]);
+render_spiderweb("#fields_tz39_0", fields_tz39_0, ["Luise", "Ferdinand", "Miller"]);
+render_spiderweb("#fields_qkmq_0", fields_qkmq_0, ["Oberförsterin", "Oberförster", "Anton", "Friedrike"]);
 </script>
 
-Vergleicht man die abgebildeten Stücke des Bürgerlichen Trauerspiels mit denen des Sturm und Drang, so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) individuelle Ideen oder spezifische Positionen in Bezug auf dramatische Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist.
+Vergleicht man die abgebildeten Stücke des Bürgerlichen Trauerspiels (Abb. 6-8) mit denen des Sturm und Drang (Abb. 9 und 10), so zeigt sich auf den ersten Blick, dass die Muster der Figurenrede im Bürgerlichen Trauerspiel *konvergieren* und die Muster der Figurenrede im Sturm und Drang *divergieren*. Im Bürgerlichen Trauerspiel scheinen Figuren nicht wie bei Shakespeare (und im Sturm und Drang) individuelle Ideen oder spezifische Positionen in Bezug auf dramatische Konflikte zu repräsentieren. Vielmehr verteilen sich die Figuren sehr homogen hinsichtlich der Semantiken, d.h. alle Figuren sprechen ähnlich oft über die gleichen Themen. Das lässt auf eine völlig andere Form der Darstellung und Lösung dramatischer Konflikte schließen als es im Sturm und Drang der Fall ist.
 
 Es ist keine neue Beobachtung, dass sich Autoren dieser Strömung unisono auf Shakespeare als zentrale Bezugsgröße beziehen. Viele von ihnen haben das in ihren dramenpoetologischen Schriften explizit betont. So u.a.:
 
