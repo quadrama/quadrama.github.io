@@ -176,6 +176,8 @@ Aktiviert man in der obigen Abbildung einmal diejenigen Figuren, die für bestim
 
 Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die zeitgenössische Dramenproduktion durchaus verfolgte und daher muss diese auch als möglicher Einfluss der *Familie Schroffenstein* berücksichtigt werden. So wurde Kleist immer wieder im Einflussbereich Schillers gelesen -- bishin zur "Zwangsfixierung" bei der Konzeption der *Familie Schroffenstein* (Reinhardt 1988/89, 204). Wir haben uns entschieden, Vergleichsanalysen anhand der Stücke des Genres *Bürgerliches Trauerspiel* und denen der Strömung *Sturm und Drang* durchzuführen. Die folgenden Abbildungen zeigen Stücke aus den Vergleichsgruppen, jeweils durch ein Drama Schillers und anderer Autoren vertreten:
 
+**Bürgerliches Trauerspiel**
+
 
 
 <div class="hslider">
@@ -198,6 +200,7 @@ Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die 
   <p class="caption"><i>Die Jäger</i> (1785) von Iffland</p>
 </div>
 </li>
+**Sturm und Drang**
 <!--
 <li>
 <div class="figure">
