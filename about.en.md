@@ -7,8 +7,21 @@ editor: reiter
 ---
 
 
-## Dr. Marcus Willand
+QuaDramA -- Quantitative Drama Analytics -- is a research project [we]({{ site.baseurl }}/about.en) currently conduct at [Stuttgart University](http://www.uni-stuttgart.de/). The aim of the project is the development of new methods to analyse dramatic texts and the investigation of drama-historic developments using these new methods. The core idea of QuaDramA is the complementation of analysing structural information (e.g., acts and scenes) with an NLP-supported analysis of the figure speech.
 
+QuaDramA is attached to the [Center for Reflected Text Analytics](http://www.creta.uni-stuttgart.de) and the [Stuttgart Research Center for Text Studies](http://www.ts.uni-stuttgart.de).
+
+<div class="logoline">
+  <a href="http://www.creta.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/creta.png" alt="Center for Reflected Text Analytics (CRETA)" /></a>
+  <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.en.png" alt="Stuttgart University, Germany"/></a>
+</div>
+
+# Personen
+
+## Dr. Marcus Willand
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
+
+<div style="clear:left">&nbsp;</div>
 
 ## Dr. Nils Reiter
 
@@ -19,3 +32,5 @@ Nils Reiter studied Computational Linguistics at Saarland University. He did his
 E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 
 Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
+
+<div style="clear:left">&nbsp;</div>
