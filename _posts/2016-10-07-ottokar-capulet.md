@@ -200,7 +200,6 @@ Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die 
   <p class="caption"><i>Die Jäger</i> (1785) von Iffland</p>
 </div>
 </li>
-**Sturm und Drang**
 <!--
 <li>
 <div class="figure">
@@ -212,7 +211,7 @@ Die überlieferten Briefe Kleists lassen die Annahme zu, dass ihr Schreiber die 
 -->
 </ul>
 </div>
-
+**Sturm und Drang**
 <div class="hslider">
   <ul>
 
