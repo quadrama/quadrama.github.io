@@ -26,7 +26,7 @@ E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
 
 Website: [`marcuswilland.de`](http://www.marcuswilland.de)
 
-Twitter: [@marcus_willand](https://twitter.com/Marcus_Willand)
+Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
 <br>
 <br>
 
