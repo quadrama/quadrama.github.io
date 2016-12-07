@@ -18,18 +18,6 @@ QuaDramA is attached to the [Center for Reflected Text Analytics](http://www.cre
 
 # Personen
 
-## Dr. Marcus Willand
-<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
-
-Marcus Willand studied German Language and Literature, Sociology and Psychology at the Universities of Darmstadt, Berlin (HU) and Åbo in Finland from 2002 to 2008. He also wrote his PhD thesis about theories and models of readers in literary studies (publications) between 2009 and 2014 also at HU-Berlin and Princeton University (2009). Since 2014 he works as a Post-Doc at the Institute for Literary Studies at Stuttgart University (Chair: Andrea Albrecht). That’s where he met Nils. 
-
-E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
-
-Website: [`marcuswilland.de`](http://www.marcuswilland.de)
-
-Twitter: [@marcus_willand](https://twitter.com/Marcus_Willand)
-
-<div style="clear:left">&nbsp;</div>
 
 ## Dr. Nils Reiter
 
@@ -40,5 +28,19 @@ Nils Reiter studied Computational Linguistics at Saarland University. He did his
 E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 
 Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
+
+<div style="clear:left">&nbsp;</div>
+
+
+## Dr. Marcus Willand
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
+
+Marcus Willand studied German Language and Literature, Sociology and Psychology at the Universities of Darmstadt, Berlin (HU) and Åbo in Finland from 2002 to 2008. He also wrote his PhD thesis about theories and models of readers in literary studies (publications) between 2009 and 2014 also at HU-Berlin and Princeton University (2009). Since 2014 he works as a Post-Doc at the Institute for Literary Studies at Stuttgart University (Chair: Andrea Albrecht). That’s where he met Nils. 
+
+E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
+
+Website: [`marcuswilland.de`](http://www.marcuswilland.de)
+
+Twitter: [@marcus_willand](https://twitter.com/Marcus_Willand)
 
 <div style="clear:left">&nbsp;</div>
