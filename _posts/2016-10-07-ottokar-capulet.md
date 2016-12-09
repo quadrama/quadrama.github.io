@@ -47,7 +47,7 @@ Auch *vermeintliche* Zitate (direkte ebenso wie indirekte) und Metaphern -- wie 
 Im Folgenden möchten wir untersuchen, ob mit den von uns entwickelten Tools zur quantitativen Dramenanalyse der These von dem Einfluss Shakespeares auf Kleist ein weiteres Argument zur Seite gestellt werden kann; dieses Argument bezieht sich auf die Konzeption dramatischer Figurenrede. Unsere Untersuchung möchten wir jedoch nicht als Kritik oder Herausforderung weder der bisherigen Forschungsmeinungen noch der etablierten Praktiken des literaturwissenschaftlichen Lesens und Interpretierens verstanden wissen. Vielmehr soll die durch Digitalisierung ermöglichte Verarbeitung sehr großer Dramen-Korpora eine Neuperspektivierung einzelner dramatischer Texte ermöglichen und dergestalt bisher kaum feststellbare dramenhistorische Einflussbeziehungen offenlegen.
 
 Dieser Form der Makroanalyse stellen wir -- ganz im Sinne des *scalable readings* -- Mikroanalysen der dramatischen Texte gegenüber. In diesen werden die Redesemantiken der relevanten und analogen Figuren aus beiden Stücken verglichen.
-Dabei wird sich zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur eingeschränkt nachweisen lässt: vielmehr scheint seine Figurenkonzeption -- bzw. genauer: seine Konzeption der Figurenrede -- überhaupt nur als Überlagerung verschiedener dramatischer Strömungen seiner Zeit verstehbar zu sein; hierfür spricht auch die Skepsis Kleists gegenüber einer generisch eindeutigen Festlegung seiner Stücke nach der *Penthesilea*, also ab etwa 1808 (hierzu u.a. Harms 1990, 18). Der regen Diskussion darüber, ob die als "Schauspiel" oder "Drama" publizierten Stücke (*Käthchen*, *Hermannsschlacht*, *Prinz von Homburg*) eher der Komödie oder der Tragödie zuzuordnen sind, werden wir ebenfalls ein quantitatives Argument beisteuern. Wir werden zu zeigen versuchen, dass Kleists Entscheidung gegen eine klare Zuordnung offenbar Resultat eines profunden Gattungsbewusstseins ist, das bereits die Komposition seiner Texte beeinflusst.
+Dabei wird sich zeigen, dass sich ein Einfluss Shakespeares auf Kleist nur eingeschränkt nachweisen lässt: vielmehr scheint seine Figurenkonzeption -- bzw. genauer: seine Konzeption der Figurenrede -- überhaupt nur als Überlagerung verschiedener dramatischer Strömungen seiner Zeit verstehbar zu sein; hierfür spricht auch die Skepsis Kleists gegenüber einer generisch eindeutigen Festlegung seiner Stücke nach der *Penthesilea*, also ab etwa 1808 (hierzu u.a. Harms 1990, 18; Breuer 2009, 17). Der regen Diskussion darüber, ob die als "Schauspiel" oder "Drama" publizierten Stücke (*Käthchen*, *Hermannsschlacht*, *Prinz von Homburg*) eher der Komödie oder der Tragödie zuzuordnen sind, werden wir ebenfalls ein quantitatives Argument beisteuern. Wir werden zu zeigen versuchen, dass Kleists Entscheidung gegen eine klare Zuordnung offenbar Resultat eines profunden Gattungsbewusstseins ist, das bereits die Komposition seiner Texte beeinflusst.
 
 ## Mikroanalyse: Figurenrede
 
@@ -555,20 +555,21 @@ Wie in <span class="ref-figure" /> zu sehen ist, sind einige Dramen sehr deutlic
 ## Bibliographie
 
 1.	Berghahn, Klaus L. (1970). Formen der Dialogführung in Schillers klassischen Dramen. Ein Beitrag zur Poetik des Dramas. Münstersche Beiträge zur deutschen Literaturwissenschaft. Band 5. Münster.
-2.	Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
-3.	Corssen, Meta (1930). Kleist und Shakespeare. Weimar.
-4.	Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
-5.	Grussendorf, Hermann (1914). Der Monolog in Drama des Sturms und Drangs [Diss.]. München.
-6.	Gundolf, Friedrich (1911). Shakespeare und der deutsche Geist. Berlin.
-7.	Harms, Ingeborg (1990). Zwei Spiele Kleists um Trauer und Lust. "Die Familie Schroffenstein" und "Der zerbrochne Krug". München.
-8.	Huersch, Irmgard (1947). Der Monolog im deutschen Drama von Lessing bis Hebbel. Winterthur.
-9.	Jannidis, Fotis: Der Autor ganz nah – Autorstil in Stilistik und Stilometrie. In Matthias Schaffrick und Marcus Willand (Hg.): Theorien und Praktiken der Autorschaft. Berlin: de Gruyter 2014, 169-195.
-10.	Leo, Friedrich (1908). Der Monolog im Drama. Ein Beitrag zur griechisch-römischen Poetik. Berlin.
-11.	Lott, Bernhard (1909). Der Monolog im englischen Drama vor Shakespeare [Diss.]. Greifswald.
-12.	Reinhardt, Hartmut (1988/89): Rechtsverwirrung und Verdachtspsychologie. Spuren der Schiller-Rezeption bei Heinrich Kleist. Kleist-Jahrbuch: 198-218
-13.	Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
-14.	Schanze, Helmut (2., völlig neu bearb. Aufl.1989). Wörterbuch zu Heinrich von Kleist. Sämtliche Erzählungen, Anekdoten und kleine Schriften. Indices zur deutschen Literatur. Bd. 20. Tübingen.
-15.	Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
-16.	Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
+2.  Breuer, Ingo (2009): Kleist-Handbuch. Leben – Werk – Wirkung. Stuttgart: Metzler.
+3.	Clemen, Wolfgang (1964). Shakespeares Monologe. Kleine Vandenhoeck-Reihe. 198/199. Göttingen.
+4.	Corssen, Meta (1930). Kleist und Shakespeare. Weimar.
+5.	Dunz-Wolff, Günter: http://kleist-digital.de/. Digitale, textkritische Edition sämlicher Werke und Briefe von Kleist (im Entstehen).
+6.	Grussendorf, Hermann (1914). Der Monolog in Drama des Sturms und Drangs [Diss.]. München.
+7.	Gundolf, Friedrich (1911). Shakespeare und der deutsche Geist. Berlin.
+8.	Harms, Ingeborg (1990). Zwei Spiele Kleists um Trauer und Lust. "Die Familie Schroffenstein" und "Der zerbrochne Krug". München.
+9.	Huersch, Irmgard (1947). Der Monolog im deutschen Drama von Lessing bis Hebbel. Winterthur.
+10.	Jannidis, Fotis: Der Autor ganz nah – Autorstil in Stilistik und Stilometrie. In Matthias Schaffrick und Marcus Willand (Hg.): Theorien und Praktiken der Autorschaft. Berlin: de Gruyter 2014, 169-195.
+11.	Leo, Friedrich (1908). Der Monolog im Drama. Ein Beitrag zur griechisch-römischen Poetik. Berlin.
+12.	Lott, Bernhard (1909). Der Monolog im englischen Drama vor Shakespeare [Diss.]. Greifswald.
+13.	Reinhardt, Hartmut (1988/89): Rechtsverwirrung und Verdachtspsychologie. Spuren der Schiller-Rezeption bei Heinrich Kleist. Kleist-Jahrbuch: 198-218
+14.	Schabert, Ina (Hg.) (2009):Shakespeare-Handbuch. Die Zeit, der Mensch, das Werk, die Nachwelt. (5., durchges. und erg. Aufl.) Stuttgart.
+15.	Schanze, Helmut (2., völlig neu bearb. Aufl.1989). Wörterbuch zu Heinrich von Kleist. Sämtliche Erzählungen, Anekdoten und kleine Schriften. Indices zur deutschen Literatur. Bd. 20. Tübingen.
+16.	Schmidt, Jochen (2003): Heinrich von Kleist. Die Dramen und Erzählungen in ihrer Epoche. Darmstadt.
+17.	Spearman, Charles (1904): "The proof and measurement of association between two things". American Journal of Psychology. **15**: 72–101.
 17.	Theisen, Bianca (1999): „Der Bewunderer Shakespears. Kleists Skeptizismus“. Kleist-Jahrbuch: 87–108.
 18.	Zimmer, Reinhold (1982). Dramatischer Dialog und außersprachlicher Kontext Dialogformen in deutschen Dramen des 17. bis 20. Jahrhunderts. Palaestra. Göttingen.
