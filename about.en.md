@@ -16,7 +16,7 @@ QuaDramA is attached to the [Center for Reflected Text Analytics](http://www.cre
   <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.en.png" alt="Stuttgart University, Germany"/></a>
 </div>
 
-QuaDramA is funded by Volkswagen Foundation.
+QuaDramA is funded by <a href="https://www.volkswagenstiftung.de">Volkswagen Foundation</a>.
 
 <div class="logoline">
 <a href="https://www.volkswagenstiftung.de"><img src="{{site.url}}/assets/about/vw.gif" alt="VolkswagenStiftung" /></a>

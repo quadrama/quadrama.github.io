@@ -16,7 +16,7 @@ QuaDramA ist angedockt an das [Center for Reflected Text Analytics](http://www.c
 </div>
 
 
-QuaDramA wird gefördert von der VolkswagenStiftung.
+QuaDramA wird gefördert von der <a href="https://www.volkswagenstiftung.de">VolkswagenStiftung</a>.
 
 <div class="logoline">
 <a href="https://www.volkswagenstiftung.de"><img src="{{site.url}}/assets/about/vw.gif" alt="VolkswagenStiftung" /></a>
