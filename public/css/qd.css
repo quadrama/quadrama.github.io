@@ -183,6 +183,10 @@ ul.itab li.active {
  * about > logos
  */
 
+div.logoline {
+  text-align: center;
+}
+
 div.logoline img {
   display:inline-block;
   margin-right:15px;
