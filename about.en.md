@@ -16,6 +16,12 @@ QuaDramA is attached to the [Center for Reflected Text Analytics](http://www.cre
   <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.en.png" alt="Stuttgart University, Germany"/></a>
 </div>
 
+QuaDramA is funded by Volkswagen Foundation.
+
+<div class="logoline">
+<a href="https://www.volkswagenstiftung.de"><img src="{{site.url}}/assets/about/vw.gif" alt="VolkswagenStiftung" /></a>
+</div>
+
 # Personen
 
 
@@ -35,7 +41,7 @@ Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 ## Dr. Marcus Willand
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
 
-Marcus Willand studied German language and literature, sociology and psychology at the universities of Darmstadt, Berlin (HU) and Åbo in Finland from 2002 to 2008. After graduating he wrote his PhD thesis on theories and models of readers in literary studies ([publications](https://sites.google.com/site/marcuswilland/publikationen)) between 2009 and 2014 at HU-Berlin and Princeton University. Since then he works as a Post-Doc at the Institute for Literary Studies (ILW) at Stuttgart University (chair: Andrea Albrecht). That’s where he met Nils. 
+Marcus Willand studied German language and literature, sociology and psychology at the universities of Darmstadt, Berlin (HU) and Åbo in Finland from 2002 to 2008. After graduating he wrote his PhD thesis on theories and models of readers in literary studies ([publications](https://sites.google.com/site/marcuswilland/publikationen)) between 2009 and 2014 at HU-Berlin and Princeton University. Since then he works as a Post-Doc at the Institute for Literary Studies (ILW) at Stuttgart University (chair: Andrea Albrecht). That’s where he met Nils.
 
 E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
 

@@ -15,6 +15,13 @@ QuaDramA ist angedockt an das [Center for Reflected Text Analytics](http://www.c
   <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.de.png" alt="Universität Stuttgart" /></a>
 </div>
 
+
+QuaDramA wird gefördert von der VolkswagenStiftung.
+
+<div class="logoline">
+<a href="https://www.volkswagenstiftung.de"><img src="{{site.url}}/assets/about/vw.gif" alt="VolkswagenStiftung" /></a>
+</div>
+
 # Personal
 
 ## Dr. Marcus Willand
@@ -25,7 +32,7 @@ Studium (2002-08) der Sprach- und Literaturwissenschaften, Psychologie und Sozio
 E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
 
 Website: [`marcuswilland.de`](http://www.marcuswilland.de)
- 
+
 Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
 <br>
 <br>
