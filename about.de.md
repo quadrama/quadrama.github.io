@@ -6,7 +6,6 @@ ref: about
 editor: reiter
 ---
 
-QuaDramA -- Quantitative Drama Analytics -- ist ein Forschungsprojekt, das [wir]({{ site.baseurl }}/about.de) derzeit an der [Universität Stuttgart](http://www.uni-stuttgart.de/) durchführen. Ziel des Projektes ist zum einen die Entwicklung neuer Methoden zur Analyse dramatischer Texte und zum anderen die Untersuchung dramenhistorischer Entwicklungen. Kern ist dabei die Komplementierung von strukturellen Informationen in Dramen (Einteilung in Akte, Szenen etc.) mit einer computerlinguistisch unterstützten Analyse der Figurenrede(n).
 
 QuaDramA ist angedockt an das [Center for Reflected Text Analytics](http://www.creta.uni-stuttgart.de) und das [Stuttgart Research Center for Text Studies](http://www.ts.uni-stuttgart.de).
 
