@@ -17,7 +17,7 @@ QuaDramA ist angedockt an das [Center for Reflected Text Analytics](http://www.c
 <div class="logoline">
   <a href="http://www.creta.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/creta.png" alt="Center for Reflected Text Analytics (CRETA)" /></a>
   <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.de.png" alt="Universität Stuttgart" /></a>
-  <a href="http://www.ts.uni-stuttgart.de/"><img src="{{ site.url }}/assets/about/srcts.png" alt="Stuttgart Research Centre for Text Studies" /></a>
+  <a href="http://www.ts.uni-stuttgart.de/"><img src="{{ site.url }}/assets/about/SRCTS.png" alt="Stuttgart Research Centre for Text Studies (SRCTS)" /></a>
 </div>
 
 
