@@ -18,8 +18,8 @@ QuaDramA is attached to the [Center for Reflected Text Analytics](http://www.cre
 
 <div class="logoline">
   <a href="http://www.creta.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/creta.png" alt="Center for Reflected Text Analytics (CRETA)" /></a>
+  <a href="http://www.ts.uni-stuttgart.de/"><img src="{{ site.url }}/assets/about/SRCTS.png" alt="Stuttgart Research Centre for Text Studies (SRCTS)" /></a>
   <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.en.png" alt="Stuttgart University, Germany"/></a>
-   <a href="http://www.ts.uni-stuttgart.de/"><img src="{{ site.url }}/assets/about/SRCTS.png" alt="Stuttgart Research Centre for Text Studies (SRCTS)" /></a>
 </div>
 
 QuaDramA is funded by <a href="https://www.volkswagenstiftung.de">Volkswagen Foundation</a>.
