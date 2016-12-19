@@ -27,7 +27,7 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
 {% endif %}
 
 
-## News: Vortrag
+## Letzter Vortrag
 
 <ul class="posts">
   {% for post in site.categories.Vortrag offset: 0 limit: 1 %}
