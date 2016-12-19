@@ -13,7 +13,7 @@ Hiermit können wir die freudige Mitteilung machen, dass QuaDramA nun von der Vo
 
 <!--more-->
 
-Unser Antrag im Rahmen der Initiative [Mixed Methods in den Geisteswissenschaften](https://www.volkswagenstiftung.de/mixedmethodsgeisteswissenschaften.html) war erfolgreich, herzlichen Dank dafür an die VolkswagenStiftung! Wir freuen uns darauf, mit der Arbeit anzufangen. Offiziell starten werden wir voraussichtlich im April 2017. Zwei Stellen für Doktorand_innen werden in den nächsten Tagen ausgeschrieben.
+Unser Antrag im Rahmen der Initiative [Mixed Methods in den Geisteswissenschaften](https://www.volkswagenstiftung.de/mixedmethodsgeisteswissenschaften.html) war erfolgreich, herzlichen Dank dafür. Offiziell starten werden wir voraussichtlich im April 2017. Zwei Stellen für Doktorand_innen werden in den nächsten Tagen ausgeschrieben.
 
 
 <div class="logoline">
