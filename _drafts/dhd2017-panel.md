@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DHd Panel: Quantitative Dramenanalyse
+title: DHd Panel - Quantitative Dramenanalyse
 lang: de
 ref: dhd2017-panel
 authors:
