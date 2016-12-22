@@ -46,3 +46,4 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
   {% include teaser.html post=post %}
 {% endfor %}
 </ul>
+<div style="clear:both;"></div>
