@@ -1,0 +1,40 @@
+---
+layout: pub
+---
+
+<div class="bibentry">
+	{% include inproceedings.html p=page %}
+</div>
+
+{{ content }}
+
+<h3>BibTeX</h3>
+<pre>
+@inproceedings{ {{ page.ref }},
+	Address = { {{ page.address }} },
+	Author = { {{ page.author | join: " and " }},
+ 	Booktitle = { {{ page.booktitle }} },
+	Year = { {{ page.year }} },
+	Month = { {{ page.month }} }
+}
+</pre>
+
+<h3>Endnote</h3>
+<pre>
+%0 Conference Proceedings
+{% for au in page.author %}%A {{ au }}<br/>{% endfor %}%T {{ page.title }}
+%D {{ page.year }}
+%B {{ page.booktitle }}
+{% if page.doi %}%R {{ page.doi }}{% endif %}
+</pre>
+
+<h3>RIS</h3>
+<pre>
+TY - CHAP
+{% for au in page.author %}AU - {{ au }}
+{% endfor %}T1 - {{ page.title }}
+T2 - {{ page.booktitle }}
+PY - {{ page.year }}
+CY - {{ page.address }}
+ER -
+</pre>

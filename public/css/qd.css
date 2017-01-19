@@ -153,6 +153,23 @@ ul.posts {
 }
 
 /**
+ * publications
+ */
+
+.publication {
+}
+
+.publication span.booktitle {
+  font-style: italic;
+}
+
+.publication span.title {
+  font-weight: bold;
+}
+
+
+
+/**
  * inline tab
  */
 
