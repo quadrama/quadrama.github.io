@@ -33,6 +33,7 @@ In den *digital literary studies* wird zwar häufig Methodenkritik geäußert,
 In drei Kurzvorstellungen sollen die folgenden Methoden von jeweils einer Forschergruppe des Panels vorgestellt werden, wobei zur besseren Vergleichbarkeit der drei methodisch unterschiedlich aufgestellten Arbeitsgruppen zeitlich und gattungsbezogen vergleichbare Textsammlungen analysiert werden. Zwar werden diese Verfahren jeweils anhand eines individuellen Teilkorpus vorgestellt, es ist jedoch zu berücksichtigen, dass sie alle auf der statistischen Analyse größerer Textmengen basieren.
 
 ## Panelvorträge
+
 ### a) Topic Modeling und Gattung (Christof Schöch, Nanette Rißler-Pipka)
 
 Der Einsatz von *Topic Modeling* (Blei 2012) für die im weitesten Sinne inhaltliche Erschließung großer Sammlungen literarischer Texte zeigt zwei Dinge: Erstens sind die erzielten Ergebnisse, ins besondere die jeweils dominanten Typen der *Topics*, textsortenabhängig (Schöch 2016). So sind nicht-fiktionale expositorische Texte (bspw. Pressemitteilungen) durch abstrakte thematische  Topics geprägt, fiktionale Erzähltexte (bspw. Romane) aber durch *Topics*, die sich auf narrative und deskriptive Motive beziehen. Auch dramatische Texte  zeichnen sich durch ein eigenes Profil solcher Typen von *Topics* aus, in dem diskursive und metadiskursive *Topics* eine besondere Rolle spielen. Dieser Umstand schärft auch den Blick auf die spezifische, textuelle Funktionsweise der jeweiligen Gattung und literarischer Texte insgesamt.
