@@ -90,6 +90,10 @@ pre.highlight {
   text-align:right;
 }
 
+a.catlink {
+  color: #909090 !important;
+}
+
 .post h2 {
   margin-top:50px;
 }

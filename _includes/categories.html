@@ -1,0 +1,9 @@
+{% assign arr = site.array %}
+{% for c in include.categories %}
+	{% assign d = '<a class="catlink" href="' %}
+	{% assign d = d | append: site.url | append: "/categories/" %}
+	{% assign d = d | append: c | append: '">' | append: c | append: '</a>' %}
+
+	{% assign arr = arr | push: d %}
+{% endfor %}
+{{ arr | join: " • "}}

@@ -1,0 +1,8 @@
+{% case include.lang %}
+  {% when 'de' %}
+    <a class="catlink" href="{{site.url}}/categories/Deutsch">Deutsch</a>
+  {% when 'fr' %}
+    <a class="catlink" href="{{site.url}}/categories/Français">Français</a>
+  {% else %}
+    <a class="catlink" href="{{site.url}}/categories/English">English</a>
+{% endcase %}

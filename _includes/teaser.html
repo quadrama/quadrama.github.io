@@ -2,9 +2,9 @@
   <div class="headline">
     <div class="left">
       {% if post.categories[0] %}
-        {{ post.categories | join: " • " }} •
+        {% include categories.html categories=post.categories %} •
       {% endif %}
-      {% include language.html lang=post.lang %}
+      {% include languagelink.html lang=post.lang %}
     </div>
     <div class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
     <div style="clear:both;"></div>

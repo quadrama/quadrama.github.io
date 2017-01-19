@@ -6,7 +6,7 @@ layout: default
   {% include date.html date=page.date lang=page.lang %}
 
   <div class="headline">
-    <div class="left">{{ page.categories | join: " • " }}</div>
+    <div class="left">{% include categories.html categories=page.categories %}</div>
     <div class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
     <div style="clear:both;"></div>
   </div>

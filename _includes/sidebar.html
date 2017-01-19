@@ -54,11 +54,19 @@
       {% if node.layout == "page" %}
         {% if translation[0] %}
           <a class="sidebar-nav-item{% if page.url == translation[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation[0].url }}">{{ translation[0].title }}</a>
+          {% if node.ref == "blog" %}
+            {% for node2 in site.pages %}
+              {% if node2.layout == "tagpage" %}
+                  <a class="sidebar-nav-item{% if page.url == node2.url %} active{% endif %}" href="{{ site.baseurl }}{{ node2.url }}">&nbsp;&raquo; {{ node2.category }}</a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         {% else %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ default.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
+
 
 
     <!-- The code below is used for manually entered links  -->
