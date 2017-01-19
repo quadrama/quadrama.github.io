@@ -1,11 +1,10 @@
 ---
-layout: pub
+layout: page
 title: Publications
 ref: publications
 lang: en
 ---
 
-# Publications
 
 {% assign years = site.publications | map: "year" | uniq %}
 
@@ -13,10 +12,11 @@ lang: en
 
 <h2>{{ y }}</h2>
 {% assign thisyear = site.publications | where:"year", y %}
+
 {% for pub in thisyear %}
 	{% case pub.layout %}
 		{% when "inproceedings" %}
-{% include inproceedings.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p>
+<div class="publication">{% include inproceedings.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
 	{% endcase %}
 
 {% endfor %}
