@@ -3,5 +3,14 @@ layout: default
 ---
 
 <div class="publication">
+  <div class="bibentry">
+  	{% include {{page.layout}}.html p=page %}
+  </div>
+  {% if page.doi %}
+  <div>
+  DOI: <a href="http://dx.doi.org/{{page.doi}}">{{page.doi}}</a>
+  </div>
+  {% endif %}
+
   {{ content }}
 </div>

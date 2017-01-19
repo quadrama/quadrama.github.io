@@ -167,7 +167,13 @@ ul.posts {
   font-weight: bold;
 }
 
+.publication span.journal {
+  font-style: italic;
+}
 
+.publication .abstract {
+  font-size:0.8em;
+}
 
 /**
  * inline tab

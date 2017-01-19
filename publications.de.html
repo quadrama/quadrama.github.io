@@ -16,8 +16,9 @@ lang: de
 	{% case pub.layout %}
 		{% when "inproceedings" %}
 <div class="publication">{% include inproceedings.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
+		{% when "article" %}
+		<div class="publication">{% include article.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
 	{% endcase %}
-
 {% endfor %}
 
 {% endfor %}
