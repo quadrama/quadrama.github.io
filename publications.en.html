@@ -14,11 +14,7 @@ lang: en
 {% assign thisyear = site.publications | where:"year", y %}
 
 {% for pub in thisyear %}
-	{% case pub.layout %}
-		{% when "inproceedings" %}
-<div class="publication">{% include inproceedings.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
-	{% endcase %}
-
+<div class="publication">{% include pub.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
 {% endfor %}
 
 {% endfor %}
