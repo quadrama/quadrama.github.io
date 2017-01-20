@@ -5,6 +5,23 @@ ref: publications
 lang: en
 ---
 
+<ul class="itab">
+	Show publications in &nbsp;
+<li class="active" lang="de"><a href="#">German</a></li>
+<li class="active" lang="en"><a href="#">English</a></li>
+</ul>
+<script>
+$(".itab > li > a").click(function(ev) {
+  ev.preventDefault();
+  var p = $(this).parent();
+	var l = $(p).attr("lang");
+  p.toggleClass("active");
+	$("div[lang="+l+"]").toggle();
+});
+</script>
+
+
+
 
 {% assign years = site.publications | map: "year" | uniq %}
 
@@ -14,7 +31,7 @@ lang: en
 {% assign thisyear = site.publications | where:"year", y %}
 
 {% for pub in thisyear %}
-<div class="publication">{% include pub.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
+<div class="publication" lang="{{pub.lang}}">{% include pub.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
 {% endfor %}
 
 {% endfor %}
