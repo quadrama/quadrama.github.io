@@ -2,6 +2,14 @@
 layout: pub
 ---
 
+{% if page.downloads %}
+<h3>Downloads</h3>
+<ul>
+{% for d in page.downloads %}
+<li><a href="{{d.url}}">{{d.desc}}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
 
 {{ content }}
 

@@ -12,9 +12,9 @@ address: Leipzig, Germany
 month: March
 ref: Blessing2016aa
 lang: de
+downloads:
+- desc: TEI/XML
+  url: https://raw.githubusercontent.com/aramiscd/dhd2016-boa/master/input/xml/posters-077.xml
+- desc: PDF
+  url: Blessing2016aa.pdf
 ---
-
-### Downloads
-
-* [TEI/XML](Blessing2016aa.xml)
-* [PDF](Blessing2016aa.pdf)
