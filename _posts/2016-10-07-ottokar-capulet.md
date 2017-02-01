@@ -383,7 +383,7 @@ Die poetologische These, dass die ausschließlich Frauen zugeschriebenen Anforde
 Vor dem Hintergrund der chiastischen Struktur, nach dem Kleist seinen Text konzipiert hat, bekommt dieser Fund eine besondere Reichweite für die Textinterpretation: Agnes wird am Ende des Textes von Ottokar in dessen Mantel gekleidet, um sie vor seinem herannahenden Vater zu schützen. Dieser soll denken, Agnes sei sein eigener Sohn. Im Gegenzug zieht Ottokar Agnes' Kleidung an, wird dann aber von seinem eigenen Vater in dem Glauben getötet, tatsächlich die Tochter der verfeindeten Warwands zu sein. Agnes wiederum wird von dem später auftretenden Silvester für Ottokar gehalten und ebenfalls erstochen. Der Fund einer geschlechtskonträren Semantisierung der Rede von Agnes und Ottokar entspricht der finalen und letztlich tragischen äußeren Identifikation des Liebespaares mit dem jeweils anderen.
 
 
-#### Ergebnisse der Mikroanalyse
+### Ergebnisse der Mikroanalyse
 
 Der Vergleich der exemplarischen Mikroanalysen legt für uns nahe, dass Kleist sich im Mittelfeld möglicher Einflüsse seiner Zeit bewegt. Die *Familie Schroffenstein* ist hinsichtlich der Figurenrede nicht so divers wie *Romeo und Julia* und die Stücke des Sturm und Drang. Die Figuren der Kleist'schen Tragödie konvergieren aber auch weniger als die Dramen des offensichtlich stark konventionalisierten Bürgerlichen Trauerspiels.
 
