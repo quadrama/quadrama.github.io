@@ -1,0 +1,30 @@
+---
+layout: page
+title: Vorträge
+ref: talks
+lang: de
+---
+
+
+
+{% assign years = site.talks | map: "year" | uniq | reverse %}
+
+{% for y in years %}
+
+<h2>{{ y }}</h2>
+{% assign thisyear = site.talks | where: "year", y | sort: "date" | reverse %}
+{% for pub in thisyear %}
+{% include date.html date=pub.date lang=page.lang %}
+<div class="talk" lang="{{pub.lang}}">
+	<span class="authors">{{ pub.author | join: ", " }}</span>: <span class="title">{{pub.title}}</span>.
+	{% if pub.venue %}
+		Tagung: {% if pub.venueLink %}<a href="{{pub.venueLink}}">{{ pub.venue }}</a>{% else %}{{ pub.venue }}{%endif%},
+	{% else %}
+		{% if pub.venueLink %}<a href="{{pub.venueLink}}">{{ pub.venueWithoutLabel }}</a>{% else %}{{ pub.venueWithoutLabel }}{%endif%},
+	{%endif%} {{ pub.institution }}, <span class="date">{{ day }}{{ sup }}&nbsp;{{ month }}&nbsp;{{ year }}</span>.
+
+	{{ pub.content }}
+</div>
+{% endfor %}
+
+{% endfor %}

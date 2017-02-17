@@ -176,6 +176,20 @@ ul.posts {
 }
 
 /**
+ * talks
+ */
+
+.talk {
+  margin-bottom:30px;
+}
+
+.talk .title {
+  font-weight: bold;
+}
+
+
+
+/**
  * inline tab
  */
 

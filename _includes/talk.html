@@ -1,0 +1,10 @@
+<div class="talk" lang="{{pub.lang}}">
+	<span class="authors">{{ pub.author | join: ", " }}</span>: <span class="title">{{pub.title}}</span>.
+	{% if pub.venue %}
+		Tagung: {% if pub.venueLink %}<a href="{{pub.venueLink}}">{{ pub.venue }}</a>{% else %}{{ pub.venue }}{%endif%},
+	{% else %}
+		{% if pub.venueLink %}<a href="{{pub.venueLink}}">{{ pub.venueWithoutLabel }}</a>{% else %}{{ pub.venueWithoutLabel }}{%endif%},
+	{%endif%} {{ pub.institution }}, <span class="date">{{ day }}{{ sup }}&nbsp;{{ month }}&nbsp;{{ year }}</span>.
+
+	{{ pub.content }}
+</div>

@@ -1,0 +1,21 @@
+---
+layout: page
+title: Talks
+ref: talks
+lang: en
+---
+
+
+
+{% assign years = site.talks | map: "year" | uniq | reverse %}
+
+{% for y in years %}
+
+<h2>{{ y }}</h2>
+{% assign thisyear = site.talks | where: "year", y | sort: "date" | reverse %}
+{% for pub in thisyear %}
+{% include date.html date=pub.date lang=page.lang %}
+{% include talk.html pub=pub %}
+{% endfor %}
+
+{% endfor %}

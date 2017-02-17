@@ -7,3 +7,5 @@ array: []
 collections:
   publications:
     output: true
+  talks:
+    output: false
