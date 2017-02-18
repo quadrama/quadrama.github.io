@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QuaDramA auf der DHd 2017
+title: "QuaDramA auf der DHd 2017 (Update: Slides)"
 lang: de
 ref: dhd2017
 categories: QuaDramA
