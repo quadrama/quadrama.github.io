@@ -27,10 +27,10 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
 {% endif %}
 
 
-## Letzter Vortrag
+## Letzter Artikel
 
 <ul class="posts">
-  {% for post in site.categories.Vortrag offset: 0 limit: 1 %}
+  {% for post in site.categories.Artikel offset: 0 limit: 1 %}
     {% include date.html date=post.date lang=post.lang %}
     {% include teaser.html post=post %}
   {% endfor %}

@@ -30,10 +30,10 @@ You can find newest posts below and older ones via the sidebar.
 
 {% endif %}
 
-## Newest Talk
+## Newest Articles
 
 <ul class="posts">
-  {% for post in site.categories.Vortrag offset: 0 limit: 1 %}
+  {% for post in site.categories.Artikel offset: 0 limit: 1 %}
     {% include date.html date=post.date lang=post.lang %}
     {% include teaser.html post=post %}
   {% endfor %}
