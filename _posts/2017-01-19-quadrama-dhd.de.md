@@ -14,6 +14,7 @@ Zusammen mit [Frank Fischer](http://www.zerstoerung.org), [Nanette Rißler-Pipka
 
 Das Panel findet statt am **Donnerstag, 16.02., um 14:00**, in Raum UniTobler F023 (Stand 12.01.). Als Moderatorin konnten wir dankenswerterweise [Evelyn Gius](https://www.slm.uni-hamburg.de/germanistik/personen/gius.html) gewinnen.
 
+**Folien**: [Nils & Marcus](/assets/2017-01-19-quadrama-dhd/slides_panel_dhd2017.pdf), [Peer & Frank / Nanette & Christof](https://christofs.github.io/dramenanalyse-dhd/#/).
 
 <hr/>
 
