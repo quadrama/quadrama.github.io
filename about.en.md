@@ -39,6 +39,8 @@ Nils Reiter studied Computational Linguistics at Saarland University. He did his
 
 E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 
+Webseite: [`nilsreiter.de`](http://nilsreiter.de)
+
 Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 <div style="clear:left">&nbsp;</div>
