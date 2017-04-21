@@ -1,6 +1,6 @@
 ---
 layout: inproceedings
-title: Panel: Aktuelle Herausforderungen der Digitalen Dramenanalyse
+title: "Panel: Aktuelle Herausforderungen der Digitalen Dramenanalyse"
 author:
 - Marcus Willand
 - Peer Trilcke
