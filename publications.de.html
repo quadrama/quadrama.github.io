@@ -20,7 +20,7 @@ $(".itab > li > a").click(function(ev) {
 });
 </script>
 
-{% assign years = site.publications | map: "year" | uniq %}
+{% assign years = site.publications | map: "year" | uniq | sort | reverse %}
 
 {% for y in years %}
 
