@@ -13,7 +13,7 @@ You can find newest posts below and older ones via the sidebar.
 
 -----
 
-{% assign posts=site.categories.QuaDramA | where:"lang", page.lang %}
+{% assign posts=site.categories.QuaDramA | where:"lang", page.lang | where: "index", true %}
 
 {% if posts.size > 0 %}
 
