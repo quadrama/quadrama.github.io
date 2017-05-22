@@ -6,6 +6,7 @@ ref: phd-position-nlp
 categories: QuaDramA
 authors:
 - Nils Reiter
+index: true
 ---
 
 Im Rahmen des von der VW-Stiftung geförderten [*Mixed-Methods*-Projekts](https://www.volkswagenstiftung.de/mixedmethodsgeisteswissenschaften.html) **QuaDramA: Quantitative Drama Analytics** ist eine Doktorandenstelle am [Institut für Maschinelle Sprachverarbeitung](http://www.ims.uni-stuttgart.de),  Universität Stuttgart zu besetzen.
