@@ -58,3 +58,9 @@ Website: [`marcuswilland.de`](http://www.marcuswilland.de)
 Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
 
 <div style="clear:left">&nbsp;</div>
+
+## Benjamin Krautter
+
+Benjamin Krautter studied German Language and Literature and Politics at the University of Stuttgart and the Seoul National University. He works in the QuaDramA project since May 2017.
+
+E-Mail: `benjamin.krautter@gmail.com`
