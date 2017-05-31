@@ -53,3 +53,10 @@ E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 Webseite: [`nilsreiter.de`](http://nilsreiter.de)
 
 Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
+
+## Benjamin Krautter
+
+Studium (2011–2017) der Germanistik und der Politikwissenschaft an der Universität Stuttgart und der Seoul National University. Seit Mai 2017 Mitarbeiter am Forschungsprojekt QuaDramA.
+
+E-Mail: `benjamin.krautter@gmail.com`
+
