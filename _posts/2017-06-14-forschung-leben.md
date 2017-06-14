@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gegen den Strich gebürstet 
+title: Porträt über QuaDramA
 lang: de
 ref: forschung-leben
 categories: QuaDramA
