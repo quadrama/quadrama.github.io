@@ -1,0 +1,14 @@
+TY - {% if page.layout == "article" %}JOUR{% elsif page.layout == "incollection" %}CHAP{% elsif page.layout=="inproceedings" %}CONF{% endif %}
+TI - {{ page.title }}
+{% for au in page.author %}AU - {{ au }}
+{% endfor %}PY - {{ page.year }}
+{% if page.address %}CY - {{ page.address }}
+{% endif %}{% if page.doi %}DO - {{ page.doi }}
+{% endif %}{% if page.ref %}ID - {{ page.ref }}
+{% endif %}{% if page.publisher %}PB - {{ page.publisher }}
+{% endif %}{% if page.volume %}VL - {{ page.volume }}
+{% endif %}{% if page.number %}M1 - {{ page.number }}
+{% endif %}{% if page.language %}LA - {{ page.language }}
+{% endif %}{% if page.journal %}T2 - {{ page.journal }}
+{% endif %}{% if page.booktitle %}J2 - {{ page.booktitle }}
+{% endif %}ER - 

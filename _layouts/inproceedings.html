@@ -2,39 +2,6 @@
 layout: pub
 ---
 
-{% if page.downloads %}
-<h3>Downloads</h3>
-<ul>
-{% for d in page.downloads %}
-<li><a href="{{d.url}}">{{d.desc}}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
 
 {{ content }}
 
-<h3>BibTeX</h3>
-<pre>
-{% include bibtex.html p=page %}
-</pre>
-
-
-<h3>Endnote</h3>
-<pre>
-%0 Conference Proceedings
-{% for au in page.author %}%A {{ au }}<br/>{% endfor %}%T {{ page.title }}
-%D {{ page.year }}
-%B {{ page.booktitle }}
-{% if page.doi %}%R {{ page.doi }}{% endif %}
-</pre>
-
-<h3>RIS</h3>
-<pre>
-TY - CHAP
-{% for au in page.author %}AU - {{ au }}
-{% endfor %}T1 - {{ page.title }}
-T2 - {{ page.booktitle }}
-PY - {{ page.year }}
-CY - {{ page.address }}
-ER -
-</pre>
