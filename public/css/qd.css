@@ -175,6 +175,10 @@ ul.posts {
   font-size:0.8em;
 }
 
+.publication .status {
+	font-style: italic;
+}
+
 /**
  * talks
  */
