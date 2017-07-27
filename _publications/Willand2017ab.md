@@ -1,11 +1,12 @@
 ---
-layout: incollection
+layout: article
 title: Geschlecht und Gattung. Digitale Analysen von Kleists ›Familie Schroffenstein‹
 author:
 - Marcus Willand
 - Nils Reiter
 year: 2017
-booktitle: Kleist-Jahrbuch
+volume: 2017
+journal: Kleist-Jahrbuch
 address: Stuttgart, Germany
 publisher: J.B. Metzler
 ref: Willand2017ab
