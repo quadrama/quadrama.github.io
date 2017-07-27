@@ -1,0 +1,13 @@
+@{{page.layout}}{ {{ page.ref }},
+   Title = { {{ page.title }} },
+   Author = { {{ page.author | join: " and " }} },
+{% if page.address %}   Address = { {{ page.address }} },
+{% endif %}{% if page.editor %}   Editor = { {{ page.editor | join: " and " }} },
+{% endif %}{% if page.booktitle %}   Booktitle = { {{ page.booktitle }} },
+{% endif %}{% if page.pages %}   Pages = { {{ page.pages }} },
+{% endif %}{% if page.journal %}   Journal = { {{ page.journal }} },
+{% endif %}{% if page.volume %}   Volume = { {{ page.volume }} },
+{% endif %}{% if page.number %}   Number = { {{ page.number }} },
+{% endif %}{% if page.doi %}   Doi = { {{ page.doi }} },
+{% endif %}   Year = { {{ page.year }} }
+}

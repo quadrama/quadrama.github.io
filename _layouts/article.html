@@ -6,12 +6,5 @@ layout: pub
 
 <h3>BibTeX</h3>
 <pre>
-@article{ {{ page.ref }},
-   Author = { {{ page.author | join: " and " }} },
-   Journal = { {{ page.journal }} },
-   Volume = { {{ page.volume }} },
-   Number = { {{ page.number }} },
-   {% if page.doi %}Doi = { {{ page.doi }} },{% endif %}
-   Year = { {{ page.year }} }
-}
+{% include bibtex.html p=page %}
 </pre>

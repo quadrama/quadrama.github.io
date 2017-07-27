@@ -8,13 +8,5 @@ layout: pub
 
 <h3>BibTeX</h3>
 <pre>
-@incollection{ {{ page.ref }},
-   Address = { {{ page.address }} },
-   Author = { {{ page.author | join: " and " }} },
-   Editor = { {{ page.editor | join: " and " }} },
-   Booktitle = { {{ page.booktitle }} },
-   Title = { {{ page.title }} },
-   Pages = { {{ page.pages }} },
-   Year = { {{ page.year }} }
-}
+{% include bibtex.html p=page %}
 </pre>
