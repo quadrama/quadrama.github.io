@@ -1,5 +1,5 @@
-@{{page.layout}}{ {{ page.ref }},
-   Title = { {{ page.title }} },
+@{{page.layout}}{ {{ page.id | remove_first: "/publications/" }},
+   Title = { { {{ page.title }} } },
    Author = { {{ page.author | join: " and " }} },
 {% if page.address %}   Address = { {{ page.address }} },
 {% endif %}{% if page.editor %}   Editor = { {{ page.editor | join: " and " }} },
@@ -7,7 +7,15 @@
 {% endif %}{% if page.pages %}   Pages = { {{ page.pages }} },
 {% endif %}{% if page.journal %}   Journal = { {{ page.journal }} },
 {% endif %}{% if page.volume %}   Volume = { {{ page.volume }} },
+{% endif %}{% if page.publisher %}   Publisher = { {{ page.publisher }} },
 {% endif %}{% if page.number %}   Number = { {{ page.number }} },
+{% endif %}{% if page.series %}   Series = { {{ page.series }} },
+{% endif %}{% if page.institution %}   Institution = { {{ page.institution }} },
+{% endif %}{% if page.school %}   School = { {{ page.school }} },
+{% endif %}{% if page.edition %}   Edition = { {{ page.edition }} },
+{% endif %}{% if page.link %}   Url = { {{ page.link }} },
+{% endif %}{% if page.month %}   Month = { {{ page.month }} },
 {% endif %}{% if page.doi %}   Doi = { {{ page.doi }} },
+{% endif %}{% if page.status %}   Note = { {{ page.status }} },
 {% endif %}   Year = { {{ page.year }} }
 }
