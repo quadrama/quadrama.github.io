@@ -1,5 +1,6 @@
 ---
-layout: incollection
+layout: pub
+type: incollection
 title: Autorschaft im 21. Jahrhundert. Bestandsaufnahme und Positionsbestimmung
 author:
 - Matthias Schaffrick

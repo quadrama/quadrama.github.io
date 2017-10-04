@@ -1,5 +1,6 @@
 ---
-layout: article
+layout: pub
+type: article
 title: Geschlecht und Gattung. Digitale Analysen von Kleists ›Familie Schroffenstein‹
 author:
 - Marcus Willand
@@ -19,6 +20,5 @@ editor:
 - Andrea Allerkamp
 - Barbara Gribnitz
 pages: 142-160
-status: to appear
 ---
 

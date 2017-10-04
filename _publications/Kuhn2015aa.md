@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: A Plea for a Method-Driven Agenda in the Digital Humanities
 author:
 - Jonas Kuhn

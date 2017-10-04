@@ -1,5 +1,6 @@
 ---
-layout: article
+layout: pub
+type: article
 title: An NLP-based cross-document approach to narrative structure discovery
 author:
 - Nils Reiter

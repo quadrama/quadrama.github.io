@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Dramenwerkbank. Automatische Sprachverarbeitung zur Analyse von Figurenrede
 author:
 - Andre Blessing

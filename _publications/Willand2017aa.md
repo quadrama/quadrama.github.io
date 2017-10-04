@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: "Panel: Aktuelle Herausforderungen der Digitalen Dramenanalyse"
 author:
 - Marcus Willand
