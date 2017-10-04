@@ -27,7 +27,7 @@ $(".itab > li > a").click(function(ev) {
 <h2>{{ y }}</h2>
 {% assign thisyear = site.publications | where:"year", y %}
 {% for pub in thisyear %}
-<div class="publication" lang="{{pub.lang}}">{% include pub.html p=pub %}<p class="right_aligned"><a href="{{site.url}}/publications/{{pub.ref}}">Details ...</a></p></div>
+<div class="publication" lang="{{pub.lang}}">{% include pub.html p=pub %}<p class="right_aligned"><a href="{{pub.url}}">Details ...</a></p></div>
 {% endfor %}
 
 {% endfor %}

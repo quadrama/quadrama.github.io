@@ -1,4 +1,4 @@
-@{{page.layout}}{ {{ page.id | remove_first: "/publications/" }},
+@{{page.type}}{ {{ page.id | remove_first: "/publications/" }},
    Title = { { {{ page.title }} } },
    Author = { {{ page.author | join: " and " }} },
 {% if page.address %}   Address = { {{ page.address }} },
