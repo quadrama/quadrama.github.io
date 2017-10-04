@@ -7,4 +7,5 @@ year: 2017
 journal: JLTonline
 lang: de
 iurl: http://www.jltonline.de/index.php/conferences/article/view/927/2131
+ref: Krautter2017aa
 ---
