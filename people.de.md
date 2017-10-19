@@ -38,5 +38,5 @@ Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Benjamin.jpg" alt="Benjamin Krautter" width="100" height="100"/></div>Studium (2011–2017) der Germanistik und der Politikwissenschaft an der Universität Stuttgart und der Seoul National University. Seit Mai 2017 Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA.
 
-E-Mail: `benjamin.krautter@gmail.com`
+E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
