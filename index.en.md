@@ -13,14 +13,16 @@ You can find newest posts below and older ones via the sidebar.
 
 -----
 
-{% assign posts=site.categories.QuaDramA | where:"lang", page.lang | where: "index", true %}
+{% assign posts=site.posts | where:"lang", page.lang | where: "index", true %}
 
 {% if posts.size > 0 %}
 
-## News on QuaDramA
+## News
+
+
 
 <ul class="posts">
-  {% for post in posts offset: 0 limit: 2 %}
+  {% for post in posts offset: 0 limit: 3 %}
     {% include date.html date=post.date lang=post.lang %}
     {% include teaser.html post=post %}
   {% endfor %}
@@ -29,6 +31,9 @@ You can find newest posts below and older ones via the sidebar.
 <div style="clear:left;">&nbsp;</div>
 
 {% endif %}
+
+{% if false %}
+
 
 ## Newest Articles
 
@@ -50,3 +55,5 @@ You can find newest posts below and older ones via the sidebar.
     {% include teaser.html post=post %}
   {% endfor %}
 </ul>
+
+{% endif %}

@@ -6,9 +6,10 @@ ref: dramaanalysis-2.0.0
 logo: /assets/generic/code-5.r.png
 categories: Technology
 authors: Nils Reiter
+index: true
 ---
 
-We have just released a new version of our R package for the quantitative analysis of plays.
+We have just released a new version of our R package for the quantitative analysis of plays, and want to highlight a few changes here. In QuaDramA, the R package is used for data analysis, after natural language processing has taken place. The package therefore relies on pre-processed corpora.
 
 The most important change is the way we handle primary data. Before, dramatic texts were loaded from UIMA XMI files. Since most of the code to handle these files is written in Java, we included the R-package [rJava](https://cran.r-project.org/package=rJava) and some Java code. While this works, it made developing the package quite tedious, and also the data files were huge and inaccessible.
 

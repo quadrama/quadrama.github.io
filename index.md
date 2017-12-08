@@ -10,13 +10,13 @@ QuaDramA -- Quantitative Drama Analytics -- ist ein Forschungsprojekt, das [wir]
 Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
 
 ------
-{% assign posts=site.categories.QuaDramA | where:"lang", page.lang | where:"index", true %}
+{% assign posts=site.posts | where:"index", true %}
 
 {% if posts.size > 0 %}
-## Neuigkeiten zu QuaDramA
+## Neuigkeiten
 
 <ul class="posts">
-  {% for post in posts offset: 0 limit: 2 %}
+  {% for post in posts offset: 0 limit: 3 %}
     {% include date.html date=post.date lang=post.lang %}
     {% include teaser.html post=post %}
   {% endfor %}
@@ -26,6 +26,7 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
 
 {% endif %}
 
+{% if false %}
 
 ## Letzter Artikel
 
@@ -47,3 +48,6 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
 {% endfor %}
 </ul>
 <div style="clear:both;"></div>
+
+{% endif %}
+
