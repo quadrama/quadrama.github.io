@@ -16,9 +16,17 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
 ## Neuigkeiten
 
 <ul class="posts">
-  {% for post in posts offset: 0 limit: 3 %}
-    {% include date.html date=post.date lang=post.lang %}
-    {% include teaser.html post=post %}
+{% for post in posts offset: 0 limit: 3 %}
+    {% assign germanVersion = site.posts | where:"ref", post.ref | where:"lang", "de" %}
+	{% if post.lang=="en" %}
+		{% if germanVersion == empty %}
+			{% include date.html date=post.date lang=post.lang %}
+			{% include teaser.html post=post %}
+		{% endif %}
+	{% else %}
+		{% include date.html date=post.date lang=post.lang %}
+		{% include teaser.html post=post %}
+	{% endif %}
   {% endfor %}
 </ul>
 
