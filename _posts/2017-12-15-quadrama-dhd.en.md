@@ -5,6 +5,7 @@ lang: en
 ref: dhd2018
 categories: QuaDramA
 logo: /assets/logo_dhd2018.png
+index: true
 authors:
 - Benjamin Krautter
 ---
