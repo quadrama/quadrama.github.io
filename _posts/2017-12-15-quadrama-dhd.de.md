@@ -3,7 +3,9 @@ layout: post
 title: QuaDramA auf der DHd 2018
 lang: de
 ref: dhd2018
-categories: QuaDramA
+categories:
+- QuaDramA
+- DHd
 logo: /assets/logo_dhd2018.png
 index: true
 authors:

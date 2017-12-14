@@ -3,7 +3,9 @@ layout: post
 title: "QuaDramA auf der DHd 2017 (Update: Slides)"
 lang: de
 ref: dhd2017
-categories: QuaDramA
+categories:
+- QuaDramA
+- Conferences
 logo: /assets/2017-01-19-quadrama-dhd/dhdlogo.png
 authors:
 - Marcus Willand
