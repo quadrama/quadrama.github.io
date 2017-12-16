@@ -4,7 +4,7 @@ authors:
 - Nils Reiter
 date: "06/12/2017"
 layout: post
-categories: QuaDramA
+categories: Article
 lang: en
 ref: coreference-annotations-part-1
 index: true

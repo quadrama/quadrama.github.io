@@ -8,7 +8,7 @@ authors:
 - Nils Reiter
 - Marcus Willand
 publication-date: 2016-10-07
-categories: Artikel
+categories: Article
 ---
 
 
