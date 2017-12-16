@@ -4,7 +4,6 @@ title: QuaDramA at DHd 2018
 lang: en
 ref: dhd2018
 categories:
-- QuaDramA
 - Conferences
 logo: /assets/logo_dhd2018.png
 index: true
