@@ -12,6 +12,10 @@ index: true
 
 We have recently started to annotate coreference chains in dramatic texts. In this loose series of blog posts, we will discuss interesting findings and examples. The first post covers some background and technical setup.
 
+Part 1 | 
+[Part 2]({{ site.baseurl }}{% link _posts/2017-12-20-coreference-annotations-part-2.md %})
+
+
 <!--more-->
 ## Table of contents
 {:.no_toc}
