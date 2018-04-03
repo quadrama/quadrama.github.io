@@ -40,6 +40,8 @@ Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
+<div style="clear:left">&nbsp;</div>
+
 ## Janis Pagel
 
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/janis.jpg" alt="Janis Pagel" width="100" height="100"/></div>
