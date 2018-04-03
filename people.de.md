@@ -40,3 +40,10 @@ Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
+## Janis Pagel
+
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/janis.jpg" alt="Janis Pagel" width="100" height="100"/></div>
+
+Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Bachelor of Arts studiert (2012-2015), sowie Computerlinguistik im Master of Science an der Universität Stuttgart und der Universität von Amsterdam (2015-2018). Seit April 2018 ist er als Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA angestellt und dort im Bereich der Maschinellen Sprachverarbeitung sowie Koreferenzauflösung tätig.
+
+E-Mail: `janis.pagel@ims.uni-stuttgart.de`

@@ -41,3 +41,11 @@ Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Benjamin.jpg" alt="Benjamin Krautter" width="100" height="100"/></div>Benjamin Krautter studied German Language and Literature and Politics at the University of Stuttgart and the Seoul National University. He works in the QuaDramA project since May 2017.
 
 E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
+
+## Janis Pagel
+
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/janis.jpg" alt="Janis Pagel" width="100" height="100"/></div>
+
+Janis Pagel studied Linguistics and German Studies at the Ruhr-University Bochum (2012-2015, B.A.) and Computational Linguistics at the University of Stuttgart and the University of Amsterdam (2015-2018, M.Sc.). Since April 2018, he is working in the QuaDramA projectc as a PhD student and is responsible for the Natural Language Processing and Coreference Resolution part of it.
+
+E-Mail: `janis.pagel@ims.uni-stuttgart.de`
