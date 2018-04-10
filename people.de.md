@@ -12,7 +12,7 @@ editor: reiter
 ## Dr. Marcus Willand
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
 
-Studium (2002-08) der Sprach- und Literaturwissenschaften, Psychologie und Soziologie in Darmstadt, Berlin und Turku (Finnland). Promotion bei Lutz Danneberg (HU-Berlin, 2009-2014) zu "Lesermodelle[n] und Lesertheorien" (Narratologia 41, Berlin 2014); gefördert durch ein Promotionsstipendium der Studienstiftung des deutschen Volkes. Seit 2013 Post-Doc in der Neuere Deutschen Literaturwissenschaft der Uni Stuttgart (bei Andrea Albrecht) und 2014 von Nils Reiter mit DH angesteckt worden.
+Studium (2002-08) der Sprach- und Literaturwissenschaften, Psychologie und Soziologie in Darmstadt, Berlin und Turku (Finnland). Promotion bei Lutz Danneberg (HU-Berlin, 2009-2014) zu "Lesermodelle[n] und Lesertheorien" (Narratologia 41, Berlin 2014); gefördert durch ein Promotionsstipendium der Studienstiftung des deutschen Volkes. Seit 2013 Post-Doc bei Andrea Albrecht, erst in Stuttgart, danach in Heidelberg (seit 2018 auf einer halben Projektstelle in QuaDramA in Stuttgart, auf einer halben in Heidelberg). 2014 von Nils Reiter mit DH angesteckt worden.
 
 E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
 
