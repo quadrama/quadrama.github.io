@@ -20,6 +20,7 @@ doi: 10.18420/in2017_119
 series: Lecture Notes in Informatics (LNI)
 volume: 275
 ref: Reiter2017ac
+lang: en
 downloads:
 - desc: PDF
   url: Reiter2017ac.pdf
