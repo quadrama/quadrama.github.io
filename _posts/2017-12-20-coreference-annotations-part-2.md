@@ -14,7 +14,9 @@ index: true
 We have recently started to annotate coreference chains in dramatic texts. In this loose series of blog posts, we will discuss interesting findings and examples. This post revisits the annotation tool question.
 
 [Part 1]({{ site.baseurl }}{% link _posts/2017-12-06-coreference-annotations-part-1.md %}) | 
-Part 2
+Part 2 |
+[Part 3]({{ site.baseurl }}{% link _posts/2018-04-19-coreference-annotations-part-3.md %})
+
 
 <!--more-->
 ## Table of contents
