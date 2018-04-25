@@ -6,6 +6,11 @@
 <div class="sidebar" id="sidebar">
 
   <div class="sidebar-item">
+  {% if page.layout == "pub" %}
+  <ul class="languages">
+  <li class="{{ page.lang }}">{% include language.html lang=page.lang %}</li>
+  </ul>
+  {% else %}
   <ul class="languages">
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %}
@@ -20,6 +25,7 @@
     </li>
   {% endfor %}
   </ul>
+  {% endif %}
   </div>
 
   <div class="sidebar-item">
