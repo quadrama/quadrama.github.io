@@ -5,9 +5,9 @@ title: "Towards Bridging Resolution in German: Data Analysis and Rule-based Expe
 author:
 - Janis Pagel
 - Ina Rösiger
-booktitle: Proceedings of the Workshop on Computational Models of Reference, Anaphora, and Coreference (CRAC)
-series: "Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HTL)"
-year: 2018, to appear
+booktitle: "Proceedings of NAACL-HLT: Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)"
+year: 2018
+note: to appear
 month: June
 address: New Orleans, US
 lang: en
