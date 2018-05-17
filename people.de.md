@@ -19,8 +19,8 @@ E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
 Website: [`marcuswilland.de`](http://www.marcuswilland.de)
 
 Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
-<br>
-<br>
+
+<div style="clear:left">&nbsp;</div>
 
 ## Dr. Nils Reiter
 
@@ -33,6 +33,8 @@ E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 Webseite: [`nilsreiter.de`](http://nilsreiter.de)
 
 Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
+
+<div style="clear:left">&nbsp;</div>
 
 ## Benjamin Krautter
 
@@ -49,3 +51,7 @@ E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Bachelor of Arts studiert (2012-2015), sowie Computerlinguistik im Master of Science an der Universität Stuttgart und der Universität von Amsterdam (2015-2018). Seit April 2018 ist er als Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA angestellt und dort im Bereich der Maschinellen Sprachverarbeitung sowie Koreferenzauflösung tätig.
 
 E-Mail: `janis.pagel@ims.uni-stuttgart.de`
+
+Website: [`www.ims.uni-stuttgart.de/institut/mitarbeiter/pageljs`](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/pageljs/index.html)
+
+Twitter: [`@janispagel`](https://twitter.com/janispagel)
