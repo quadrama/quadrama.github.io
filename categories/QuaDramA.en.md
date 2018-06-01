@@ -1,8 +1,8 @@
 ---
 layout: tagpage
 category: QuaDramA
-lang: de
+lang: en
 order: 50
 ref: cat-quadrama
-title: Beiträge über QuaDramA
+title: QuaDramA
 ---

@@ -4,5 +4,5 @@ category: Technology
 lang: en
 order: 40
 ref: cat-category-technology
-title: Postings about Technology
+title: Technology
 ---

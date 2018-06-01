@@ -64,7 +64,7 @@
             {% for node2 in pages_list %}
             {% if node2.layout == "tagpage" %}
               {% assign translation2 = site.pages | where:"ref", node2.ref | where:"lang", page.lang %}
-                  <a class="sidebar-nav-item{% if page.url == translation2[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation2[0].url }}">&nbsp;&raquo; {{ translation2[0].category }}</a>
+                  <a class="sidebar-nav-item{% if page.url == translation2[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation2[0].url }}">&nbsp;&raquo; {{ translation2[0].title }}</a>
 			{% endif %}
             {% endfor %}
           {% endif %}
