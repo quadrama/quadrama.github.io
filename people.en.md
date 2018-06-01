@@ -6,7 +6,8 @@ ref: people
 editor: reiter
 ---
 
-
+* TOC
+{:toc}
 
 ## Dr. Nils Reiter
 
@@ -21,7 +22,6 @@ Webseite: [`nilsreiter.de`](http://nilsreiter.de)
 Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 <div style="clear:left">&nbsp;</div>
-
 
 ## Dr. Marcus Willand
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
@@ -48,6 +48,10 @@ E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/janis.jpg" alt="Janis Pagel" width="100" height="100"/></div>
 
-Janis Pagel studied Linguistics and German Studies at the Ruhr-University Bochum (2012-2015, B.A.) and Computational Linguistics at the University of Stuttgart and the University of Amsterdam (2015-2018, M.Sc.). Since April 2018, he is working in the QuaDramA projectc as a PhD student and is responsible for the Natural Language Processing and Coreference Resolution part of it.
+Janis Pagel studied Linguistics and German Studies at the Ruhr-University Bochum (2012-2015, B.A.) and Computational Linguistics at the University of Stuttgart and the University of Amsterdam (2015-2018, M.Sc.). Since April 2018, he is working in the QuaDramA project as a PhD student and is responsible for the Natural Language Processing and Coreference Resolution part of it.
 
 E-Mail: `janis.pagel@ims.uni-stuttgart.de`
+
+Website: [`www.ims.uni-stuttgart.de/institut/mitarbeiter/pageljs`](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/pageljs/index.en.html)
+
+Twitter: [`@janispagel`](https://twitter.com/janispagel)
