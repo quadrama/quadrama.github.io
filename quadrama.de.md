@@ -2,7 +2,7 @@
 layout: page
 title: Über QuaDramA
 lang: de
-ref: about
+ref: quadrama
 editor: reiter
 ---
 
