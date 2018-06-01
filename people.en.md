@@ -3,6 +3,7 @@ layout: page
 title: People
 lang: en
 ref: people
+order: 120
 editor: reiter
 ---
 

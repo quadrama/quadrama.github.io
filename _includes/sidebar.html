@@ -54,7 +54,7 @@
     <hr/>
   -->
 
-    {% assign pages_list=site.pages | where:"lang", "en" %}
+    {% assign pages_list=site.pages | where:"lang", "en" | sort: "order" %}
     {% for node in pages_list %}
       {% assign translation = site.pages | where:"ref", node.ref | where:"lang", page.lang %}
       {% if node.layout == "page" %}
