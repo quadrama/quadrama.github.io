@@ -61,10 +61,11 @@
         {% if translation[0] %}
           <a class="sidebar-nav-item{% if page.url == translation[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation[0].url }}">{{ translation[0].title }}</a>
           {% if node.ref == "blog" %}
-            {% for node2 in site.pages %}
-              {% if node2.layout == "tagpage" %}
-                  <a class="sidebar-nav-item{% if page.url == node2.url %} active{% endif %}" href="{{ site.baseurl }}{{ node2.url }}">&nbsp;&raquo; {{ node2.category }}</a>
-              {% endif %}
+            {% for node2 in pages_list %}
+            {% if node2.layout == "tagpage" %}
+              {% assign translation2 = site.pages | where:"ref", node2.ref | where:"lang", page.lang %}
+                  <a class="sidebar-nav-item{% if page.url == translation2[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation2[0].url }}">&nbsp;&raquo; {{ translation2[0].category }}</a>
+			{% endif %}
             {% endfor %}
           {% endif %}
         {% else %}
