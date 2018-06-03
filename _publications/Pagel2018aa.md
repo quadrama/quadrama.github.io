@@ -7,11 +7,14 @@ author:
 - Ina Rösiger
 booktitle: "Proceedings of NAACL-HLT: Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)"
 year: 2018
-note: to appear
 month: June
 address: New Orleans, US
 lang: en
+pages: 50-60
 ref: Pagel2018aa
+downloads:
+- desc: PDF
+  url: http://aclweb.org/anthology/W18-0706
 ---
 
 ### Abstract
