@@ -1,7 +1,7 @@
 ---
 layout: pub
 type: inproceedings
-title: "Quantitatives „close reading“? Vier mikroanalytische Methoden der digitalen Dramenanalyse im Vergleich."
+title: "Quantitatives „close reading“? Vier mikroanalytische Methoden der digitalen Dramenanalyse im Vergleich"
 author:
 - Benjamin Krautter
 year: 2018
