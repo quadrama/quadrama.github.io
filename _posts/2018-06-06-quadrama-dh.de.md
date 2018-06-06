@@ -11,7 +11,7 @@ authors:
 - Benjamin Krautter
 ---
 
-QuaDramA ist dieses Jahr auf der internationalen [Digital Humanities](https://dh2018.adho.org/en/) Konferenz in Mexiko dabei. Benjamin Krautter trägt in der Session LP-12: Quantitative Approaches to Literature vor, die am 28. Juni von 14:00 bis 15:30 stattfindet. Nachfolgend ist eine kurze Zusammenfassung zu finden.
+QuaDramA ist dieses Jahr auf der internationalen [Digital Humanities](https://dh2018.adho.org/en/) Konferenz in Mexiko dabei. Benjamin Krautter trägt in der Session LP-12: Quantitative Approaches to Literature vor, die am 28. Juni von 14:00 bis 15:30 stattfindet. 
 
 ### Quantitative microanalysis? Different methods of digital drama analysis in comparison.
 
