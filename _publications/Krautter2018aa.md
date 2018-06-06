@@ -9,6 +9,10 @@ booktitle: Book of Abstracts of DHd
 address: Cologne, Germany
 month: February
 lang: de
+pages: 293-300
+downloads:
+- desc: PDF
+  url: http://dhd2018.uni-koeln.de/wp-content/uploads/boa-DHd2018-web-ISBN.pdf
 ---
 
 ### Abstract
