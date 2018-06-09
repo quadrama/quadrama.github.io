@@ -1,7 +1,7 @@
 ---
 layout: post
 title: QuaDramA at DH 2018
-lang: de
+lang: en
 ref: dh2018
 categories:
 - Conferences
