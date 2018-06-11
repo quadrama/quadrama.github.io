@@ -2,7 +2,7 @@
   <div class="headline">
     <div class="left">
       {% if post.categories[0] %}
-        {% include categories.html categories=post.categories %} •
+        {% include categories.html categories=post.categories page=post %} •
       {% endif %}
       {% include languagelink.html lang=post.lang %}
     </div>
