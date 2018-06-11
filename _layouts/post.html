@@ -16,7 +16,9 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <h1>{{ page.subtitle }}</h1>
 
-  {% if page.logo %}
+  {% if page.logo and page.logoborder %}
+    <img class="postlogo border" src="{{ page.logo }}" />
+  {% else if page.logo %}
     <img class="postlogo" src="{{ page.logo }}" />
   {% endif %}
 

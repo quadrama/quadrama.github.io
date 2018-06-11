@@ -4,6 +4,7 @@ title: Technology Overview
 lang: en
 ref: technology
 logo: /assets/generic/code.r.png
+logoborder: true
 categories: Technology
 authors: Nils Reiter
 ---

@@ -12,7 +12,13 @@
 
   <p class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
   {% if post.logo %}
-  <div style="float:left;height:100%"><a href="{{ post.url }}"><img src="{{ post.logo }}" /></a></div>
+  <div style="float:left;height:100%"><a href="{{ post.url }}">
+    {% if post.logoborder %}
+     <img class="border" src="{{ post.logo }}" />
+	 {% else %}
+     <img src="{{ post.logo }}" />
+	 {% endif %}
+  </a></div>
   {% endif %}
   <p> {{ post.excerpt }} </p>
 </li>

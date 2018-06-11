@@ -133,7 +133,6 @@ ul.posts {
 .posts li div img {
   position:relative;
   top:-10px;
-  border:thin solid #454545;
   float:left;
   width:auto;
   margin-right:20px;
@@ -143,9 +142,12 @@ ul.posts {
 
 .postlogo {
   float:right;
-  border:thin solid #454545;
   max-width: 150px;
   max-height: 150px;
+}
+
+img.border {
+  border:thin solid #454545;
 }
 
 .qd_title {
