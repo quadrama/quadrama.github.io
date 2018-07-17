@@ -4,7 +4,7 @@ title: Theses
 mtitle: Theses
 lang: en
 order: 1300
-ref: about
+ref: theses
 editor: willand
 ---
 
