@@ -8,7 +8,7 @@ ref: theses
 editor: willand
 ---
 
-Here you will find shot summaries of the student theses that we supervise in QuaDramA:
+Here you will find shot summaries of the M.A. theses we supervise in QuaDramA:
 
 <b>Sonja Eberhardt<br>
 <i>Hebbels Daugthers</i></b> [Working title]<br>
