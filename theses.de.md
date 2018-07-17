@@ -7,7 +7,7 @@ ref: theses
 editor: willand
 ---
 
-Hier findet sich eine Übersicht der Masterarbeiten, die im Umfeld der Forschung und Lehre von QuaDramA entstandenen sind:
+Hier findet sich eine Übersicht der Masterarbeiten, die im Umfeld der Forschung und Lehre von QuaDramA entstehen:
 
 <b>Sonja Eberhardt<br>
 <i>Hebbels Töchter</i></b> [Arbeitstitel]<br>
