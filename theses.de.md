@@ -25,7 +25,7 @@ Neben einer Untersuchung der Devianz der einzelnen Fausterscheinungen, erfolgt e
 <br>
 <b>Nathalie Wiedmer</b><br>
 [Kein Arbeitstitel bisher]<br>
-"In der Arbeit sollen größere Dramenkorpora mit Hilfe verschiedener Mittel der quantitativen Textanalyse untersucht werden, um gängige Forschungsmeinungen zu bestätigen oder zu widerlegen.<br>
+In der Arbeit sollen größere Dramenkorpora mit Hilfe verschiedener Mittel der quantitativen Textanalyse untersucht werden, um gängige Forschungsmeinungen zu bestätigen oder zu widerlegen.<br>
 <br>
 <b>Nina Wittmann<br>
 <i>Figurentypen im Expressionistischen Drama</i></b> [Arbeitstitel]<br>
