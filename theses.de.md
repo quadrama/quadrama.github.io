@@ -7,7 +7,7 @@ ref: theses
 editor: willand
 ---
 
-Hier findet sich einer Übersicht der in QuaDramA betreuten Masterarbeiten:
+Hier findet sich eine Übersicht der Masterarbeiten, die im Umfeld der Forschung und Lehre von QuaDramA entstandenen sind:
 
 <b>Sonja Eberhardt<br>
 <i>Töchter</i></b> [Arbeitstitel]<br>
