@@ -10,7 +10,7 @@ editor: willand
 Hier findet sich eine Übersicht der Masterarbeiten, die im Umfeld der Forschung und Lehre von QuaDramA entstandenen sind:
 
 <b>Sonja Eberhardt<br>
-<i>Töchter</i></b> [Arbeitstitel]<br>
+<i>Hebbels Töchter</i></b> [Arbeitstitel]<br>
 Die geplante Arbeit analysiert die Dyade Vater und Tochter in den Dramen Maria Magdalena und Agnes Bernauer von Christian Friedrich Hebbel auf neue Weise. Über die Figurenrede lassen sich bislang in der Forschung unerwähnte Figurenkonzeptionen erschließen. Analysen ergaben, dass sich die Vaterfiguren im Groben zwischen der gesellschaftlichen Komponente 'Patriarchat' und den psychologischen Komponenten 'Zorn und Zärtlichkeit' aufzuhalten scheinen. Die Studie wird auch den Umgang zwischen den Figuren untersuchen: Worin genau besteht dieser? Ist er zum Beispiel durch aggressives, grobes Vokabular geprägt? Wann und wie sind aggressive Aussagen zärtlich zu deuten (wenn man auf die Leidensgeschichte einer Figur blickt)? Im Fokus stehen dabei die vier gegensätzlichen psychologischen Merkmalspaare 'renitent und labil', 'zärtlich und aggressiv', 'intra- und extravertiert' und 'resilient und gehorsam'. Bisher lässt die Forschung tiefgründige Analysen über diese Dyade und die psychologischen Merkmale, die das Verhältnis zwischen den Figuren determinieren, aus. <br>
 <br>
 <b>Christiane Schneider<br>
