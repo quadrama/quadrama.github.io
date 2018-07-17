@@ -3,7 +3,7 @@ layout: page
 title: Theses
 mtitle: Theses
 lang: en
-order: 1300
+order: 130
 ref: theses
 editor: willand
 ---
