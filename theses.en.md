@@ -11,7 +11,7 @@ editor: willand
 Here you will find shot summaries of the student theses that we supervise in QuaDramA:
 
 <b>Sonja Eberhardt<br>
-Hebbels Daugthers</b> [Working title]<br>
+<i>Hebbels Daugthers</i></b> [Working title]<br>
 The planned thesis will analyze in a new way the dyad father and daughter in the dramas Maria Magdalena and Agnes Bernauer by Christian Friedrich Hebbel. By means of the character discourse, it is possible to develop character conceptions that have not been stated in research so far. Analyses showed that, roughly speaking, the father characters seem to linger between the social component 'patriarchy' and the psychological components 'anger and tenderness'. The study will also examine questions about the interaction between the characters: What form does it take? Is it for example determined by an aggressive and rough vocabulary? When and how must aggressive utterances be interpreted as tender ones (when considering the tale of woe of a character)? The focus will be placed on the four antithetic psychological feature pairs 'defiant and weak', 'tender and aggressive', 'intro- and extroverted' and 'resilient and obedient'. Previous work has not discussed the dyad of characters in that way yet nor thoroughly examined the psychological features that determine their relationship. <br>
 <br>
 <b>Christiane Schneider<br>
