@@ -53,6 +53,6 @@ Janis Pagel studied Linguistics and German Studies at the Ruhr-University Bochum
 
 E-Mail: `janis.pagel@ims.uni-stuttgart.de`
 
-Website: [`www.ims.uni-stuttgart.de/institut/mitarbeiter/pageljs`](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/pageljs/index.en.html)
+Website: [`janispagel.de`](http://janispagel.de)
 
 Twitter: [`@janispagel`](https://twitter.com/janispagel)
