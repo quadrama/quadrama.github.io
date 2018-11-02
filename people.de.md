@@ -42,7 +42,7 @@ Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
-Webseite: [`Mitarbeiterseite`](https://www.ilw.uni-stuttgart.de/institut/team/Krautter-00001/)
+Webseite: [`Benjamin Krautter NDL II`](https://www.ilw.uni-stuttgart.de/institut/team/Krautter-00001/)
 
 <div style="clear:left">&nbsp;</div>
 
