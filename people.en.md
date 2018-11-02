@@ -43,6 +43,8 @@ Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
 
 E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
+Website: [`Benjamin Krautter NDL II`](https://www.ilw.uni-stuttgart.de/institut/team/Krautter-00001/)
+
 <div style="clear:left">&nbsp;</div>
 
 ## Janis Pagel
