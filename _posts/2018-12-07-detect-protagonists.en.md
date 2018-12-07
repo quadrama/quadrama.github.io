@@ -11,11 +11,10 @@ ref: detect-protagonists
 index: true
 ---
 
-In a recent [paper]() (text in German), we investigated, how protagonists and title figures
+In a recent [paper](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf) (text in German), we investigated, how protagonists and title figures
 can be detected in German plays and which features are important for a
 machine learning model in order to conduct this classification. This
-post can be seen as a supplement to the paper and will enable you to
-conduct your own expriments on your own data.
+post can be seen as a supplement to the paper.
 
 <!--more-->
 ## Table of contents
@@ -41,7 +40,7 @@ same format as in
 
 We now can load this data into [R](https://www.r-project.org/), which is the scripting language
 that we will use. Basic knowledge of R is recommended in order to
-follow this article. For reading in the data, we will use the
+be able to follow this article more easily. For reading in the data, we will use the
 [DramaAnalysis](https://github.com/quadrama/DramaAnalysis) package.
 Install the package as given on the website. Currently this is achieved by
 running the following commands:
@@ -55,12 +54,29 @@ library(devtools)
 install_github("quadrama/DramaAnalysis", build_vignettes = TRUE) 
 ```
 
+Next, we install the GerDraCor data from the QuaDramA repositories like:
+
+```R
+library(DramaAnalysis)
+installData(dataSource = "gdc")
+```
+
+This will install the data into `~/QuaDramA/Data2` by default. You can
+adjust that by either issuing the `setup()` command or using the
+`dataDirectory` option in `installData()`.[^1] We will also use a
+directory called `data/` in order to store the models and other data.
+You can create it anywhere (`$YOUR_PATH/data`) and then set up R to run commands in the
+parent directory with `setwd($YOUR_PATH)`. We provide annotations for
+classifying title characters. Download the file from [here]({{site.baseurl}}/assets/2018-12-07-detect-protagonists/data/titlefigures.csv) and save
+it in `$YOUR_PATH/data/`.
+
+[^1]: For a more thorough and up-to-date description, see the DramaAnalysis [Wiki](https://github.com/quadrama/DramaAnalysis/wiki/Installation).
+
 We also need additional packages for the further course of this
 article, as listed below.
 
 ```R
 # Used libraries
-library(DramaAnalysis)      # Retrieving and processing of the data
 library(igraph)             # For calculating centrality measures
 library(data.table)         # Powerful library extending the
                             # functionality of the build-in
@@ -101,6 +117,9 @@ roundFeatures <- function(featureVector, n_digits = 2) {
   paste0(features, "=", values)
 }
 ```
+
+Simply run this code in your R console in order to make the functions
+available.
 
 ## Reading in the data
 
@@ -167,9 +186,9 @@ classification of figures into protagonists or title figures follows
 the same steps. We further proceed with using annotations that name
 figures which are title figures, but you could as well replace it with
 an annotation of protagonists or any other class of figures that might
-be classified by the used features. We read in the annotations from a
-file called `titlefigures.csv`. The format of that file follows the
-structure
+be classified by the used features. We read in the annotations from the
+file called `titlefigures.csv`, which you already downloaded.
+The format of that file follows the structure
 
 ```csv
 Drama1,Titlefigure1,
@@ -379,7 +398,7 @@ save(p, file="data/p_titlefigures.RData")
 ## Prepare the data for classification
 
 We now make some last adjustments before training a model on the
-extracted feautres. We normalize the actives, passives and tokens
+extracted features. We normalise the actives, passives and tokens
 features by the overall length of the play. For plotting purposes, we
 also bring the character surface string into a nice, title case format.
 We then backup this original table and remove all information that the
@@ -507,17 +526,17 @@ evaluation.
 ```R
 results <- list()
 
-results$TFTokensBL <- testFeatureSet("tokens",
+results$TokensBL <- testFeatureSet("tokens",
                                      pTF$p,
                                      pTF$orig,
                                      sampling = "smote",
                                      seed)
-results$TFoTokens <- testFeatureSet(featuresWithoutTokens,
+results$woTokens <- testFeatureSet(featuresWithoutTokens,
                                     pTF$p,
                                     pTF$orig,
                                     sampling = "smote",
                                     seed)
-results$TF <- testFeatureSet(features,
+results$All <- testFeatureSet(features,
                              pTF$p,
                              pTF$orig,
                              sampling = "smote",
