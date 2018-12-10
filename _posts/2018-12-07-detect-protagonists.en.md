@@ -11,10 +11,10 @@ ref: detect-protagonists
 index: true
 ---
 
-In a recent [paper](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf) (text in German), we investigated, how protagonists and title figures
+In a recent [paper](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf) (text in German), we investigated how protagonists and title figures
 can be detected in German plays and which features are important for a
-machine learning model in order to conduct this classification. This
-post can be seen as a supplement to the paper.
+machine learning model in order to conduct the classification. This
+post can be seen as a supplement to this paper.
 
 <!--more-->
 ## Table of contents
@@ -26,20 +26,20 @@ post can be seen as a supplement to the paper.
 ## Basic setup
 
 In order to run the following experiments, we need to set up some tools
-and prepare the data. If you just want to test out the code, we provide
+and prepare the data. If you want to test out the code, we provide
 the data that we used in our experiments. First of all, we need the
 data of the plays we want to analyse. We will use the GerDraCor data
 from
 [https://github.com/quadrama/data_gdc](https://github.com/quadrama/data_gdc).
 This is data in table format, extracted from a
 [GerDraCor Fork](https://github.com/quadrama/gerdracor) that we
-created, using the [DramaNLP Pipeline](https://github.com/quadrama/DramaNLP).
+created and processed using the [DramaNLP Pipeline](https://github.com/quadrama/DramaNLP).
 If you would like to use your own data, you should bring it into the
 same format as in
 [https://github.com/quadrama/data_gdc](https://github.com/quadrama/data_gdc).
 
 We now can load this data into [R](https://www.r-project.org/), which is the scripting language
-that we will use. Basic knowledge of R is recommended in order to
+that we will use. Basic knowledge of R is of advantage in order to
 be able to follow this article more easily. For reading in the data, we will use the
 [DramaAnalysis](https://github.com/quadrama/DramaAnalysis) package.
 Install the package as given on the website. Currently this is achieved by
@@ -54,7 +54,8 @@ library(devtools)
 install_github("quadrama/DramaAnalysis", build_vignettes = TRUE) 
 ```
 
-Next, we install the GerDraCor data from the QuaDramA repositories like:
+Next, we install the GerDraCor data from the QuaDramA repositories like
+this:
 
 ```R
 library(DramaAnalysis)
@@ -91,6 +92,8 @@ command:
 ```R
 install.packages("igraph", "data.table", "topicmodels", "caret")
 ```
+
+and load them.
 
 ## Helper functions
 
@@ -185,18 +188,18 @@ protagonists and title figures. From a technical point of view, the
 classification of figures into protagonists or title figures follows
 the same steps. We further proceed with using annotations that name
 figures which are title figures, but you could as well replace it with
-an annotation of protagonists or any other class of figures that might
+an annotation of protagonists or any other binary class of figures that might
 be classified by the used features. We read in the annotations from the
-file called `titlefigures.csv`, which you already downloaded.
+file called `titlefigures.csv`, which has already been downloaded.
 The format of that file follows the structure
 
 ```csv
 Drama1,Titlefigure1,
 Drama2,Titlefigure2,Titlefigure3
 Drama3,Titlefigure4,
-.
-.
-.
+...
+...
+...
 ```
 
 i.e. the first column contains the drama ID, and all following columns
@@ -222,10 +225,9 @@ and rename the columns for more verbosity.
 
 ## Training of a topic model
 
-We noticed that training a topic model on the data you want to classify
-let to slightly better results than using a pre-trained model. If you
-also would like to train a topic model on your own data, you might
-proceed as follows:
+We noticed that training a topic model on the data we wanted to classify
+let to slightly better results than using a pre-trained model on prose
+text. We accomplish this as follows:
 
 ```R
 ldaModels <- list()
@@ -283,7 +285,7 @@ use. In our case, this will be:
 - Affiliation of a drama to a specific genre
 
 There are also other types of information, such as the number of
-utterances a figure makes or when the figure speaks firstly and lastly
+utterances a figure makes, the token ID of when the figure speaks firstly and lastly
 and meta data, such as the number of scenes in a play or the overall number of
 tokens in a play.
 This information comes from functions located in the `DramaAnalysis`
@@ -400,7 +402,7 @@ save(p, file="data/p_titlefigures.RData")
 We now make some last adjustments before training a model on the
 extracted features. We normalise the actives, passives and tokens
 features by the overall length of the play. For plotting purposes, we
-also bring the character surface string into a nice, title case format.
+also bring the character surface string into a nice title case format.
 We then backup this original table and remove all information that the
 machine learning should not have any access to. We save both the
 original dataset and the training dataset into the variable `pTF`.
@@ -437,11 +439,11 @@ a random forest classifier in conjunction with the
 [caret](https://cran.r-project.org/web/packages/caret/index.html) package, but other
 classifiers are also viable. The function `testFeatureSet` is a
 convenience method. It allows us to make sure that every time we call a
-caret classification, the same seed will be set. We can also give in
+`caret` classification, the same seed will be set. We can also give in
 the sampling method we wish to use. Furthermore, we can
 experiment with different sets of features. The output of that function
-is a list that contains the trained model, the input and output data of
-that model, the variable importance for the features, a confusion
+is a list containing the trained model, the input and output data of
+that model, the feature importance specific to the model, a confusion
 matrix of the result, the concrete prediction as well as the correct
 and the incorrect predictions for later error analysis. We can also
 already define different combinations of features we wish to try out.
@@ -515,7 +517,7 @@ featuresWithoutTokens <- c(c("BT" ,"WK", "SD", "POP", "NAT",
                            "lastAct")
 ```
 
-We now simply call `testFeatureSet` with different features and the
+We now simply call `testFeatureSet()` with different features and the
 desired sampling method. For example, as a simple baseline,
 we could only use the `tokens` feature.
 We also train two models, one with all features and one with all features minus the
