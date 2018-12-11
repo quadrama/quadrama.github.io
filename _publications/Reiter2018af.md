@@ -15,7 +15,7 @@ address: Galway, Ireland
 ref: Reiter2018af
 downloads:
 - desc: PDF
-  https://eadh2018.exordo.com/files/papers/65/final_draft/article.pdf
+  url: https://eadh2018.exordo.com/files/papers/65/final_draft/article.pdf
 ---
 
 ### Abstract
