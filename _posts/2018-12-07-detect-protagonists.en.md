@@ -41,7 +41,7 @@ same format as in
 We now can load this data into [R](https://www.r-project.org/), which is the scripting language
 that we will use. Basic knowledge of R is of advantage in order to
 be able to follow this article more easily. For reading in the data, we will use the
-[DramaAnalysis](https://github.com/quadrama/DramaAnalysis) package.
+[`DramaAnalysis`](https://github.com/quadrama/DramaAnalysis) package.
 Install the package as given on the website. Currently this is achieved by
 running the following commands:
 
@@ -84,13 +84,16 @@ library(data.table)         # Powerful library extending the
                             # data.frame type
 library(topicmodels)        # For training custom topic models
 library(caret)              # Machine learning power house
+library(ggplot2)            # Advanced plotting
+library(iml)                # Interpretable machine learning
 ```
 
 In order to install all these package at once, issue the following
 command:
 
 ```R
-install.packages("igraph", "data.table", "topicmodels", "caret")
+install.packages("igraph", "data.table", "topicmodels", "caret",
+                 "ggplot2", "iml")
 ```
 
 and load them.
@@ -266,7 +269,7 @@ ids.all <- ids.all[ids.all %in% unique(paste0("gdc:",heroes$drama))]
 ```
 
 We then iterate over all texts and store all figures of each play into a
-giant `data.frame`, called `p`. This `data.frame` contains a list of all figures per
+giant `data.table`, called `p`. This `data.table` contains a list of all figures per
 row and stores their ID, as well as the ID of the respective drama in
 its columns. Additional columns store any kind of feature we wish to
 use. In our case, this will be:
@@ -290,7 +293,7 @@ and meta data, such as the number of scenes in a play or the overall number of
 tokens in a play.
 This information comes from functions located in the `DramaAnalysis`
 package and gets automatically
-merged into the final `data.frame`. We will not use this information in
+merged into the final `data.table`. We will not use this information in
 the following experiments, but some of it might be useful for future
 experiments and, of course, additional features can be added freely.
 Now, have a look at the concrete code:
@@ -365,7 +368,8 @@ actually a title figure or not, based on our annotations. To achieve
 this, we
 use the previously created `heroes` `data.table` and store the classes
 into a column `class`. If the figure belongs to the title figure class,
-we store `1`, otherwise `0`. The labels are arbitrary though. Optionally, we might
+we store `TF` (title figure), otherwise `NTF` (not title figure).
+The labels are arbitrary though. Optionally, we might
 also want to store the `data.frame` for later use.
 
 ```R
@@ -391,7 +395,9 @@ p$AUF <- as.integer(paste(p$corpus, p$drama,sep=":")
 p$VM <- as.integer(paste(p$corpus, p$drama,sep=":")
                    %in% ids.corpora$vm)
 
-p$class <- ifelse(apply(p, 1, function(x) (if (any(x["drama"] == heroes$drama & x["figure"] == heroes$figure)) {TRUE} else {FALSE})),"1","0")
+p$class <- ifelse(apply(p, 1, function(x) (if (any(x["drama"] ==
+heroes$drama & x["figure"] == heroes$figure)) {TRUE} else
+{FALSE})),"TF","NTF")
 p$class <- factor(p$class)
 
 save(p, file="data/p_titlefigures.RData")
@@ -483,11 +489,11 @@ testFeatureSet <- function(features, p, orig, sampling, seed=42) {
   cm  <- list(P = confusionMatrix(predictions,
                                   p$class,
                                   mode = "everything",
-                                  positive = "1"),
+                                  positive = "TF"),
               C = confusionMatrix(predictions,
                                   p$class,
                                   mode = "everything",
-                                  positive = "0"))
+                                  positive = "NTF"))
   pred <- data.frame(orig[,c("corpus", "drama", "figure", "BT",
                              "WK", "SD", "POP", "NAT",
                              "WM", "ROM", "AUF", "VM")],
@@ -549,4 +555,167 @@ save(results, file = "data/results.RData")
 
 ## Evaluating the results
 
-**ToDo**
+We can now evaluate the models in different ways:
+
+1. Confusion matrix of predicted classes against actual classes of
+characters
+2. Feature importance
+3. Prediction for single characters
+
+Let us start with confusion matrices. We can retrieve the confusion
+matrix for a model and a specific class from the outputted list of `testFeatureSet()`:
+
+```R
+cm <- results$All$cm$TF$table
+```
+```
+> cm
+
+          Reference
+Prediction    C    P
+         C 1115    0
+         P   51   42
+```
+
+Next, we might also want to calculate different evaluation metrics based on the
+confusion matrix, such as precision, recall, F1 and accuracy. This can
+also easily be done for all models at once to make a comparison:
+
+```R
+dfTF <- data.frame(lapply(results, function(x) {x$cm$TF$byClass}))
+dfNTF <- data.frame(lapply(results, function(x) {x$cm$NTF$byClass}))
+dfO <- data.frame(lapply(results, function(x) {x$cm$NTF$overall}))
+
+dfEval <- rbind(dfTF, dfNTF, dfO)
+dfEval <- dfEval[c("Precision", "Recall", "F1", "Accuracy"),]
+```
+```
+> dfEval
+
+               TokensBL  woTokens       All
+Precision     0.3387097 0.3442623 0.4516129
+Recall        1.0000000 1.0000000 1.0000000
+F1            0.5060241 0.5121951 0.6222222
+Accuracy      0.9321192 0.9337748 0.9577815
+```
+
+We can retrieve and plot the feature importance in the following way:
+
+```R
+imp <- results$All$imp$importance %>%
+  as.data.frame() %>%
+  rownames_to_column() %>%
+  ggplot(aes(x = reorder(rowname, Overall), y = Overall)) +
+    geom_bar(stat = "identity", fill = "#1F77B4", alpha = 0.8) +
+    coord_flip() +
+    labs(x = "Feature", y = "Importance") +
+    theme(plot.title = element_text(hjust = 0.5))
+```
+```
+> imp
+```
+<div class="figure">
+	<img src="{{site.baseurl}}/assets/2018-12-07-detect-protagonists/data/imp.png" />
+	<p class="caption">Feature importance</p>
+</div>
+
+Lastly, we can also inspect the model's prediction for a single
+character. This can be interesting if we suspect a character to be
+especially difficult to classify and we can also inspect the
+predictions for multiple characters and compare them. Let's take
+Emilia and Marinelli from Lessing's *Emilia Galotti* as examples.
+Of course, we are interested in knowing if the model managed to predict
+them correctly.
+
+```R
+chars <- c("emilia", "marinelli")
+predChar <- results$All$pred[results$All$pred$figure %in% chars &
+                results$All$pred$drama == "rksp.0", ]
+                [, c("corpus", "drama", "figure", "class", "pred")]
+```
+```
+> predChar
+
+corpus  drama    figure class pred
+   gdc rksp.0    emilia    TF   TF
+   gdc rksp.0 marinelli   NTF   TF
+```
+
+We see that Emilia was predicted correctly as a title figure, but the
+model assumed that Marinelli would be a title figure as well, which is
+incorrect.
+
+Finally, we apply a Shapley analysis which shows the importance of the
+features for the classification of a single data point. The higher the
+value *phi*, the more important the feature was. A negative *phi*
+indicates that the feature was contra-productive to assign the character
+to the class. We use the [`iml`](https://cran.r-project.org/web/packages/iml/index.html)
+package to perform the Shapley analysis. First we need to create an
+`iml` predictor:
+
+```R
+x <- results$All$x
+y <- results$All$y
+predictor <- Predictor$new(results$All$model, data = x, y = y)
+```
+
+Then we can compute the Shapley values for a single character and plot
+the results:
+
+```R
+charID <- rownames(results$All$pred[
+                   results$All$pred$figure == "emilia"
+                   & results$All$pred$drama == "rksp.0",])
+shapley <- Shapley$new(predictor, x.interest = x[charID,])
+# Round the feature values so that they don't clutter the plot
+shapley$results$feature.value <-
+                    roundFeatures(shapley$results$feature.value)
+shapley_emilia <- shapley$results[
+                          which(shapley$results$class == "TF"),]
+  %>%
+  ggplot(aes(x = reorder(feature.value, -phi),
+                         y = phi,
+                         fill = class)) +
+  geom_bar(stat = "identity", alpha = 0.8) +
+  scale_fill_tableau() +
+  coord_flip() +
+  guides(fill = FALSE) +
+  labs(x = "Feature", y = "phi") +
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
+
+charID <- rownames(results$All$pred[
+                   results$All$pred$figure == "marinelli"
+                   & results$All$pred$drama == "rksp.0",])
+shapley$explain(x.interest = x[charID,])
+shapley$results$feature.value <-
+                    roundFeatures(shapley$results$feature.value)
+shapley_marinelli <- shapley$results[
+                             which(shapley$results$class == "TF"),]
+  %>%
+  ggplot(aes(x = reorder(feature.value, -phi),
+                         y = phi,
+                         fill = class)) +
+  geom_bar(stat = "identity", alpha = 0.8) +
+  scale_fill_tableau() +
+  coord_flip() +
+  guides(fill = FALSE) +
+  labs(x = "Feature", y = "phi") +
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
+```
+```
+> shapley_emilia
+```
+<div class="figure">
+	<img src="{{site.baseurl}}/assets/2018-12-07-detect-protagonists/data/shapley_emilia.png" />
+	<p class="caption">Shapley analysis for Emilia</p>
+</div>
+
+```
+> shapley_marinelli
+```
+<div class="figure">
+	<img src="{{site.baseurl}}/assets/2018-12-07-detect-protagonists/data/shapley_marinelli.png" />
+	<p class="caption">Shapley analysis for Marinelli</p>
+</div>
+
+That's all.
