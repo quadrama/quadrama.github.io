@@ -69,7 +69,7 @@ adjust that by either issuing the `setup()` command or using the
 directory called `data/` in order to store the models and other data.
 You can create it anywhere (`$YOUR_PATH/data`) and then set up R to run commands in the
 parent directory with `setwd($YOUR_PATH)`. We provide annotations for
-classifying title characters. Download the file from [here]({{site.baseurl}}/assets/2018-12-07-detect-protagonists/titlefigures.csv) and save
+classifying title characters. Download the file from [here]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv) and save
 it in `$YOUR_PATH/data/`.
 
 [^1]: For a more thorough and up-to-date description, see the DramaAnalysis [Wiki](https://github.com/quadrama/DramaAnalysis/wiki/Installation).
@@ -177,7 +177,7 @@ the same steps. We further proceed with using annotations that name
 figures which are title figures, but you could as well replace it with
 an annotation of protagonists or any other binary class of figures that might
 be classified by the used features. We read in the annotations from the
-file called [`titlefigures.csv`]({{site.baseurl}}/assets/2018-12-07-detect-protagonists/titlefigures.csv), 
+file called [`titlefigures.csv`]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv), 
 which has already been downloaded.
 The format of that file follows the structure
 
@@ -338,7 +338,8 @@ p <- Reduce(rbind, lapply(ids, function(x) {
   pres <- merge(pres, fstat)
   pres <- merge(pres, post.df, by = c("figure"))
   pres <- merge(pres, data.frame(degree = dg, figure = names(dg)))
-  pres <- merge(pres, data.frame(wdegree = wdg, figure = names(wdg)))
+  pres <- merge(pres, data.frame(wdegree = wdg, 
+                                 figure = names(wdg)))
   pres <- merge(pres, data.frame(between = bt, figure = names(bt)))
   pres <- merge(pres, data.frame(close = cn, figure = names(cn)))
   pres <- merge(pres, data.frame(eigen = ev$vector,
@@ -676,7 +677,7 @@ imp <- results$All$imp$importance %>%
 > imp
 ```
 <div class="figure">
-	<img src="{{site.baseurl}}/assets/2018-12-07-detect-protagonists/imp.png" />
+	<img src="{{site.baseurl}}/assets/2018-12-12-detect-protagonists/imp.png" />
 	<p class="caption">Feature importance</p>
 </div>
 
@@ -755,7 +756,7 @@ shapley_marinelli <- shapley$results[
 > shapley_emilia
 ```
 <div class="figure">
-	<img src="{{site.baseurl}}/assets/2018-12-07-detect-protagonists/shapley_emilia.png" />
+	<img src="{{site.baseurl}}/assets/2018-12-12-detect-protagonists/shapley_emilia.png" />
 	<p class="caption">Shapley analysis for Emilia</p>
 </div>
 
@@ -763,9 +764,9 @@ shapley_marinelli <- shapley$results[
 > shapley_marinelli
 ```
 <div class="figure">
-	<img src="{{site.baseurl}}/assets/2018-12-07-detect-protagonists/shapley_marinelli.png" />
+	<img src="{{site.baseurl}}/assets/2018-12-12-detect-protagonists/shapley_marinelli.png" />
 	<p class="caption">Shapley analysis for Marinelli</p>
 </div>
 
 That's all for now. You get the complete running code from 
-[here]({{site.baseurl}}/assets/2018-12-07-detect-protagonists/script.R).
+[here]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/script.R).
