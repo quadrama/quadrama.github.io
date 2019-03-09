@@ -11,7 +11,7 @@ authors:
 - Janis Pagel
 ---
 
-QuaDramA ist auch in diesem Jahr mit einem Beitrag auf der [DHd](https://dhd2019.org) vertreten, die in Mainz und Frankfurt stattfindet. Benjamin Krautter und Janis Pagel präsentieren eine Arbeit zur Klassifikation von Titelfiguren. Der Vortrag findet in Session *Analyse bei Dramen und Romanen*, am Donnerstag, den 28. März von 9:00 bis 10:30 statt.
+QuaDramA ist auch in diesem Jahr mit einem Beitrag auf der [DHd](https://dhd2019.org) vertreten, die in Mainz und Frankfurt stattfindet. Benjamin Krautter und Janis Pagel präsentieren eine Arbeit zur Klassifikation von Titelfiguren. Der Vortrag findet in der Session *Analyse bei Dramen und Romanen*, am Donnerstag, den 28. März von 9:00 bis 10:30 statt.
 
 ### Klassifikation von Titelfiguren in deutschsprachigen Dramen und Evaluation am Beispiel von Lessings "Emilia Galotti"
 
