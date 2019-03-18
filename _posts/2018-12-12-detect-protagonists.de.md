@@ -64,9 +64,6 @@ mit der Bezeichung `data/` verwenden, um dort die trainierten Modelle und andere
 generierte Daten zu speichern. Der Ordner kann an beliebiger Stelle erstellt werden
 (`$YOUR_PATH/data`). Anschließend kann innerhalb der R-Konsole das aktuelle Verzeichnis
 zu diesem Ordner geändert werden mittels `setwd($YOUR_PATH)`.
-Wir stellen Annotationen für die Klassifikation von Titelfiguren zur Verfügung.
-Diese können [hier]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv) 
-heruntergeladen werden und müssen anschließend in `$YOUR_PATH/data` abgespeichert werden.
 
 [^1]: Für eine ausführliche und aktuelle Beschreibung des Installationsprozesses, siehe das `DramaAnalysis` [Wiki](https://github.com/quadrama/DramaAnalysis/wiki/Installation).
 
@@ -171,9 +168,11 @@ Im oben genannten Artikel haben wir sowohl die Erkennung von Protagonisten
 als auch von Titelfiguren untersucht. Von einem technischen Standpunkt aus
 folgt die Klassifikation von Protagonisten oder Titelfiguren jedoch denselben
 Schritten. Im weiteren werden wir uns auf die Annotationen konzentrieren, die
-Figuren nach Titlefiguren klassifizieren. Wir lesen die Annotationen von der
-Datei namens [`titlefigures.csv`]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv),
-ein, die bereits weiter oben heruntergeladen wurde.
+Figuren nach Titlefiguren klassifizieren. Wir lesen die Annotationen von einer
+Datei namens [`titlefigures.csv`]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv)
+ein, die [hier]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv) heruntergeladen werden kann.
+Anschließend die Datei unter `$YOUR_PATH/data/titlefigures.csv` abspeichern. 
+
 Die Datei weist folgende Struktur auf:
 
 ```csv

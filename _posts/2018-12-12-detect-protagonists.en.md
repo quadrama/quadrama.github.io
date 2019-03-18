@@ -68,9 +68,7 @@ adjust that by either issuing the `setup()` command or using the
 `dataDirectory` option in `installData()`[^1]. We will also use a
 directory called `data/` in order to store the models and other data.
 You can create it anywhere (`$YOUR_PATH/data`) and then set up R to run commands in the
-parent directory with `setwd($YOUR_PATH)`. We provide annotations for
-classifying title characters. Download the file from [here]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv) and save
-it in `$YOUR_PATH/data/`.
+parent directory with `setwd($YOUR_PATH)`. 
 
 [^1]: For a more thorough and up-to-date description, see the DramaAnalysis [Wiki](https://github.com/quadrama/DramaAnalysis/wiki/Installation).
 
@@ -176,9 +174,10 @@ classification of figures into protagonists or title figures follows
 the same steps. We further proceed with using annotations that name
 figures which are title figures, but you could as well replace it with
 an annotation of protagonists or any other binary class of figures that might
-be classified by the used features. We read in the annotations from the
-file called [`titlefigures.csv`]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv), 
-which has already been downloaded.
+be classified by the used features. We read in the annotations from a
+file called [`titlefigures.csv`]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv). 
+Download it from [here]({{site.baseurl}}/assets/2018-12-12-detect-protagonists/titlefigures.csv)
+and save it under `$YOUR_PATH/data/titlefigures.csv`.
 The format of that file follows the structure
 
 ```csv
