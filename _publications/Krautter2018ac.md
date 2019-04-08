@@ -10,6 +10,7 @@ address: Mexico-City, Mexico
 month: June
 lang: en
 pages: 225-228
+ref: Krautter2018ac
 downloads:
 - desc: PDF
   url: https://dh2018.adho.org/wp-content/uploads/2018/06/dh2018_abstracts.pdf
