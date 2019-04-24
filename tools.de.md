@@ -14,10 +14,6 @@ editor: pagel
 
 Hier findet sich eine Übersicht der Tools, die im Rahmen von QuaDramA entwickelt werden.
 
-<!--more-->
-## Table of contents
-{:.no_toc}
-
 * ToC
 {:toc}
 
