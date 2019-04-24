@@ -11,11 +11,12 @@ year: 2018
 booktitle: "Abstracts of EADH: Data in the Digital Humanities"
 lang: en
 month: 12
+doi: 10.18419/opus-10162
 address: Galway, Ireland
 ref: Reiter2018af
 downloads:
 - desc: PDF
-  url: https://eadh2018.exordo.com/files/papers/65/final_draft/article.pdf
+  url: https://elib.uni-stuttgart.de/bitstream/11682/10179/1/article.pdf
 ---
 
 ### Abstract
