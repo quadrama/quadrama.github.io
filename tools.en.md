@@ -6,12 +6,6 @@ ref: tools
 editor: pagel
 ---
 
-<style>
-.badges img {
-	display: inline-block;
-}
-</style>
-
 This is a list of the tools that are being developed in QuaDramA.
 
 * ToC
