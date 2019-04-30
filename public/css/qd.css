@@ -394,3 +394,7 @@ div.qd-spiderweb g.highcharts-xaxis-grid path.highcharts-grid-line {
 /**
  * qd-boxplot
  */
+
+.badges img {
+  display: inline-block;
+}
