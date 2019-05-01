@@ -83,7 +83,7 @@ knitr::kable(data.frame(Gesundheit = paste(sample(wf$Gesundheit, size=20), colla
 #### Berechnung eines Scores
 
 
-Die folgenden Wortfeldanalysen basieren darauf, dass wir die Häufigkeit von Wörtern aus bestimmten Wortfeldern in Textabschnitten messen. Dazu sind alle Texte zunächst automatisch lemmatisiert worden. Die absolute Häufigkeit der Wörter wird dann doppelt normalisiert: a) an der Länge des Textabschnittes und b) an der Größe des Wortfeldes. Wenn $t$ die Menge der Wörter im Wortfeld beschreibt und $w$ die Sequenz der Wörter in einem Textabschnitt, dann ergibt sich der Score aus der folgenden Formel:
+Die folgenden Wortfeldanalysen basieren darauf, dass wir die Häufigkeit von Wörtern aus bestimmten Wortfeldern in Textabschnitten messen. Dazu sind alle Texte zunächst automatisch lemmatisiert worden. Die absolute Häufigkeit der Wörter wird dann doppelt normalisiert: a) an der Länge des Textabschnittes und b) an der Größe des Wortfeldes. Wenn $*$*die Menge der Wörter im Wortfeld beschreibt und $*w*die Sequenz der Wörter in einem Textabschnitt, dann ergibt sich der Score aus der folgenden Formel:
 
 $$s(t,w) = |t \cap w|\times\frac{1}{|w|}\times\frac{1}{|t|}$$
 
