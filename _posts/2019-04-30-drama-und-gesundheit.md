@@ -13,6 +13,8 @@ categories:
 
 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="de" dir="ltr"><a href="https://twitter.com/nilsreiter?ref_src=twsrc%5Etfw">@nilsreiter</a> spricht heute in der <a href="https://twitter.com/hashtag/hermA?src=hash&amp;ref_src=twsrc%5Etfw">#hermA</a>-Ringvorlesung über Quantitative Dramenanalyse: Ein explorativer Zugang zu Gesundheit in literarischen Texten” <a href="https://twitter.com/hashtag/digitalhumanities?src=hash&amp;ref_src=twsrc%5Etfw">#digitalhumanities</a> <a href="https://twitter.com/hashtag/quadrama?src=hash&amp;ref_src=twsrc%5Etfw">#quadrama</a> <a href="https://t.co/xwFW6AkYo7">pic.twitter.com/xwFW6AkYo7</a></p>&mdash; Jan Horstmann (@JanHorstmannn) <a href="https://twitter.com/JanHorstmannn/status/1123260515973726213?ref_src=twsrc%5Etfw">April 30, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
 Am 30.04.2019 hat [Nils Reiter](https://nilsreiter.de) im Rahmen der [Ringvorlesung "Gesundheit verstehen – Digital Humanities im Dialog"](https://www.herma.uni-hamburg.de/news/events/2019-ringvorlesung.html) einen Vortrag zur quantitativen Dramenanalyse gehalten, mit Fokus auf das Thema Gesundheit. Der Vortrag hatte zwei Hauptteile, einen inhaltlichen und einen methodischen. Der methodische Teil basiert auf einem Artikel, der "demnächst" erscheinen sollte. Den inhaltlichen Teil gebe ich hier kurz wieder, zusammen mit dem Code um die Analysen zu reproduzieren und nachzuvollziehen. Da es sich um eine Exploration handelt, werden die Ergebnisse hier lediglich dargestellt. Eine Interpretation und Reflektion würde sich nun anschließen, war aber nicht Teil des Vortrages.
 
