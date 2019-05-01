@@ -8,8 +8,6 @@ index: true
 lang: de
 date: 2019-04-30
 logo: /assets/conference-logos/herma-logo.png
-categories:
-- Vorträge
 ---
 
 
