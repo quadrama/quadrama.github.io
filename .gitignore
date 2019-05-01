@@ -5,3 +5,4 @@ Gemfile
 Gemfile.lock
 .bundle/
 .swp
+cache
