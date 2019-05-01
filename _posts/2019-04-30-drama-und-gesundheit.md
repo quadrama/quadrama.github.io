@@ -5,6 +5,7 @@ authors:
 layout: post
 ref: drama-und-gesundheit
 index: true
+lang: de
 date: 2019-04-30
 categories:
 - Vorträge
@@ -13,7 +14,7 @@ categories:
 
 
 
-Am 30.04.2019 habe ich im Rahmen der [Ringvorlesung "Gesundheit verstehen – Digital Humanities im Dialog"](https://www.herma.uni-hamburg.de/news/events/2019-ringvorlesung.html) einen Vortrag zur quantitativen Dramenanalyse gehalten, mit Fokus auf das Thema Gesundheit. Der Vortrag hatte zwei Hauptteile, einen inhaltlichen und einen methodischen. Der methodische Teil basiert auf einem Artikel, der "demnächst" erscheinen sollte. Den inhaltlichen Teil gebe ich hier kurz wieder, zusammen mit dem Code um die Analysen zu reproduzieren und nachzuvollziehen. Da es sich um eine Exploration handelt, werden die Ergebnisse hier lediglich dargestellt. Eine Interpretation und Reflektion würde sich nun anschließen, war aber nicht Teil des Vortrages.
+Am 30.04.2019 hat [Nils Reiter](https://nilsreiter.de) im Rahmen der [Ringvorlesung "Gesundheit verstehen – Digital Humanities im Dialog"](https://www.herma.uni-hamburg.de/news/events/2019-ringvorlesung.html) einen Vortrag zur quantitativen Dramenanalyse gehalten, mit Fokus auf das Thema Gesundheit. Der Vortrag hatte zwei Hauptteile, einen inhaltlichen und einen methodischen. Der methodische Teil basiert auf einem Artikel, der "demnächst" erscheinen sollte. Den inhaltlichen Teil gebe ich hier kurz wieder, zusammen mit dem Code um die Analysen zu reproduzieren und nachzuvollziehen. Da es sich um eine Exploration handelt, werden die Ergebnisse hier lediglich dargestellt. Eine Interpretation und Reflektion würde sich nun anschließen, war aber nicht Teil des Vortrages.
 
 R-Code: Die Beschreibung unten enthält ebenfalls den R-Code der benutzt wurde um die Grafiken zu erstellen. Der Code ist weitgehend unkommentiert (Programmierer sagen dazu: selbsterklärend 😎). Wer die Analysen nachbauen möchte, kann sich gerne per [E-Mail](mailto:nils.reiter@ims.uni-stuttgart.de) melden.
 
