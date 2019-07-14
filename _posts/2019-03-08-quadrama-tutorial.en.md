@@ -43,7 +43,7 @@ The workshop is split into two parts, conveniently separated by a coffee break:
 - Lab session (Everyone)
 - Wrap-Up (Nils Reiter)
   
-#### Material
+#### Material and links
 
 - [Handout]({{site.baseurl}}/assets/2019-03-08-quadrama-tutorial/handout.pdf)
 - Slides (not yet)
