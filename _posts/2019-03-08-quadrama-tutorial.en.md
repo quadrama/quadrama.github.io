@@ -22,4 +22,33 @@ Practically, the tutorial covers three aspects: a) a basic introduction into the
 
 ## Structure and Material
 
-*coming soon(ish)*
+The workshop is split into two parts, conveniently separated by a coffee break:
+
+### Part 1: Theory and overview
+
+- Introduction (Marcus Willand)
+- Operationalisation: A key challenge in Computational Literary Studies (Benjamin Krautter)
+- Use cases in quantitative drama analysis
+    - Utterance and character analysis (Janis Pagel)
+    - Semantics of character speech (Benjamin Krautter)     
+    - Character presence and network analysis (Nils Reiter)
+
+#### Material
+
+- Slides (not yet)
+
+### Part 2: Practice and lab session
+
+- Introduction (Nils Reiter)
+- Lab session (Everyone)
+- Wrap-Up (Nils Reiter)
+  
+#### Material
+
+- [Handout]({{site.baseurl}}/assets/2019-03-08-quadrama-tutorial/handout.pdf)
+- Slides (not yet)
+- [Written tutorial](https://quadrama.github.io/DramaAnalysis/tutorial/3/)
+- [R package documentation](https://quadrama.github.io/DramaAnalysis/3.0.0/)
+- Data sources
+   - Shakespeare plays: [TEI](https://github.com/dracor-org/shakedracor),  [CSV](https://github.com/quadrama/data_shakedracor)
+   - German plays: [TEI](https://github.com/quadrama/Corpus),  [CSV](https://github.com/quadrama/data_qd)
