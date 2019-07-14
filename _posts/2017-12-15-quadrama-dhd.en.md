@@ -6,7 +6,7 @@ ref: dhd2018
 categories:
 - Conferences
 logo: /assets/logo_dhd2018.png
-index: true
+index: false
 authors:
 - Benjamin Krautter
 ---

@@ -5,7 +5,7 @@ lang: en
 ref: eadh2018
 categories:
 - Conferences
-index: true
+index: false
 logo: /assets/conference-logos/eadh-560.png
 authors:
 - Nils Reiter

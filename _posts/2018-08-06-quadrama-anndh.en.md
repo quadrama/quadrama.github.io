@@ -6,7 +6,7 @@ ref: anndh2018
 categories:
 - Conferences
 logo: /assets/ESSLLI-2018-logo.jpg
-index: true
+index: false
 authors:
 - Janis Pagel
 ---

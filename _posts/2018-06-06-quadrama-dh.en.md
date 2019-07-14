@@ -6,7 +6,7 @@ ref: dh2018
 categories:
 - Conferences
 logo: /assets/ADHO-2017.png
-index: true
+index: false
 authors:
 - Benjamin Krautter
 ---

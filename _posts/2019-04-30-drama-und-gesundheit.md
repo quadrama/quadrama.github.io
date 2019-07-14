@@ -4,7 +4,7 @@ authors:
 - Nils Reiter
 layout: post
 ref: drama-und-gesundheit
-index: true
+index: false
 lang: de
 date: 2019-04-30
 logo: /assets/conference-logos/herma-logo.png

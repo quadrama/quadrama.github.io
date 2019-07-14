@@ -6,7 +6,7 @@ ref: dhd2019
 categories:
 - Conferences
 logo: /assets/conference-logos/dhd2019.png
-index: true
+index: false
 authors:
 - Janis Pagel
 ---

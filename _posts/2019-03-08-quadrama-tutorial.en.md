@@ -7,7 +7,8 @@ categories:
 - Conferences
 lang: en
 logo: /assets/conference-logos/uniheidelberg.png
-ref: quadrama-tutorial
+ref: 2019-07-15-tutorial
+update: 2019-07-15
 index: true
 ---
 
