@@ -22,9 +22,9 @@ Scaramutza is a classical stock character of the commedia dell´arte, which can 
 <i>Faust around 1800</i></b> [Working title]<br>
 In his master’s thesis, Dominik Wabersich attends to the dramatic character ‘Faustus’ around the year 1800. He assumes that Faustus shouldn’t be understood as an isolated appearance, but as a transmedial phenomenon. This is, all single Faustus characters would be based on a not yet scholastically modelled character type ‘Faustus’. The construction of a finely nuanced model of the character type ‘Faustus’ that is based on deviancy is the purpose of the thesis. The analysis and interpretation of the character ‘Faustus’ in the plays by Paul Weidmann (1775), Friedrich Maler Müller (1778), Josef Karl Bernhard (1816) and Johann Wolfang Goethe (1808/1832) are at the centre of the interest. His research focus lies on the sort of deviancy, the quality of the character and the way of character-painting. In addition, the aesthetic transposition of Faustus, his position in the character constellation and the way of poetic justice in the plays will be analysed.<br>
 <br>
-<b>Nathalie Wiedmer</b><br>
-[No working title yet]<br>
-The paper aims to investigate larger drama corpora using various means of quantitative textual analysis to confirm or refute common research beliefs.<br>
+<b>Nathalie Wiedmer<br>
+<i>Automatic extraction and quantitative analysis of relations of dramatic charcters</i></b><br>
+In this paper a literary thesis was examined using digital methods. It is a thesis of Manfred Pfister, which he published in his work Das Drama in 1977. There he explains his assumption that statements about dramas can be made with the help of the interruption frequency (average replica length of a dialogue). The peculiarity and at the same time also the difficulty of the investigation of this thesis is that it was not designed to be examined with quantitative and computer-aided methods at its time of origin. This resulted in two research questions on different levels. At the text level, the significance of the interruption frequency for the proximity of characters and the statements that can be made about texts were investigated. At the meta-level, the question was examined to what extent it is possible to make a literary approach such as Pfisters analysable using digital methods. <br>
 <br>
 <b>Nina Wittmann<br>
 <i>Character types in Expressionist drama</i></b> [Working title]<br>

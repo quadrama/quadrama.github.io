@@ -11,10 +11,12 @@ ref: detect-protagonists
 index: true
 ---
 
-In a recent [paper](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf) (text in German), we investigated how protagonists and title figures
+In a recent [paper](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2019/06/p07_krautter_et_al_eng-1.pdf)[^4], we investigated how protagonists and title figures
 can be detected in German plays and which features are important for a
 machine learning model in order to conduct the classification. This
 post can be seen as a supplement to this paper.
+
+[^4]: The paper is orginally written in German and got translated into English by the publisher.
 
 <!--more-->
 ## Table of contents

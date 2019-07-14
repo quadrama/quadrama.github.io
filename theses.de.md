@@ -23,9 +23,10 @@ Dominik Wabersich widmet sich in seiner Masterarbeit der dramatischen Faustfigur
 Neben einer Untersuchung der Devianz der einzelnen Fausterscheinungen, erfolgt eine Analyse der Figureneigenschaften und der Art der Figurenzeichnung. Zudem erscheint die ästhetische Umsetzung interessant; d.h. unter anderem die Positionierung Fausts in den Dramen. In diesem Zusammenhang wird den Fragen nachgegangen, inwieweit einzelne Gattungen Faust als Kontrastfigur einsetzen, welche Position Faust in der Figurenkonstellation zukommt, oder inwieweit Momente der poetischen Gerechtigkeit in die Dramen Eingang finden.
 <br>
 <br>
-<b>Nathalie Wiedmer</b><br>
-[Kein Arbeitstitel bisher]<br>
-In der Arbeit sollen größere Dramenkorpora mit Hilfe verschiedener Mittel der quantitativen Textanalyse untersucht werden, um gängige Forschungsmeinungen zu bestätigen oder zu widerlegen.<br>
+<b>Nathalie Wiedmer<br>
+<i>Automatische Extraktion und quantitative Analyse von Relationen dramatischer Figuren</i></b><br>
+In der Arbeit wurde eine literaturwissenschaftliche These mit digitalen Methoden überprüft. Konkret handelt es sich dabei um eine These Manfred Pfisters, die er in seinem Werk Das Drama 1977 veröffentlichte. Dort erläutert er seine Annahme, dass mit Hilfe der Unterbrechungsfrequenz (durchschnittliche Replikenlänge eines Dialogs) Aussagen über Dramen getroffen werden können. Die Besonderheit und gleichzeitig auch die Schwierigkeit der Untersuchung dieser These ist, dass sie zu ihrer Entstehungszeit nicht darauf ausgelegt wurde, mit quantitativen und computergestützten Methoden untersucht zu werden. Daraus ergaben sich zwei Forschungsfragen auf verschiedenen Ebenen. Auf der Textebene wurde untersucht, welche Bedeutung die Unterbrechungsfrequenz für die Nähe von Figuren hat und welche Aussagen damit über Texte getroffen werden können. Auf der Metaebene wurde die Frage untersucht, inwiefern es möglich ist, einen literaturwissenschaftlichen Ansatz, wie den Pfisters, mit digitalen Methoden analysierbar zu machen.
+<br>
 <br>
 <b>Nina Wittmann<br>
 <i>Figurentypen im Expressionistischen Drama</i></b> [Arbeitstitel]<br>
