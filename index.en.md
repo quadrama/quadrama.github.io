@@ -24,7 +24,11 @@ You can find newest posts below and older ones via the sidebar.
 
 <ul class="posts">
   {% for post in posts offset: 0 limit: 3 %}
-    {% include date.html date=post.date lang=post.lang %}
+	{% if post.update %}
+		{% include date.html date=post.update lang=post.lang %}
+	{% else %}
+		{% include date.html date=post.date lang=post.lang %}
+	{% endif %}
     {% include teaser.html post=post %}
   {% endfor %}
 </ul>

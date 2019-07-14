@@ -20,7 +20,11 @@ Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
     {% assign germanVersion = site.posts | where:"ref", post.ref | where:"lang", "de" %}
 	{% if post.lang=="en" %}
 		{% if germanVersion == empty %}
-			{% include date.html date=post.date lang=post.lang %}
+			{% if post.update %}
+				{% include date.html date=post.update lang=post.lang %}
+			{% else %}
+				{% include date.html date=post.date lang=post.lang %}
+			{% endif %}
 			{% include teaser.html post=post %}
 		{% endif %}
 	{% else %}

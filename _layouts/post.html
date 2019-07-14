@@ -3,11 +3,21 @@ layout: default
 ---
 
 <div class="post">
-  {% include date.html date=page.date lang=page.lang %}
-
+  
+  
+ 
+  
   <div class="headline">
     <div class="left">{% include categories.html categories=page.categories %}</div>
-    <div class="right">{{ day }}{{ sup }} {{ month }} {{ year }}</div>
+	<div class="right">
+	{% include date.html date=page.date lang=page.lang %}
+    {{ day }}{{ sup }} {{ month }} {{ year }}
+    {% if page.update %}
+  	  {% include date.html date=page.update lang=page.lang %}
+	<span title="last update">({{ day }}{{ sup }} {{ month }} {{ year }})</span>
+    {% endif %}
+	</div>
+	
     <div style="clear:both;"></div>
   </div>
   {% if page.authors %}
