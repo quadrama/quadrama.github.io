@@ -46,7 +46,7 @@ The workshop is split into two parts, conveniently separated by a coffee break:
 #### Material and links
 
 - [Handout]({{site.baseurl}}/assets/2019-03-08-quadrama-tutorial/handout.pdf)
-- Slides (not yet)
+- [Slides]({{site.baseurl}}/assets/2019-03-08-quadrama-tutorial/slides_lab_session.pdf)
 - [Written tutorial](https://quadrama.github.io/DramaAnalysis/tutorial/3/)
 - [R package documentation](https://quadrama.github.io/DramaAnalysis/3.0.0/)
 - Data sources
