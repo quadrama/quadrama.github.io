@@ -35,7 +35,7 @@ The workshop is split into two parts, conveniently separated by a coffee break:
 
 #### Material
 
-- Slides (not yet)
+- [Slides]({{site.baseurl}}/assets/2019-03-08-quadrama-tutorial/slides_introduction.pdf)
 
 ### Part 2: Practice and lab session
 
