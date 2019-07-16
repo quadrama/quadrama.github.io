@@ -9,7 +9,7 @@ lang: en
 logo: /assets/conference-logos/uniheidelberg.png
 ref: 2019-07-15-tutorial
 update: 2019-07-15
-index: true
+index: false
 ---
 
 We are happy to announce that we will give a tutorial on quantitative drama analysis as part of the [2nd Heidelberg Computational Humanities Summer School](https://hch19.cl.uni-heidelberg.de). The tutorial will take place on Monday afternoon (July 15) and is held by the entire QuaDramA team. We will give a brief introduction into R and RStudio, but the main part will be a hands-on session using  tools we develop(ed) within our project. <br/>*This post will be updated with material, slides etc.*
