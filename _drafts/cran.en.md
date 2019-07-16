@@ -36,7 +36,7 @@ installData("qd")
 ```
 
 ## Tool Landscape
-The past years have shown continuous research on the quantitative analysis of dramatic texts, and both tool and method development have made progress. 
+The past years have shown continuous research on the quantitative analysis of dramatic texts, and both tool and method development have made progress. It's great that our R package continues this.
 
 The [DraCor](https://dracor.org) umbrella not only has assembled an impressive number of corpora, there are also several cool applications/tools that are available: [Easy Linavis](https://ezlinavis.dracor.org), for exploring character copresence networks, an [R shiny app](https://shiny.dracor.org) that allows cluster analysis, and, most importantly, [a restful API](https://dracor.org/documentation/api) that allows straightforward access to textual parts of the play (e.g., character speech by female characters) without dealing with XML. DraCor is headed by [Frank Fischer](https://www.hse.ru/en/org/persons/182492735).
 
