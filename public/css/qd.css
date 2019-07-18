@@ -397,4 +397,6 @@ div.qd-spiderweb g.highcharts-xaxis-grid path.highcharts-grid-line {
 
 .badges img {
   display: inline-block;
+  margin:0;
+  line-height:100%;
 }
