@@ -30,9 +30,9 @@ Nils Reiter hat Computerlinguistik an der Universität des Saarlandes studiert, 
 
 E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 
-Webseite: [`nilsreiter.de`](http://nilsreiter.de)
+Webseite: [`nilsreiter.de`](https://nilsreiter.de)
 
-Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
+Twitter: [`@nilsreiter`](https://twitter.com/nilsreiter)
 
 <div style="clear:left">&nbsp;</div>
 
