@@ -1,0 +1,49 @@
+- title: CorefAnnotator
+  doi: 10.5281/zenodo.1228105
+  url: https://github.com/nilsreiter/CorefAnnotator
+  citation: Reiter2018ag
+  license: apache2
+  github: nilsreiter/CorefAnnotator
+  screenshots:
+  - assets/tools/corefannotator1.png
+  badges:
+  - label: language
+    value: java
+  - label: platform
+    value: desktop
+  description: 
+    en: "CorefAnnotator is a tool for annotating coreference in texts. It has been developed to be able to cope with long texts with many different chains. The core idea is not to annotate binary relations between mentions (e.g., cataphoric), but to consider all mentions that co-refer to form an equivalence set. Consequently, the tool displays a list of entities on the right and allows free assignment of text spans to these entities."
+    de: "CorefAnnotator ist ein Tool zum annotieren von Koreferenz-Ketten. Es wurde entwickelt um lange Texte mit vielen unterschiedlichen Ketten zu verarbeiten. Die Grundidee ist, dass nicht bin&auml;re Relationen zwischen Mentions (z.B. Kataphorizit&auml;t) annotiert werden, sondern dass alle Mentions als einer &Auml;quivalenzklasse zugeh&ouml;rig aufgefasst werden. Dem folgend pr&auml;sentiert das Tool eine Liste aller Entit&auml;ten auf der rechten Seite und ermöglicht so eine freie Zuordnung von Textabschnitten zu diesen Entit&auml;ten."
+- title: DramaAnalysis
+  doi: 10.5281/zenodo.597509
+  url: https://github.com/quadrama/DramaAnalysis
+  license: gpl3
+  github: quadrama/DramaAnalysis
+  screenshots:
+  - assets/tools/dramaanalysis1.png
+  badges:
+  - label: language
+    value: r
+  - label: platform
+    value: library
+  - label: cran
+    value: 3.0.0
+    link: "https://cran.r-project.org/package=DramaAnalysis"
+  description:
+    en: "DramaAnalysis is an R package that contains a collection of frequently used functions for analyzing dramatic texts. The input is a CSV-format coming from DramaNLP. DramaAnalysis functions can be combined easily and their output can be plotted straightforwardly with one of R's plotting devices."
+    de: "DramaAnalysis ist ein R-Paket, das eine Sammlung von häufig genutzten Funktionen für die Analyse von dramatischen Texten enthält. Der Input ist ein CSV-Format, das von <a href=\"https://github.com/quadrama/DramaNLP\">DramaNLP</a> vorgegeben wird. DramaAnalysis-Funktionen können leicht kombiniert und ihr Output mit einer von Rs Plotting-Möglichkeiten graphisch dargestellt werden."
+- title: DramaNLP
+  doi: 10.5281/zenodo.597866
+  url: "https://github.com/quadrama/DramaNLP"
+  license: apache2
+  github: quadrama/DramaNLP
+  screenshots:
+  - assets/tools/dramanlp1.png
+  badges:
+  - label: language
+    value: java
+  - label: platform
+    value: library
+  description: 
+    en: "DramaNLP is a NLP-pipeline based on <a href=\"https://uima.apache.org/\">Apache UIMA</a> components that processes dramatic texts. DramaNLP can import various <a href=\"https://tei-c.org/\">TEI</a> dialects and process them using <a href=\"https://dkpro.github.io/\">DKPro</a> components. The output is a variety of formats such as <a href=\"https://www.omg.org/spec/XMI/\">XMI</a>, <a href=\"http://www.signll.org/conll/\">CoNLL</a> formats and a custom CSV format. These formats contain extracted metadata from the TEI files, such as author or title and NLP output such as the tokenized text, part-of-speech and speaker information."
+    de: "DramaNLP ist eine NLP-Pipeline, basierend auf <a href=\"https://uima.apache.org/\">Apache UIMA</a> Komponenten und kann dramatische Texte verarbeiten. DramaNLP ist in der Lage, verschiedene <a href=\"https://tei-c.org/\">TEI</a> Dialekte zu importieren und mittels <a href=\"https://dkpro.github.io/\">DKPro</a> Komponenten zu verarbeiten. Der Output ist eine Vielzahl von Formaten wie etwa <a href=\"https://www.omg.org/spec/XMI/\">XMI</a>, <a href=\"http://www.signll.org/conll/\">CoNLL</a> Varianten sowie ein eigenes CSV-Format. Diese Formate enthalten Metainformationen aus den TEI-Dateien, wie etwa Author und Titel, sowie NLP-Output, wie zum Beispiel der tokenisierte Text, Wortarten- und Sprecher-Informationen."

@@ -1,0 +1,6 @@
+apache2:
+  title: Apache%202
+  link: "https://www.apache.org/licenses/LICENSE-2.0"
+gpl3:
+  title: Gnu GPL v3
+  link: "https://www.gnu.org/licenses/gpl-3.0.en.html"
