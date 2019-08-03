@@ -8,12 +8,14 @@ author:
 - Lonneke van der Plas
 booktitle: "1st International Workshop on Computational Approaches to Historical Language Change 2019"
 year: 2019
-status: to appear
 month: August
+pages: 234-239
 address: Florence, Italy
 lang: en
 ref: Dhar2019aa
 downloads:
+- desc: PDF
+  url: https://www.aclweb.org/anthology/W19-4729
 - desc: arXiv
   url: https://arxiv.org/abs/1906.02563
 ---
