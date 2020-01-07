@@ -1,5 +1,5 @@
 ---
-title: "QuaDramA Tutorial im Forschungsoberseminars Literaturwissenschaft und Linguistik"
+title: "QuaDramA Tutorial im Forschungsoberseminar Literaturwissenschaft und Linguistik"
 authors:
 - Nils Reiter
 layout: post
