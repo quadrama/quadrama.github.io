@@ -7,7 +7,7 @@ categories:
 - Conferences
 lang: de
 ref: 2020-01-07-tutorial
-index: true
+index: false
 logo: /assets/conference-logos/unitue.png
 ---
 
