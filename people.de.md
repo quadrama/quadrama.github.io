@@ -54,6 +54,6 @@ Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Ba
 
 E-Mail: `janis.pagel@ims.uni-stuttgart.de`
 
-Website: [`janispagel.de`](http://janispagel.de)
+Website: [`janispagel.de`](https://janispagel.de)
 
 Twitter: [`@janispagel`](https://twitter.com/janispagel)
