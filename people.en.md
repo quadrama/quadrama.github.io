@@ -58,3 +58,17 @@ E-Mail: `janis.pagel@ims.uni-stuttgart.de`
 Website: [`janispagel.de`](https://janispagel.de)
 
 Twitter: [`@janispagel`](https://twitter.com/janispagel)
+
+<div style="clear:left">&nbsp;</div>
+
+## Melanie Andresen
+
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/melanie.jpg" alt="Melanie Andresen" width="100" height="100"/></div>
+
+Melanie Andresen studied German Language and Literature (B.A.) and German Linguistics (M.A.) at Universität Hamburg (2008-2014) and specialized in corpus linguistics and digital humanities. She worked at the Institut for German Language and Literature (2014-2017) and in the interdisciplinary research project hermA (2017-2020, both Universität Hamburg). Her dissertation (submitted in 2019) is about the use of syntactic annotations in data-driven corpus studies. Since August 2020 she works as a Post-Doc at the Institute for Natural Language Processing at the University of Stuttgart and in the research project Q:TRACK.
+
+E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
+
+Website: [`Melanie Andresen at IMS`](https://www.ims.uni-stuttgart.de/institut/team/Andresen/)
+
+Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
