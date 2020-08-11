@@ -1,7 +1,7 @@
 ---
 layout: pub
 type: incollection
-title: "Reflektierte Algorithmische Textanalyse. Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt"
+title: "Annotation als flexibel einsetzbare Methode"
 author:
 - Janis Pagel
 - Nils Reiter
