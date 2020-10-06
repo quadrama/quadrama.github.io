@@ -8,7 +8,7 @@ ref: theses
 editor: willand
 ---
 
-Here you find short summaries of the M.A. theses originated in the environment of QuaDramA research and classes:
+Here you find short summaries of the M.A. theses originated in the first phase of QuaDramA:
 
 <b>Sonja Eberhardt<br>
 <i>Hebbels fathers and children from a psychoanalytical perspective </i></b> [Working title]<br>
