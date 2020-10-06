@@ -7,7 +7,7 @@ ref: theses
 editor: willand
 ---
 
-Hier findet sich eine Übersicht der Masterarbeiten, die im Umfeld der Forschung und Lehre von QuaDramA entstehen:
+Hier findet sich eine Übersicht der Masterarbeiten, die im Umfeld der ersten Projektphase von QuaDramA entstanden sind:
 
 <b>Sonja Eberhardt<br>
 <i>Hebbels Väter und Kinder aus psychoanalytischer Perspektive</i></b> [Arbeitstitel]<br>
