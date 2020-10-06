@@ -9,7 +9,7 @@ venue:
   link: https://www.uni-heidelberg.de/fakultaeten/theologie/forschung/infoditex.html
   title: "InFoDiTex, Interdisziplinäres Forum digitaler Textwissenschaften"
 institution:
-  name: JUNIOR RESEARCH INFRASTRUCTURE der Universität Heidelberg
+  name: Universität Heidelberg
   link: https://www.uni-heidelberg.de/fakultaeten/theologie/
 lang: de
 ---
