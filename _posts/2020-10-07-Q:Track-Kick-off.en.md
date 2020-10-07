@@ -2,7 +2,7 @@
 layout: post
 title: 2nd project phase kick-off: Q:Track 
 lang: eng
-ref: Q:Track Kick-off
+ref: -Q:Track-Kick-off
 categories: QuaDramA
 logo: /assets/Kickoff.jpg
 authors: 
