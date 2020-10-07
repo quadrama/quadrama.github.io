@@ -4,7 +4,7 @@ title: Q:Track Kick-off
 lang: eng
 ref: Q:Track Kick-off
 categories: QuaDramA
-logo: /assets/about/Kickoff.jpg
+logo: /assets/Kickoff.jpg
 authors: 
 - Marcus Willand
 index: true
