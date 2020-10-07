@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Kick-off der zweiten Projektphase: Q:Track 
+title: "Kick-off der zweiten Projektphase: Q:Track"
 lang: de
-ref: Q:Track-Kick-off
+ref: "Q:Track-Kick-off"
 categories: QuaDramA
 logo: /assets/Kickoff.jpg
 authors: 
