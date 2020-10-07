@@ -34,6 +34,6 @@ QuaDramA is funded by <a href="https://www.volkswagenstiftung.de">Volkswagen Fou
 
 <div class="logoline">
 <a href="https://www.volkswagenstiftung.de"><img src="{{site.url}}/assets/about/vw.gif" alt="VolkswagenStiftung" /></a>
-<a href="https://dfg-spp-cls.github.io/projects/"><img src="{{site.url}}/assets/about/CLS.jpg" alt="Computational Literary Studies (DFG)" /></a>
+<a href="https://dfg-spp-cls.github.io/projects/"><img src="{{site.url}}/assets/about/SPP_CLS.jpg" alt="Computational Literary Studies (DFG)" /></a>
 </div>
 
