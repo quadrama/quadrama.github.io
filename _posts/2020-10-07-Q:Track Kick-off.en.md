@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Q:Track Kick-off
+title: 2nd project phase kick-off: Q:Track 
 lang: eng
 ref: Q:Track Kick-off
 categories: QuaDramA
