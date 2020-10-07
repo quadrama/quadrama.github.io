@@ -15,5 +15,5 @@ On October 5th the second project phase of QuaDramA has started under the name Q
 - [x] First text selection - check!
 - [x] Cooperation partners - check!
 - [x] Worsphop planning - check!
-- [x] Special issue planning - check!
+- [x] Special issue planning - check! 
 - [ ] Group photo with mask - Oh crap...
