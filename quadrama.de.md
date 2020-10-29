@@ -20,17 +20,18 @@ Das Forschungsprogramm der **zweiten Projektphase** verbindet Ziele in zwei Fors
 
 QuaDramA ist angedockt an das [Center for Reflected Text Analytics](http://www.creta.uni-stuttgart.de) und das [Stuttgart Research Center for Text Studies](http://www.ts.uni-stuttgart.de).
 
-<div class="logoline">
+<div class="logoline logoline-4">
   <a href="http://www.creta.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/creta.png" alt="Center for Reflected Text Analytics (CRETA)" /></a>
-  <a href="http://www.ts.uni-stuttgart.de/"><img src="{{ site.url }}/assets/about/SRCTS.png" alt="Stuttgart Research Centre for Text Studies (SRCTS)" /></a>
-  <a href="http://www.uni-stuttgart.de"><img src="{{ site.url }}/assets/about/uni.de.png" alt="Universität Stuttgart" /></a>
+  <a href="http://www.ts.uni-stuttgart.de/"><img src="{{ site.url }}/assets/about/SRCTS.png" alt="Stuttgart Research Centre for Text Studies (SRCTS)" style="width:10%"/></a>
+  <a href="https://dfg-spp-cls.github.io/projects/"><img src="{{site.url}}/assets/about/SPPCLS.jpg" alt="Computational Literary Studies (CLS)" /></a>
+  
 </div>
 
 
 QuaDramA wird gefördert von der <a href="https://www.volkswagenstiftung.de">VolkswagenStiftung</a> und dem DFG-Schwerpunktprogramm [Computational Literary Studies](https://dfg-spp-cls.github.io/home/).
 
-<div class="logoline">
+<div class="logoline logoline-2">
 <a href="https://www.volkswagenstiftung.de"><img src="{{site.url}}/assets/about/vw.gif" alt="VolkswagenStiftung"/></a>
-<a href="https://dfg-spp-cls.github.io/projects/"><img src="{{site.url}}/assets/about/SPPCLS.jpg" alt="Computational Literary Studies (DFG)" /></a>
+<a href="https://www.dfg.de"><img src="{{site.url}}/assets/about/dfg.png"/></a>
 </div>
 

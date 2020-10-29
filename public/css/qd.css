@@ -241,6 +241,21 @@ div.logoline img {
   height:50px;
 }
 
+div.logoline-2 img {
+  width:40%;
+  height:auto;
+}
+
+div.logoline-3 img {
+  width:30%;
+  height:auto;
+}
+
+div.logoline-4 img {
+  width:20%;
+  height:auto;
+}
+
 /**
  * languages
  */
