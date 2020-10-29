@@ -10,7 +10,7 @@ editor: reiter
 
 QuaDramA aims to extend the possibilities for large-scale analysis of dramas focusing the dramatic figure. More than 600 German dramas, mainly from 1740 to 1920, will be examined by integrating structure analysis with content analysis of the figure speech. This integration is enabled by the use of tools for natural language processing (NLP), which are domain-adapted to this specific text type. The planned integration is not a trivial task, because speech content and dramatic structure are very different sources of information that need to be analysed jointly and in a systematic way in order to provide added value for the literary interpretation. The project will empirically analyse different aspects of figures in dramas and relate empirical findings to existing drama-historic theories. 
 
-QuaDramA was funded in the first project phase from 2017 to 2020 by the [VolkswagenStiftung ] (https://www.volkswagenstiftung.de/); since 2020 we continue the project under the umbrella and with the support of the DFG priority program Computational Literary Studies under the name QuaDramA - Q:Track.
+QuaDramA was funded in the first project phase from 2017 to 2020 by the [VolkswagenStiftung](https://www.volkswagenstiftung.de/); since 2020 we continue the project under the umbrella and with the support of the DFG priority program Computational Literary Studies under the name QuaDramA - Q:Track.
 
 In the first phase of the project, we analyzed various aspects of the dramatic figure, whereby three aspects are of central importance:
 
