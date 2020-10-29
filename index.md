@@ -5,9 +5,7 @@ lang: de
 ref: index
 ---
 
-QuaDramA -- Quantitative Drama Analytics -- ist ein Forschungsprojekt, das [wir]({{ site.baseurl }}/people.de) an den Universitäten [Stuttgart](http://www.uni-stuttgart.de/) und [Heidelberg](http://www.uni-heidelberg.de/) durchführen. In der ersten Projektphase (2017-2020) stand die Entwicklung neuer Methoden zur Analyse dramatischer Texte und die Untersuchung dramenhistorischer Entwicklungen auf Basis dieser Methoden im Erkenntnisinteresse. In der zweiten Projektphase (2020-2023, Q:Track) widmen wir uns darüber hinaus dem Figurenwissen über soziale Relationen innerhalb der dramatischen Welt, wobei die automatisierte Idenifikation und formale Modelierung dieses Wissens im Fokus steht. Kern des Gesamtprojektes ist die Komplementierung von strukturellen Informationen in Dramen (Einteilung in Akte, Szenen etc.) und deren Nutzbarmachung für die Analyse der Figurenrede. 
-
-Neueste Beiträge sind direkt unten verlinkt, oder über die Sidebar zu finden.
+QuaDramA -- Quantitative Drama Analytics -- ist ein Forschungsprojekt, das [wir]({{ site.baseurl }}/people.de) an den Universitäten [Stuttgart](http://www.uni-stuttgart.de/) und [Heidelberg](http://www.uni-heidelberg.de/) durchführen. In der ersten Projektphase (2017-2020) stand die Entwicklung neuer Methoden zur Analyse dramatischer Texte und die Untersuchung dramenhistorischer Entwicklungen auf Basis dieser Methoden im Erkenntnisinteresse. In der zweiten Projektphase (2020-2023, Q:TRACK) widmen wir uns darüber hinaus dem Figurenwissen über soziale Relationen innerhalb der dramatischen Welt, wobei die automatisierte Identifikation und formale Modellierung dieses Wissens im Fokus steht. Kern des Gesamtprojektes ist die Komplementierung von strukturellen Informationen in Dramen (Einteilung in Akte, Szenen etc.) und deren Nutzbarmachung für die Analyse der Figurenrede. 
 
 ------
 {% assign posts=site.posts | where:"index", true %}

@@ -8,10 +8,9 @@ ref: index
 
 
 
-QuaDramA -- Quantitative Drama Analytics -- is a research project [we](https://quadrama.github.io/people.en) currently conduct at the Universities of [Stuttgart](http://www.uni-stuttgart.de/) and [Heidelberg](http://www.uni-heidelberg.de/). In the first phase of our project (2017-2020) we developed new methods to analyse dramatic texts and investigated drama-historic developments using these new methods. In the second phase (2020-2023, Q:Track) we dedicate ourselves to track figure knowledge about social relations within the dramatic world, with the automated identification and formal modeling of this knowledge being the focus.
-The core idea of QuaDramA is the complementation of analysing structural information (e.g., acts and scenes) with an NLP-supported analysis of the figure speech.
+QuaDramA -- Quantitative Drama Analytics -- is a research project that [we](https://quadrama.github.io/people.en) currently conduct at the Universities of [Stuttgart](http://www.uni-stuttgart.de/) and [Heidelberg](http://www.uni-heidelberg.de/). In the first phase of our project (2017-2020) we developed new methods to analyse dramatic texts and investigated drama-historic developments using these new methods. In the second phase (2020-2023, Q:TRACK) we dedicate ourselves to track character knowledge about social relations within the dramatic world, focusing the automatic identification and formal modeling of this knowledge.
+The core idea of QuaDramA is the complementation of analysing structural information (e.g., acts and scenes) with an NLP-supported analysis of the character speech.
 
-You can find newest posts below and older ones via the sidebar.
 
 -----
 
