@@ -60,7 +60,7 @@
       {% if node.layout == "page" %}
         {% if translation[0] %}
           <a class="sidebar-nav-item{% if page.url == translation[0].url %} active{% endif %}" href="{{ site.baseurl }}{{ translation[0].url }}">{{ translation[0].title }}</a>
-          {% if node.ref == "blog" %}
+          {% if node.ref == "blog" and 1 == 0 %}
             {% for node2 in pages_list %}
             {% if node2.layout == "tagpage" %}
               {% assign translation2 = site.pages | where:"ref", node2.ref | where:"lang", page.lang %}
