@@ -26,7 +26,7 @@ Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
 
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/nils.jpg" alt="Nils Reiter" width="100" height="100"/></div>
 
-Nils Reiter hat Computerlinguistik an der Universität des Saarlandes studiert, wurde 2013 an der Uni Heidelberg promoviert und ist seit 2014 Post-Doc am Institut für Maschinelle Sprachverarbeitung. Seit seiner Promotion mit dem Titel *Discovering Structural Similarities in Narrative Texts using Event Alignment Algorithms* ([Link](http://www.ub.uni-heidelberg.de/archiv/17042)) ist er im Bereich Digital Humanities unterwegs.
+Nils Reiter hat Computerlinguistik an der Universität des Saarlandes studiert, wurde 2013 an der Uni Heidelberg promoviert und ist seit 2014 Post-Doc am Institut für Maschinelle Sprachverarbeitung. Seit seiner Promotion mit dem Titel *Discovering Structural Similarities in Narrative Texts using Event Alignment Algorithms* ([Link](http://www.ub.uni-heidelberg.de/archiv/17042)) ist er im Bereich Digital Humanities unterwegs. Seit 2019 vertritt er am [Institut für Digital Humanities der Universität zu Köln](https://dh.phil-fak.uni-koeln.de) die Professur für Sprachliche Informationsverarbeitung/Digital Humanities.
 
 E-Mail: `nils.reiter@ims.uni-stuttgart.de`
 
