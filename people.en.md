@@ -24,18 +24,6 @@ Twitter: [`@nilsreiter`](http://twitter.com/nilsreiter)
 
 <div style="clear:left">&nbsp;</div>
 
-## Dr. Marcus Willand
-<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
-
-Marcus Willand studied German language and literature, sociology and psychology at the universities of Darmstadt, Berlin (HU) and Åbo in Finland from 2002 to 2008. After graduating he wrote his PhD thesis on theories and models of readers in literary studies ([publications](https://sites.google.com/site/marcuswilland/publikationen)) between 2009 and 2014 at HU-Berlin and Princeton University. Until 2018 he worked as a Post-Doc at the Institute for Literary Studies (ILW) at Stuttgart University (chair: Andrea Albrecht). Since 2018 he works for A. Albrecht in Heidelberg and in QuaDramA in Stuttgart. That’s where he met Nils in 2014.
-
-E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
-
-Website: [`marcuswilland.de`](http://www.marcuswilland.de)
-
-Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
-
-<div style="clear:left">&nbsp;</div>
 
 ## Benjamin Krautter
 
@@ -72,3 +60,20 @@ E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
 Website: [`Melanie Andresen at IMS`](https://www.ims.uni-stuttgart.de/institut/team/Andresen/)
 
 Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
+
+## Former QuaDramA members
+
+### Dr. Marcus Willand
+<div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Marcus.jpg" alt="Marcus Willand" width="100" height="100"/></div>
+
+Marcus Willand studied German language and literature, sociology and psychology at the universities of Darmstadt, Berlin (HU) and Åbo in Finland from 2002 to 2008. After graduating he wrote his PhD thesis on theories and models of readers in literary studies ([publications](https://sites.google.com/site/marcuswilland/publikationen)) between 2009 and 2014 at HU-Berlin and Princeton University. Until 2018 he worked as a Post-Doc at the Institute for Literary Studies (ILW) at Stuttgart University (chair: Andrea Albrecht). Since 2018 he works for A. Albrecht in Heidelberg and in QuaDramA in Stuttgart. That’s where he met Nils in 2014.
+
+E-Mail: `Marcus.Willand@ilw.uni-stuttgart.de`
+
+Website: [`marcuswilland.de`](http://www.marcuswilland.de)
+
+Twitter: [`@marcus_willand`](https://twitter.com/Marcus_Willand)
+
+<div style="clear:left">&nbsp;</div>
+
+
