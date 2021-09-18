@@ -12,15 +12,16 @@ Angaben gemäß § 5 TMG
 <address>
 QuaDramA Forschungsprojekt<br/>
 Nils Reiter<br/>
-Institut für Maschinelle Sprachverarbeitung<br/>
-Pfaffenwaldring 5b<br/>
-70569 Stuttgart
+Universität zu Köln<br/>
+Institut für Digital Humanities<br/>
+Albertus-Magnus-Platz<br/>
+50931 Köln
 </address>
 
 ### Kontakt
 Dr. Nils Reiter<br/>
-Telefon: 0711 68581354<br/>
-E-Mail: [nils.reiter@ims.uni-stuttgart.de](mailto:nils.reiter@ims.uni-stuttgart.de)
+Telefon: 0221 4701902<br/>
+E-Mail: [nils.reiter@uni-koeln.de](mailto:nils.reiter@uni-koeln.de)
 
 
 ## Datenschutz
