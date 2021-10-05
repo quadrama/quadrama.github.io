@@ -41,7 +41,7 @@ Webseite: [`Benjamin Krautter NDL II`](https://www.ilw.uni-stuttgart.de/institut
 
 Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Bachelor of Arts studiert (2012-2015), sowie Computerlinguistik im Master of Science an der Universität Stuttgart und der Universität von Amsterdam (2015-2018). Seit April 2018 ist er als Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA angestellt und dort im Bereich der Maschinellen Sprachverarbeitung sowie Koreferenzauflösung tätig.
 
-E-Mail: `janis.pagel@ims.uni-stuttgart.de`
+E-Mail: `janis.pagel@uni-koeln.de`
 
 Website: [`janispagel.de`](https://janispagel.de)
 
