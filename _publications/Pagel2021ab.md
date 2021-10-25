@@ -11,7 +11,11 @@ booktitle: "Proceedings of the Second Conference on Computational Humanities Res
 lang: en
 month: 11
 address: Online
+pages: 217-227
 ref: Pagel2021ab
+downloads:
+- desc: PDF
+  url: http://ceur-ws.org/Vol-2989/short_paper34.pdf
 ---
 
 ### Abstract
