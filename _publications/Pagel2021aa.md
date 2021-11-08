@@ -10,7 +10,11 @@ booktitle: "Proceedings of the Fourth Workshop on Computational Models of Refere
 lang: en
 month: 11
 address: Punta Cana, Dominican Republic
+pages: 36-46
 ref: Pagel2021aa
+downloads:
+- desc: PDF
+  url: https://aclanthology.org/2021.crac-1.4.pdf
 ---
 
 ### Abstract
