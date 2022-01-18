@@ -57,7 +57,7 @@ Melanie Andresen studied German Language and Literature (B.A.) and German Lingui
 
 E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
 
-Website: [`Melanie Andresen at IMS`](https://www.ims.uni-stuttgart.de/institut/team/Andresen/)
+Website: [`melandresen.github.io/`](https://melandresen.github.io/)
 
 Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
 

@@ -57,7 +57,7 @@ Melanie Andresen hat an der Universität Hamburg Deutsche Sprache und Literatur 
 
 E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
 
-Website: [`Melanie Andresen am IMS`](https://www.ims.uni-stuttgart.de/institut/team/Andresen/)
+Website: [`melandresen.github.io/`](https://melandresen.github.io/)
 
 Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
 
