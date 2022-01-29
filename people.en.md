@@ -17,7 +17,7 @@ editor: reiter
 Melanie Andresen studied German Language and Literature (B.A.) and German Linguistics (M.A.) at Universität Hamburg (2008-2014) and specialized in corpus linguistics and digital humanities. She worked at the Institut for German Language and Literature (2014-2017) and in the interdisciplinary research project hermA (2017-2020, both Universität Hamburg). Her dissertation (submitted in 2019) is about the use of syntactic annotations in data-driven corpus studies. Since August 2020 she works as a Post-Doc at the Institute for Natural Language Processing at the University of Stuttgart and in the research project Q:TRACK.
 
 - E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
-- Website: [`Melanie Andresen at IMS`](https://www.ims.uni-stuttgart.de/institut/team/Andresen/)
+- Website: [`melandresen.github.io/`](https://melandresen.github.io/)
 - Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
 
 <div style="clear:left">&nbsp;</div>

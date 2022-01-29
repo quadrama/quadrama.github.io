@@ -16,7 +16,7 @@ editor: reiter
 Melanie Andresen hat an der Universität Hamburg Deutsche Sprache und Literatur (B.A.) und Germanistische Linguistik (M.A.) studiert (2008-2014) und sich auf Korpuslinguistik und Digital Humanities spezialisiert. Sie war am Institut für Germanistik (2014-2017) und im interdisziplinären Forschungsprojekt hermA (2017-2020, beides Universität Hamburg) beschäftigt. In ihrer Dissertation (eingereicht 2019) geht es um die Nutzung von syntaktischen Annotationen in datengeleiteten Korpusanalysen. Seit August 2020 ist sie Post-Doc am Institut für Maschinelle Sprachverarbeitung der Universität Stuttgart und im Forschungsprojekt Q:TRACK.
 
 - E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
-- Website: [`Melanie Andresen am IMS`](https://www.ims.uni-stuttgart.de/institut/team/Andresen/)
+- Website: [`melandresen.github.io/`](https://melandresen.github.io/)
 - Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
 
 <div style="clear:left">&nbsp;</div>
@@ -57,9 +57,6 @@ Nils Reiter hat Computerlinguistik an der Universität des Saarlandes studiert, 
 - Twitter: [`@nilsreiter`](https://twitter.com/nilsreiter)
 
 <div style="clear:left">&nbsp;</div>
-
-
-
 
 
 ## Ehemahlige QuaDramA-Mitglieder
