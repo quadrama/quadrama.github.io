@@ -15,8 +15,9 @@ editor: reiter
 
 Melanie Andresen hat an der Universität Hamburg Deutsche Sprache und Literatur (B.A.) und Germanistische Linguistik (M.A.) studiert (2008-2014) und sich auf Korpuslinguistik und Digital Humanities spezialisiert. Sie war am Institut für Germanistik (2014-2017) und im interdisziplinären Forschungsprojekt hermA (2017-2020, beides Universität Hamburg) beschäftigt. In ihrer Dissertation (eingereicht 2019) geht es um die Nutzung von syntaktischen Annotationen in datengeleiteten Korpusanalysen. Seit August 2020 ist sie Post-Doc am Institut für Maschinelle Sprachverarbeitung der Universität Stuttgart und im Forschungsprojekt Q:TRACK.
 
-- E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
+- ORCID: [0000-0002-3913-1273](https://orcid.org/0000-0002-3913-1273)
 - Website: [`melandresen.github.io/`](https://melandresen.github.io/)
+- E-Mail: `melanie.andresen@ims.uni-stuttgart.de`
 - Twitter: [`@_melandresen`](https://twitter.com/_melandresen)
 
 <div style="clear:left">&nbsp;</div>
@@ -27,8 +28,8 @@ Melanie Andresen hat an der Universität Hamburg Deutsche Sprache und Literatur 
 
 Studium (2011–2017) der Germanistik und der Politikwissenschaft an der Universität Stuttgart und der Seoul National University. Seit Mai 2017 Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA.
 
-- E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 - Webseite: [`Benjamin Krautter NDL II`](https://www.ilw.uni-stuttgart.de/institut/team/Krautter-00001/)
+- E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
 
 <div style="clear:left">&nbsp;</div>
 
@@ -38,8 +39,9 @@ Studium (2011–2017) der Germanistik und der Politikwissenschaft an der Univers
 
 Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Bachelor of Arts studiert (2012-2015), sowie Computerlinguistik im Master of Science an der Universität Stuttgart und der Universität von Amsterdam (2015-2018). Seit April 2018 ist er als Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA angestellt und dort im Bereich der Maschinellen Sprachverarbeitung sowie Koreferenzauflösung tätig.
 
-- E-Mail: `janis.pagel@uni-koeln.de`
+- ORCID: [0000-0003-4370-1483](https://orcid.org/0000-0003-4370-1483)
 - Website: [`janispagel.de`](https://janispagel.de)
+- E-Mail: `janis.pagel@uni-koeln.de`
 - Twitter: [`@janispagel`](https://twitter.com/janispagel)
 
 <div style="clear:left">&nbsp;</div>
@@ -52,8 +54,9 @@ Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Ba
 
 Nils Reiter hat Computerlinguistik an der Universität des Saarlandes studiert, wurde 2013 an der Uni Heidelberg promoviert und ist seit 2014 Post-Doc am Institut für Maschinelle Sprachverarbeitung. Seit seiner Promotion mit dem Titel *Discovering Structural Similarities in Narrative Texts using Event Alignment Algorithms* ([Link](http://www.ub.uni-heidelberg.de/archiv/17042)) ist er im Bereich Digital Humanities unterwegs. Seit 2021 ist er Professor für Sprachliche Informationsverarbeitung/Digital Humanities am [Institut für Digital Humanities der Universität zu Köln](https://dh.phil-fak.uni-koeln.de).
 
-- E-Mail: `nils.reiter@uni-koeln.de`
+- ORCID: [0000-0003-3193-6170](https://orcid.org/0000-0003-3193-6170)
 - Webseite: [`idh.uni-koeln.de/reiter`](https://idh.uni-koeln.de/reiter)
+- E-Mail: `nils.reiter@uni-koeln.de`
 - Twitter: [`@nilsreiter`](https://twitter.com/nilsreiter)
 
 <div style="clear:left">&nbsp;</div>
