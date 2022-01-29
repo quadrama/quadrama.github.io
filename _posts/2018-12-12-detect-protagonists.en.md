@@ -8,7 +8,7 @@ categories:
 - Technology
 lang: en
 ref: detect-protagonists
-index: true
+index: false
 ---
 
 In a recent [paper](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2019/06/p07_krautter_et_al_eng-1.pdf)[^4], we investigated how protagonists and title figures

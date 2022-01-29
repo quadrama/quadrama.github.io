@@ -8,7 +8,7 @@ categories:
 - Technology
 lang: en
 ref: coreference-annotations-part-3
-index: true
+index: false
 ---
 
 We have recently started to annotate coreference chains in dramatic texts. In this loose series of blog posts, we will discuss interesting findings and examples. This post revisits the annotation tool question -- again.

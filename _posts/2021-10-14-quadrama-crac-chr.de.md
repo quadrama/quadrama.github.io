@@ -5,7 +5,7 @@ lang: de
 ref: cracchr2021
 categories:
 - Conferences
-index: true
+index: false
 authors:
 - Janis Pagel
 ---

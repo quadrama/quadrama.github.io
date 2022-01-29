@@ -6,7 +6,7 @@ ref: forschung-leben
 categories: QuaDramA
 authors: 
 - Nils Reiter
-index: true
+index: false
 ---
 
 

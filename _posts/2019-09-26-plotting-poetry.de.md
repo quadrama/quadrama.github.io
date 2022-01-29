@@ -6,7 +6,7 @@ ref: plottingpoetry2019
 categories:
 - Conferences
 logo: /assets/2019-09-26-plotting-poetry/plotting-poetry.jpg
-index: true
+index: false
 authors:
 - Janis Pagel
 ---

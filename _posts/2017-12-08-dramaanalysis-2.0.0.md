@@ -6,7 +6,7 @@ ref: dramaanalysis-2.0.0
 logo: /assets/generic/code-5.r.png
 categories: Technology
 authors: Nils Reiter
-index: true
+index: false
 ---
 
 We have just released a new version of our R package for the quantitative analysis of plays, and want to highlight a few changes here. In QuaDramA, the R package is used for data analysis, after natural language processing has taken place. The package therefore relies on pre-processed corpora.

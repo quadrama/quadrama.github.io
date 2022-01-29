@@ -5,7 +5,7 @@ lang: de
 ref: gerdracorcorefrelease
 categories:
 - QuaDramA
-index: true
+index: false
 authors:
 - Janis Pagel
 ---

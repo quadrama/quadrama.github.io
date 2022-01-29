@@ -6,7 +6,7 @@ ref: Schiller2019
 categories:
 - Conferences
 logo: /assets/conference-logos/Marbach_Tagung.jpg
-index: true
+index: false
 authors:
 - Benjamin Krautter
 ---

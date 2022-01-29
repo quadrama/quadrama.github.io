@@ -6,7 +6,7 @@ ref: phd-position-nlp
 categories: QuaDramA
 authors:
 - Nils Reiter
-index: true
+index: false
 ---
 
 We are looking for candidates for a PhD position, to work in  the interdisciplinary research project **QuaDramA: Quantitative Drama Analytics**, funded by Volkswagen Foundation and soon starting at University of Stuttgart.

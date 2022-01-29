@@ -5,7 +5,7 @@ lang: en
 ref: hildesheimgoettingen2020
 categories:
 - Conferences
-index: true
+index: false
 authors:
 - Janis Pagel
 ---

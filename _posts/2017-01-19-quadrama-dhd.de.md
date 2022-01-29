@@ -9,6 +9,7 @@ logo: /assets/2017-01-19-quadrama-dhd/dhdlogo.png
 authors:
 - Marcus Willand
 - Nils Reiter
+index: false
 ---
 
 Zusammen mit [Frank Fischer](http://www.zerstoerung.org), [Nanette Rißler-Pipka](http://www.ku.de/slf/romanistik/lehrstuehle-professuren/literaturwissenschaft/romanlitwi2/personen/prof-dr-nanette-rissler-pipka/), [Christof Schöch](http://www.christof-schoech.de) und [Peer Trilcke](http://www.peertrilcke.de) haben wir das große Vergnügen während der 2017er Jahreskonferenz [Digital Humanities im deutschsprachigen Raum](http://www.dhd2017.ch) im Panel *Aktuelle Herausforderungen der Digitalen Dramananalyse* einen Vortrag zu halten und zu diskutieren.

@@ -8,7 +8,7 @@ categories:
 - Technology
 lang: de
 ref: detect-protagonists
-index: true
+index: false
 ---
 
 In einem kürzlich erschienenen [Artikel](https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf) haben wir untersucht, inwieweit Protagonisten und Titelfiguren in deutschsprachigen Dramen automatisch erkannt werden können und welche Features einem Machine-Learning-Modell helfen, diese Klassifikation vorzunehmen. Dieser Post kann als Ergänzung zum Artikel gesehen werden.

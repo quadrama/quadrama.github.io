@@ -7,7 +7,7 @@ layout: post
 categories: Article
 lang: en
 ref: coreference-annotations-part-1
-index: true
+index: false
 ---
 
 We have recently started to annotate coreference chains in dramatic texts. In this loose series of blog posts, we will discuss interesting findings and examples. The first post covers some background and technical setup.

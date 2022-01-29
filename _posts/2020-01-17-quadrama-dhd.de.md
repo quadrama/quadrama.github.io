@@ -6,7 +6,7 @@ ref: quadrama-dhd
 categories:
 - Conferences
 logo: /assets/2020-01-17-quadrama-dhd/DHd2020_Logo_2.png
-index: true
+index: false
 authors:
 - Nils Reiter
 ---
