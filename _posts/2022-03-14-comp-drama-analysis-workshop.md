@@ -41,7 +41,6 @@ Please send your abstract in PDF format to [janis.pagel@uni-koeln.de](mailto:jan
 The workshop will take place on-site at the University of Cologne, Germany. Further details on the venue will follow soon.
 
 ## Timeline
-
 |                           |                                            |
 | ---                       | ---                                        |
 | May 6, 2022               | Deadline for Abstracts (1 page)            |
