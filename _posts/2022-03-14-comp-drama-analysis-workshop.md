@@ -67,4 +67,4 @@ If you have questions regarding the workshop or this call, please contact Janis 
 - Marcus, Solomon. <i>Mathematische Poetik</i>, translated from Romanian by Edith Mândroiu. Frankfurt a.M. 1973 [1970].
 - Reichert, Waltraud. "Kybernetische Methoden der Dramenforschung", <i>Grundlagenstudien aus Kybernetik und Geisteswissenschaften</i>, vol. 5, no. 3/4, 1964, pp. 115–120.
 - Trilcke, Peer. "Social Network Analysis (SNA) als Methode einer textempirischen Literaturwissenschaft", <i>Empirie in der Literaturwissenschaft</i>, edited by Philip Ajouri, Katja Mellmann and Christoph Rauen. Münster 2013, pp. 201–247.
-- Yarkho, Boris I. "Speech Distribution in Five-Act Tragedies (A Question of Classicism and Romanticism) [1935–1938]", <i>Journal of Literary Theory</i> vol. 13, no. 1, 2019, S. 13–76.
+- Yarkho, Boris I. "Speech Distribution in Five-Act Tragedies (A Question of Classicism and Romanticism) [1935–1938]", <i>Journal of Literary Theory</i> vol. 13, no. 1, 2019, pp. 13–76.
