@@ -42,6 +42,7 @@ The workshop will take place on-site at the University of Cologne, Germany. Furt
 
 ## Timeline
 
+|                           |                                            |
 | ---                       | ---                                        |
 | May 6, 2022               | Deadline for Abstracts (1 page)            |
 | May 13, 2022              | Notification of Acceptance                 |
