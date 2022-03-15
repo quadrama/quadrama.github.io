@@ -29,7 +29,7 @@ Building on the lessons of the past and the insights of current research, the pl
 - Strategies for efficient corpus creation from scanned books to expressive XML collections
 - Exploitation of linked open data and metadata analysis for drama analysis
 
-We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics. A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymized (non-blind). Prior to the workshop, accepted abstracts need to be extended into full papers (5000–6000 words) and the results will be presented and discussed at the workshop. After the workshop, the revised full papers will be published in workshop proceedings. Further details on the proceedings will follow shortly.
+We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics. A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, accepted abstracts need to be extended into full papers (5000–6000 words) and the results will be presented and discussed at the workshop. After the workshop, the revised full papers will be published in workshop proceedings. Further details on the proceedings will follow shortly.
 For the specific deadlines, please see the timeline below.
 
 Please send your abstract in PDF format to [janis.pagel@uni-koeln.de](mailto:janis.pagel@uni-koeln.de).
