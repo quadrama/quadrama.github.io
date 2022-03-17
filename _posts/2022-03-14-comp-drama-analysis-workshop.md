@@ -36,7 +36,7 @@ Please send your abstract in PDF format to [janis.pagel@uni-koeln.de](mailto:jan
 
 ## Venue
 
-The workshop will take place on-site at the University of Cologne, Germany. Further details on the venue will follow soon.
+The workshop will take place on-site at the University of Cologne, Germany. Travel grants are available to a certain extent. Further details on the venue will follow soon.
 
 ## Timeline
 
