@@ -5,7 +5,7 @@ lang: en
 ref: workshop-comp-drama-analysis
 categories:
 - QuaDramA
-index: false
+index: true
 authors:
 - Benjamin Krautter
 - Janis Pagel
@@ -16,23 +16,21 @@ authors:
 
 ## Call for Papers
 
-The gradual establishment and consolidation of Computational Literary Studies in light of ever larger digital text corpora highlights that computational methods for analysing and subsequently interpreting literature are becoming increasingly important and prominent. Above all, this concerns the potentials of a higher-scaled view on literary history that is being promised by the simultaneous analysis of thousands of literary texts. As part of the big tent that Digital Humanities has evolved into over the last 20 years, quantitative drama analysis has become one of the pillars of Computational Literary Studies with many essential studies laying out groundwork, e.g., regarding the application of social network analysis on literature (cf. Moretti 2011, Trilcke 2013). Quantitative drama analysis has a long lasting history (e.g., Yarkho 2019 [1929/1938], Reichert 1965 or Marcus 1973 [1970]) that is based on the same genre-specific characteristics of dramatic texts that nowadays make it appealing for automatic computational analyses: dramas are structured into primary and secondary text, scenes and acts and all of its character speech is labeled. These structural qualities allow for straightforward formalisations that would require extensive preliminary work in narrative texts.
+In the light of ever larger digital text corpora, the ongoing consolidation of Computational Literary Studies highlights that computational methods for the analysis and interpretation of literary texts have become increasingly important and prominent. First and foremost, their potential aims at a higher-scaled view on literary history, promising to analyse thousands of literary texts simultaneously. Being part of the big tent that Digital Humanities has been evolving into over the last 20 years, quantitative drama analysis became one of its pillars laying out groundwork for Computational Literary Studies, e.g., regarding the application of social network analysis on literature (cf. Moretti 2012, Trilcke 2013). However, quantitative drama analysis itself has a long history (e.g., Yarkho 2019 [1929/1938], Reichert 1965 or Marcus 1973 [1970]), where its pioneers based their approaches on the same genre-specific characteristics which make it appealing for automatic computational analyses: dramas are structured by primary and secondary text; scenes, acts and character speech are labeled as such. These structural qualities allow for straightforward formalisations that – in contrast – would have required extensive preparatory work in other genres such as narrative texts.
 
-Building on the lessons of the past and the insights of current research, the planned workshop intends to depict the status quo of computational drama analysis: What achievements have been realised, what challenges still need to be overcome and what opportunities arise for quantitative drama analysis in the future? To answer these questions, the workshop aims to bring together scholars working or critically reflecting on formal, quantitative or digital methods for the analysis of drama. On the one hand, we want to discuss the current state of computational drama analysis – which methods have proven successful, which findings can be fed back into hermeneutical interpretation? On the other hand, we aim at opening up new perspectives for the future and exploring possible routes computational drama analysis could take.
+Building on the lessons of the past and on current research approaches, our workshop (14 and 15 September 2022, Cologne) intends to depict the status quo of computational drama analysis: What are the achievements so far? Which obstacles must be overcome? What kind of opportunities can arise from quantitative drama analysis in the future? To answer these questions, the workshop aims to bring together scholars working with and /or critically reflecting on formal, quantitative or digital methods for the analysis of drama. On the one hand, we want to discuss the current state of computational drama analysis – which methods have proven successful, which findings can be fed back into close-reading analysis? On the other hand, we aim at opening up new perspectives and exploring possible routes computational drama analysis could take in the future.
 
- The following topics are of particular interest:
-- Application of computational methods for drama analysis, such as topic modeling, stylometry, network analyses, sentiment or emotion analyses with a view to research questions of literary studies
-- Critical reflection of these applications, in particular with respect to requirements, generalizability or interpretability
+The following topics are of particular interest:
+
+- Application of computational methods for drama analysis, such as topic modeling, stylometry, network analyses, sentiment or emotion analyses
+- Critical reflection on the application of these methods on questions of literary studies, in particular with respect to requirements, generalizability or interpretability
 - Development and application of language processing methods to character speech or stage directions
-- Exploring potentials for drama history with corpus-based analyses or classifications
-- Relationship of quantitative analyses with findings, foundations or presuppositions in literary studies
+- Exploring potentials for drama history by means of corpus-based analyses or classifications
+- Relation of quantitative analyses to findings, foundations or presuppositions in literary studies
 - Strategies for efficient corpus creation from scanned books to expressive XML collections
-- Exploitation of linked open data and metadata analysis for drama analysis
+- Exploitation of linked open data and metadata analysis for questions of drama analysis
 
-We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics. A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, accepted abstracts need to be extended into full papers (5000–6000 words) and the results will be presented and discussed at the workshop. After the workshop, the revised full papers will be published in workshop proceedings. Further details on the proceedings will follow shortly.
-For the specific deadlines, please see the timeline below.
-
-Please send your abstract in PDF format to [janis.pagel@uni-koeln.de](mailto:janis.pagel@uni-koeln.de).
+We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics (deadline: 6 May 2022). A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, the accepted abstracts need to be extended into full papers (5000–6000 words). The results will be presented and discussed at the workshop. The revised full papers will then be published in workshop proceedings. Further details on the proceedings will follow shortly. For the specific deadlines, please see the timeline below. Please send your abstract in PDF format to janis.pagel@uni-koeln.de
 
 ## Venue
 
