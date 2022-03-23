@@ -12,6 +12,7 @@ authors:
 ---
 
 This is a CfP for the "Workshop on Computational Drama Analysis: Achievements and Opportunities" which will be held in Cologne on 14/15 September 2022.
+Deadline for 1-page abstracts is 6 May 2022.
 
 * TOC
 {:toc}
