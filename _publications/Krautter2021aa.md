@@ -15,6 +15,4 @@ address:
 - Berlin
 - Boston, MA
 pages: 107-138
-ref: Krautter2021aa
-
 ---
