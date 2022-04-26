@@ -4,7 +4,7 @@ type: inproceedings
 title: "'Figurenstil' im deutschsprachigen Drama (1740-1930). Eine stilometrische Annäherung"
 author:
 - Benjamin Krautter
-year: 2021
+year: 2020
 booktitle: "Reflektierte algorithmische Textanalyse. Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt"
 editor:
  - Nils Reiter
