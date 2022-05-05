@@ -12,7 +12,7 @@ authors:
 ---
 
 This is a CfP for the "Workshop on Computational Drama Analysis: Achievements and Opportunities" which will be held in Cologne on 14/15 September 2022.
-Deadline for 1-page abstracts is 6 May 2022.
+Deadline for 1-page abstracts is **13 May 2022** ~~6 May 2022~~.
 
 * TOC
 {:toc}
@@ -33,7 +33,7 @@ The following topics are of particular interest:
 - Strategies for efficient corpus creation from scanned books to expressive XML collections
 - Exploitation of linked open data and metadata analysis for questions of drama analysis
 
-We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics (deadline: 6 May 2022). A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, the accepted abstracts need to be extended into full papers (5000–6000 words). The results will be presented and discussed at the workshop. The revised full papers will then be published in workshop proceedings. Further details on the proceedings will follow shortly. For the specific deadlines, please see the timeline below. Please send your abstract in PDF format to janis.pagel@uni-koeln.de
+We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics (deadline: **13 May 2022** ~~6 May 2022~~). A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, the accepted abstracts need to be extended into full papers (5000–6000 words). The results will be presented and discussed at the workshop. The revised full papers will then be published in workshop proceedings. Further details on the proceedings will follow shortly. For the specific deadlines, please see the timeline below. Please send your abstract in PDF format to janis.pagel@uni-koeln.de
 
 ## Venue
 
@@ -41,13 +41,13 @@ The workshop will take place on-site at the University of Cologne, Germany. Trav
 
 ## Timeline
 
-|                           |                                            |
-| ---                       | ---                                        |
-| May 6, 2022               | Deadline for Abstracts (1 page)            |
-| May 13, 2022              | Notification of Acceptance                 |
-| August 31, 2022           | Deadline for Full Papers (5000–6000 words) |
-| September 14 and 15, 2022 | Workshop                                   |
-| End of 2022               | Deadline for Revised Papers                |
+|                                                     |                                            |
+| ---                                                 | ---                                        |
+| **May 13 2022** ~~May 6, 2022~~ | Deadline for Abstracts (1 page)            |
+| **until May 19 2022** ~~May 13, 2022~~              | Notification of Acceptance                 |
+| August 31, 2022                                     | Deadline for Full Papers (5000–6000 words) |
+| September 14 and 15, 2022                           | Workshop                                   |
+| End of 2022                                         | Deadline for Revised Papers                |
 
 ## Workshop Organizers
 
