@@ -5,7 +5,6 @@ lang: en
 ref: workshop-comp-drama-analysis
 categories:
 - QuaDramA
-index: true
 authors:
 - Benjamin Krautter
 - Janis Pagel

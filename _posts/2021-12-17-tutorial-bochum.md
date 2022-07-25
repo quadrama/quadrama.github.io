@@ -5,7 +5,6 @@ lang: de
 ref: tutorial-bochum
 categories:
 - QuaDramA
-index: true
 authors:
 - Benjamin Krautter
 - Nils Reiter
