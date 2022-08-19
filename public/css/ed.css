@@ -243,6 +243,14 @@ table {
   width: 100%;
 }
 
+.wide-table {
+  text-align: left;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.wide-table td {
+    border: 1px solid;
+}
 
 /*
  * Custom type

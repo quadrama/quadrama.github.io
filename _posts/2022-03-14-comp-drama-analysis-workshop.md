@@ -11,10 +11,13 @@ authors:
 ---
 
 This is a CfP for the "Workshop on Computational Drama Analysis: Achievements and Opportunities" which will be held in Cologne on 14/15 September 2022.
-Deadline for 1-page abstracts is **13 May 2022** ~~6 May 2022~~.
 
 * TOC
 {:toc}
+
+## Registration
+
+Registration for the workshop is now open! If you would like to attend the workshop as a non-presenting participant, please send an email to Janis Pagel at [janis.pagel@uni-koeln.de](mailto:janis.pagel@uni-koeln.de).
 
 ## Call for Papers
 
@@ -32,11 +35,11 @@ The following topics are of particular interest:
 - Strategies for efficient corpus creation from scanned books to expressive XML collections
 - Exploitation of linked open data and metadata analysis for questions of drama analysis
 
-We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics (deadline: **13 May 2022** ~~6 May 2022~~). A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, the accepted abstracts need to be extended into full papers (5000–6000 words). The results will be presented and discussed at the workshop. The revised full papers will then be published in workshop proceedings. Further details on the proceedings will follow shortly. For the specific deadlines, please see the timeline below. Please send your abstract in PDF format to janis.pagel@uni-koeln.de
+We invite the submission of abstracts (1 page) on any of the above mentioned or closely related topics (deadline: **13 May 2022** ~~6 May 2022~~). A decision on the acceptance to the workshop will be made based on these abstracts by the workshop organizers. Submissions should be in English and do not need to be anonymised (non-blind). Prior to the workshop, the accepted abstracts need to be extended into full papers (5000–6000 words). The results will be presented and discussed at the workshop. The revised full papers will then be published in workshop proceedings. Further details on the proceedings will follow shortly. For the specific deadlines, please see the timeline below. Please send your abstract in PDF format to [janis.pagel@uni-koeln.de](mailto:janis.pagel@uni-koeln.de)
 
 ## Venue
 
-The workshop will take place on-site at the University of Cologne, Germany. Travel grants are available to a certain extent. Further details on the venue will follow soon.
+The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](https://tws.phil-fak.uni-koeln.de) in Cologne, Germany. Travel grants are available to a certain extent.
 
 ## Timeline
 
@@ -47,6 +50,88 @@ The workshop will take place on-site at the University of Cologne, Germany. Trav
 | August 31, 2022                                     | Deadline for Full Papers (5000–6000 words) |
 | September 14 and 15, 2022                           | Workshop                                   |
 | End of 2022                                         | Deadline for Revised Papers                |
+
+## Workshop Agenda
+
+<div style="min-width: 1000px;">
+<table class="wide-table">
+    <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Event</th>
+        <th>Author(s)</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td rowspan="5">14 Sep</td>
+        <td rowspan="3">14.00-15.30</td>
+        <td>Talk</td>
+        <td>Rebecca M. M. Hicke</td>
+        <td>"Let every word weigh heavy of her worth": Examining How Women Enact Power in Shakespeare’s Comedies through Interactive Speech Pattern Visualizations</td>
+    </tr>
+    <tr>
+        <td>Talk</td>
+        <td>Katrin Dennerlein, Thomas Schmidt, Christian Wolff</td>
+        <td>Emotion and Stagedirections – first explorations</td>
+    </tr>
+    <tr>
+        <td>Talk</td>
+        <td>Ingo Börner, Evgeniya Ustinova, Peer Trilcke, Frank Fischer, Carsten Milling</td>
+        <td>Detecting Small World Networks in a Huge Multilingual Corpus of Theater Plays</td>
+    </tr>
+    <tr>
+        <td>16.00-17.00</td>
+        <td>Guided Tour of the <a href="https://tws.phil-fak.uni-koeln.de">Theaterwissenschaftliche Sammlung</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>19.00</td>
+        <td>Joint Dinner</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="7">15 Sep</td>
+        <td rowspan="3">09.00-10.30</td>
+        <td>Talk</td>
+        <td>David Mareček, Marie Novákováτ, Klára Vosecká, Josef Doležal, Tomáš Musil, Rudolf Rosa</td>
+        <td>Annotation and automated classification of dramatic situations</td>
+    </tr>
+    <tr>
+        <td>Talk</td>
+        <td>Artjoms Šeļa, Joanna Byszuk, Bartlomiej Kunda, Albert Leśniak, Laura Hernández-Lorenzo, Ben Nagy, Botond Szemes, Michał Woźniak, Maciej Eder</td>
+        <td>From stage to page: stylistic variation in fictional speech</td>
+    </tr>
+    <tr>
+        <td>Talk</td>
+        <td>Pablo Ruiz, Delphine Bernhard, Carole Werner</td>
+        <td>Computational drama analysis from almost zero electronic text: The case of Alsatian theater</td>
+    </tr>
+    <tr>
+        <td rowspan="3">11.00-12.30</td>
+        <td>Talk</td>
+        <td>Botond Szemes, Bence Vida</td>
+        <td>Clustering plays based on their dramaturgic structure. A size-independent and well-interpretable approach</td>
+    </tr>
+    <tr>
+        <td>Talk</td>
+        <td>Beatrice Gavazza, Leon Glaser, Virginia Mastellari, Anna Novokhatko</td>
+        <td>Exploring Ancient Greek comedy: material engagement theory and computational tools</td>
+    </tr>
+    <tr>
+        <td>Talk</td>
+        <td>Benjamin Krautter, Janis Pagel</td>
+        <td>The Schemer in German Drama: Identification and Quantitative Characterization</td>
+    </tr>
+    <tr>
+        <td>12.30-13.00</td>
+        <td>Final discussion / End of conference</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</div>
 
 ## Workshop Organizers
 
