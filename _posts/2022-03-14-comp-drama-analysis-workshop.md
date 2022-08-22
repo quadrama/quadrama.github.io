@@ -51,7 +51,7 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
 | September 14 and 15, 2022                           | Workshop                                   |
 | End of 2022                                         | Deadline for Revised Papers                |
 
-## Workshop Agenda
+## Workshop Schedule
 
 <div style="min-width: 1000px;">
 <table class="wide-table">
