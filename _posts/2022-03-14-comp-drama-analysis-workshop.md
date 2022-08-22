@@ -126,7 +126,7 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
     </tr>
     <tr>
         <td>12.30-13.00</td>
-        <td>Final discussion / End of conference</td>
+        <td>Final discussion / End of workshop</td>
         <td></td>
         <td></td>
     </tr>
