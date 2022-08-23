@@ -250,6 +250,7 @@ table {
 }
 .wide-table td {
     border: 1px solid;
+    padding: 3px;
 }
 
 /*

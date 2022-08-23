@@ -53,7 +53,7 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
 
 ## Workshop Schedule
 
-<div style="min-width: 1000px;">
+<div style="overflow-x:auto;">
 <table class="wide-table">
     <tr>
         <th>Date</th>
