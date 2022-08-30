@@ -86,7 +86,7 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
         <td></td>
     </tr>
     <tr>
-        <td>19.00</td>
+        <td></td>
         <td>Joint Dinner</td>
         <td></td>
         <td></td>
