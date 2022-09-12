@@ -105,7 +105,7 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
     </tr>
     <tr>
         <td>Talk</td>
-        <td>Pablo Ruiz, Delphine Bernhard, Carole Werner</td>
+        <td>Pablo Ruiz Fabo, Delphine Bernhard, Andrew Briand, Carole Werner</td>
         <td>Computational drama analysis from almost zero electronic text: The case of Alsatian theater</td>
     </tr>
     <tr>
