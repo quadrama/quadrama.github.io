@@ -86,9 +86,9 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
         <td></td>
     </tr>
     <tr>
-        <td></td>
+        <td>18:00</td>
         <td>Joint Dinner</td>
-        <td></td>
+        <td><a href="https://eltzhof-kulturgut.de/">Eltzhof</a></td>
         <td></td>
     </tr>
     <tr>
