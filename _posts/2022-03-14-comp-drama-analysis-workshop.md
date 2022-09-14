@@ -81,7 +81,7 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
         <td>Detecting Small World Networks in a Huge Multilingual Corpus of Theater Plays</td>
     </tr>
     <tr>
-        <td>16.00-17.00</td>
+        <td>16.00</td>
         <td>Guided Tour of the <a href="https://tws.phil-fak.uni-koeln.de">Theaterwissenschaftliche Sammlung</a></td>
         <td></td>
         <td></td>
