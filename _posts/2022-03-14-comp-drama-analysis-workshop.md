@@ -64,12 +64,18 @@ The workshop will take place on-site at the [Theaterwissenschaftliche Sammlung](
         <th>Title</th>
     </tr>
     <tr>
-        <td rowspan="5">14 Sep</td>
-        <td rowspan="3">14.00-15.30</td>
+        <td rowspan="6">14 Sep</td>
+        <td>14.00-14.15</td>
+        <td>Welcome and Introduction</td>
+        <td></td>
+        <td></td>
+    </tr>
+		<tr>
+        <td rowspan="3">14.15-15.45</td>
         <td>Talk</td>
         <td>Rebecca M. M. Hicke</td>
         <td>"Let every word weigh heavy of her worth": Examining How Women Enact Power in Shakespeare’s Comedies through Interactive Speech Pattern Visualizations</td>
-    </tr>
+		</tr>
     <tr>
         <td>Talk</td>
         <td>Katrin Dennerlein, Thomas Schmidt, Christian Wolff</td>
