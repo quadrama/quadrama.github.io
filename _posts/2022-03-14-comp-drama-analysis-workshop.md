@@ -8,6 +8,7 @@ categories:
 authors:
 - Benjamin Krautter
 - Janis Pagel
+index: true  
 ---
 
 This is a CfP for the "Workshop on Computational Drama Analysis: Achievements and Opportunities" which will be held in Cologne on 14/15 September 2022.
