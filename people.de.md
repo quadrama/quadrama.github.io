@@ -42,6 +42,7 @@ Janis Pagel hat an der Ruhr-Universität Bochum Linguistik und Germanistik im Ba
 - ORCID: [0000-0003-4370-1483](https://orcid.org/0000-0003-4370-1483)
 - Website: [`janispagel.de`](https://janispagel.de)
 - E-Mail: `janis.pagel@uni-koeln.de`
+- Mastodon: [`@janispagel@fedihum.org`](https://fedihum.org/@janispagel)
 - Twitter: [`@janispagel`](https://twitter.com/janispagel)
 
 <div style="clear:left">&nbsp;</div>
