@@ -11,7 +11,7 @@ year: 2020
 doi: 10.17175/2020_007
 journal: Zeitschrift für digitale Geisteswissenschaften
 month: 12
-language: de
+lang: de
 volume: 5
 ---
 

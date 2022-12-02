@@ -9,6 +9,7 @@ year: 2018
 month: 12
 doi: 10.18419/opus-10144
 location: "Galway, Ireland"
+lang: en
 keywords:
 - annotation
 - coreference 

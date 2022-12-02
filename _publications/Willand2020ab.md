@@ -11,7 +11,7 @@ editor:
 year: 2020
 booktitle: "Anglo-German Dramatic and Poetic Cultures: New Perspectives on Exchange in the Sattelzeit. Bethlehem"
 pages: 117-143
-lang: eng
+lang: en
 publisher: Lehigh UP
 address: Bethlehem, PA,
 ref: Willand2020ab
