@@ -9,7 +9,7 @@ author:
 - Nils Reiter
 year: 2022
 journal: Journal of Computational Literary Studies
-language: de
+language: en
 volume: 1
 number: 1
 month: 12
