@@ -12,7 +12,7 @@ booktitle: "Figurenkonstellation und Gesellschaftsentwurf. Annäherungen an eine
 lang: de
 publisher: Universitätsverlag Winter
 address: "Heidelberg"
-pages: 235-238
+pages: 205-238
 ref: Krautter2023aa
 
 ---
