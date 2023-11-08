@@ -1,7 +1,7 @@
 ---
 layout: pub
 type: article
-title: "Kopräsenz-, Koreferenz- und Wissens-Netzwerke. Kantenkriterien in dramatischen Figurennetzwerken am Beispiel von Kleists Die Familie Schroffenstein (1803)"
+title: 'Kopräsenz-, Koreferenz- und Wissens-Netzwerke. Kantenkriterien in dramatischen Figurennetzwerken am Beispiel von Kleists "Die Familie Schroffenstein" (1803)'
 author:
 - Benjamin Krautter
 year: 2023
