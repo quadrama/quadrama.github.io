@@ -17,7 +17,7 @@ editor:
 - Carola Hein
 pages: 81-102
 lang: en
-doi: 10.1515_9783839469132-010
+doi: 10.1515/9783839469132-010
 address: Bielefeld, Germany
 ref: Pagel2023aa
 ---
