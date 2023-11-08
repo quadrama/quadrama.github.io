@@ -10,6 +10,7 @@ journal: Journal of Literary Theory
 lang: de
 volume: 17
 issue: 2
+pages: 261-289
 ref: Krautter2023aa
 ---
 
