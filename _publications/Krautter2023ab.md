@@ -5,11 +5,11 @@ title: "Kopräsenz-, Koreferenz- und Wissens-Netzwerke. Kantenkriterien in drama
 author:
 - Benjamin Krautter
 year: 2023
-doi: 10.17175/2020_007
+doi: 10.1515/jlt-2023-2012
 journal: Journal of Literary Theory
 lang: de
 volume: 17
-issue: 2
+number: 2
 pages: 261-289
 ref: Krautter2023aa
 ---
