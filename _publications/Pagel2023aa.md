@@ -1,6 +1,6 @@
 ---
 layout: pub
-type: inproceedings
+type: incollection
 title: "On Designing Collaboration in a Mixed-Methods Scenario. Reflecting Quantitative Drama Analytics"
 author:
 - Janis Pagel
