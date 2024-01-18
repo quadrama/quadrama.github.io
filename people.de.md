@@ -26,10 +26,10 @@ Melanie Andresen hat an der Universität Hamburg Deutsche Sprache und Literatur 
 
 <div style="float:left;margin:0px 10px 10px 0px;padding:0;width:100px;height:100px;"><img src="{{ site.url }}/assets/about/Benjamin.jpg" alt="Benjamin Krautter" width="100" height="100"/></div>
 
-Studium (2011–2017) der Germanistik und der Politikwissenschaft an der Universität Stuttgart und der Seoul National University. Seit Mai 2017 Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA.
+Studium (2011–2017) der Germanistik und der Politikwissenschaft an der Universität Stuttgart und der Seoul National University. Seit Mai 2017 Mitarbeiter und Doktorand im Forschungsprojekt QuaDramA, seit 2020 im Folgeprojekt Q:TRACK.
 
-- Webseite: [`Benjamin Krautter NDL II`](https://www.ilw.uni-stuttgart.de/institut/team/Krautter-00001/)
-- E-Mail: `benjamin.krautter@ilw.uni-stuttgart.de`
+- Webseite: [`Benjamin Krautter GS Heidelberg`]([https://www.ilw.uni-stuttgart.de/institut/team/Krautter-00001/](https://www.uni-heidelberg.de/fakultaeten/neuphil/gs/ndl/albrecht/mitarbeiter/Krautter.html))
+- E-Mail: `benjamin.krautter@gs.uni-heidelberg.de`
 
 <div style="clear:left">&nbsp;</div>
 
