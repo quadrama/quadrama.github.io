@@ -11,9 +11,7 @@ year: 2024
 booktitle: "Zoomland. Exploring Scale in Digital History and Humanities"
 lang: en
 publisher: De Gruyter
-address: 
-- Berlin
-- Boston, MA
+address: "Berlin/Boston"
 pages: 261-286
 ref: Krautter2024aa
 
